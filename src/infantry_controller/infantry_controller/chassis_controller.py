@@ -36,6 +36,11 @@ class ChassisController(Node):
         # 控制模式标志
         self.mode_rotate_enabled = False # 小陀螺模式标志
         self.last_switch_state = 0       # 拨杆边沿检测
+        self.last_v_pressed = 0          # 键盘 V 边沿检测
+
+        # 键盘映射状态（对齐 legacy 逻辑）
+        self.current_spd_mode = 3000.0   # 底盘分档速度
+        self.spin_spd = 3000.0           # 小陀螺基准速度
         
         # ================= 通信接口 =================
         qos_best_effort = QoSProfile(
@@ -159,23 +164,44 @@ class ChassisController(Node):
         if sw_left == 1 and self.last_switch_state != 1:
             self.mode_rotate_enabled = not self.mode_rotate_enabled
             self.get_logger().info(f"Spin Mode Changed: {self.mode_rotate_enabled}")
+
+        # 2.1 键盘模式切换 (V 边沿)
+        if self.rc_data.v == 1 and self.last_v_pressed == 0:
+            self.mode_rotate_enabled = not self.mode_rotate_enabled
+            self.get_logger().info(f"Spin Mode Changed By Keyboard: {self.mode_rotate_enabled}")
+        self.last_v_pressed = self.rc_data.v
         
         self.last_switch_state = sw_left
 
-        # 3. 遥控器输入 (云台坐标系)
-        v_x_gimbal = self.rc_data.right_y * 8000.0  
-        v_y_gimbal = self.rc_data.right_x * 8000.0  
+        # 3. 键盘速度分档（legacy: Shift加速, Ctrl减速）
+        if self.rc_data.shift == 1:
+            self.current_spd_mode = min(8000.0, self.current_spd_mode + 6.0)
+        elif self.rc_data.ctrl == 1:
+            self.current_spd_mode = max(0.0, self.current_spd_mode - 6.0)
+
+        # 3.1 小陀螺速度调节（legacy: C增, Z减）
+        if self.rc_data.c == 1:
+            self.spin_spd = min(6500.0, self.spin_spd + 4.0)
+        elif self.rc_data.z == 1:
+            self.spin_spd = max(0.0, self.spin_spd - 4.0)
+
+        # 4. 遥控器 + 键盘输入 (云台坐标系)
+        key_fb = float(self.rc_data.w) - float(self.rc_data.s)
+        key_lr = float(self.rc_data.d) - float(self.rc_data.a)
+
+        v_x_gimbal = self.rc_data.right_y * 8000.0 + key_fb * self.current_spd_mode
+        v_y_gimbal = self.rc_data.right_x * 8000.0 + key_lr * self.current_spd_mode
         
-        # 4. 坐标系转换 (云台系 -> 底盘系)
+        # 5. 坐标系转换 (云台系 -> 底盘系)
         # 将云台视角的平移指令投影到底盘坐标系
         theta = self.gimbal_yaw_angle
         v_x_chassis = v_x_gimbal * math.cos(theta) + v_y_gimbal * math.sin(theta)
         v_y_chassis = -v_x_gimbal * math.sin(theta) + v_y_gimbal * math.cos(theta)
 
-        # 5. 旋转控制 w_z (仅小陀螺模式有效，且受平移速度抑制)
+        # 6. 旋转控制 w_z (仅小陀螺模式有效，且受平移速度抑制)
         w_z = 0.0
         if self.mode_rotate_enabled:
-            base_spin = 3000.0
+            base_spin = self.spin_spd
             
             # 计算当前平移速度比例 k (基于底盘系速度模长)
             current_speed = math.sqrt(v_x_chassis**2 + v_y_chassis**2)
@@ -190,12 +216,12 @@ class ChassisController(Node):
         else:
             w_z = 0.0
 
-        # 6. 摇杆死区
+        # 7. 死区
         if abs(v_x_gimbal) < 100 and abs(v_y_gimbal) < 100 and abs(w_z) < 100:
             self.stop_motors()
             return
 
-        # 7. 运动学解算
+        # 8. 运动学解算
         drive_speeds, steer_angles = self.kinematics.calculate_motion(
             v_x_chassis, v_y_chassis, w_z, 
             self.current_steer_ecds, 

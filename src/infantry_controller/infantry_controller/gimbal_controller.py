@@ -20,6 +20,9 @@ def get_pitch_from_quaternion(q):
         return math.copysign(math.pi / 2, sinp)
     return math.asin(sinp)
 
+def clamp(value, min_value, max_value):
+    return max(min_value, min(max_value, value))
+
 class GimbalController(Node):
     def __init__(self):
         super().__init__('gimbal_controller')
@@ -153,8 +156,15 @@ class GimbalController(Node):
         pitch_max = self.get_parameter('pitch_max_deg').value
         pitch_center = self.get_parameter('pitch_center_ecd').value
 
+        # ================= 鼠标映射（对齐 legacy） =================
+        # left_right_offset = left_x*100 + limit(mouse_x*0.75, 100)
+        # top_down_offset   = left_y*100 + limit(-mouse_y, 100)
+        left_right_offset = self.rc_data.left_x * 100.0 + clamp(self.rc_data.mouse_x * 0.75, -100.0, 100.0)
+        top_down_offset = self.rc_data.left_y * 100.0 + clamp(-float(self.rc_data.mouse_y), -100.0, 100.0)
+
         # ================= Pitch Control (DJI Motor 4 Position Mode) =================
-        rc_pitch_delta = self.rc_data.left_y * 0.7
+        # legacy: current_pitch += top_down_offset * 0.00005(rad)
+        rc_pitch_delta = top_down_offset * 0.00005 * (180.0 / math.pi)
         self.target_pitch_deg += rc_pitch_delta
         self.target_pitch_deg = max(pitch_min, min(self.target_pitch_deg, pitch_max))
         
@@ -171,7 +181,8 @@ class GimbalController(Node):
         self.pub_pitch.publish(pitch_msg)
 
         # ================= Yaw Control (LK Motor Torque Mode) =================
-        rc_yaw_delta = -self.rc_data.left_x * 0.01
+        # legacy: client_control_offset -= left_right_offset * 10*pi*0.001*0.0025
+        rc_yaw_delta = -left_right_offset * 10.0 * math.pi * 0.001 * 0.0025
         self.target_yaw_rad += rc_yaw_delta
         
         # 归一化 Target 到 -PI ~ PI
@@ -184,7 +195,7 @@ class GimbalController(Node):
         
         # 前馈角速度 (基于遥控器输入)
         # 0.0001 * 1000Hz = 0.1 rad/s per full stick range roughly
-        target_ang_vel = -self.rc_data.left_x * 15 
+        target_ang_vel = -left_right_offset * (10.0 * math.pi * 0.001)
         
         # D项输入: 期望角速度 - 测量角速度
         d_input_pos = target_ang_vel - self.imu_gyro_z
