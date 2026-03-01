@@ -28,6 +28,8 @@ chassis_controller:
 
 gimbal_controller:
   ros__parameters:
+    mouse_sensitivity: 1.0
+    
     # Topics
     topic_rc_read: "/ecat/sn4587585/app1/read"
     topic_imu_read: "/ecat/sn4587585/app2/read"

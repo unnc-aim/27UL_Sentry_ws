@@ -116,6 +116,7 @@ class GimbalController(Node):
         self.declare_parameter('pitch_center_ecd', 4600)
         self.declare_parameter('pitch_min_deg', -15.0)
         self.declare_parameter('pitch_max_deg', 30.0)
+        self.declare_parameter('mouse_sensitivity', 1.0)
 
         # PID Params
         self.declare_parameter('yaw_pos_kp', 15.0)
@@ -180,14 +181,18 @@ class GimbalController(Node):
             'pitch_max_deg').get_parameter_value().double_value
         pitch_center = self.get_parameter(
             'pitch_center_ecd').get_parameter_value().integer_value
+        mouse_sensitivity = self.get_parameter(
+            'mouse_sensitivity').get_parameter_value().double_value
 
         # ================= 鼠标映射（对齐 legacy） =================
         # left_right_offset = left_x*100 + limit(mouse_x*0.75, 100)
         # top_down_offset   = left_y*100 + limit(-mouse_y, 100)
+        mouse_x = float(self.rc_data.mouse_x) * mouse_sensitivity
+        mouse_y = float(self.rc_data.mouse_y) * mouse_sensitivity
         left_right_offset = self.rc_data.left_x * 100.0 + \
-            clamp(self.rc_data.mouse_x * 0.75, -100.0, 100.0)
+            clamp(mouse_x * 0.75, -100.0, 100.0)
         top_down_offset = self.rc_data.left_y * 100.0 + \
-            clamp(-float(self.rc_data.mouse_y), -100.0, 100.0)
+            clamp(-mouse_y, -100.0, 100.0)
 
         # ================= Pitch Control (DJI Motor 4 Position Mode) =================
         # legacy: current_pitch += top_down_offset * 0.00005(rad)
