@@ -171,7 +171,12 @@ class GimbalController(Node):
 
     def control_loop(self):
         if not self.rc_connected or not self.rc_data:
-            self.stop_yaw()
+            self.stop_head_motors()
+            return
+
+        # 左拨杆下档触发急停
+        if self.rc_data.left_switch == 2:
+            self.stop_head_motors()
             return
 
         # 获取最新的限位参数 (支持实时更新)
@@ -250,11 +255,21 @@ class GimbalController(Node):
         yaw_msg.torque = int(torque_cmd)
         self.pub_yaw.publish(yaw_msg)
 
+    def stop_pitch(self):
+        msg = WriteDJIMotor()
+        msg.motor4_enable = 0
+        msg.motor4_cmd = 0
+        self.pub_pitch.publish(msg)
+
     def stop_yaw(self):
         msg = WriteLkMotorTorqueControl()
         msg.enable = 0
         msg.torque = 0
         self.pub_yaw.publish(msg)
+
+    def stop_head_motors(self):
+        self.stop_pitch()
+        self.stop_yaw()
 
 
 def main(args=None):
