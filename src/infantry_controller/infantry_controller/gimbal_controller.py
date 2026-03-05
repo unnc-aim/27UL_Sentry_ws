@@ -197,7 +197,7 @@ class GimbalController(Node):
         left_right_offset = self.rc_data.left_x * 100.0 + \
             clamp(mouse_x * 0.75, -100.0, 100.0)
         top_down_offset = self.rc_data.left_y * 100.0 + \
-            clamp(-mouse_y, -100.0, 100.0)
+            clamp(mouse_y, -100.0, 100.0)
 
         # ================= Pitch Control (DJI Motor 4 Position Mode) =================
         # legacy: current_pitch += top_down_offset * 0.00005(rad)
