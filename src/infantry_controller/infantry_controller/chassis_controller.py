@@ -1,3 +1,14 @@
+"""
+底盘控制器模块
+
+本模块实现步兵机器人的舵轮底盘控制，支持全向移动、小陀螺模式和云台跟随。
+
+Classes:
+    ChassisController: 底盘控制器节点
+    
+Functions:
+    main: 主函数入口
+"""
 import rclpy
 import math
 from rclpy.node import Node
@@ -10,7 +21,38 @@ from infantry_controller.chassis_kinematics import SwerveKinematics
 
 
 class ChassisController(Node):
-    def __init__(self):
+    """
+    舵轮底盘控制器节点
+    
+    实现四轮舵轮底盘的运动控制，支持：
+    - 全向移动（前后、左右、旋转）
+    - 小陀螺模式（自动旋转）
+    - 云台跟随（底盘坐标系与云台坐标系转换）
+    - 遥控器和键盘输入
+    - 速度分档
+    
+    控制频率：500Hz
+    
+    Attributes:
+        kinematics (SwerveKinematics): 运动学解算器
+        current_steer_ecds (list[int]): 当前舵向电机编码器值 [FL, FR, BL, BR]
+        gimbal_yaw_angle (float): 底盘相对于云台的角度（弧度）
+        rc_data: 遥控器数据
+        rc_connected (bool): 遥控器连接状态
+        mode_rotate_enabled (bool): 小陀螺模式标志
+        current_spd_mode (float): 底盘分档速度
+        spin_spd (float): 小陀螺基准速度
+        wheel_track (float): 轮距（米）
+        wheel_base (float): 轴距（米）
+        ecd_zeros (list[int]): 舵向电机零位偏移 [FL, FR, BL, BR]
+    """
+    
+    def __init__(self) -> None:
+        """
+        初始化底盘控制器节点
+        
+        设置参数、运动学解算器、通信接口和控制定时器。
+        """
         super().__init__('chassis_controller')
 
         # ================= 参数声明与加载 =================
@@ -97,8 +139,12 @@ class ChassisController(Node):
 
         self.get_logger().info("Chassis Controller Started @ 500Hz")
 
-    def _declare_and_load_params(self):
-        """加载YAML参数 - 静态加载"""
+    def _declare_and_load_params(self) -> None:
+        """
+        加载 YAML 参数 - 静态加载
+        
+        声明并读取所有配置参数，包括话题名称、几何参数和电机零位偏移。
+        """
         # --- Topic ---
         self.declare_parameter('topic_rc_read', '/ecat/sn4587585/app1/read')
         self.declare_parameter('topic_drive_write',
@@ -145,25 +191,56 @@ class ChassisController(Node):
             self.get_parameter('offset_br').get_parameter_value().integer_value
         ]
 
-    def cb_rc(self, msg):
+    def cb_rc(self, msg: ReadDJIRC) -> None:
+        """
+        遥控器数据回调
+        
+        Args:
+            msg: 遥控器数据消息
+        """
         self.rc_data = msg
         self.rc_connected = (msg.online == 1)
 
-    def cb_steer_feedback(self, msg):
-        """舵向电机反馈映射"""
+    def cb_steer_feedback(self, msg: ReadDJIMotor) -> None:
+        """
+        舵向电机反馈回调
+        
+        更新当前舵向电机编码器值。注意电机 ID 映射关系。
+        
+        Args:
+            msg: DJI 电机反馈消息
+        """
         self.current_steer_ecds[0] = msg.motor1_ecd
         self.current_steer_ecds[1] = msg.motor4_ecd
         self.current_steer_ecds[2] = msg.motor3_ecd
         self.current_steer_ecds[3] = msg.motor2_ecd
 
-    def cb_yaw_feedback(self, msg):
+    def cb_yaw_feedback(self, msg: ReadLkMotor) -> None:
         """
-        读取 Yaw 电机编码器，计算底盘与云台的夹角
-        编码器 0-65535 映射到 0-2PI
+        Yaw 电机反馈回调
+        
+        读取 Yaw 电机编码器，计算底盘与云台的夹角。
+        编码器 0-65535 映射到 0-2PI。
+        
+        Args:
+            msg: LK 电机反馈消息
         """
         self.gimbal_yaw_angle = (msg.encoder / 65535.0) * 2 * math.pi
 
-    def control_loop(self):
+    def control_loop(self) -> None:
+        """
+        主控制循环（500Hz）
+        
+        执行底盘运动控制，包括：
+        1. 安全检查（遥控器连接、急停）
+        2. 模式切换（小陀螺模式）
+        3. 速度分档（键盘 Shift/Ctrl）
+        4. 遥控器和键盘输入映射
+        5. 坐标系转换（云台系 -> 底盘系）
+        6. 小陀螺速度计算
+        7. 运动学解算
+        8. 指令发布
+        """
         # 安全检查
         if not self.rc_connected or self.rc_data is None:
             self.stop_motors()
@@ -252,8 +329,18 @@ class ChassisController(Node):
 
         self.publish_commands(drive_speeds, steer_angles)
 
-    def publish_commands(self, speeds, angles):
-        """发布指令，注意电机 ID 映射"""
+    def publish_commands(self, speeds: list[float], angles: list[int]) -> None:
+        """
+        发布驱动和舵向指令
+        
+        注意电机 ID 映射关系：
+        - Steer: motor1=FL, motor2=BR, motor3=BL, motor4=FR
+        - Drive: motor1=FL, motor2=BR, motor3=BL, motor4=FR
+        
+        Args:
+            speeds: 四个轮子的驱动速度 [FL, FR, BL, BR]
+            angles: 四个轮子的舵向目标编码器值 [FL, FR, BL, BR]
+        """
         # App3: Steer
         steer_msg = WriteDJIMotor()
         steer_msg.motor1_enable = 1
@@ -278,12 +365,23 @@ class ChassisController(Node):
         drive_msg.motor4_cmd = int(speeds[3])  # FR
         self.pub_drive.publish(drive_msg)
 
-    def stop_motors(self):
+    def stop_motors(self) -> None:
+        """
+        停止所有电机
+        
+        发布零速度指令到驱动电机。
+        """
         zero_msg = WriteDJIMotor()
         self.pub_drive.publish(zero_msg)
 
 
-def main(args=None):
+def main(args=None) -> None:
+    """
+    主函数入口
+    
+    Args:
+        args: 命令行参数
+    """
     rclpy.init(args=args)
     node = ChassisController()
     try:

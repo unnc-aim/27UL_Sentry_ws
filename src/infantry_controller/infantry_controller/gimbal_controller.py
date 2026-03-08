@@ -1,3 +1,18 @@
+"""
+云台控制器模块
+
+本模块实现步兵机器人的云台控制，包括 Pitch 轴和 Yaw 轴的控制。
+Pitch 轴使用 DJI 电机的位置模式，Yaw 轴使用 LK 电机的力矩模式（级联 PID）。
+
+Classes:
+    GimbalController: 云台控制器节点
+    
+Functions:
+    get_yaw_from_quaternion: 从四元数提取 Yaw 角
+    get_pitch_from_quaternion: 从四元数提取 Pitch 角
+    clamp: 数值限幅函数
+    main: 主函数入口
+"""
 import rclpy
 import math
 from rclpy.node import Node
@@ -13,25 +28,82 @@ from custom_msgs.msg import (  # type: ignore[reportMissingImports]
 from infantry_controller.pid import PID
 
 
-def get_yaw_from_quaternion(q):
+def get_yaw_from_quaternion(q) -> float:
+    """
+    从四元数提取 Yaw 角（偏航角）
+    
+    Args:
+        q: 四元数对象，包含 w, x, y, z 属性
+    
+    Returns:
+        float: Yaw 角（弧度）
+    """
     siny_cosp = 2 * (q.w * q.z + q.x * q.y)
     cosy_cosp = 1 - 2 * (q.y * q.y + q.z * q.z)
     return math.atan2(siny_cosp, cosy_cosp)
 
 
-def get_pitch_from_quaternion(q):
+def get_pitch_from_quaternion(q) -> float:
+    """
+    从四元数提取 Pitch 角（俯仰角）
+    
+    Args:
+        q: 四元数对象，包含 w, x, y, z 属性
+    
+    Returns:
+        float: Pitch 角（弧度）
+    """
     sinp = 2 * (q.w * q.y - q.z * q.x)
     if abs(sinp) >= 1:
         return math.copysign(math.pi / 2, sinp)
     return math.asin(sinp)
 
 
-def clamp(value, min_value, max_value):
+def clamp(value: float, min_value: float, max_value: float) -> float:
+    """
+    数值限幅函数
+    
+    Args:
+        value: 输入值
+        min_value: 最小值
+        max_value: 最大值
+    
+    Returns:
+        float: 限幅后的值
+    """
     return max(min_value, min(max_value, value))
 
 
 class GimbalController(Node):
-    def __init__(self):
+    """
+    云台控制器节点
+    
+    实现 Pitch 和 Yaw 两轴云台的闭环控制。
+    - Pitch 轴：DJI 电机位置模式
+    - Yaw 轴：LK 电机力矩模式（位置-速度级联 PID）
+    
+    控制频率：1000Hz
+    
+    Attributes:
+        pid_yaw_pos (PID): Yaw 轴位置环 PID 控制器
+        pid_yaw_spd (PID): Yaw 轴速度环 PID 控制器
+        target_pitch_deg (float): 目标 Pitch 角度（度）
+        target_yaw_rad (float): 目标 Yaw 角度（弧度）
+        imu_pitch_rad (float): IMU 测量的 Pitch 角度（弧度）
+        imu_yaw_rad (float): IMU 测量的 Yaw 角度（弧度）
+        imu_gyro_z (float): IMU 测量的 Z 轴角速度（rad/s）
+        yaw_motor_speed (float): Yaw 电机速度（rad/s）
+        yaw_motor_pos (float): Yaw 电机位置（弧度）
+        rc_data: 遥控器数据
+        rc_connected (bool): 遥控器连接状态
+    """
+    
+    def __init__(self) -> None:
+        """
+        初始化云台控制器节点
+        
+        设置参数、PID 控制器、通信接口和控制定时器。
+        """
         super().__init__('gimbal_controller')
 
         # 1. 声明参数
@@ -102,7 +174,12 @@ class GimbalController(Node):
 
         self.get_logger().info("Gimbal Controller Started @ 1000Hz with Parameter Callbacks")
 
-    def _declare_params(self):
+    def _declare_params(self) -> None:
+        """
+        声明所有 ROS2 参数
+        
+        包括话题名称、限位参数、鼠标灵敏度和 PID 参数。
+        """
         # Topics
         self.declare_parameter('topic_rc_read', '/ecat/sn4587585/app1/read')
         self.declare_parameter('topic_imu_read', '/ecat/sn4653090/app2/read')
@@ -127,8 +204,16 @@ class GimbalController(Node):
         self.declare_parameter('yaw_spd_ki', 0.1)
         self.declare_parameter('yaw_spd_kd', 0.0)
 
-    def parameters_callback(self, params):
-        """实时处理参数更新"""
+    def parameters_callback(self, params: list[Parameter]) -> SetParametersResult:
+        """
+        实时处理参数更新回调
+        
+        Args:
+            params: 参数列表
+        
+        Returns:
+            SetParametersResult: 参数更新结果
+        """
         success = True
         for param in params:
             if param.name == 'yaw_pos_kp':
@@ -152,24 +237,57 @@ class GimbalController(Node):
 
         return SetParametersResult(successful=success)
 
-    def cb_rc(self, msg):
+    def cb_rc(self, msg: ReadDJIRC) -> None:
+        """
+        遥控器数据回调
+        
+        Args:
+            msg: 遥控器数据消息
+        """
         self.rc_data = msg
         self.rc_connected = (msg.online == 1)
 
-    def cb_imu(self, msg: Imu):
+    def cb_imu(self, msg: Imu) -> None:
+        """
+        IMU 数据回调
+        
+        Args:
+            msg: IMU 数据消息
+        """
         self.imu_pitch_rad = get_pitch_from_quaternion(msg.orientation)
         self.imu_yaw_rad = get_yaw_from_quaternion(msg.orientation)
         self.imu_gyro_z = msg.angular_velocity.z
 
-    def cb_pitch_fb(self, msg: ReadDJIMotor):
+    def cb_pitch_fb(self, msg: ReadDJIMotor) -> None:
+        """
+        Pitch 电机反馈回调
+        
+        Args:
+            msg: DJI 电机反馈消息
+        """
         pass
 
-    def cb_yaw_fb(self, msg: ReadLkMotor):
+    def cb_yaw_fb(self, msg: ReadLkMotor) -> None:
+        """
+        Yaw 电机反馈回调
+        
+        Args:
+            msg: LK 电机反馈消息
+        """
         # 假设 speed 是 deg/s 或类似单位，转为 rad/s
         self.yaw_motor_speed = math.radians(msg.speed)
         self.yaw_motor_pos = (msg.encoder / 65535.0) * 2 * math.pi
 
-    def control_loop(self):
+    def control_loop(self) -> None:
+        """
+        主控制循环（1000Hz）
+        
+        执行云台的 Pitch 和 Yaw 控制，包括：
+        1. 安全检查（遥控器连接、急停）
+        2. 遥控器输入映射
+        3. Pitch 轴位置控制
+        4. Yaw 轴级联 PID 控制（位置环+速度环）
+        """
         if not self.rc_connected or not self.rc_data:
             self.stop_head_motors()
             return
@@ -255,24 +373,39 @@ class GimbalController(Node):
         yaw_msg.torque = int(torque_cmd)
         self.pub_yaw.publish(yaw_msg)
 
-    def stop_pitch(self):
+    def stop_pitch(self) -> None:
+        """
+        停止 Pitch 电机
+        """
         msg = WriteDJIMotor()
         msg.motor4_enable = 0
         msg.motor4_cmd = 0
         self.pub_pitch.publish(msg)
 
-    def stop_yaw(self):
+    def stop_yaw(self) -> None:
+        """
+        停止 Yaw 电机
+        """
         msg = WriteLkMotorTorqueControl()
         msg.enable = 0
         msg.torque = 0
         self.pub_yaw.publish(msg)
 
-    def stop_head_motors(self):
+    def stop_head_motors(self) -> None:
+        """
+        停止所有云台电机
+        """
         self.stop_pitch()
         self.stop_yaw()
 
 
-def main(args=None):
+def main(args=None) -> None:
+    """
+    主函数入口
+    
+    Args:
+        args: 命令行参数
+    """
     rclpy.init(args=args)
     node = GimbalController()
     rclpy.spin(node)

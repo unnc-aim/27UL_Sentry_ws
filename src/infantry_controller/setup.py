@@ -1,3 +1,8 @@
+"""
+Infantry Controller 包安装配置
+
+本模块定义 infantry_controller ROS2 包的安装配置。
+"""
 from setuptools import setup
 import os
 from glob import glob

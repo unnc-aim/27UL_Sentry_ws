@@ -1,16 +1,32 @@
 """
 舵轮底盘运动学核心解算模块
-infantry_controller/chassis_kinematics.py
+
+本模块提供舵轮底盘的运动学正解算，将底盘速度指令转换为各轮子的驱动速度和舵向角度。
+
+Classes:
+    SwerveKinematics: 舵轮运动学解算器
 """
 import numpy as np
 import math
 
 class SwerveKinematics:
-    def __init__(self, wheel_track, wheel_base):
+    """
+    舵轮底盘运动学解算器
+    
+    实现四轮舵轮底盘的运动学正解算，支持全向移动和旋转。
+    
+    Attributes:
+        geometry_factor (float): 几何中心到轮子的距离系数
+        k (float): 归一化比例系数
+    """
+    
+    def __init__(self, wheel_track: float, wheel_base: float) -> None:
         """
         初始化运动学参数
-        :param wheel_track: 轮距 (宽)
-        :param wheel_base: 轴距 (长)
+        
+        Args:
+            wheel_track: 轮距（宽度，单位：米）
+            wheel_base: 轴距（长度，单位：米）
         """
         # 计算几何中心到轮子的距离系数
         # 对应原 C++ 代码中的 half_of_sqrt_2 (如果长宽相等)
@@ -18,16 +34,22 @@ class SwerveKinematics:
         # 归一化比例系数 (假设长宽相等，简化计算)
         self.k = 0.7071068 
 
-    def calculate_motion(self, v_x, v_y, omega, current_steer_ecds, ecd_zeros):
+    def calculate_motion(self, v_x: float, v_y: float, omega: float, 
+                        current_steer_ecds: list[int], ecd_zeros: list[int]) -> tuple[list[float], list[int]]:
         """
         计算四个轮子的速度和舵向角度
         
-        :param v_x: 前进速度 (m/s 或 归一化单位)
-        :param v_y: 横移速度
-        :param omega: 旋转速度 (rad/s)
-        :param current_steer_ecds: 当前舵向电机编码器值列表 [FL, FR, BL, BR]
-        :param ecd_zeros: 舵向电机零位偏移列表 [FL, FR, BL, BR]
-        :return: (drive_speeds, steer_targets_ecd)
+        Args:
+            v_x: 前进速度（m/s 或归一化单位）
+            v_y: 横移速度（m/s 或归一化单位）
+            omega: 旋转速度（rad/s）
+            current_steer_ecds: 当前舵向电机编码器值列表 [FL, FR, BL, BR]
+            ecd_zeros: 舵向电机零位偏移列表 [FL, FR, BL, BR]
+        
+        Returns:
+            tuple[list[float], list[int]]: (驱动速度列表, 舵向目标编码器值列表)
+                - drive_speeds: 四个轮子的驱动速度 [FL, FR, BL, BR]
+                - steer_targets_ecd: 四个轮子的舵向目标编码器值 [FL, FR, BL, BR]
         """
         # 预计算旋转产生的线速度分量 v_w
         v_w = omega 
@@ -74,10 +96,20 @@ class SwerveKinematics:
             
         return drive_cmds, steer_cmds
 
-    def _calc_shortest_path(self, current_ecd, target_ecd):
+    def _calc_shortest_path(self, current_ecd: int, target_ecd: int) -> tuple[int, float]:
         """
         计算编码器最短旋转路径
-        返回: (最优目标ECD, 速度方向系数 1.0 或 -1.0)
+        
+        比较直接转到目标和转到目标对面（同时反转电机）两种方案，选择转动角度最小的方案。
+        
+        Args:
+            current_ecd: 当前编码器值（0-8191）
+            target_ecd: 目标编码器值（0-8191）
+        
+        Returns:
+            tuple[int, float]: (最优目标编码器值, 速度方向系数)
+                - 最优目标编码器值: 0-8191
+                - 速度方向系数: 1.0 或 -1.0
         """
         range_val = 8192
         half_range = 4096
