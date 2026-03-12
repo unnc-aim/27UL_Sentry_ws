@@ -31,6 +31,7 @@ setup(
         'console_scripts': [
             'chassis_controller = infantry_controller.chassis_controller:main',
             'gimbal_controller = infantry_controller.gimbal_controller:main',
+            'fire_controller = infantry_controller.fire_controller:main',
         ],
     },
 )

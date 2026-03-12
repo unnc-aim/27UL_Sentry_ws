@@ -50,5 +50,14 @@ def generate_launch_description() -> LaunchDescription:
             output='screen',
             parameters=[LaunchConfiguration('params_file')],
             emulate_tty=True
+        ),
+                # Fire Controller Node
+        Node(
+            package='infantry_controller',
+            executable='fire_controller',
+            name='fire_controller',
+            output='screen',
+            parameters=[LaunchConfiguration('params_file')],
+            emulate_tty=True
         )
     ])

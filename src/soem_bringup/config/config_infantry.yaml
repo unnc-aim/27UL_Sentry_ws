@@ -1,6 +1,6 @@
 slaves:
   - sn4587585:
-      sdo_len: !uint16_t 190
+      sdo_len: !uint16_t 150
       task_count: !uint8_t 4
       latency_pub_topic: !std::string '/ecat/sn4587585/latency'
 
@@ -47,17 +47,7 @@ slaves:
             sdowrite_motor2_speed_pid_kd: !float 0
             sdowrite_motor2_speed_pid_max_out: !float 16384
             sdowrite_motor2_speed_pid_max_iout: !float 2000
-            sdowrite_motor3_control_type: !uint8_t 3
-            sdowrite_motor3_speed_pid_kp: !float 65
-            sdowrite_motor3_speed_pid_ki: !float 0.2
-            sdowrite_motor3_speed_pid_kd: !float 0
-            sdowrite_motor3_speed_pid_max_out: !float 25000
-            sdowrite_motor3_speed_pid_max_iout: !float 3000
-            sdowrite_motor3_angle_pid_kp: !float 1.5
-            sdowrite_motor3_angle_pid_ki: !float 0
-            sdowrite_motor3_angle_pid_kd: !float 15.5
-            sdowrite_motor3_angle_pid_max_out: !float 1800
-            sdowrite_motor3_angle_pid_max_iout: !float 0
+            sdowrite_motor3_control_type: !uint8_t 1
         - app_4:
             sdowrite_task_type: !uint8_t 5
             conf_connection_lost_read_action: !uint8_t 0x01
@@ -79,11 +69,12 @@ slaves:
             sdowrite_motor4_speed_pid_kd: !float 0
             sdowrite_motor4_speed_pid_max_out: !float 25000
             sdowrite_motor4_speed_pid_max_iout: !float 3000
-            sdowrite_motor4_angle_pid_kp: !float 0.3
+            sdowrite_motor4_angle_pid_kp: !float 1.5
             sdowrite_motor4_angle_pid_ki: !float 0
-            sdowrite_motor4_angle_pid_kd: !float 0.6
+            sdowrite_motor4_angle_pid_kd: !float 10.5
             sdowrite_motor4_angle_pid_max_out: !float 1800
             sdowrite_motor4_angle_pid_max_iout: !float 0.0
+
 
   - sn4587586:
       sdo_len: !uint16_t 309

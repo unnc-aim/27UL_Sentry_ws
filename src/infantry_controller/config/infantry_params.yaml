@@ -61,3 +61,11 @@ gimbal_controller:
     yaw_spd_kd: 2000.0
     yaw_spd_max_out: 2048.0 # 新增: 最大力矩电流
     yaw_spd_max_iout: 200.0 # 新增: 积分限幅
+    
+
+fire_controller:
+  ros__parameters:
+    topic_rc_read: "/ecat/sn4587585/app1/read"
+    topic_fire_write: "/ecat/sn4587585/app3/write" # 发布：摩擦轮速度 + 拨盘位置
+    topic_fire_read: "/ecat/sn4587585/app3/read"   # 订阅：用于获取拨盘初始位置
+    shot_period_ms: 50.0                          # 连发每发间隔 (ms)
