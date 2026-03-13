@@ -41,6 +41,9 @@ gimbal_controller:
     # Yaw (LK Motor)
     topic_yaw_write: "/ecat/sn4587586/app3/write"
     topic_yaw_read: "/ecat/sn4587586/app3/read"
+    topic_autoaim_cmd: "/sp_vision/autoaim_command"
+    topic_autoaim_enable: "/sp_vision/autoaim_enable"
+    autoaim_timeout_s: 0.2
 
     # Limits & Offsets
     pitch_center_ecd: 4540
@@ -68,4 +71,5 @@ fire_controller:
     topic_rc_read: "/ecat/sn4587585/app1/read"
     topic_fire_write: "/ecat/sn4587585/app3/write" # 发布：摩擦轮速度 + 拨盘位置
     topic_fire_read: "/ecat/sn4587585/app3/read"   # 订阅：用于获取拨盘初始位置
+    topic_autoaim_enable: "/sp_vision/autoaim_enable"
     shot_period_ms: 50.0                          # 连发每发间隔 (ms)

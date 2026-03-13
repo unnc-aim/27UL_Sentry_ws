@@ -1,6 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, ReliabilityPolicy
+from std_msgs.msg import Bool
 from custom_msgs.msg import ReadDJIRC, WriteDJIMotor, ReadDJIMotor
 
 # 引入我们在云台里用到的 PID 工具
@@ -45,6 +46,7 @@ class FireController(Node):
         self.trigger_target_ecd = 0.0
         self.trigger_has_fired = False
         self.last_shot_time = 0.0
+        self.autoaim_enable_state = False
 
         # --- 多圈编码器解算变量 ---
         self.motor3_current = 0
@@ -60,18 +62,23 @@ class FireController(Node):
         topic_rc = str(self.get_parameter('topic_rc_read').value or '/ecat/sn4587585/app1/read')
         topic_fire_write = str(self.get_parameter('topic_fire_write').value or '/ecat/sn4587585/app3/write')
         topic_fire_read = str(self.get_parameter('topic_fire_read').value or '/ecat/sn4587585/app3/read')
+        topic_autoaim_enable = str(
+            self.get_parameter('topic_autoaim_enable').value or '/sp_vision/autoaim_enable')
 
         self.sub_rc = self.create_subscription(ReadDJIRC, topic_rc, self.cb_rc, qos)
         self.sub_motor = self.create_subscription(ReadDJIMotor, topic_fire_read, self.cb_motor_fb, qos)
         self.pub_fire = self.create_publisher(WriteDJIMotor, topic_fire_write, qos)
+        self.pub_autoaim_enable = self.create_publisher(Bool, topic_autoaim_enable, qos)
 
         self.timer = self.create_timer(0.001, self.control_loop)
+        self._publish_autoaim_enable(False, force=True)
         self.get_logger().info("Fire Controller Started @ 1000Hz [Multi-turn Cascade PID]")
 
     def _declare_params(self):
         self.declare_parameter('topic_rc_read', '/ecat/sn4587585/app1/read')
         self.declare_parameter('topic_fire_write', '/ecat/sn4587585/app3/write')
         self.declare_parameter('topic_fire_read', '/ecat/sn4587585/app3/read')
+        self.declare_parameter('topic_autoaim_enable', '/sp_vision/autoaim_enable')
         
         # 射击间隔（毫秒）
         self.declare_parameter('shot_period_ms', 100.0)
@@ -106,6 +113,7 @@ class FireController(Node):
 
     def control_loop(self):
         if not self.rc_connected or not self.rc_data or not self.motor_initialized:
+            self._publish_autoaim_enable(False)
             self.stop_all()
             return
 
@@ -121,6 +129,7 @@ class FireController(Node):
             self.feeder_state = self.STATE_IDLE
             self.trigger_target_ecd = self.total_ecd  # 锁住当前位置
             friction_cmd = 0
+            self._publish_autoaim_enable(False)
         else:
             self.is_friction_on = True
             friction_cmd = self.FRICTION_SPEED_TARGET
@@ -129,6 +138,7 @@ class FireController(Node):
                 self.burst_mode = not self.burst_mode
                 mode_str = "BURST" if self.burst_mode else "SINGLE"
                 self.feeder_state = self.STATE_LOADING
+                self._publish_autoaim_enable(self.burst_mode)
                 self.get_logger().info(f"Friction ON. Loading chamber... Mode: {mode_str}")
 
         self.last_switch_right = sw_right
@@ -205,6 +215,14 @@ class FireController(Node):
     def stop_all(self):
         msg = WriteDJIMotor()
         self.pub_fire.publish(msg)
+
+    def _publish_autoaim_enable(self, enabled: bool, force: bool = False):
+        if (not force) and self.autoaim_enable_state == enabled:
+            return
+        self.autoaim_enable_state = enabled
+        msg = Bool()
+        msg.data = enabled
+        self.pub_autoaim_enable.publish(msg)
 
 def main(args=None):
     rclpy.init(args=args)

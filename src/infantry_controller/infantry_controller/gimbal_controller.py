@@ -21,20 +21,22 @@ from rclpy.parameter import Parameter
 from rcl_interfaces.msg import SetParametersResult
 
 from sensor_msgs.msg import Imu
+from std_msgs.msg import Bool
 
 from custom_msgs.msg import (  # type: ignore[reportMissingImports]
     ReadDJIMotor, WriteDJIMotor, ReadDJIRC, ReadLkMotor,
     WriteLkMotorTorqueControl)
+from sp_msgs.msg import AutoAimCommandMsg
 from infantry_controller.pid import PID
 
 
 def get_yaw_from_quaternion(q) -> float:
     """
     从四元数提取 Yaw 角（偏航角）
-    
+
     Args:
         q: 四元数对象，包含 w, x, y, z 属性
-    
+
     Returns:
         float: Yaw 角（弧度）
     """
@@ -46,10 +48,10 @@ def get_yaw_from_quaternion(q) -> float:
 def get_pitch_from_quaternion(q) -> float:
     """
     从四元数提取 Pitch 角（俯仰角）
-    
+
     Args:
         q: 四元数对象，包含 w, x, y, z 属性
-    
+
     Returns:
         float: Pitch 角（弧度）
     """
@@ -62,12 +64,12 @@ def get_pitch_from_quaternion(q) -> float:
 def clamp(value: float, min_value: float, max_value: float) -> float:
     """
     数值限幅函数
-    
+
     Args:
         value: 输入值
         min_value: 最小值
         max_value: 最大值
-    
+
     Returns:
         float: 限幅后的值
     """
@@ -77,13 +79,13 @@ def clamp(value: float, min_value: float, max_value: float) -> float:
 class GimbalController(Node):
     """
     云台控制器节点
-    
+
     实现 Pitch 和 Yaw 两轴云台的闭环控制。
     - Pitch 轴：DJI 电机位置模式
     - Yaw 轴：LK 电机力矩模式（位置-速度级联 PID）
-    
+
     控制频率：1000Hz
-    
+
     Attributes:
         pid_yaw_pos (PID): Yaw 轴位置环 PID 控制器
         pid_yaw_spd (PID): Yaw 轴速度环 PID 控制器
@@ -97,11 +99,11 @@ class GimbalController(Node):
         rc_data: 遥控器数据
         rc_connected (bool): 遥控器连接状态
     """
-    
+
     def __init__(self) -> None:
         """
         初始化云台控制器节点
-        
+
         设置参数、PID 控制器、通信接口和控制定时器。
         """
         super().__init__('gimbal_controller')
@@ -111,15 +113,15 @@ class GimbalController(Node):
 
         # 2. 初始化 PID (使用初始参数)
         self.pid_yaw_pos = PID(
-            self.get_parameter('yaw_pos_kp').value,
-            self.get_parameter('yaw_pos_ki').value,
-            self.get_parameter('yaw_pos_kd').value,
+            float(self.get_parameter('yaw_pos_kp').value or 15.0),
+            float(self.get_parameter('yaw_pos_ki').value or 0.0),
+            float(self.get_parameter('yaw_pos_kd').value or 0.5),
             20.0, 5.0  # Max output (rad/s), Max I
         )
         self.pid_yaw_spd = PID(
-            self.get_parameter('yaw_spd_kp').value,
-            self.get_parameter('yaw_spd_ki').value,
-            self.get_parameter('yaw_spd_kd').value,
+            float(self.get_parameter('yaw_spd_kp').value or 20.0),
+            float(self.get_parameter('yaw_spd_ki').value or 0.1),
+            float(self.get_parameter('yaw_spd_kd').value or 0.0),
             2000.0, 500.0  # Max Torque, Max I
         )
 
@@ -133,6 +135,11 @@ class GimbalController(Node):
         self.yaw_motor_pos = 0.0
         self.rc_data = None
         self.rc_connected = False
+        self.autoaim_enabled = False
+        self.autoaim_control = False
+        self.autoaim_yaw = 0.0
+        self.autoaim_pitch = 0.0
+        self.autoaim_last_msg_time = 0.0
 
         # 4. 注册参数回调 (实现动态调参)
         self.add_on_set_parameters_callback(self.parameters_callback)
@@ -154,6 +161,10 @@ class GimbalController(Node):
             'topic_yaw_write').get_parameter_value().string_value
         topic_yaw_r = self.get_parameter(
             'topic_yaw_read').get_parameter_value().string_value
+        topic_autoaim_cmd = self.get_parameter(
+            'topic_autoaim_cmd').get_parameter_value().string_value
+        topic_autoaim_enable = self.get_parameter(
+            'topic_autoaim_enable').get_parameter_value().string_value
 
         self.sub_rc = self.create_subscription(
             ReadDJIRC, topic_rc, self.cb_rc, qos_best_effort)
@@ -163,6 +174,10 @@ class GimbalController(Node):
             ReadDJIMotor, topic_pitch_r, self.cb_pitch_fb, qos_best_effort)
         self.sub_yaw = self.create_subscription(
             ReadLkMotor, topic_yaw_r, self.cb_yaw_fb, qos_best_effort)
+        self.sub_autoaim_cmd = self.create_subscription(
+            AutoAimCommandMsg, topic_autoaim_cmd, self.cb_autoaim_command, qos_best_effort)
+        self.sub_autoaim_enable = self.create_subscription(
+            Bool, topic_autoaim_enable, self.cb_autoaim_enable, qos_best_effort)
 
         self.pub_pitch = self.create_publisher(
             WriteDJIMotor, topic_pitch_w, qos_best_effort)
@@ -177,7 +192,7 @@ class GimbalController(Node):
     def _declare_params(self) -> None:
         """
         声明所有 ROS2 参数
-        
+
         包括话题名称、限位参数、鼠标灵敏度和 PID 参数。
         """
         # Topics
@@ -188,6 +203,11 @@ class GimbalController(Node):
         self.declare_parameter('topic_pitch_read', '/ecat/sn4587585/app4/read')
         self.declare_parameter('topic_yaw_write', '/ecat/sn4587586/app3/write')
         self.declare_parameter('topic_yaw_read', '/ecat/sn4653090/app3/read')
+        self.declare_parameter('topic_autoaim_cmd',
+                               '/sp_vision/autoaim_command')
+        self.declare_parameter('topic_autoaim_enable',
+                               '/sp_vision/autoaim_enable')
+        self.declare_parameter('autoaim_timeout_s', 0.2)
 
         # Limits & Offsets
         self.declare_parameter('pitch_center_ecd', 4600)
@@ -207,10 +227,10 @@ class GimbalController(Node):
     def parameters_callback(self, params: list[Parameter]) -> SetParametersResult:
         """
         实时处理参数更新回调
-        
+
         Args:
             params: 参数列表
-        
+
         Returns:
             SetParametersResult: 参数更新结果
         """
@@ -240,7 +260,7 @@ class GimbalController(Node):
     def cb_rc(self, msg: ReadDJIRC) -> None:
         """
         遥控器数据回调
-        
+
         Args:
             msg: 遥控器数据消息
         """
@@ -250,7 +270,7 @@ class GimbalController(Node):
     def cb_imu(self, msg: Imu) -> None:
         """
         IMU 数据回调
-        
+
         Args:
             msg: IMU 数据消息
         """
@@ -261,7 +281,7 @@ class GimbalController(Node):
     def cb_pitch_fb(self, msg: ReadDJIMotor) -> None:
         """
         Pitch 电机反馈回调
-        
+
         Args:
             msg: DJI 电机反馈消息
         """
@@ -270,7 +290,7 @@ class GimbalController(Node):
     def cb_yaw_fb(self, msg: ReadLkMotor) -> None:
         """
         Yaw 电机反馈回调
-        
+
         Args:
             msg: LK 电机反馈消息
         """
@@ -278,10 +298,21 @@ class GimbalController(Node):
         self.yaw_motor_speed = math.radians(msg.speed)
         self.yaw_motor_pos = (msg.encoder / 65535.0) * 2 * math.pi
 
+    def cb_autoaim_enable(self, msg: Bool) -> None:
+        """自瞄使能开关回调。"""
+        self.autoaim_enabled = bool(msg.data)
+
+    def cb_autoaim_command(self, msg: AutoAimCommandMsg) -> None:
+        """接收视觉侧自瞄输出（世界系 yaw/pitch）。"""
+        self.autoaim_control = bool(msg.control)
+        self.autoaim_yaw = float(msg.yaw)
+        self.autoaim_pitch = float(msg.pitch)
+        self.autoaim_last_msg_time = self.get_clock().now().nanoseconds / 1e9
+
     def control_loop(self) -> None:
         """
         主控制循环（1000Hz）
-        
+
         执行云台的 Pitch 和 Yaw 控制，包括：
         1. 安全检查（遥控器连接、急停）
         2. 遥控器输入映射
@@ -306,6 +337,13 @@ class GimbalController(Node):
             'pitch_center_ecd').get_parameter_value().integer_value
         mouse_sensitivity = self.get_parameter(
             'mouse_sensitivity').get_parameter_value().double_value
+        autoaim_timeout = self.get_parameter(
+            'autoaim_timeout_s').get_parameter_value().double_value
+
+        now_sec = self.get_clock().now().nanoseconds / 1e9
+        vision_cmd_fresh = (
+            now_sec - self.autoaim_last_msg_time) < autoaim_timeout
+        use_autoaim = self.autoaim_enabled and self.autoaim_control and vision_cmd_fresh
 
         # ================= 鼠标映射（对齐 legacy） =================
         # left_right_offset = left_x*100 + limit(mouse_x*0.75, 100)
@@ -317,10 +355,25 @@ class GimbalController(Node):
         top_down_offset = self.rc_data.left_y * 100.0 + \
             clamp(mouse_y, -100.0, 100.0)
 
-        # ================= Pitch Control (DJI Motor 4 Position Mode) =================
-        # legacy: current_pitch += top_down_offset * 0.00005(rad)
-        rc_pitch_delta = top_down_offset * 0.00005 * (180.0 / math.pi)
-        self.target_pitch_deg += rc_pitch_delta
+        if use_autoaim:
+            self.target_yaw_rad = math.atan2(
+                math.sin(self.autoaim_yaw), math.cos(self.autoaim_yaw))
+            self.target_pitch_deg = -math.degrees(self.autoaim_pitch)
+        else:
+            # ================= Pitch Control (DJI Motor 4 Position Mode) =================
+            # legacy: current_pitch += top_down_offset * 0.00005(rad)
+            rc_pitch_delta = top_down_offset * 0.00005 * (180.0 / math.pi)
+            self.target_pitch_deg += rc_pitch_delta
+
+            # ================= Yaw Control (LK Motor Torque Mode) =================
+            # legacy: client_control_offset -= left_right_offset * 10*pi*0.001*0.0025
+            rc_yaw_delta = -left_right_offset * 10.0 * math.pi * 0.001 * 0.0025
+            self.target_yaw_rad += rc_yaw_delta
+
+            # 归一化 Target 到 -PI ~ PI
+            self.target_yaw_rad = math.atan2(
+                math.sin(self.target_yaw_rad), math.cos(self.target_yaw_rad))
+
         self.target_pitch_deg = max(
             pitch_min, min(self.target_pitch_deg, pitch_max))
 
@@ -335,15 +388,6 @@ class GimbalController(Node):
         pitch_msg.motor4_enable = 1
         pitch_msg.motor4_cmd = int(pitch_cmd_ecd)
         self.pub_pitch.publish(pitch_msg)
-
-        # ================= Yaw Control (LK Motor Torque Mode) =================
-        # legacy: client_control_offset -= left_right_offset * 10*pi*0.001*0.0025
-        rc_yaw_delta = -left_right_offset * 10.0 * math.pi * 0.001 * 0.0025
-        self.target_yaw_rad += rc_yaw_delta
-
-        # 归一化 Target 到 -PI ~ PI
-        self.target_yaw_rad = math.atan2(
-            math.sin(self.target_yaw_rad), math.cos(self.target_yaw_rad))
 
         # --- 1. 位置环 ---
         pos_error = self.target_yaw_rad - self.imu_yaw_rad
@@ -402,7 +446,7 @@ class GimbalController(Node):
 def main(args=None) -> None:
     """
     主函数入口
-    
+
     Args:
         args: 命令行参数
     """
