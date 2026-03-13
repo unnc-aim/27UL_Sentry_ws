@@ -1,3 +1,9 @@
 [submodule "src/EcatV2_Master"]
 	path = src/EcatV2_Master
 	url = git@github.com:AIMEtherCAT/EcatV2_Master.git
+[submodule "src/dji_referee_protocol"]
+	path = src/dji_referee_protocol
+	url = https://github.com/unnc-aim/dji_referee_protocol
+[submodule "src/sp_vision_25_rosy"]
+	path = src/sp_vision_25_rosy
+	url = https://github.com/unnc-aim/sp_vision_25_rosy
