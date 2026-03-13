@@ -2,6 +2,7 @@ import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, ReliabilityPolicy
 from std_msgs.msg import Bool
+from std_msgs.msg import Float32MultiArray
 from custom_msgs.msg import ReadDJIRC, WriteDJIMotor, ReadDJIMotor
 
 # 引入我们在云台里用到的 PID 工具
@@ -47,6 +48,13 @@ class FireController(Node):
         self.trigger_has_fired = False
         self.last_shot_time = 0.0
         self.autoaim_enable_state = False
+        self.referee_fire_allowed = True
+        self.referee_speed_scale = 1.0
+        self.referee_heat = 0.0
+        self.referee_heat_limit = 0.0
+        self.referee_power = 0.0
+        self.referee_power_limit = 0.0
+        self.referee_last_time = 0.0
 
         # --- 多圈编码器解算变量 ---
         self.motor3_current = 0
@@ -64,9 +72,13 @@ class FireController(Node):
         topic_fire_read = str(self.get_parameter('topic_fire_read').value or '/ecat/sn4587585/app3/read')
         topic_autoaim_enable = str(
             self.get_parameter('topic_autoaim_enable').value or '/sp_vision/autoaim_enable')
+        topic_referee_constraints = str(
+            self.get_parameter('topic_referee_constraints').value or '/referee/constraints')
 
         self.sub_rc = self.create_subscription(ReadDJIRC, topic_rc, self.cb_rc, qos)
         self.sub_motor = self.create_subscription(ReadDJIMotor, topic_fire_read, self.cb_motor_fb, qos)
+        self.sub_referee_constraints = self.create_subscription(
+            Float32MultiArray, topic_referee_constraints, self.cb_referee_constraints, qos)
         self.pub_fire = self.create_publisher(WriteDJIMotor, topic_fire_write, qos)
         self.pub_autoaim_enable = self.create_publisher(Bool, topic_autoaim_enable, qos)
 
@@ -79,6 +91,8 @@ class FireController(Node):
         self.declare_parameter('topic_fire_write', '/ecat/sn4587585/app3/write')
         self.declare_parameter('topic_fire_read', '/ecat/sn4587585/app3/read')
         self.declare_parameter('topic_autoaim_enable', '/sp_vision/autoaim_enable')
+        self.declare_parameter('topic_referee_constraints', '/referee/constraints')
+        self.declare_parameter('referee_timeout_s', 0.5)
         
         # 射击间隔（毫秒）
         self.declare_parameter('shot_period_ms', 100.0)
@@ -111,6 +125,18 @@ class FireController(Node):
             self.total_ecd += delta
             self.motor3_ecd = current_ecd
 
+    def cb_referee_constraints(self, msg: Float32MultiArray):
+        data = list(msg.data)
+        if len(data) < 6:
+            return
+        self.referee_heat = float(data[0])
+        self.referee_heat_limit = float(data[1])
+        self.referee_power = float(data[2])
+        self.referee_power_limit = float(data[3])
+        self.referee_fire_allowed = bool(data[4] > 0.5)
+        self.referee_speed_scale = float(data[5])
+        self.referee_last_time = self.get_clock().now().nanoseconds / 1e9
+
     def control_loop(self):
         if not self.rc_connected or not self.rc_data or not self.motor_initialized:
             self._publish_autoaim_enable(False)
@@ -122,6 +148,11 @@ class FireController(Node):
         load_threshold = int(self.get_parameter('load_current_threshold').value or 500)
         load_speed = float(self.get_parameter('load_speed_ecd').value or 2.5)
         shot_period = float(self.get_parameter('shot_period_ms').value or 100.0) / 1000.0
+        referee_timeout = float(self.get_parameter('referee_timeout_s').value or 0.5)
+
+        now_sec = self.get_clock().now().nanoseconds / 1e9
+        referee_fresh = (now_sec - self.referee_last_time) < referee_timeout
+        fire_locked_by_ref = referee_fresh and (not self.referee_fire_allowed)
 
         # ================= 1. 状态机与档位逻辑 =================
         if sw_right == 2:
@@ -146,14 +177,16 @@ class FireController(Node):
         # ================= 2. 拨盘火控逻辑 =================
         if self.feeder_state == self.STATE_LOADING:
             # 缓慢推进直到接触子弹阻力增大
-            if abs(self.motor3_current) > load_threshold:
+            if fire_locked_by_ref:
+                self.feeder_state = self.STATE_READY
+            elif abs(self.motor3_current) > load_threshold:
                 self.feeder_state = self.STATE_READY
                 self.get_logger().info(f"Bullet loaded! Current: {self.motor3_current}mA. Ready to fire.")
             else:
                 self.trigger_target_ecd += load_speed
 
         elif self.feeder_state == self.STATE_READY:
-            should_fire = (sw_right == 1)
+            should_fire = (sw_right == 1) and (not fire_locked_by_ref)
 
             if should_fire:
                 now = self.get_clock().now().nanoseconds / 1e9
@@ -207,7 +240,9 @@ class FireController(Node):
                 f"[DIAG] state={self.feeder_state} sw={sw_right} "
                 f"target={self.trigger_target_ecd:.1f} total_ecd={self.total_ecd:.1f} "
                 f"torque={motor3_torque:.1f} rpm={self.motor3_rpm} "
-                f"cur={self.motor3_current}mA burst={self.burst_mode}"
+                f"cur={self.motor3_current}mA burst={self.burst_mode} "
+                f"ref_fire_allowed={self.referee_fire_allowed} heat={self.referee_heat:.1f}/{self.referee_heat_limit:.1f} "
+                f"power={self.referee_power:.1f}/{self.referee_power_limit:.1f}"
             )
 
         self.pub_fire.publish(msg)

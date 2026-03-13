@@ -10,6 +10,8 @@ chassis_controller:
     topic_steer_read: '/ecat/sn4587586/app2/read'
     topic_steer_write: '/ecat/sn4587586/app2/write'
     topic_yaw_read: "/ecat/sn4587586/app3/read" # 读取 Yaw 电机编码器确定车头朝向
+    topic_referee_constraints: "/referee/constraints"
+    referee_timeout_s: 0.5
 
     # =========================================
     # 2. 几何参数 (单位: 米)
@@ -72,4 +74,6 @@ fire_controller:
     topic_fire_write: "/ecat/sn4587585/app3/write" # 发布：摩擦轮速度 + 拨盘位置
     topic_fire_read: "/ecat/sn4587585/app3/read"   # 订阅：用于获取拨盘初始位置
     topic_autoaim_enable: "/sp_vision/autoaim_enable"
+    topic_referee_constraints: "/referee/constraints"
+    referee_timeout_s: 0.5
     shot_period_ms: 50.0                          # 连发每发间隔 (ms)

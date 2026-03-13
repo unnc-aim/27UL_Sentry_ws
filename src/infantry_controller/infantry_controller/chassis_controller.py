@@ -13,6 +13,7 @@ import rclpy
 import math
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy
+from std_msgs.msg import Float32MultiArray
 
 
 from custom_msgs.msg import (  # type: ignore[reportMissingImports]
@@ -87,6 +88,13 @@ class ChassisController(Node):
         # 键盘映射状态（对齐 legacy 逻辑）
         self.current_spd_mode = 3000.0   # 底盘分档速度
         self.spin_spd = 3000.0           # 小陀螺基准速度
+        self.referee_speed_scale = 1.0
+        self.referee_fire_allowed = True
+        self.referee_heat = 0.0
+        self.referee_heat_limit = 0.0
+        self.referee_power = 0.0
+        self.referee_power_limit = 0.0
+        self.referee_last_time = 0.0
 
         # ================= 通信接口 =================
         qos_best_effort = QoSProfile(
@@ -116,6 +124,13 @@ class ChassisController(Node):
             ReadLkMotor,
             self.topic_yaw_read,
             self.cb_yaw_feedback,
+            qos_best_effort
+        )
+
+        self.sub_referee_constraints = self.create_subscription(
+            Float32MultiArray,
+            self.topic_referee_constraints,
+            self.cb_referee_constraints,
             qos_best_effort
         )
 
@@ -153,6 +168,8 @@ class ChassisController(Node):
         self.declare_parameter('topic_steer_write',
                                '/ecat/sn4587586/app2/write')
         self.declare_parameter('topic_yaw_read', '/ecat/sn4587586/app3/read')
+        self.declare_parameter('topic_referee_constraints', '/referee/constraints')
+        self.declare_parameter('referee_timeout_s', 0.5)
 
         # --- Geometry ---
         self.declare_parameter('wheel_track', 0.4)
@@ -175,6 +192,8 @@ class ChassisController(Node):
             'topic_steer_write').get_parameter_value().string_value
         self.topic_yaw_read = self.get_parameter(
             'topic_yaw_read').get_parameter_value().string_value
+        self.topic_referee_constraints = self.get_parameter(
+            'topic_referee_constraints').get_parameter_value().string_value
 
         self.wheel_track = self.get_parameter(
             'wheel_track').get_parameter_value().double_value
@@ -226,6 +245,18 @@ class ChassisController(Node):
             msg: LK 电机反馈消息
         """
         self.gimbal_yaw_angle = (msg.encoder / 65535.0) * 2 * math.pi
+
+    def cb_referee_constraints(self, msg: Float32MultiArray) -> None:
+        data = list(msg.data)
+        if len(data) < 6:
+            return
+        self.referee_heat = float(data[0])
+        self.referee_heat_limit = float(data[1])
+        self.referee_power = float(data[2])
+        self.referee_power_limit = float(data[3])
+        self.referee_fire_allowed = bool(data[4] > 0.5)
+        self.referee_speed_scale = float(data[5])
+        self.referee_last_time = self.get_clock().now().nanoseconds / 1e9
 
     def control_loop(self) -> None:
         """
@@ -319,6 +350,16 @@ class ChassisController(Node):
         if abs(v_x_gimbal) < 100 and abs(v_y_gimbal) < 100 and abs(w_z) < 100:
             self.stop_motors()
             return
+
+        # 7.1 裁判系统功率约束限幅
+        referee_timeout = self.get_parameter(
+            'referee_timeout_s').get_parameter_value().double_value
+        now_sec = self.get_clock().now().nanoseconds / 1e9
+        if (now_sec - self.referee_last_time) < referee_timeout:
+            speed_scale = max(0.0, min(1.0, self.referee_speed_scale))
+            v_x_chassis *= speed_scale
+            v_y_chassis *= speed_scale
+            w_z *= speed_scale
 
         # 8. 运动学解算
         drive_speeds, steer_angles = self.kinematics.calculate_motion(
