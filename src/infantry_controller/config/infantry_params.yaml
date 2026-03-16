@@ -54,16 +54,16 @@ gimbal_controller:
 
 # Yaw Cascade PID Params
     # Position Loop (Output: Target Angular Velocity in rad/s)
-    yaw_pos_kp: 15.0
+    yaw_pos_kp: 20.0
     yaw_pos_ki: 0.2
-    yaw_pos_kd: 0.2
-    yaw_pos_max_out: 30.0   # 新增: 最大输出角速度
-    yaw_pos_max_iout: 30.0   # 新增: 积分限幅
+    yaw_pos_kd: 0.5
+    yaw_pos_max_out: 50.0   # 新增: 最大输出角速度
+    yaw_pos_max_iout: 50.0   # 新增: 积分限幅
 
     # Speed Loop (Output: Torque Current)
     yaw_spd_kp: 220.0
     yaw_spd_ki: 0.5
-    yaw_spd_kd: 2000.0
+    yaw_spd_kd: 4600.0
     yaw_spd_max_out: 2048.0 # 新增: 最大力矩电流
     yaw_spd_max_iout: 200.0 # 新增: 积分限幅
     

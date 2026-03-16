@@ -7,3 +7,6 @@
 [submodule "src/sp_vision_25_rosy"]
 	path = src/sp_vision_25_rosy
 	url = https://github.com/unnc-aim/sp_vision_25_rosy
+[submodule "scripts/ros2_systemd_manager"]
+	path = scripts/ros2_systemd_manager
+	url = https://github.com/hnrobert/ros2_systemd_manager.git
