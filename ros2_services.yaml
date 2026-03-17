@@ -1,0 +1,86 @@
+# ROS2 systemd automation configuration
+#
+# Notes:
+# 1) actions.default_action defines the action used when no CLI action is provided
+# 2) workspaces can define multiple ROS2 workspaces, each with its own services
+# 3) each service is converted into a dedicated systemd unit file
+# 4) services can optionally declare depends_on (list) for unit dependencies
+#    Example: if A depends_on B, unit A will include Requires=B and After=B
+#
+# Supported actions:
+# - install-only           Install unit files only, do not start or enable
+# - install-start-enable   Install + start + enable on boot
+# - uninstall              Uninstall (stop, disable, remove unit files)
+# - update-makefile        Regenerate Makefile only (no systemd changes)
+
+actions:
+  supported:
+    - install-only
+    - install-start-enable
+    - uninstall
+  default_action: install-start-enable
+
+systemd:
+  unit_dir: /etc/systemd/system
+  wanted_by: multi-user.target
+
+runtime:
+  # systemd service runtime identity (kept as root to match current ros2 usage)
+  user: infantry
+  group: infantry
+  home: /home/infantry
+  shell: /bin/bash
+  restart: on-failure
+  restart_sec: 3
+
+makefile:
+  # Path for generated Makefile. Relative path is based on this YAML directory.
+  output_path: /home/infantry/infantry_ws/Makefile
+
+workspaces:
+  # Workspace key, selectable via --workspace-key
+  infantry_ws:
+    path: /home/infantry/infantry_ws
+    setup_script: install/setup.bash
+    services:
+      - unit_name: ros2-foxglove-bridge.service
+        description: ROS2 Foxglove Bridge
+        # use_root: true
+        service_options:
+          - CPUAffinity=4 5 6 7 8 9 10 11
+        launch_command: ros2 launch foxglove_bridge foxglove_bridge_launch.xml
+
+      - unit_name: ros2-soem-bringup.service
+        description: ROS2 SOEM Bringup
+        # use_root: true
+        service_options:
+          - CapabilityBoundingSet=CAP_NET_RAW CAP_NET_ADMIN
+          - AmbientCapabilities=CAP_NET_RAW CAP_NET_ADMIN
+          - CPUAffinity=2 3
+        launch_command: ros2 launch soem_bringup bringup.launch.py
+
+      - unit_name: ros2-infantry-chassis.service
+        description: ROS2 Infantry Chassis Controller
+        # use_root: true
+        depends_on:
+          - ros2-soem-bringup.service
+        service_options:
+          - CPUAffinity=2 3
+        launch_command: ros2 launch infantry_controller infantry_chassis.launch.py
+
+      - unit_name: ros2-dji-referee.service
+        description: ROS2 DJI Referee Protocol Node
+        # use_root: true
+        service_options:
+          - CPUAffinity=4 5 6 7 8 9 10 11
+        launch_command: ros2 run dji_referee_protocol referee_serial_node
+
+      - unit_name: ros2-sp-vision-autoaim.service
+        description: SP Vision Auto Aim (via sp_vision_launch)
+        # use_root: true
+        # depends_on:
+          # - ros2-infantry-chassis.service
+          # - ros2-dji-referee.service
+        service_options:
+          - CPUAffinity=4 5 6 7 8 9 10 11
+        launch_command: ros2 launch sp_vision_launch sp_vision.launch.py config:=sentry.yaml
