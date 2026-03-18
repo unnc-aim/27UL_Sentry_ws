@@ -236,14 +236,14 @@ class FireController(Node):
         self.diag_counter += 1
         if self.diag_counter >= 500:
             self.diag_counter = 0
-            self.get_logger().info(
-                f"[DIAG] state={self.feeder_state} sw={sw_right} "
-                f"target={self.trigger_target_ecd:.1f} total_ecd={self.total_ecd:.1f} "
-                f"torque={motor3_torque:.1f} rpm={self.motor3_rpm} "
-                f"cur={self.motor3_current}mA burst={self.burst_mode} "
-                f"ref_fire_allowed={self.referee_fire_allowed} heat={self.referee_heat:.1f}/{self.referee_heat_limit:.1f} "
-                f"power={self.referee_power:.1f}/{self.referee_power_limit:.1f}"
-            )
+            # self.get_logger().info(
+            #     f"[DIAG] state={self.feeder_state} sw={sw_right} "
+            #     f"target={self.trigger_target_ecd:.1f} total_ecd={self.total_ecd:.1f} "
+            #     f"torque={motor3_torque:.1f} rpm={self.motor3_rpm} "
+            #     f"cur={self.motor3_current}mA burst={self.burst_mode} "
+            #     f"ref_fire_allowed={self.referee_fire_allowed} heat={self.referee_heat:.1f}/{self.referee_heat_limit:.1f} "
+            #     f"power={self.referee_power:.1f}/{self.referee_power_limit:.1f}"
+            # )
 
         self.pub_fire.publish(msg)
 
