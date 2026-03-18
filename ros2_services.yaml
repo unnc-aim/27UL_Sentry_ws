@@ -13,13 +13,6 @@
 # - uninstall              Uninstall (stop, disable, remove unit files)
 # - update-makefile        Regenerate Makefile only (no systemd changes)
 
-actions:
-  supported:
-    - install-only
-    - install-start-enable
-    - uninstall
-  default_action: install-start-enable
-
 systemd:
   unit_dir: /etc/systemd/system
   wanted_by: multi-user.target
@@ -32,10 +25,6 @@ runtime:
   shell: /bin/bash
   restart: on-failure
   restart_sec: 3
-
-makefile:
-  # Path for generated Makefile. Relative path is based on this YAML directory.
-  output_path: /home/infantry/infantry_ws/Makefile
 
 workspaces:
   # Workspace key, selectable via --workspace-key
@@ -56,7 +45,7 @@ workspaces:
         service_options:
           - CapabilityBoundingSet=CAP_NET_RAW CAP_NET_ADMIN
           - AmbientCapabilities=CAP_NET_RAW CAP_NET_ADMIN
-          - CPUAffinity=2 3
+          - CPUAffinity=4
         launch_command: ros2 launch soem_bringup bringup.launch.py
 
       - unit_name: ros2-infantry-chassis.service
@@ -65,7 +54,7 @@ workspaces:
         depends_on:
           - ros2-soem-bringup.service
         service_options:
-          - CPUAffinity=2 3
+          - CPUAffinity=4 5 6 7 8 9 10 11
         launch_command: ros2 launch infantry_controller infantry_chassis.launch.py
 
       - unit_name: ros2-dji-referee.service
@@ -82,5 +71,5 @@ workspaces:
           # - ros2-infantry-chassis.service
           # - ros2-dji-referee.service
         service_options:
-          - CPUAffinity=4 5 6 7 8 9 10 11
+          - CPUAffinity=1 2 3
         launch_command: ros2 launch sp_vision_launch sp_vision.launch.py config:=sentry.yaml
