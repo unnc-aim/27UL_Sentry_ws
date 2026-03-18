@@ -6,7 +6,6 @@
 Classes:
     SwerveKinematics: 舵轮运动学解算器
 """
-import numpy as np
 import math
 
 class SwerveKinematics:

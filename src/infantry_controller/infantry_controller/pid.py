@@ -6,7 +6,6 @@ PID 控制器模块
 Classes:
     PID: PID 控制器类
 """
-import math
 
 class PID:
     """
