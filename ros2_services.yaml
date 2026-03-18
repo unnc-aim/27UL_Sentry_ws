@@ -45,7 +45,7 @@ workspaces:
         service_options:
           - CapabilityBoundingSet=CAP_NET_RAW CAP_NET_ADMIN
           - AmbientCapabilities=CAP_NET_RAW CAP_NET_ADMIN
-          - CPUAffinity=4
+          - CPUAffinity=0
         launch_command: ros2 launch soem_bringup bringup.launch.py
 
       - unit_name: ros2-infantry-chassis.service
