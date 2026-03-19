@@ -140,6 +140,7 @@ class GimbalController(Node):
         self.autoaim_yaw = 0.0
         self.autoaim_pitch = 0.0
         self.autoaim_last_msg_time = 0.0
+        self.autoaim_log_counter = 0
 
         # 4. 注册参数回调 (实现动态调参)
         self.add_on_set_parameters_callback(self.parameters_callback)
@@ -388,6 +389,19 @@ class GimbalController(Node):
         pitch_msg.motor4_enable = 1
         pitch_msg.motor4_cmd = int(pitch_cmd_ecd)
         self.pub_pitch.publish(pitch_msg)
+
+        # >>>>>>>>>>>> AUTOAIM DEBUG LOG (throttled ~10Hz) <<<<<<<<<<<<
+        if use_autoaim:
+            self.autoaim_log_counter += 1
+            if self.autoaim_log_counter >= 100:  # 1000Hz / 100 = 10Hz
+                self.autoaim_log_counter = 0
+                self.get_logger().info(
+                    f"[AUTOAIM] vision_yaw={self.autoaim_yaw:.4f} vision_pitch={self.autoaim_pitch:.4f} | "
+                    f"target_yaw={self.target_yaw_rad:.4f} target_pitch={self.target_pitch_deg:.2f}deg | "
+                    f"imu_yaw={self.imu_yaw_rad:.4f} imu_pitch={math.degrees(self.imu_pitch_rad):.2f}deg | "
+                    f"pitch_err={pitch_error_deg:.2f}deg pitch_cmd_ecd={pitch_cmd_ecd}")
+        else:
+            self.autoaim_log_counter = 0
 
         # --- 1. 位置环 ---
         pos_error = self.target_yaw_rad - self.imu_yaw_rad
