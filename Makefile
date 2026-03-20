@@ -5,12 +5,12 @@ SUDO ?= sudo
 SCRIPT ?= ros2-systemd-manager
 CONFIG ?=
 WORKSPACE_KEY := infantry_ws
-UNITS := ros2-foxglove-bridge.service ros2-soem-bringup.service ros2-infantry-chassis.service ros2-dji-referee.service ros2-sp-vision-autoaim.service
+UNITS := ros2-foxglove-bridge.service ros2-soem-bringup.service ros2-sentry-controller.service ros2-dji-referee.service ros2-sp-vision-autoaim.service
 
 EFFECTIVE_SCRIPT := $(if $(strip $(SCRIPT)),$(SCRIPT),ros2-systemd-manager)
 EFFECTIVE_CONFIG := $(if $(strip $(CONFIG)),$(CONFIG),$(firstword $(wildcard ./ros2_services.yaml ./*.yaml)))
 
-.PHONY: help ensure-config install apply uninstall start stop restart status enable disable logs logs-recent update makefile start-ros2-foxglove-bridge stop-ros2-foxglove-bridge restart-ros2-foxglove-bridge status-ros2-foxglove-bridge enable-ros2-foxglove-bridge disable-ros2-foxglove-bridge logs-ros2-foxglove-bridge logs-recent-ros2-foxglove-bridge start-ros2-soem-bringup stop-ros2-soem-bringup restart-ros2-soem-bringup status-ros2-soem-bringup enable-ros2-soem-bringup disable-ros2-soem-bringup logs-ros2-soem-bringup logs-recent-ros2-soem-bringup start-ros2-infantry-chassis stop-ros2-infantry-chassis restart-ros2-infantry-chassis status-ros2-infantry-chassis enable-ros2-infantry-chassis disable-ros2-infantry-chassis logs-ros2-infantry-chassis logs-recent-ros2-infantry-chassis start-ros2-dji-referee stop-ros2-dji-referee restart-ros2-dji-referee status-ros2-dji-referee enable-ros2-dji-referee disable-ros2-dji-referee logs-ros2-dji-referee logs-recent-ros2-dji-referee start-ros2-sp-vision-autoaim stop-ros2-sp-vision-autoaim restart-ros2-sp-vision-autoaim status-ros2-sp-vision-autoaim enable-ros2-sp-vision-autoaim disable-ros2-sp-vision-autoaim logs-ros2-sp-vision-autoaim logs-recent-ros2-sp-vision-autoaim
+.PHONY: help ensure-config install apply uninstall start stop restart status enable disable logs logs-recent update makefile start-ros2-foxglove-bridge stop-ros2-foxglove-bridge restart-ros2-foxglove-bridge status-ros2-foxglove-bridge enable-ros2-foxglove-bridge disable-ros2-foxglove-bridge logs-ros2-foxglove-bridge logs-recent-ros2-foxglove-bridge start-ros2-soem-bringup stop-ros2-soem-bringup restart-ros2-soem-bringup status-ros2-soem-bringup enable-ros2-soem-bringup disable-ros2-soem-bringup logs-ros2-soem-bringup logs-recent-ros2-soem-bringup start-ros2-sentry-controller stop-ros2-sentry-controller restart-ros2-sentry-controller status-ros2-sentry-controller enable-ros2-sentry-controller disable-ros2-sentry-controller logs-ros2-sentry-controller logs-recent-ros2-sentry-controller start-ros2-dji-referee stop-ros2-dji-referee restart-ros2-dji-referee status-ros2-dji-referee enable-ros2-dji-referee disable-ros2-dji-referee logs-ros2-dji-referee logs-recent-ros2-dji-referee start-ros2-sp-vision-autoaim stop-ros2-sp-vision-autoaim restart-ros2-sp-vision-autoaim status-ros2-sp-vision-autoaim enable-ros2-sp-vision-autoaim disable-ros2-sp-vision-autoaim logs-ros2-sp-vision-autoaim logs-recent-ros2-sp-vision-autoaim
 
 help:
 	@echo "Targets:"
@@ -126,29 +126,29 @@ logs-recent-ros2-soem-bringup:
 	$(SUDO) journalctl -u "ros2-soem-bringup.service" -n 200 --no-pager
 
 
-start-ros2-infantry-chassis:
-	$(SUDO) systemctl start "ros2-infantry-chassis.service"
+start-ros2-sentry-controller:
+	$(SUDO) systemctl start "ros2-sentry-controller.service"
 
-stop-ros2-infantry-chassis:
-	$(SUDO) systemctl stop "ros2-infantry-chassis.service"
+stop-ros2-sentry-controller:
+	$(SUDO) systemctl stop "ros2-sentry-controller.service"
 
-restart-ros2-infantry-chassis:
-	$(SUDO) systemctl restart "ros2-infantry-chassis.service"
+restart-ros2-sentry-controller:
+	$(SUDO) systemctl restart "ros2-sentry-controller.service"
 
-status-ros2-infantry-chassis:
-	$(SUDO) systemctl status "ros2-infantry-chassis.service"
+status-ros2-sentry-controller:
+	$(SUDO) systemctl status "ros2-sentry-controller.service"
 
-enable-ros2-infantry-chassis:
-	$(SUDO) systemctl enable "ros2-infantry-chassis.service"
+enable-ros2-sentry-controller:
+	$(SUDO) systemctl enable "ros2-sentry-controller.service"
 
-disable-ros2-infantry-chassis:
-	$(SUDO) systemctl disable "ros2-infantry-chassis.service"
+disable-ros2-sentry-controller:
+	$(SUDO) systemctl disable "ros2-sentry-controller.service"
 
-logs-ros2-infantry-chassis:
-	$(SUDO) journalctl -u "ros2-infantry-chassis.service" -n 100 -f
+logs-ros2-sentry-controller:
+	$(SUDO) journalctl -u "ros2-sentry-controller.service" -n 100 -f
 
-logs-recent-ros2-infantry-chassis:
-	$(SUDO) journalctl -u "ros2-infantry-chassis.service" -n 200 --no-pager
+logs-recent-ros2-sentry-controller:
+	$(SUDO) journalctl -u "ros2-sentry-controller.service" -n 200 --no-pager
 
 
 start-ros2-dji-referee:
