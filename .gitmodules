@@ -10,3 +10,6 @@
 [submodule "scripts/ros2_systemd_manager"]
 	path = scripts/ros2_systemd_manager
 	url = https://github.com/hnrobert/ros2_systemd_manager.git
+[submodule "src/sentry_controller"]
+	path = src/sentry_controller
+	url = git@github.com:AIM-EC/sentry_controller.git
