@@ -19,9 +19,9 @@ systemd:
 
 runtime:
   # systemd service runtime identity (kept as root to match current ros2 usage)
-  user: infantry
-  group: infantry
-  home: /home/infantry
+  user: soyo
+  group: soyo
+  home: /home/soyo
   shell: /bin/bash
   restart: on-failure
   restart_sec: 3
@@ -29,7 +29,7 @@ runtime:
 workspaces:
   # Workspace key, selectable via --workspace-key
   infantry_ws:
-    path: /home/infantry/infantry_ws
+    path: /home/soyo/sentry_ws
     setup_script: install/setup.bash
     services:
       - unit_name: ros2-foxglove-bridge.service
@@ -48,14 +48,14 @@ workspaces:
           - CPUAffinity=0
         launch_command: ros2 launch soem_bringup bringup.launch.py
 
-      - unit_name: ros2-infantry-chassis.service
-        description: ROS2 Infantry Chassis Controller
+      - unit_name: ros2-sentry-controller.service
+        description: ROS2 Sentry Controller
         # use_root: true
         depends_on:
           - ros2-soem-bringup.service
         service_options:
           - CPUAffinity=4 5 6 7 8 9 10 11
-        launch_command: ros2 launch infantry_controller infantry_chassis.launch.py
+        launch_command: ros2 launch sentry_controller sentry_controller.launch.py
 
       - unit_name: ros2-dji-referee.service
         description: ROS2 DJI Referee Protocol Node
