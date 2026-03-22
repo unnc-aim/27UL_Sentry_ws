@@ -83,7 +83,7 @@ slaves:
         - app_1:
             sdowrite_task_type: !uint8_t 2
             conf_connection_lost_read_action: !uint8_t 0x01
-            sdowrite_connection_lost_write_action: !uint8_t 0x01
+            sdowrite_connection_lost_write_action: !uint8_t 0x02
             pub_topic: !std::string "/ecat/sn4128829/app1/read"
             pdoread_offset: !uint16_t 0
             sub_topic: !std::string "/ecat/sn4128829/app1/write"
@@ -102,7 +102,7 @@ slaves:
         - app_1:
             sdowrite_task_type: !uint8_t 2
             conf_connection_lost_read_action: !uint8_t 0x01
-            sdowrite_connection_lost_write_action: !uint8_t 0x01
+            sdowrite_connection_lost_write_action: !uint8_t 0x02
             pub_topic: !std::string "/ecat/sn2228292/app1/read"
             pdoread_offset: !uint16_t 0
             sub_topic: !std::string "/ecat/sn2228292/app1/write"
@@ -113,7 +113,7 @@ slaves:
         - app_2:
             sdowrite_task_type: !uint8_t 2
             conf_connection_lost_read_action: !uint8_t 0x01
-            sdowrite_connection_lost_write_action: !uint8_t 0x01
+            sdowrite_connection_lost_write_action: !uint8_t 0x02
             pub_topic: !std::string "/ecat/sn2228292/app2/read"
             pdoread_offset: !uint16_t 32
             sub_topic: !std::string "/ecat/sn2228292/app2/write"
