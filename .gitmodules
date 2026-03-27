@@ -13,3 +13,6 @@
 [submodule "src/sentry_controller"]
 	path = src/sentry_controller
 	url = git@github.com:AIM-EC/sentry_controller.git
+[submodule "src/universal_controller"]
+	path = src/universal_controller
+	url = git@github.com:AIM-EC/universal_controller.git
