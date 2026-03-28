@@ -23,7 +23,8 @@ def generate_launch_description() -> LaunchDescription:
     config_file = os.path.join(
         get_package_share_directory('soem_bringup'),
         'config',
-        'config_sentry.yaml'
+        # 'config_sentry.yaml'
+        'config_sentry_vt13.yaml'
     )
 
     return LaunchDescription([
