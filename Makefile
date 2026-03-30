@@ -5,12 +5,12 @@ SUDO ?= sudo
 SCRIPT ?= ros2-systemd-manager
 CONFIG ?=
 WORKSPACE_KEY := infantry_ws
-UNITS := ros2-foxglove-bridge.service ros2-soem-bringup.service ros2-dji-referee.service ros2-sp-vision-autoaim.service ros2-sentry.service
+UNITS := ros2-foxglove-bridge.service ros2-soem-bringup.service ros2-dji-referee-protocol.service ros2-sp-vision-autoaim.service ros2-universal-controller.service
 
 EFFECTIVE_SCRIPT := $(if $(strip $(SCRIPT)),$(SCRIPT),ros2-systemd-manager)
 EFFECTIVE_CONFIG := $(if $(strip $(CONFIG)),$(CONFIG),$(firstword $(wildcard ./ros2_services.yaml ./*.yaml)))
 
-.PHONY: help ensure-config install apply uninstall start stop restart status enable disable logs logs-recent update makefile start-ros2-foxglove-bridge stop-ros2-foxglove-bridge restart-ros2-foxglove-bridge status-ros2-foxglove-bridge enable-ros2-foxglove-bridge disable-ros2-foxglove-bridge logs-ros2-foxglove-bridge logs-recent-ros2-foxglove-bridge start-ros2-soem-bringup stop-ros2-soem-bringup restart-ros2-soem-bringup status-ros2-soem-bringup enable-ros2-soem-bringup disable-ros2-soem-bringup logs-ros2-soem-bringup logs-recent-ros2-soem-bringup start-ros2-dji-referee stop-ros2-dji-referee restart-ros2-dji-referee status-ros2-dji-referee enable-ros2-dji-referee disable-ros2-dji-referee logs-ros2-dji-referee logs-recent-ros2-dji-referee start-ros2-sp-vision-autoaim stop-ros2-sp-vision-autoaim restart-ros2-sp-vision-autoaim status-ros2-sp-vision-autoaim enable-ros2-sp-vision-autoaim disable-ros2-sp-vision-autoaim logs-ros2-sp-vision-autoaim logs-recent-ros2-sp-vision-autoaim start-ros2-sentry stop-ros2-sentry restart-ros2-sentry status-ros2-sentry enable-ros2-sentry disable-ros2-sentry logs-ros2-sentry logs-recent-ros2-sentry
+.PHONY: help ensure-config install apply uninstall start stop restart status enable disable logs logs-recent update makefile start-ros2-foxglove-bridge stop-ros2-foxglove-bridge restart-ros2-foxglove-bridge status-ros2-foxglove-bridge enable-ros2-foxglove-bridge disable-ros2-foxglove-bridge logs-ros2-foxglove-bridge logs-recent-ros2-foxglove-bridge start-ros2-soem-bringup stop-ros2-soem-bringup restart-ros2-soem-bringup status-ros2-soem-bringup enable-ros2-soem-bringup disable-ros2-soem-bringup logs-ros2-soem-bringup logs-recent-ros2-soem-bringup start-ros2-dji-referee-protocol stop-ros2-dji-referee-protocol restart-ros2-dji-referee-protocol status-ros2-dji-referee-protocol enable-ros2-dji-referee-protocol disable-ros2-dji-referee-protocol logs-ros2-dji-referee-protocol logs-recent-ros2-dji-referee-protocol start-ros2-sp-vision-autoaim stop-ros2-sp-vision-autoaim restart-ros2-sp-vision-autoaim status-ros2-sp-vision-autoaim enable-ros2-sp-vision-autoaim disable-ros2-sp-vision-autoaim logs-ros2-sp-vision-autoaim logs-recent-ros2-sp-vision-autoaim start-ros2-universal-controller stop-ros2-universal-controller restart-ros2-universal-controller status-ros2-universal-controller enable-ros2-universal-controller disable-ros2-universal-controller logs-ros2-universal-controller logs-recent-ros2-universal-controller
 
 help:
 	@echo "Targets:"
@@ -126,29 +126,29 @@ logs-recent-ros2-soem-bringup:
 	$(SUDO) journalctl -u "ros2-soem-bringup.service" -n 200 --no-pager
 
 
-start-ros2-dji-referee:
-	$(SUDO) systemctl start "ros2-dji-referee.service"
+start-ros2-dji-referee-protocol:
+	$(SUDO) systemctl start "ros2-dji-referee-protocol.service"
 
-stop-ros2-dji-referee:
-	$(SUDO) systemctl stop "ros2-dji-referee.service"
+stop-ros2-dji-referee-protocol:
+	$(SUDO) systemctl stop "ros2-dji-referee-protocol.service"
 
-restart-ros2-dji-referee:
-	$(SUDO) systemctl restart "ros2-dji-referee.service"
+restart-ros2-dji-referee-protocol:
+	$(SUDO) systemctl restart "ros2-dji-referee-protocol.service"
 
-status-ros2-dji-referee:
-	$(SUDO) systemctl status "ros2-dji-referee.service"
+status-ros2-dji-referee-protocol:
+	$(SUDO) systemctl status "ros2-dji-referee-protocol.service"
 
-enable-ros2-dji-referee:
-	$(SUDO) systemctl enable "ros2-dji-referee.service"
+enable-ros2-dji-referee-protocol:
+	$(SUDO) systemctl enable "ros2-dji-referee-protocol.service"
 
-disable-ros2-dji-referee:
-	$(SUDO) systemctl disable "ros2-dji-referee.service"
+disable-ros2-dji-referee-protocol:
+	$(SUDO) systemctl disable "ros2-dji-referee-protocol.service"
 
-logs-ros2-dji-referee:
-	$(SUDO) journalctl -u "ros2-dji-referee.service" -n 100 -f
+logs-ros2-dji-referee-protocol:
+	$(SUDO) journalctl -u "ros2-dji-referee-protocol.service" -n 100 -f
 
-logs-recent-ros2-dji-referee:
-	$(SUDO) journalctl -u "ros2-dji-referee.service" -n 200 --no-pager
+logs-recent-ros2-dji-referee-protocol:
+	$(SUDO) journalctl -u "ros2-dji-referee-protocol.service" -n 200 --no-pager
 
 
 start-ros2-sp-vision-autoaim:
@@ -176,26 +176,26 @@ logs-recent-ros2-sp-vision-autoaim:
 	$(SUDO) journalctl -u "ros2-sp-vision-autoaim.service" -n 200 --no-pager
 
 
-start-ros2-sentry:
-	$(SUDO) systemctl start "ros2-sentry.service"
+start-ros2-universal-controller:
+	$(SUDO) systemctl start "ros2-universal-controller.service"
 
-stop-ros2-sentry:
-	$(SUDO) systemctl stop "ros2-sentry.service"
+stop-ros2-universal-controller:
+	$(SUDO) systemctl stop "ros2-universal-controller.service"
 
-restart-ros2-sentry:
-	$(SUDO) systemctl restart "ros2-sentry.service"
+restart-ros2-universal-controller:
+	$(SUDO) systemctl restart "ros2-universal-controller.service"
 
-status-ros2-sentry:
-	$(SUDO) systemctl status "ros2-sentry.service"
+status-ros2-universal-controller:
+	$(SUDO) systemctl status "ros2-universal-controller.service"
 
-enable-ros2-sentry:
-	$(SUDO) systemctl enable "ros2-sentry.service"
+enable-ros2-universal-controller:
+	$(SUDO) systemctl enable "ros2-universal-controller.service"
 
-disable-ros2-sentry:
-	$(SUDO) systemctl disable "ros2-sentry.service"
+disable-ros2-universal-controller:
+	$(SUDO) systemctl disable "ros2-universal-controller.service"
 
-logs-ros2-sentry:
-	$(SUDO) journalctl -u "ros2-sentry.service" -n 100 -f
+logs-ros2-universal-controller:
+	$(SUDO) journalctl -u "ros2-universal-controller.service" -n 100 -f
 
-logs-recent-ros2-sentry:
-	$(SUDO) journalctl -u "ros2-sentry.service" -n 200 --no-pager
+logs-recent-ros2-universal-controller:
+	$(SUDO) journalctl -u "ros2-universal-controller.service" -n 200 --no-pager

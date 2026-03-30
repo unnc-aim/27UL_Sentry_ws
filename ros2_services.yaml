@@ -57,12 +57,12 @@ workspaces:
       #     - CPUAffinity=4 5 6 7 8 9 10 11
       #   launch_command: ros2 launch sentry_controller sentry_controller.launch.py
 
-      - unit_name: ros2-dji-referee.service
+      - unit_name: ros2-dji-referee-protocol.service
         description: ROS2 DJI Referee Protocol Node
         # use_root: true
         service_options:
           - CPUAffinity=4 5 6 7 8 9 10 11
-        launch_command: ros2 run dji_referee_protocol referee_serial_node --ros-args -p config_file:=/home/soyo/sentry_ws/src/dji_referee_protocol/config/topic_config.yaml
+        launch_command: ros2 launch dji_referee_protocol referee_serial_launch.py
 
       - unit_name: ros2-sp-vision-autoaim.service
         description: SP Vision Auto Aim (via sp_vision_launch)
@@ -74,7 +74,7 @@ workspaces:
           - CPUAffinity=1 2 3
         launch_command: ros2 launch sp_vision_launch sp_vision.launch.py config:=sentry.yaml
 
-      - unit_name: ros2-sentry.service
+      - unit_name: ros2-universal-controller.service
         description: Universal Controller (Sentry)
         # use_root: true
         depends_on:
