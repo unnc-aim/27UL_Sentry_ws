@@ -5,12 +5,12 @@ SUDO ?= sudo
 SCRIPT ?= ros2-systemd-manager
 CONFIG ?=
 WORKSPACE_KEY := infantry_ws
-UNITS := ros2-foxglove-bridge.service ros2-soem-bringup.service ros2-dji-referee-protocol.service ros2-sp-vision-autoaim.service ros2-universal-controller.service
+UNITS := ros2-foxglove-bridge.service ros2-soem-bringup.service ros2-dji-referee-protocol.service ros2-sp-vision-autoaim.service ros2-universal-controller.service ros2-sentry-behavior.service
 
 EFFECTIVE_SCRIPT := $(if $(strip $(SCRIPT)),$(SCRIPT),ros2-systemd-manager)
 EFFECTIVE_CONFIG := $(if $(strip $(CONFIG)),$(CONFIG),$(firstword $(wildcard ./ros2_services.yaml ./*.yaml)))
 
-.PHONY: help ensure-config install apply uninstall start stop restart status enable disable logs logs-recent update makefile start-ros2-foxglove-bridge stop-ros2-foxglove-bridge restart-ros2-foxglove-bridge status-ros2-foxglove-bridge enable-ros2-foxglove-bridge disable-ros2-foxglove-bridge logs-ros2-foxglove-bridge logs-recent-ros2-foxglove-bridge start-ros2-soem-bringup stop-ros2-soem-bringup restart-ros2-soem-bringup status-ros2-soem-bringup enable-ros2-soem-bringup disable-ros2-soem-bringup logs-ros2-soem-bringup logs-recent-ros2-soem-bringup start-ros2-dji-referee-protocol stop-ros2-dji-referee-protocol restart-ros2-dji-referee-protocol status-ros2-dji-referee-protocol enable-ros2-dji-referee-protocol disable-ros2-dji-referee-protocol logs-ros2-dji-referee-protocol logs-recent-ros2-dji-referee-protocol start-ros2-sp-vision-autoaim stop-ros2-sp-vision-autoaim restart-ros2-sp-vision-autoaim status-ros2-sp-vision-autoaim enable-ros2-sp-vision-autoaim disable-ros2-sp-vision-autoaim logs-ros2-sp-vision-autoaim logs-recent-ros2-sp-vision-autoaim start-ros2-universal-controller stop-ros2-universal-controller restart-ros2-universal-controller status-ros2-universal-controller enable-ros2-universal-controller disable-ros2-universal-controller logs-ros2-universal-controller logs-recent-ros2-universal-controller
+.PHONY: help ensure-config install apply uninstall start stop restart status enable disable logs logs-recent update makefile start-ros2-foxglove-bridge stop-ros2-foxglove-bridge restart-ros2-foxglove-bridge status-ros2-foxglove-bridge enable-ros2-foxglove-bridge disable-ros2-foxglove-bridge logs-ros2-foxglove-bridge logs-recent-ros2-foxglove-bridge start-ros2-soem-bringup stop-ros2-soem-bringup restart-ros2-soem-bringup status-ros2-soem-bringup enable-ros2-soem-bringup disable-ros2-soem-bringup logs-ros2-soem-bringup logs-recent-ros2-soem-bringup start-ros2-dji-referee-protocol stop-ros2-dji-referee-protocol restart-ros2-dji-referee-protocol status-ros2-dji-referee-protocol enable-ros2-dji-referee-protocol disable-ros2-dji-referee-protocol logs-ros2-dji-referee-protocol logs-recent-ros2-dji-referee-protocol start-ros2-sp-vision-autoaim stop-ros2-sp-vision-autoaim restart-ros2-sp-vision-autoaim status-ros2-sp-vision-autoaim enable-ros2-sp-vision-autoaim disable-ros2-sp-vision-autoaim logs-ros2-sp-vision-autoaim logs-recent-ros2-sp-vision-autoaim start-ros2-universal-controller stop-ros2-universal-controller restart-ros2-universal-controller status-ros2-universal-controller enable-ros2-universal-controller disable-ros2-universal-controller logs-ros2-universal-controller logs-recent-ros2-universal-controller start-ros2-sentry-behavior stop-ros2-sentry-behavior restart-ros2-sentry-behavior status-ros2-sentry-behavior enable-ros2-sentry-behavior disable-ros2-sentry-behavior logs-ros2-sentry-behavior logs-recent-ros2-sentry-behavior
 
 help:
 	@echo "Targets:"
@@ -199,3 +199,28 @@ logs-ros2-universal-controller:
 
 logs-recent-ros2-universal-controller:
 	$(SUDO) journalctl -u "ros2-universal-controller.service" -n 200 --no-pager
+
+
+start-ros2-sentry-behavior:
+	$(SUDO) systemctl start "ros2-sentry-behavior.service"
+
+stop-ros2-sentry-behavior:
+	$(SUDO) systemctl stop "ros2-sentry-behavior.service"
+
+restart-ros2-sentry-behavior:
+	$(SUDO) systemctl restart "ros2-sentry-behavior.service"
+
+status-ros2-sentry-behavior:
+	$(SUDO) systemctl status "ros2-sentry-behavior.service"
+
+enable-ros2-sentry-behavior:
+	$(SUDO) systemctl enable "ros2-sentry-behavior.service"
+
+disable-ros2-sentry-behavior:
+	$(SUDO) systemctl disable "ros2-sentry-behavior.service"
+
+logs-ros2-sentry-behavior:
+	$(SUDO) journalctl -u "ros2-sentry-behavior.service" -n 100 -f
+
+logs-recent-ros2-sentry-behavior:
+	$(SUDO) journalctl -u "ros2-sentry-behavior.service" -n 200 --no-pager

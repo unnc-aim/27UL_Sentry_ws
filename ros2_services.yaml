@@ -82,3 +82,12 @@ workspaces:
         service_options:
           - CPUAffinity=4 5 6 7 8 9 10 11
         launch_command: ros2 launch universal_controller universal_controller.launch.py robot_type:=sentry
+
+      - unit_name: ros2-sentry-behavior.service
+        description: PB2025 Sentry Behavior Tree
+        # use_root: true
+        depends_on:
+          - ros2-dji-referee-protocol.service
+        service_options:
+          - CPUAffinity=4 5 6 7 8 9 10 11
+        launch_command: ros2 launch pb2025_sentry_behavior pb2025_sentry_behavior_reality_launch.py

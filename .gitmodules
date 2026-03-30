@@ -16,3 +16,6 @@
 [submodule "src/universal_controller"]
 	path = src/universal_controller
 	url = git@github.com:AIM-EC/universal_controller.git
+[submodule "src/pb2025_sentry_behavior"]
+	path = src/pb2025_sentry_behavior
+	url = git@github.com:unnc-aim/pb2025_sentry_behavior.git
