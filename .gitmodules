@@ -19,3 +19,34 @@
 [submodule "src/pb2025_sentry_behavior"]
 	path = src/pb2025_sentry_behavior
 	url = git@github.com:unnc-aim/pb2025_sentry_behavior.git
+[submodule "src/BehaviorTree.ROS2"]
+	path = src/BehaviorTree.ROS2
+	url = https://github.com/SMBU-PolarBear-Robotics-Team/BehaviorTree.ROS2.git
+	branch = humble
+[submodule "src/pb_rm_interfaces"]
+	path = src/pb_rm_interfaces
+	url = https://github.com/SMBU-PolarBear-Robotics-Team/pb_rm_interfaces.git
+[submodule "src/pb2025_robot_description"]
+	path = src/pb2025_robot_description
+	url = https://github.com/unnc-aim/pb2025_robot_description.git
+[submodule "src/pb2025_sentry_nav"]
+	path = src/pb2025_sentry_nav
+	url = https://github.com/unnc-aim/pb2025_sentry_nav.git
+[submodule "src/rmoss_core"]
+	path = src/rmoss_core
+	url = https://github.com/SMBU-PolarBear-Robotics-Team/rmoss_core.git
+[submodule "src/rmoss_gazebo"]
+	path = src/rmoss_gazebo
+	url = https://github.com/SMBU-PolarBear-Robotics-Team/rmoss_gazebo.git
+[submodule "src/rmoss_gz_resources"]
+	path = src/rmoss_gz_resources
+	url = https://github.com/SMBU-PolarBear-Robotics-Team/rmoss_gz_resources.git
+[submodule "src/rmoss_interfaces"]
+	path = src/rmoss_interfaces
+	url = https://github.com/SMBU-PolarBear-Robotics-Team/rmoss_interfaces.git
+[submodule "src/rmu_gazebo_simulator"]
+	path = src/rmu_gazebo_simulator
+	url = https://github.com/SMBU-PolarBear-Robotics-Team/rmu_gazebo_simulator.git
+[submodule "src/sdformat_tools"]
+	path = src/sdformat_tools
+	url = https://github.com/gezp/sdformat_tools.git

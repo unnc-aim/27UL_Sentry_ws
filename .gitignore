@@ -6,3 +6,5 @@ logs/
 .vscode
 __pycache__/
 *.pyc
+
+src/_*
