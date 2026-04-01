@@ -1,0 +1,122 @@
+################
+
+实车启动顺序（开机后 ros2-dji-referee.service 已自动运行裁判系统）：
+
+比赛模式：
+
+1. 导航：
+
+ros2 launch pb2025_nav_bringup rm_navigation_reality_launch.py slam:=True use_robot_state_pub:=True
+
+2. 行为树
+
+ros2 launch pb2025_sentry_behavior pb2025_sentry_behavior_reality_launch.py start_referee_translator:=true
+
+调试模式（无需裁判系统）：
+
+1. 导航：
+
+ros2 launch pb2025_nav_bringup rm_navigation_reality_launch.py slam:=True use_robot_state_pub:=True
+
+2. 行为树：
+
+ros2 launch pb2025_sentry_behavior pb2025_sentry_behavior_debug_launch.py
+
+3. 手动触发巡逻（终端发送）：
+
+ros2 topic pub --once /manual_start std_msgs/msg/Int32 "{data: 1}"
+
+裁判系统连接测试：
+
+行为树：
+
+ros2 launch pb2025_sentry_behavior referee_connection_test_launch.py
+
+
+##################################
+
+gazebo仿真场景：
+
+ros2 launch rmu_gazebo_simulator bringup_sim.launch.py
+
+视觉仿真（自瞄）：
+
+ros2 launch pb2025_vision_bringup vision_launch.py \
+    robot_name:=red_standard_robot1 \
+    use_sim_time:=true \
+    detector:=opencv
+
+ros2 launch pb2025_vision_bringup rm_vision_simulation_launch.py namespace:=red_standard_robot1
+
+导航仿真：
+
+ros2 launch pb2025_nav_bringup rm_navigation_simulation_launch.py slam:=True
+
+ros2 launch pb2025_nav_bringup rm_navigation_reality_launch.py \
+slam:=True \
+use_robot_state_pub:=True
+
+行为树：
+
+ros2 launch pb2025_sentry_behavior pb2025_sentry_behavior_launch.py
+
+ros2 launch pb2025_sentry_behavior pb2025_sentry_behavior_launch.py namespace:=red_standard_robot1 use_sim_time:=true
+
+################
+
+通过修改rmu_gazebo_simulator/config/gz_world.yaml，可以在启动仿真环境的时候，放置2个机器人。
+
+下一步，尝试放置机器人，并分别操纵它们。√
+
+控制机器人移动指令：
+
+```shell
+ros2 run rmoss_gz_base test_chassis_cmd.py --ros-args -r __ns:=/red_standard_robot1/robot_base -p v:=0.3 -p w:=0.3
+```
+
+下一步，分别测试云台指令和射击指令。
+
+云台：√
+
+```shell
+ros2 run rmoss_gz_base test_gimbal_cmd.py --ros-args -r __ns:=/red_standard_robot1/robot_base
+```
+
+射击：√（输入单次发射的弹丸数量）
+
+```shell
+ros2 run rmoss_gz_base test_shoot_cmd.py --ros-args -r __ns:=/red_standard_robot1/robot_base
+```
+
+下一步，测试网页端-操作手端和裁判系统端启动。
+
+操作手：[http://localhost:5000/](http://localhost:5000/) √
+
+需要安装和修改不少东西，包括`pip3 install "python-engineio==3.14.2" "python-socketio==4.6.1"`；`pip3 install "Flask==2.0.3" "Werkzeug==2.0.3" flask-cors "flask-socketio<5.0" opencv-python numpy`；
+
+然后修改src/rmu\_gazebo\_simulator/rmu\_gazebo\_simulator/scripts/player\_web/templates/index.html，第11行，`<script type="text/javascript" src="{{ url_for('static',filename='js/socket.io.js') }}"></script>`注释掉，改成`<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>`；
+
+最后，如果是用nomachine连接小主机，则在nomachine client端打开链接，locaohost改成小主机的ip。
+
+```shell
+python3 /home/soyo/Desktop/aim/ros_ws/src/rmu_gazebo_simulator/rmu_gazebo_simulator/scripts/player_web/main_vision.py
+```
+
+裁判系统：[http://localhost:2350/](http://localhost:2350/) √
+
+src/rmu_gazebo_simulator/rmu_gazebo_simulator/scripts/referee_web/templates/index.html，第9行注释掉，改成上边一样的即可。访问网页没出来，Ctrl+F5强制刷新，或者按F12再在弹出的开发者工具刷新。
+
+```shell
+python3 src/rmu_gazebo_simulator/rmu_gazebo_simulator/scripts/referee_web/main.py
+```
+#############
+
+当前ip：192.168.137.249
+
+裁判系统桥接：
+python3 /home/soyo/Desktop/aim/ros_ws/src/rmu_gazebo_simulator/rmu_gazebo_simulator/scripts/referee_bridge.py
+
+#############
+
+0311 启动顺序：
+gazebo仿真 -> 导航 -> 裁判系统 -> 裁判系统桥接 -> 访问裁判系统webui，开始比赛 -> 行为树
