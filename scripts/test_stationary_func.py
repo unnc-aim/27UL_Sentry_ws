@@ -22,10 +22,13 @@ import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, QoSReliabilityPolicy
 
+from dji_referee_protocol.msg import GameStatus
 from example_interfaces.msg import Float32
 from pb_rm_interfaces.msg import GimbalCmd
 from std_msgs.msg import Int32
 
+
+GAME_STAGE_IN_GAME = 4
 
 SPIN_TEST_SPEED = 3.0       # rad/s for 小陀螺 ON test
 GIMBAL_YAW_SPEED = 1.0      # rad/s for gimbal scan
@@ -33,6 +36,7 @@ HOLD_DURATION = 3.0          # seconds to hold each state for visual confirmatio
 DDS_DISCOVERY_WAIT = 2.0     # seconds to wait for DDS endpoint discovery
 VERIFY_TIMEOUT = 2.0         # seconds to wait for self-echo verification
 VERIFY_HZ = 20.0             # publish rate during verification
+REFEREE_TIMEOUT = 300.0      # seconds to wait for referee game start
 
 
 @dataclass
@@ -58,6 +62,10 @@ class StationaryFuncTest(Node):
     def __init__(self):
         super().__init__('stationary_func_test')
 
+        self.declare_parameter('wait_for_referee', False)
+        self._wait_for_referee = self.get_parameter(
+            'wait_for_referee').get_parameter_value().bool_value
+
         qos_be = QoSProfile(depth=1, reliability=QoSReliabilityPolicy.BEST_EFFORT)
         qos_rel = QoSProfile(depth=10, reliability=QoSReliabilityPolicy.RELIABLE)
 
@@ -76,9 +84,40 @@ class StationaryFuncTest(Node):
         self._spin_sub = self.create_subscription(
             Float32, '/cmd_spin', self._cb_spin, qos_be)
 
+        self._game_progress = 0
+        self._game_sub = self.create_subscription(
+            GameStatus, '/referee/common/game_status',
+            self._game_status_cb, 10)
+
         self.report = TestReport()
 
     # ── subscription callbacks ──────────────────────────────────────────
+
+    def _game_status_cb(self, msg):
+        if msg.game_progress != self._game_progress:
+            self.get_logger().info(
+                f'裁判系统: game_progress {self._game_progress} -> {msg.game_progress}')
+        self._game_progress = msg.game_progress
+
+    def wait_for_game_start(self, timeout=REFEREE_TIMEOUT):
+        """等待裁判系统宣布比赛开始 (game_progress == 4)，可通过参数跳过"""
+        if not self._wait_for_referee:
+            self.get_logger().info('wait_for_referee=False, 跳过裁判系统等待')
+            return True
+        self.get_logger().info(
+            f'等待裁判系统 IN_GAME (progress==4), 超时={timeout}s ...')
+        t0 = time.time()
+        while self._game_progress != GAME_STAGE_IN_GAME:
+            rclpy.spin_once(self, timeout_sec=0.2)
+            elapsed = time.time() - t0
+            if elapsed > timeout:
+                self.get_logger().error(
+                    f'裁判系统超时 ({timeout}s), game_progress={self._game_progress}')
+                return False
+            if int(elapsed) % 10 == 0 and int(elapsed) > 0:
+                rclpy.spin_once(self, timeout_sec=0.01)
+        self.get_logger().info('裁判系统: IN_GAME — 继续执行!')
+        return True
 
     def _cb_gimbal(self, msg):
         self._last_gimbal = msg
@@ -285,6 +324,10 @@ def main(args=None):
 
         node.get_logger().info('===== STEP 1: 云台扫描 开/关 =====')
         node.test_gimbal_scan()
+
+        node.get_logger().info('===== STEP 1.5: 等待裁判系统比赛开始（可选） =====')
+        if not node.wait_for_game_start():
+            node.get_logger().warn('裁判系统未就绪，继续执行后续测试')
 
         node.get_logger().info('===== STEP 2: 自瞄检测 开/关 =====')
         node.test_autoaim()

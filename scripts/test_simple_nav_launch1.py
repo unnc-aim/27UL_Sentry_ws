@@ -38,6 +38,11 @@ def generate_launch_description():
         description='ROS log level',
     )
 
+    declare_wait_referee = DeclareLaunchArgument(
+        'wait_for_referee', default_value='false',
+        description='Wait for referee IN_GAME before continuing after gimbal scan (true/false)',
+    )
+
     log_env = SetEnvironmentVariable('ROS_LOG_DIR', log_dir)
     log_info = LogInfo(msg=['[TEST] Logs: ', log_dir])
 
@@ -48,7 +53,10 @@ def generate_launch_description():
             ExecuteProcess(
                 cmd=[
                     'python3', test_script,
-                    '--ros-args', '--log-level', LaunchConfiguration('log_level'),
+                    '--ros-args',
+                    '--log-level', LaunchConfiguration('log_level'),
+                    '-p', ['wait_for_referee:=',
+                           LaunchConfiguration('wait_for_referee')],
                 ],
                 output='both',
                 additional_env={'ROS_LOG_DIR': log_dir},
@@ -58,6 +66,7 @@ def generate_launch_description():
 
     ld = LaunchDescription()
     ld.add_action(declare_log_level)
+    ld.add_action(declare_wait_referee)
     ld.add_action(log_env)
     ld.add_action(log_info)
     ld.add_action(test_node)
