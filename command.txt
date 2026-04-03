@@ -26,6 +26,12 @@ ros2 launch pb2025_sentry_behavior pb2025_sentry_behavior_debug_launch.py
 
 ros2 topic pub --once /manual_start std_msgs/msg/Int32 "{data: 1}"
 
+调试模式（裁判系统+全自动）：
+
+行为树：
+
+ros2 launch pb2025_sentry_behavior pb2025_sentry_behavior_referee_debug_launch.py
+
 裁判系统连接测试：
 
 行为树：

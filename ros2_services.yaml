@@ -91,3 +91,51 @@ workspaces:
       #   service_options:
       #     - CPUAffinity=4 5 6 7 8 9 10 11
       #   launch_command: ros2 launch pb2025_sentry_behavior pb2025_sentry_behavior_reality_launch.py
+
+      # Adaptive training suite: mapping navigation + auto save + behavior tree.
+      # The navigation wrapper saves:
+      # - grid map to pb2025_nav_bringup/map/reality/reserve/field_training_latest
+      # - prior PCD to pb2025_nav_bringup/pcd/reality/reserve/field_training_latest.pcd
+      # Stop the service cleanly to trigger the save sequence before power-off.
+      #
+      # - unit_name: ros2-pb2025-sentry-nav-field-training.service
+      #   description: PB2025 Sentry Navigation (Field Training Mapping + Auto Save)
+      #   # use_root: true
+      #   depends_on:
+      #     - ros2-universal-controller.service
+      #   service_options:
+      #     - CPUAffinity=4 5 6 7 8 9 10 11
+      #     - KillMode=process
+      #     - TimeoutStopSec=90
+      #   launch_command: bash /home/soyo/sentry_ws/scripts/run_reality_slam_with_autosave.sh reserve/field_training_latest
+
+      # - unit_name: ros2-pb2025-sentry-behavior-field-training.service
+      #   description: PB2025 Sentry Behavior Tree (Field Training)
+      #   # use_root: true
+      #   depends_on:
+      #     - ros2-pb2025-sentry-nav-field-training.service
+      #   service_options:
+      #     - CPUAffinity=4 5 6 7 8 9 10 11
+      #   launch_command: ros2 launch pb2025_sentry_behavior pb2025_sentry_behavior_field_training_launch.py
+
+      # Official match suite: reuse the map produced by field training.
+      # Update world:=reserve/field_training_latest if you want to switch to another saved map.
+      #
+      # - unit_name: ros2-pb2025-sentry-nav-reality.service
+      #   description: PB2025 Sentry Navigation (Reality, Reuse Existing Map)
+      #   # use_root: true
+      #   depends_on:
+      #     - ros2-universal-controller.service
+      #   service_options:
+      #     - CPUAffinity=4 5 6 7 8 9 10 11
+      #   launch_command: ros2 launch pb2025_nav_bringup rm_navigation_reality_launch.py world:=reserve/field_training_latest slam:=False use_robot_state_pub:=True
+
+      # - unit_name: ros2-pb2025-sentry-behavior-reality.service
+      #   description: PB2025 Sentry Behavior Tree (Reality Match)
+      #   # use_root: true
+      #   depends_on:
+      #     - ros2-pb2025-sentry-nav-reality.service
+      #     - ros2-dji-referee-protocol.service
+      #   service_options:
+      #     - CPUAffinity=4 5 6 7 8 9 10 11
+      #   launch_command: ros2 launch pb2025_sentry_behavior pb2025_sentry_behavior_reality_launch.py
