@@ -45,7 +45,7 @@ class SimpleNavTest(Node):
 
         self._scanning = False
         self._scan_yaw_speed = 1.0
-        self._scan_timer = self.create_wall_timer(1.0 / 20.0, self._scan_timer_cb)
+        self._scan_timer = self.create_timer(1.0 / 20.0, self._scan_timer_cb)
 
     def _map_cb(self, msg):
         if not self._map_ready:
