@@ -110,7 +110,7 @@ slaves:
             pdoread_offset: !uint16_t 0
             sub_topic: !std::string "/ecat/sn2228292/app1/write"
             pdowrite_offset: !uint16_t 0
-            sdowrite_control_period: !uint16_t 1
+            sdowrite_control_period: !uint16_t 2
             sdowrite_can_inst: !uint8_t 1
             sdowrite_control_type: !uint8_t 8
 
@@ -122,6 +122,6 @@ slaves:
             pdoread_offset: !uint16_t 32
             sub_topic: !std::string "/ecat/sn2228292/app2/write"
             pdowrite_offset: !uint16_t 8
-            sdowrite_control_period: !uint16_t 1
+            sdowrite_control_period: !uint16_t 2
             sdowrite_can_inst: !uint8_t 2
             sdowrite_control_type: !uint8_t 8

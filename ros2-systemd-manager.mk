@@ -5,13 +5,13 @@ SUDO ?= sudo
 SCRIPT ?= ros2-systemd-manager
 CONFIG ?=
 WORKSPACE_KEY := infantry_ws
-UNITS := ros2-foxglove-bridge.service ros2-soem-bringup.service ros2-dji-referee-protocol.service ros2-sp-vision-autoaim.service ros2-universal-controller.service ros2-competition.service
+UNITS := ros2-foxglove-bridge.service ros2-soem-bringup.service ros2-dji-referee-protocol.service ros2-sp-vision-autoaim.service ros2-universal-controller.service ros2-chassis-controller-lk.service
 GENERATED_MK := $(lastword $(MAKEFILE_LIST))
 
 EFFECTIVE_SCRIPT := $(if $(strip $(SCRIPT)),$(SCRIPT),ros2-systemd-manager)
 EFFECTIVE_CONFIG := $(if $(strip $(CONFIG)),$(CONFIG),$(firstword $(wildcard ./ros2_services.yaml ./*.yaml)))
 
-.PHONY: help upgrade ensure-config install apply uninstall start stop restart status enable disable logs logs-recent update makefile start-ros2-foxglove-bridge stop-ros2-foxglove-bridge restart-ros2-foxglove-bridge status-ros2-foxglove-bridge enable-ros2-foxglove-bridge disable-ros2-foxglove-bridge logs-ros2-foxglove-bridge logs-recent-ros2-foxglove-bridge start-ros2-soem-bringup stop-ros2-soem-bringup restart-ros2-soem-bringup status-ros2-soem-bringup enable-ros2-soem-bringup disable-ros2-soem-bringup logs-ros2-soem-bringup logs-recent-ros2-soem-bringup start-ros2-dji-referee-protocol stop-ros2-dji-referee-protocol restart-ros2-dji-referee-protocol status-ros2-dji-referee-protocol enable-ros2-dji-referee-protocol disable-ros2-dji-referee-protocol logs-ros2-dji-referee-protocol logs-recent-ros2-dji-referee-protocol start-ros2-sp-vision-autoaim stop-ros2-sp-vision-autoaim restart-ros2-sp-vision-autoaim status-ros2-sp-vision-autoaim enable-ros2-sp-vision-autoaim disable-ros2-sp-vision-autoaim logs-ros2-sp-vision-autoaim logs-recent-ros2-sp-vision-autoaim start-ros2-universal-controller stop-ros2-universal-controller restart-ros2-universal-controller status-ros2-universal-controller enable-ros2-universal-controller disable-ros2-universal-controller logs-ros2-universal-controller logs-recent-ros2-universal-controller start-ros2-competition stop-ros2-competition restart-ros2-competition status-ros2-competition enable-ros2-competition disable-ros2-competition logs-ros2-competition logs-recent-ros2-competition
+.PHONY: help upgrade ensure-config install apply uninstall start stop restart status enable disable logs logs-recent update makefile start-ros2-foxglove-bridge stop-ros2-foxglove-bridge restart-ros2-foxglove-bridge status-ros2-foxglove-bridge enable-ros2-foxglove-bridge disable-ros2-foxglove-bridge logs-ros2-foxglove-bridge logs-recent-ros2-foxglove-bridge start-ros2-soem-bringup stop-ros2-soem-bringup restart-ros2-soem-bringup status-ros2-soem-bringup enable-ros2-soem-bringup disable-ros2-soem-bringup logs-ros2-soem-bringup logs-recent-ros2-soem-bringup start-ros2-dji-referee-protocol stop-ros2-dji-referee-protocol restart-ros2-dji-referee-protocol status-ros2-dji-referee-protocol enable-ros2-dji-referee-protocol disable-ros2-dji-referee-protocol logs-ros2-dji-referee-protocol logs-recent-ros2-dji-referee-protocol start-ros2-sp-vision-autoaim stop-ros2-sp-vision-autoaim restart-ros2-sp-vision-autoaim status-ros2-sp-vision-autoaim enable-ros2-sp-vision-autoaim disable-ros2-sp-vision-autoaim logs-ros2-sp-vision-autoaim logs-recent-ros2-sp-vision-autoaim start-ros2-universal-controller stop-ros2-universal-controller restart-ros2-universal-controller status-ros2-universal-controller enable-ros2-universal-controller disable-ros2-universal-controller logs-ros2-universal-controller logs-recent-ros2-universal-controller start-ros2-chassis-controller-lk stop-ros2-chassis-controller-lk restart-ros2-chassis-controller-lk status-ros2-chassis-controller-lk enable-ros2-chassis-controller-lk disable-ros2-chassis-controller-lk logs-ros2-chassis-controller-lk logs-recent-ros2-chassis-controller-lk
 
 help:
 	@echo "Targets:"
@@ -206,26 +206,26 @@ logs-recent-ros2-universal-controller:
 	$(SUDO) journalctl -u "ros2-universal-controller.service" -n 200 --no-pager
 
 
-start-ros2-competition:
-	$(SUDO) systemctl start "ros2-competition.service"
+start-ros2-chassis-controller-lk:
+	$(SUDO) systemctl start "ros2-chassis-controller-lk.service"
 
-stop-ros2-competition:
-	$(SUDO) systemctl stop "ros2-competition.service"
+stop-ros2-chassis-controller-lk:
+	$(SUDO) systemctl stop "ros2-chassis-controller-lk.service"
 
-restart-ros2-competition:
-	$(SUDO) systemctl restart "ros2-competition.service"
+restart-ros2-chassis-controller-lk:
+	$(SUDO) systemctl restart "ros2-chassis-controller-lk.service"
 
-status-ros2-competition:
-	$(SUDO) systemctl status "ros2-competition.service"
+status-ros2-chassis-controller-lk:
+	$(SUDO) systemctl status "ros2-chassis-controller-lk.service"
 
-enable-ros2-competition:
-	$(SUDO) systemctl enable "ros2-competition.service"
+enable-ros2-chassis-controller-lk:
+	$(SUDO) systemctl enable "ros2-chassis-controller-lk.service"
 
-disable-ros2-competition:
-	$(SUDO) systemctl disable "ros2-competition.service"
+disable-ros2-chassis-controller-lk:
+	$(SUDO) systemctl disable "ros2-chassis-controller-lk.service"
 
-logs-ros2-competition:
-	$(SUDO) journalctl -u "ros2-competition.service" -n 100 -f
+logs-ros2-chassis-controller-lk:
+	$(SUDO) journalctl -u "ros2-chassis-controller-lk.service" -n 100 -f
 
-logs-recent-ros2-competition:
-	$(SUDO) journalctl -u "ros2-competition.service" -n 200 --no-pager
+logs-recent-ros2-chassis-controller-lk:
+	$(SUDO) journalctl -u "ros2-chassis-controller-lk.service" -n 200 --no-pager

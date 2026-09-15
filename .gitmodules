@@ -12,10 +12,10 @@
 	url = https://github.com/hnrobert/ros2_systemd_manager.git
 [submodule "src/sentry_controller"]
 	path = src/sentry_controller
-	url = git@github.com:AIM-EC/sentry_controller.git
+	url = git@github.com:unnc-aim/26UL_Sentry_controller_py.git
 [submodule "src/universal_controller"]
 	path = src/universal_controller
-	url = git@github.com:AIM-EC/universal_controller.git
+	url = git@github.com:unnc-aim/universal_controller.git
 [submodule "src/pb2025_sentry_behavior"]
 	path = src/pb2025_sentry_behavior
 	url = git@github.com:unnc-aim/pb2025_sentry_behavior.git
@@ -56,3 +56,6 @@
 [submodule "src/hik_camera_ros2_driver"]
 	path = src/hik_camera_ros2_driver
 	url = https://github.com/SMBU-PolarBear-Robotics-Team/hik_camera_ros2_driver.git
+[submodule "src/chassis_controllers"]
+	path = src/chassis_controllers
+	url = https://github.com/unnc-aim/27UL_Sentry_chassis_controllers.git
