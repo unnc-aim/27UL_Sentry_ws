@@ -1,0 +1,27 @@
+{
+  "status": "failed_direction_consistency",
+  "pulses": [
+    {
+      "axis": "x",
+      "displacement_m": [
+        -0.061108874041975736,
+        -0.0024847170411034236
+      ],
+      "measured_world_deg": -177.6716078611985,
+      "expected_world_deg": 120.5997571186344,
+      "difference_deg": 61.72863502016707
+    },
+    {
+      "axis": "y",
+      "displacement_m": [
+        0.0068148175009588585,
+        -0.05868796944607088
+      ],
+      "measured_world_deg": -83.37650641777175,
+      "expected_world_deg": 209.9925570021956,
+      "difference_deg": 66.63093658003264
+    }
+  ],
+  "interpretation": "Two short pulses suggest roughly 60-70 degree discrepancy; steering transients and odometry noise prevent treating this as calibrated correction. Verify physical lidar mount and yaw/steering zero definitions before further navigation.",
+  "emergency_remote_arbitration_modified": false
+}

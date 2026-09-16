@@ -1,0 +1,23 @@
+header:
+  stamp:
+    sec: 1789545964
+    nanosec: 148753302
+  frame_id: ''
+control_source: ndj
+connected: false
+emergency_stop: true
+autoaim_enabled: false
+navigation_enabled: false
+vx: 0.0
+vy: 0.0
+wz: 0.0
+spin_mode: false
+spin_speed: 0.0
+pitch_delta: 0.0
+yaw_delta: 0.0
+fire_trigger: false
+burst_mode: false
+friction_on: false
+friction_speed: 0.0
+chassis_speed_scale: 0.0
+---

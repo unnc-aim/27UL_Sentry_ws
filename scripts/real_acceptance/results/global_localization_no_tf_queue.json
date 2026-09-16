@@ -1,0 +1,191 @@
+{
+  "motion_authorized": false,
+  "globalization_requested": false,
+  "trace": [
+    {
+      "time": 1789550484.7802262,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550485.1559224,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550485.663976,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550486.1893046,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550486.6898143,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550487.196344,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550487.7017422,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550488.219817,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550488.7313292,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550489.2546682,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550489.7734814,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550490.2953467,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550490.8145947,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550491.3280177,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550491.852309,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550492.372028,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550492.8810043,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550493.3938625,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550493.9136593,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550494.424723,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550494.9341228,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550495.4385161,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550495.945303,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550496.4678261,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550496.9750984,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550497.4839954,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550498.0034082,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550498.5203745,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550499.0312228,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550499.5341456,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550500.0395799,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550500.541169,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550501.05055,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550501.5566566,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550502.0603378,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550502.572543,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    }
+  ],
+  "latest": {
+    "time": 1789550502.572543,
+    "candidate_stable": false,
+    "error": "No scan aligned within 0.075 s of AMCL pose"
+  }
+}

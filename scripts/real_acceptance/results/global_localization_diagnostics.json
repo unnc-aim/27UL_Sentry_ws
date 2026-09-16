@@ -1,0 +1,886 @@
+{
+  "motion_authorized": false,
+  "globalization_requested": false,
+  "trace": [
+    {
+      "time": 1789550435.1735504,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.05540668200001164,
+      "scan_receive_age_s": 0.17810403299995414,
+      "pose_age_s": 0.3805974310830078,
+      "scan_age_s": 0.4304726310830078,
+      "pose_scan_offset_s": 0.0498752,
+      "pose": [
+        0.11203916833250213,
+        -0.08150861305467709,
+        -0.297956704213038
+      ],
+      "covariance": [
+        6.473795300901766e-05,
+        9.011428339968097e-05,
+        2.325654522819573e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550435.5298464,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.07278310600008808,
+      "scan_receive_age_s": 0.07200560000001133,
+      "pose_age_s": 0.1906889188922119,
+      "scan_age_s": 0.1906889188922119,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.1129728980795711,
+        -0.08411944198255522,
+        -0.29823447527629177
+      ],
+      "covariance": [
+        7.132974329645235e-05,
+        9.739985555155296e-05,
+        2.3325713518323545e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550436.047936,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.08174589899999773,
+      "scan_receive_age_s": 0.08082469300006778,
+      "pose_age_s": 0.15608050087390135,
+      "scan_age_s": 0.15608050087390135,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11351397935205805,
+        -0.08587400547548807,
+        -0.29848003702307474
+      ],
+      "covariance": [
+        8.312617570577392e-05,
+        9.248863914794545e-05,
+        2.478705124391105e-05
+      ],
+      "scan_match": 0.9830508474576272,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550436.550065,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.0727031840001473,
+      "scan_receive_age_s": 0.07175470799984396,
+      "pose_age_s": 0.20710483336425778,
+      "scan_age_s": 0.20710483336425778,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11375075039851149,
+        -0.08578391897952632,
+        -0.29760075357787324
+      ],
+      "covariance": [
+        7.733544814912327e-05,
+        9.331104375946524e-05,
+        2.508585907961343e-05
+      ],
+      "scan_match": 0.984375,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550437.0695405,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.07744954500003587,
+      "scan_receive_age_s": 0.07623601500017685,
+      "pose_age_s": 0.18126235566198723,
+      "scan_age_s": 0.13128168366198723,
+      "pose_scan_offset_s": -0.049980672000000004,
+      "pose": [
+        0.11042504356038219,
+        -0.08454943398146643,
+        -0.2972800622256421
+      ],
+      "covariance": [
+        7.124127204570334e-05,
+        9.560339144463418e-05,
+        2.6801310641662773e-05
+      ],
+      "scan_match": 0.9861111111111112,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550437.5885763,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.11468863200002488,
+      "scan_receive_age_s": 0.11375862700015205,
+      "pose_age_s": 0.2549141801165771,
+      "scan_age_s": 0.2549141801165771,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11496266604831723,
+        -0.08447095221702779,
+        -0.2983444285841829
+      ],
+      "covariance": [
+        7.068586106584798e-05,
+        0.00010046280345653563,
+        2.699746946499412e-05
+      ],
+      "scan_match": 0.971830985915493,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550438.0899498,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550438.593581,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550439.1060822,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.034069283000008,
+      "scan_receive_age_s": 0.1657214209999438,
+      "pose_age_s": 0.27359569575292964,
+      "scan_age_s": 0.22376375975292961,
+      "pose_scan_offset_s": -0.049831936,
+      "pose": [
+        0.10954643837879821,
+        -0.08692868648134228,
+        -0.2971386755346099
+      ],
+      "covariance": [
+        7.292138762102045e-05,
+        0.000127642314441314,
+        2.9272601858095104e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550439.612442,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.12027772999999797,
+      "scan_receive_age_s": 0.11919456700002229,
+      "pose_age_s": 0.22851736993713379,
+      "scan_age_s": 0.17844607393713374,
+      "pose_scan_offset_s": -0.050071296,
+      "pose": [
+        0.11179837961893192,
+        -0.0859714140694459,
+        -0.29851486628912155
+      ],
+      "covariance": [
+        8.251233697625752e-05,
+        0.0001248806702700946,
+        3.205761813871104e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550440.1254256,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.07490583699996023,
+      "scan_receive_age_s": 0.17550920200005748,
+      "pose_age_s": 0.19205366585839834,
+      "scan_age_s": 0.24204432185839841,
+      "pose_scan_offset_s": 0.049990656,
+      "pose": [
+        0.1103216982801207,
+        -0.08475248050954473,
+        -0.29794996047996103
+      ],
+      "covariance": [
+        7.46958496441602e-05,
+        0.00012782757884110402,
+        3.1096992175155885e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550440.6392453,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.03524139199998899,
+      "scan_receive_age_s": 0.03418135599986272,
+      "pose_age_s": 0.1425457843171386,
+      "scan_age_s": 0.09262450431713865,
+      "pose_scan_offset_s": -0.049921280000000005,
+      "pose": [
+        0.10899609772055563,
+        -0.0878679316049367,
+        -0.2977599462785796
+      ],
+      "covariance": [
+        6.80626709056633e-05,
+        0.00011945469493976433,
+        3.32270233005765e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550441.1449652,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.11494500399999197,
+      "scan_receive_age_s": 0.11398492499984059,
+      "pose_age_s": 0.21078739846105954,
+      "scan_age_s": 0.16076192646105958,
+      "pose_scan_offset_s": -0.05002547199999996,
+      "pose": [
+        0.113458638334765,
+        -0.08463916204166298,
+        -0.2984236623684844
+      ],
+      "covariance": [
+        6.514293483347693e-05,
+        0.00011921319075510611,
+        3.412265504296556e-05
+      ],
+      "scan_match": 0.9830508474576272,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550441.6689668,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550442.1715987,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.059157262999860905,
+      "scan_receive_age_s": 0.057938096000043515,
+      "pose_age_s": 0.1812788287019043,
+      "scan_age_s": 0.1313388607019043,
+      "pose_scan_offset_s": -0.049939968,
+      "pose": [
+        0.11238770466342124,
+        -0.08200065809131134,
+        -0.2966223954947813
+      ],
+      "covariance": [
+        7.087787180590915e-05,
+        0.00012106296385006564,
+        3.0732659306288075e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550442.6931922,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.01219764600000417,
+      "scan_receive_age_s": 0.12267263499984438,
+      "pose_age_s": 0.20379402275927727,
+      "scan_age_s": 0.20379402275927727,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11071838758417057,
+        -0.08297280501886937,
+        -0.2983692138104807
+      ],
+      "covariance": [
+        7.421042255591898e-05,
+        0.00011834034903767006,
+        2.8263145978638025e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550443.2176027,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550443.727628,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.038051255000027595,
+      "scan_receive_age_s": 0.03713016799997604,
+      "pose_age_s": 0.18612462207226554,
+      "scan_age_s": 0.18612462207226554,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11067475375284176,
+        -0.08604600158389819,
+        -0.29907960760534846
+      ],
+      "covariance": [
+        8.544547228542428e-05,
+        0.00011171036655366513,
+        3.1395026266660234e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550444.2466333,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.0625162230001024,
+      "scan_receive_age_s": 0.06129284700000426,
+      "pose_age_s": 0.1541169702631836,
+      "scan_age_s": 0.1541169702631836,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.1115334319669686,
+        -0.08463096656552101,
+        -0.2981764037231393
+      ],
+      "covariance": [
+        8.037297805522058e-05,
+        0.00010980912456255189,
+        3.0316154288436806e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550444.747224,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.06190343599996595,
+      "scan_receive_age_s": 0.06078292999995938,
+      "pose_age_s": 0.15394752758898922,
+      "scan_age_s": 0.10482061558898925,
+      "pose_scan_offset_s": -0.049126912,
+      "pose": [
+        0.11098977595342013,
+        -0.08693838830393431,
+        -0.29850454586763236
+      ],
+      "covariance": [
+        7.019706447927362e-05,
+        0.00011644153326956924,
+        3.387257446050944e-05
+      ],
+      "scan_match": 0.9850746268656716,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550445.2615645,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550445.7676413,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550446.2873175,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550446.7924974,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.09923539000010351,
+      "scan_receive_age_s": 0.09831657600011567,
+      "pose_age_s": 0.19928415427014157,
+      "scan_age_s": 0.19928415427014157,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10753602518427521,
+        -0.09257677474446223,
+        -0.29765524540011107
+      ],
+      "covariance": [
+        8.179578952717016e-05,
+        0.00011184675720422865,
+        2.9287338595841824e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550447.2978818,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.05640716599987172,
+      "scan_receive_age_s": 0.1533549910000147,
+      "pose_age_s": 0.20573713915063474,
+      "scan_age_s": 0.20573713915063474,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11304015366472263,
+        -0.0857707125360482,
+        -0.3007857742077026
+      ],
+      "covariance": [
+        7.10882656801276e-05,
+        0.00011222036893256734,
+        2.8952693680879407e-05
+      ],
+      "scan_match": 0.9836065573770492,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550447.8058634,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.024316620000035982,
+      "scan_receive_age_s": 0.12521295700003066,
+      "pose_age_s": 0.21070101509387207,
+      "scan_age_s": 0.21070101509387207,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10502848821032416,
+        -0.08998513606394844,
+        -0.298365833910334
+      ],
+      "covariance": [
+        7.102966181692615e-05,
+        0.00011156681469895804,
+        2.7887419927876498e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550448.3208697,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550448.8295465,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550449.3320224,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.038574377000031745,
+      "scan_receive_age_s": 0.03756294599998,
+      "pose_age_s": 0.13529613404455565,
+      "scan_age_s": 0.13529613404455565,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10798685336031637,
+        -0.0826757922896362,
+        -0.29820753181958404
+      ],
+      "covariance": [
+        5.896923991973238e-05,
+        0.00010481950917818131,
+        2.541116203504183e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550449.8360682,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550450.3555748,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.11306891799995356,
+      "scan_receive_age_s": 0.11165192799990109,
+      "pose_age_s": 0.21404084582617186,
+      "scan_age_s": 0.21404084582617186,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10663195543612922,
+        -0.08161703575912116,
+        -0.2981751003481567
+      ],
+      "covariance": [
+        6.719712499672972e-05,
+        0.00010651982621907863,
+        2.57697086814042e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550450.8758943,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550451.3947487,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.04510160299992094,
+      "scan_receive_age_s": 0.043825408000202515,
+      "pose_age_s": 0.10363901397351072,
+      "scan_age_s": 0.10363901397351072,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10732531105980843,
+        -0.08378273805505355,
+        -0.2987329786750131
+      ],
+      "covariance": [
+        7.064816349456118e-05,
+        9.14225437441199e-05,
+        2.1343788520834858e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550451.8969073,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.11629561600011584,
+      "scan_receive_age_s": 0.1151410739998937,
+      "pose_age_s": 0.21414929777197256,
+      "scan_age_s": 0.21414929777197256,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.107607926130937,
+        -0.08541615136982346,
+        -0.2990524707362563
+      ],
+      "covariance": [
+        7.70468337776501e-05,
+        8.694782230355379e-05,
+        2.311422573593933e-05
+      ],
+      "scan_match": 0.9859154929577465,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550452.4083903,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550452.9171581,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.0012122820000968204,
+      "scan_receive_age_s": 0.0010390770000867633,
+      "pose_age_s": 0.3276862599381103,
+      "scan_age_s": 0.37777317193811033,
+      "pose_scan_offset_s": 0.050086912000000004,
+      "pose": [
+        0.10973324531099435,
+        -0.08666214803342306,
+        -0.29804220208598625
+      ],
+      "covariance": [
+        7.22545455888058e-05,
+        0.00010393233123039396,
+        2.4040932039942306e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550453.4239898,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.10201654000002236,
+      "scan_receive_age_s": 0.10078599700000268,
+      "pose_age_s": 0.2331132865340576,
+      "scan_age_s": 0.1832055745340576,
+      "pose_scan_offset_s": -0.049907712,
+      "pose": [
+        0.10965705590065712,
+        -0.08663828359588593,
+        -0.30050637787686685
+      ],
+      "covariance": [
+        7.598433109016339e-05,
+        8.9423609255305e-05,
+        2.2673947852794186e-05
+      ],
+      "scan_match": 0.987012987012987,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550453.9417145,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550454.4501266,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.04195201300012741,
+      "scan_receive_age_s": 0.04073575299980803,
+      "pose_age_s": 0.10800175705664061,
+      "scan_age_s": 0.10800175705664061,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10926332836460084,
+        -0.0875822759347719,
+        -0.2988919084649884
+      ],
+      "covariance": [
+        6.392460507329695e-05,
+        0.0001147049710231874,
+        2.802790474325015e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550454.9745393,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.09512480300008974,
+      "scan_receive_age_s": 0.09410759999991569,
+      "pose_age_s": 0.18687122682312007,
+      "scan_age_s": 0.18687122682312007,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.1112917946612239,
+        -0.08363453881341901,
+        -0.2986654934789163
+      ],
+      "covariance": [
+        6.424832612258839e-05,
+        0.00011326740383768227,
+        2.8041272226339555e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550455.4859045,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550456.00545,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550456.5224469,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550457.0321064,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550457.555232,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550458.0632594,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.052973615999917456,
+      "scan_receive_age_s": 0.05189530500001638,
+      "pose_age_s": 0.1215224849448242,
+      "scan_age_s": 0.1215224849448242,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11226815925741233,
+        -0.08710113198023169,
+        -0.2984185102331226
+      ],
+      "covariance": [
+        5.874045606073415e-05,
+        0.0001116562170675019,
+        2.6223068297673045e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550458.563257,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550459.0869741,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.04200773200000185,
+      "scan_receive_age_s": 0.040820484999812834,
+      "pose_age_s": 0.14419126428515616,
+      "scan_age_s": 0.09406185628515625,
+      "pose_scan_offset_s": -0.050129407999999986,
+      "pose": [
+        0.11242936626097977,
+        -0.08522301450429061,
+        -0.29861763204269137
+      ],
+      "covariance": [
+        6.005731967855671e-05,
+        0.00010746682670989289,
+        2.2420371550965686e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550459.5869744,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.0699212769998212,
+      "scan_receive_age_s": 0.0685668160001569,
+      "pose_age_s": 0.24085153438525386,
+      "scan_age_s": 0.19090926238525385,
+      "pose_scan_offset_s": -0.049942272,
+      "pose": [
+        0.11036311758012765,
+        -0.08519075892793045,
+        -0.29860068038493265
+      ],
+      "covariance": [
+        6.378519210056138e-05,
+        0.00011607483704031193,
+        2.252273520756552e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550460.1055977,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.1251838000000589,
+      "scan_receive_age_s": 0.12298758499991891,
+      "pose_age_s": 0.26362879465014644,
+      "scan_age_s": 0.26362879465014644,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10744593944769758,
+        -0.08405798255871086,
+        -0.2991664576738316
+      ],
+      "covariance": [
+        7.568018128077149e-05,
+        0.00010022304188822377,
+        2.2670415436803324e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550460.6070096,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550461.1261604,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550461.6449451,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.075 s of AMCL pose"
+    },
+    {
+      "time": 1789550462.1582103,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.0640773850000187,
+      "scan_receive_age_s": 0.06286306500010141,
+      "pose_age_s": 0.22281124075903314,
+      "scan_age_s": 0.1726219287590332,
+      "pose_scan_offset_s": -0.050189311999999986,
+      "pose": [
+        0.11046333063974825,
+        -0.0847245870115966,
+        -0.2974864527995748
+      ],
+      "covariance": [
+        8.490741575961983e-05,
+        9.500819961122918e-05,
+        2.3929975307299136e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550462.677489,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.06528110299996115,
+      "scan_receive_age_s": 0.06368313200005105,
+      "pose_age_s": 0.18490661163854982,
+      "scan_age_s": 0.13693221163854974,
+      "pose_scan_offset_s": -0.0479744,
+      "pose": [
+        0.11162194315940692,
+        -0.08776456524113174,
+        -0.29755644066314585
+      ],
+      "covariance": [
+        8.185207876165029e-05,
+        9.658699145053372e-05,
+        2.5213160549922678e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550463.1948986,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.1256220889999895,
+      "scan_receive_age_s": 0.12454670600004647,
+      "pose_age_s": 0.20499999124035645,
+      "scan_age_s": 0.20499999124035645,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11427766553103075,
+        -0.08808311179407013,
+        -0.29776845444880523
+      ],
+      "covariance": [
+        7.689018758181253e-05,
+        9.743229440833511e-05,
+        2.6902137830582028e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    }
+  ],
+  "latest": {
+    "time": 1789550463.1948986,
+    "candidate_stable": false,
+    "particle_receive_age_s": 0.1256220889999895,
+    "scan_receive_age_s": 0.12454670600004647,
+    "pose_age_s": 0.20499999124035645,
+    "scan_age_s": 0.20499999124035645,
+    "pose_scan_offset_s": 0.0,
+    "pose": [
+      0.11427766553103075,
+      -0.08808311179407013,
+      -0.29776845444880523
+    ],
+    "covariance": [
+      7.689018758181253e-05,
+      9.743229440833511e-05,
+      2.6902137830582028e-05
+    ],
+    "scan_match": 1.0,
+    "dominant_particle_mass": 1.0,
+    "particle_count": 5000
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "incomplete",
+  "physical_acceptance_passed": false,
+  "stages": [
+    {
+      "name": "scan_two_turns",
+      "exit_code": 1
+    }
+  ],
+  "scope": "Navigation-process startup; fresh local SLAM, not power-cycle or saved-map global localization",
+  "initial_pose_map": [
+    -0.05422187934390236,
+    -0.017514725182843045,
+    0.014961275569475142
+  ],
+  "reason": "scan_two_turns failed; subsequent movement skipped",
+  "operator_note": "Robot was manually relocated; operator did not observe scan. Run invalid for mount calibration or motion acceptance."
+}

@@ -1,0 +1,3659 @@
+{
+  "motion_authorized": false,
+  "globalization_requested": false,
+  "trace": [
+    {
+      "time": 1789550641.8009965,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.11210464999999203,
+      "scan_receive_age_s": 0.20903736300010678,
+      "pose_age_s": 0.5546607084483642,
+      "scan_age_s": 0.5546607084483642,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.1157159204904937,
+        -0.08005940920066884,
+        -0.29708033705413317
+      ],
+      "covariance": [
+        6.935994116285746e-05,
+        8.104925282495686e-05,
+        2.332192115452812e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550642.1563551,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.034337167999865414,
+      "scan_receive_age_s": 0.03350041700014117,
+      "pose_age_s": 0.31715309589672847,
+      "scan_age_s": 0.31715309589672847,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.1101572037404669,
+        -0.07911862739591591,
+        -0.2973319212471312
+      ],
+      "covariance": [
+        7.127746748303992e-05,
+        8.659602816004155e-05,
+        2.3142961072617312e-05
+      ],
+      "scan_match": 0.9864864864864865,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550642.660306,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.06007218699983241,
+      "scan_receive_age_s": 0.05911786499996197,
+      "pose_age_s": 0.21239408810803218,
+      "scan_age_s": 0.21239408810803218,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10966139897976925,
+        -0.07938582231027136,
+        -0.2953626618105572
+      ],
+      "covariance": [
+        7.237588499661544e-05,
+        8.457939500757655e-05,
+        2.859400282629086e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550643.1772096,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.0017832920000273589,
+      "scan_receive_age_s": 0.11781790899999578,
+      "pose_age_s": 0.18803720711987304,
+      "scan_age_s": 0.18803720711987304,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.1106783073286423,
+        -0.08274976405564219,
+        -0.2958306614030197
+      ],
+      "covariance": [
+        7.29331490180625e-05,
+        7.965850477837516e-05,
+        2.366089310477362e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550643.6916592,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.09417412599987074,
+      "scan_receive_age_s": 0.20845190899990484,
+      "pose_age_s": 0.5954839186075439,
+      "scan_age_s": 0.5954839186075439,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10539617833893364,
+        -0.07885057666434547,
+        -0.2962140174393953
+      ],
+      "covariance": [
+        7.073033685273469e-05,
+        7.980700750534388e-05,
+        2.3444832840654478e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550644.2017388,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.14889591999985896,
+      "scan_receive_age_s": 0.2586847500001568,
+      "pose_age_s": 0.5670080998315429,
+      "scan_age_s": 0.5670080998315429,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11347892428753341,
+        -0.08532313583148626,
+        -0.29602977403834646
+      ],
+      "covariance": [
+        7.014892569479243e-05,
+        8.191104162563138e-05,
+        2.846510297664491e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550644.72383,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.15994073399997433,
+      "scan_receive_age_s": 0.27867853199995807,
+      "pose_age_s": 0.3838888239882812,
+      "scan_age_s": 0.3838888239882812,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10974551363315678,
+        -0.07993537356506276,
+        -0.29598959248494194
+      ],
+      "covariance": [
+        6.707749696697324e-05,
+        7.55569707475319e-05,
+        3.246183510973334e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550645.242429,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.04765772299992932,
+      "scan_receive_age_s": 0.04688382300014382,
+      "pose_age_s": 0.19442180413415527,
+      "scan_age_s": 0.19442180413415527,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11417146789156075,
+        -0.07640329804676096,
+        -0.2976468556408311
+      ],
+      "covariance": [
+        6.21020197588279e-05,
+        7.130906837377136e-05,
+        2.829221481108237e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550645.7578228,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.0014215460000741587,
+      "scan_receive_age_s": 0.12423525999997764,
+      "pose_age_s": 0.4241255279476318,
+      "scan_age_s": 0.4241255279476318,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11165375081551895,
+        -0.07876790410718568,
+        -0.2988932567177035
+      ],
+      "covariance": [
+        5.998534085382458e-05,
+        7.76484914967691e-05,
+        2.7643522505636254e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550646.2625356,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.07695273400008773,
+      "scan_receive_age_s": 0.17697790000011082,
+      "pose_age_s": 0.2768779684013672,
+      "scan_age_s": 0.2768779684013672,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11217577294665741,
+        -0.07974410480959333,
+        -0.2984851409545812
+      ],
+      "covariance": [
+        6.19197576338746e-05,
+        8.811968923530967e-05,
+        2.74531225240642e-05
+      ],
+      "scan_match": 0.9885057471264368,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550646.7868414,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.05131593299984161,
+      "scan_receive_age_s": 0.05056046000004244,
+      "pose_age_s": 0.14568831260876458,
+      "scan_age_s": 0.14568831260876458,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11123545843224539,
+        -0.0783936658425626,
+        -0.2972641152931588
+      ],
+      "covariance": [
+        5.4265602234961074e-05,
+        8.224368047161403e-05,
+        2.333483969778947e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550647.294498,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.0026377430001502944,
+      "scan_receive_age_s": 0.002458767000007356,
+      "pose_age_s": 0.6493029766865234,
+      "scan_age_s": 0.6493029766865234,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11123545843224539,
+        -0.0783936658425626,
+        -0.2972641152931588
+      ],
+      "covariance": [
+        5.4265602234961074e-05,
+        8.224368047161403e-05,
+        2.333483969778947e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550647.8156216,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.08998372099995322,
+      "scan_receive_age_s": 0.08904140599997845,
+      "pose_age_s": 0.23222841715881348,
+      "scan_age_s": 0.23222841715881348,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11130860381561485,
+        -0.07962478617514344,
+        -0.2981083106952512
+      ],
+      "covariance": [
+        4.899824565463527e-05,
+        8.272727538105335e-05,
+        2.470808866026446e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550648.3228993,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.04519823699979497,
+      "scan_receive_age_s": 0.1498393940000824,
+      "pose_age_s": 0.23287135521630858,
+      "scan_age_s": 0.23287135521630858,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.1089829186936662,
+        -0.08306552365914448,
+        -0.29805954820856045
+      ],
+      "covariance": [
+        5.254063679411766e-05,
+        9.021334315481317e-05,
+        2.476947428875031e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550648.8425803,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.02353400599986344,
+      "scan_receive_age_s": 0.023350153999899703,
+      "pose_age_s": 0.5462068847525634,
+      "scan_age_s": 0.5462068847525634,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11365812833446594,
+        -0.0813785380901964,
+        -0.298909736989064
+      ],
+      "covariance": [
+        5.1725523703300205e-05,
+        9.631297281227722e-05,
+        2.5090872053693955e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550649.346235,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.09485809099987819,
+      "scan_receive_age_s": 0.09375099900012174,
+      "pose_age_s": 0.6046243162314453,
+      "scan_age_s": 0.6046243162314453,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10912184580770341,
+        -0.0773906173100716,
+        -0.2980878294051843
+      ],
+      "covariance": [
+        4.9333441915934764e-05,
+        8.487046327982847e-05,
+        2.929910781018288e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550649.852535,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.014185239999960686,
+      "scan_receive_age_s": 0.12174474399989776,
+      "pose_age_s": 0.5037038023970948,
+      "scan_age_s": 0.5037038023970948,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11095482519539887,
+        -0.07878416010702624,
+        -0.29709756245341834
+      ],
+      "covariance": [
+        5.485672331820117e-05,
+        8.503681653780105e-05,
+        3.0089438758097653e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550650.3550472,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.05224123400012104,
+      "scan_receive_age_s": 0.16104255599998396,
+      "pose_age_s": 0.22127683212048338,
+      "scan_age_s": 0.22127683212048338,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11085305291133145,
+        -0.08017539183464167,
+        -0.29696441994876954
+      ],
+      "covariance": [
+        5.1786904856169005e-05,
+        7.971910614349483e-05,
+        2.4878101799968582e-05
+      ],
+      "scan_match": 0.9859154929577465,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550650.8626175,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.051792461999866646,
+      "scan_receive_age_s": 0.05059912199999417,
+      "pose_age_s": 0.17021794003088375,
+      "scan_age_s": 0.17021794003088375,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11130972758836666,
+        -0.07862540022104804,
+        -0.29701872541894697
+      ],
+      "covariance": [
+        5.024709985476834e-05,
+        7.692512706110408e-05,
+        2.666324643785512e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550651.386788,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.06480091299999913,
+      "scan_receive_age_s": 0.06340918000000784,
+      "pose_age_s": 0.1474128122883301,
+      "scan_age_s": 0.1474128122883301,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.1096780096761366,
+        -0.0837870554044366,
+        -0.2989942458194713
+      ],
+      "covariance": [
+        5.820472248146448e-05,
+        7.238207390845505e-05,
+        2.869495432778021e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550651.9031107,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.10722695599997678,
+      "scan_receive_age_s": 0.10623119799993219,
+      "pose_age_s": 0.46212000218627924,
+      "scan_age_s": 0.46212000218627924,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11280284742672776,
+        -0.08000587066329412,
+        -0.29752616427426526
+      ],
+      "covariance": [
+        5.80562498915492e-05,
+        7.46490748916159e-05,
+        2.7313468287609384e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550652.4153466,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.08276469099996575,
+      "scan_receive_age_s": 0.1849253510001745,
+      "pose_age_s": 0.28033093704040524,
+      "scan_age_s": 0.28033093704040524,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11070642274612975,
+        -0.08210336515044578,
+        -0.2993084442571197
+      ],
+      "covariance": [
+        5.640293194694723e-05,
+        7.010890330198024e-05,
+        2.928006152181973e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550652.9198892,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.07597823599985531,
+      "scan_receive_age_s": 0.19153396999990946,
+      "pose_age_s": 0.27880413128405757,
+      "scan_age_s": 0.27880413128405757,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11081046518139209,
+        -0.08175170077425414,
+        -0.29706644161571893
+      ],
+      "covariance": [
+        5.277436607338537e-05,
+        7.310743267329237e-05,
+        2.8828865077116016e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550653.4224713,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.1134726820000651,
+      "scan_receive_age_s": 0.21681890900003964,
+      "pose_age_s": 0.32547516853710934,
+      "scan_age_s": 0.32547516853710934,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11280405960025504,
+        -0.08373665377953428,
+        -0.2980768931394886
+      ],
+      "covariance": [
+        5.7864557011941264e-05,
+        7.187678157199312e-05,
+        2.738071747276072e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550653.925354,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.05785295600003337,
+      "scan_receive_age_s": 0.056908170000042446,
+      "pose_age_s": 0.18564777908996577,
+      "scan_age_s": 0.18564777908996577,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10859397695346328,
+        -0.08727165263550007,
+        -0.29811007381038407
+      ],
+      "covariance": [
+        6.088639947152315e-05,
+        7.013287029139417e-05,
+        2.5356891264479014e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550654.4494247,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.13190862500005096,
+      "scan_receive_age_s": 0.13058772999988832,
+      "pose_age_s": 0.7011340194769287,
+      "scan_age_s": 0.7011340194769287,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10859397695346328,
+        -0.08727165263550007,
+        -0.29811007381038407
+      ],
+      "covariance": [
+        6.088639947152315e-05,
+        7.013287029139417e-05,
+        2.5356891264479014e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550654.9722433,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.11962284199989881,
+      "scan_receive_age_s": 0.11832335500002955,
+      "pose_age_s": 0.2813628446086426,
+      "scan_age_s": 0.2813628446086426,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.109414486749279,
+        -0.07932797316342642,
+        -0.2975469206179176
+      ],
+      "covariance": [
+        6.20145256607918e-05,
+        7.47666921167376e-05,
+        2.4649439121210088e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550655.4882913,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.0832033499998488,
+      "scan_receive_age_s": 0.18004286099994715,
+      "pose_age_s": 0.4479213218223877,
+      "scan_age_s": 0.4479213218223877,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10951648647156349,
+        -0.08221203610254949,
+        -0.29695727178835557
+      ],
+      "covariance": [
+        6.575795131469331e-05,
+        7.680044902120143e-05,
+        2.594150723996816e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550656.0086224,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.056760469999971974,
+      "scan_receive_age_s": 0.05540579999978945,
+      "pose_age_s": 0.12400472226562498,
+      "scan_age_s": 0.12400472226562498,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10870459190924472,
+        -0.08091333407331833,
+        -0.2984204709535391
+      ],
+      "covariance": [
+        6.238665014474468e-05,
+        7.87854430290176e-05,
+        2.4441385341373805e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550656.52411,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.1315773450000961,
+      "scan_receive_age_s": 0.1303669979999995,
+      "pose_age_s": 0.2893170442559814,
+      "scan_age_s": 0.2893170442559814,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11235765376909956,
+        -0.08462481140790026,
+        -0.2975265376890217
+      ],
+      "covariance": [
+        6.025795701387025e-05,
+        8.164803898029049e-05,
+        2.311113359341285e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550657.0338576,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.07589024899994001,
+      "scan_receive_age_s": 0.17783941099992262,
+      "pose_age_s": 0.24822410180395504,
+      "scan_age_s": 0.24822410180395504,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.1108767974747461,
+        -0.08445571233329333,
+        -0.29813519499341223
+      ],
+      "covariance": [
+        5.674028351834379e-05,
+        8.748920407016924e-05,
+        2.2216851022028613e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550657.5406463,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.02356455599988294,
+      "scan_receive_age_s": 0.023408365000022968,
+      "pose_age_s": 0.5946128492825927,
+      "scan_age_s": 0.5946128492825927,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11117029115855274,
+        -0.080428940497287,
+        -0.2974975177544793
+      ],
+      "covariance": [
+        5.374764393489308e-05,
+        8.90677210732254e-05,
+        2.178197418949979e-05
+      ],
+      "scan_match": 0.9811320754716981,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550658.0536304,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.11085477000005994,
+      "scan_receive_age_s": 0.10974345499994342,
+      "pose_age_s": 0.4195999132271728,
+      "scan_age_s": 0.4195999132271728,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.1100453187332943,
+        -0.08330474556301207,
+        -0.297985291991548
+      ],
+      "covariance": [
+        4.7765333734713436e-05,
+        9.178994378371014e-05,
+        2.1089057320978338e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550658.5769486,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.04630000499992093,
+      "scan_receive_age_s": 0.16172565200008648,
+      "pose_age_s": 0.2920944840964355,
+      "scan_age_s": 0.2920944840964355,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11096314285605612,
+        -0.08586177122624684,
+        -0.2976616872955014
+      ],
+      "covariance": [
+        4.81441197171667e-05,
+        8.878545131651289e-05,
+        2.0945850955433177e-05
+      ],
+      "scan_match": 0.9879518072289156,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550659.0969758,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.10142255699997804,
+      "scan_receive_age_s": 0.20349354200016023,
+      "pose_age_s": 0.35157925433044424,
+      "scan_age_s": 0.35157925433044424,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10482528033321359,
+        -0.08922776411511837,
+        -0.2990931472300003
+      ],
+      "covariance": [
+        5.437621048726832e-05,
+        9.021764523020961e-05,
+        2.034439687208089e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550659.6067984,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.014132785999890984,
+      "scan_receive_age_s": 0.013988616999995429,
+      "pose_age_s": 0.3148865715906982,
+      "scan_age_s": 0.3148865715906982,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11000843999062888,
+        -0.08787452580680098,
+        -0.29799846200621577
+      ],
+      "covariance": [
+        5.1211619219017e-05,
+        8.645450977436218e-05,
+        2.0419392575501907e-05
+      ],
+      "scan_match": 0.974025974025974,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550660.1168747,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.06622255000002042,
+      "scan_receive_age_s": 0.06540422399984891,
+      "pose_age_s": 0.8349463955805664,
+      "scan_age_s": 0.8349463955805664,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11000843999062888,
+        -0.08787452580680098,
+        -0.29799846200621577
+      ],
+      "covariance": [
+        5.1211619219017e-05,
+        8.645450977436218e-05,
+        2.0419392575501907e-05
+      ],
+      "scan_match": 0.974025974025974,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550660.6213143,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.0008454400001483009,
+      "scan_receive_age_s": 0.11257194099994194,
+      "pose_age_s": 0.18639743367272948,
+      "scan_age_s": 0.18639743367272948,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11080305157549378,
+        -0.08778358643883907,
+        -0.29710431437947105
+      ],
+      "covariance": [
+        5.0504715120369e-05,
+        7.720944575553054e-05,
+        2.4102338465105868e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550661.139395,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.06581826900014676,
+      "scan_receive_age_s": 0.1712969410000369,
+      "pose_age_s": 0.19705947522851552,
+      "scan_age_s": 0.19705947522851552,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.1126194754130361,
+        -0.08222494053198627,
+        -0.29901092249117506
+      ],
+      "covariance": [
+        4.588543534693283e-05,
+        7.142427022726813e-05,
+        2.3046201654609646e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550661.6435053,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.03044591999992008,
+      "scan_receive_age_s": 0.1273450749999938,
+      "pose_age_s": 0.45136549311804197,
+      "scan_age_s": 0.45136549311804197,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11332691488053616,
+        -0.0857458757939032,
+        -0.29725812682141917
+      ],
+      "covariance": [
+        4.575502036405395e-05,
+        7.48151887058077e-05,
+        2.391713503385131e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550662.1623864,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.032021565000150076,
+      "scan_receive_age_s": 0.03189410699997097,
+      "pose_age_s": 0.3768659168532714,
+      "scan_age_s": 0.3768659168532714,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11037277539152286,
+        -0.08680055008312734,
+        -0.29612244710993957
+      ],
+      "covariance": [
+        4.751358872569049e-05,
+        6.952484974220071e-05,
+        2.042298999129478e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550662.686381,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.012824923999914972,
+      "scan_receive_age_s": 0.0070517220001420355,
+      "pose_age_s": 0.1892598020749512,
+      "scan_age_s": 0.1892598020749512,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10810194639396906,
+        -0.08440668392315606,
+        -0.2985663534129375
+      ],
+      "covariance": [
+        4.400359027436837e-05,
+        7.085346988406748e-05,
+        2.172085500010328e-05
+      ],
+      "scan_match": 0.9833333333333333,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550663.198531,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.09866261100000884,
+      "scan_receive_age_s": 0.09769775600011599,
+      "pose_age_s": 0.20751851424279785,
+      "scan_age_s": 0.20751851424279785,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.1121446365056299,
+        -0.08074225174997811,
+        -0.29676294404142206
+      ],
+      "covariance": [
+        4.387885160739985e-05,
+        7.657336062361336e-05,
+        2.365271162465179e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550663.7127376,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.07688243099983083,
+      "scan_receive_age_s": 0.17997646999992867,
+      "pose_age_s": 0.32480446327355955,
+      "scan_age_s": 0.32480446327355955,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11115698709710871,
+        -0.08617056319344082,
+        -0.2977908611758055
+      ],
+      "covariance": [
+        4.615599708091521e-05,
+        7.994250798312556e-05,
+        2.4875472232449076e-05
+      ],
+      "scan_match": 0.9861111111111112,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550664.2136135,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.05790140299995983,
+      "scan_receive_age_s": 0.1806078909999087,
+      "pose_age_s": 0.3236416573649902,
+      "scan_age_s": 0.3236416573649902,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11204005056117365,
+        -0.08588697622560947,
+        -0.2993197596240961
+      ],
+      "covariance": [
+        5.243002107004589e-05,
+        7.651780495040918e-05,
+        2.8494160628144634e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550664.738526,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.09790521700006138,
+      "scan_receive_age_s": 0.23567005599988988,
+      "pose_age_s": 0.34954817634387203,
+      "scan_age_s": 0.34954817634387203,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11082820536788461,
+        -0.0846628705243557,
+        -0.2983099704229506
+      ],
+      "covariance": [
+        5.174212486238651e-05,
+        8.564056956932107e-05,
+        2.803780641607239e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550665.239021,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.041043356000045605,
+      "scan_receive_age_s": 0.039903084000115996,
+      "pose_age_s": 0.15241432740954589,
+      "scan_age_s": 0.15241432740954589,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11149512220839104,
+        -0.08094460629858478,
+        -0.29826127808254105
+      ],
+      "covariance": [
+        5.320426301943203e-05,
+        8.034172469906578e-05,
+        3.016279695415642e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550665.7625196,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.09022718000005625,
+      "scan_receive_age_s": 0.08909552399995846,
+      "pose_age_s": 0.22908775391748049,
+      "scan_age_s": 0.22908775391748049,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.1123089579343476,
+        -0.08800401205833656,
+        -0.298117072681346
+      ],
+      "covariance": [
+        4.641096174847273e-05,
+        9.032497464641059e-05,
+        3.202477883779945e-05
+      ],
+      "scan_match": 0.9857142857142858,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550666.2678373,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.03311073600002601,
+      "scan_receive_age_s": 0.13632178200009548,
+      "pose_age_s": 0.48128578772387687,
+      "scan_age_s": 0.48128578772387687,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11148069294612373,
+        -0.08680860647488636,
+        -0.29853857304600384
+      ],
+      "covariance": [
+        4.997552007962591e-05,
+        8.850169907211221e-05,
+        3.0055158689909377e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550666.7902238,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.0652946200000315,
+      "scan_receive_age_s": 0.19202247699990949,
+      "pose_age_s": 0.30702239668872067,
+      "scan_age_s": 0.30702239668872067,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11192684770450408,
+        -0.09023136728236773,
+        -0.29769604443602765
+      ],
+      "covariance": [
+        4.875452076895902e-05,
+        8.731974336444008e-05,
+        2.921471895371182e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550667.294399,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.022852519000025495,
+      "scan_receive_age_s": 0.1462637970000742,
+      "pose_age_s": 0.5528227191762695,
+      "scan_age_s": 0.5528227191762695,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11601485864035435,
+        -0.07789716662586317,
+        -0.2969807123541906
+      ],
+      "covariance": [
+        5.046821228532443e-05,
+        8.805660771673152e-05,
+        2.8430971363013673e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550667.8185093,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.10631058099988877,
+      "scan_receive_age_s": 0.20856006700000762,
+      "pose_age_s": 0.2846087189421387,
+      "scan_age_s": 0.2846087189421387,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11672312409542365,
+        -0.08729760169155684,
+        -0.2977684133400071
+      ],
+      "covariance": [
+        4.662336272756758e-05,
+        9.529253698819032e-05,
+        3.128235927788305e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550668.3210332,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.04772972999990088,
+      "scan_receive_age_s": 0.04676157299991246,
+      "pose_age_s": 0.18835747948974607,
+      "scan_age_s": 0.18835747948974607,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11364834559731965,
+        -0.08552363395304274,
+        -0.29790539374441954
+      ],
+      "covariance": [
+        4.912624667170566e-05,
+        0.00010090108162198654,
+        3.29647591614689e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550668.8249521,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.0932618059998731,
+      "scan_receive_age_s": 0.09223668300001009,
+      "pose_age_s": 0.17860608431921388,
+      "scan_age_s": 0.17860608431921388,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.11219321993888921,
+        -0.08409004909284283,
+        -0.29884413240213303
+      ],
+      "covariance": [
+        5.2991013105758294e-05,
+        9.957962277831484e-05,
+        3.8309634740675583e-05
+      ],
+      "scan_match": 0.9873417721518988,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550669.34533,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.06910190000007788,
+      "scan_receive_age_s": 0.16912426599992614,
+      "pose_age_s": 0.25284729748352053,
+      "scan_age_s": 0.25284729748352053,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10974592433445891,
+        -0.08366394186316616,
+        -0.2982327368540758
+      ],
+      "covariance": [
+        4.992305852991388e-05,
+        0.00010889055096954554,
+        3.7335868373761225e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550669.8601935,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.1239575459999287,
+      "scan_receive_age_s": 0.23547573899986673,
+      "pose_age_s": 0.5722426110827636,
+      "scan_age_s": 0.5722426110827636,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10986169772216921,
+        -0.08887841253145248,
+        -0.29705045188786744
+      ],
+      "covariance": [
+        5.2401573266512916e-05,
+        0.00010866959327749878,
+        3.7612836883376514e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550670.3628275,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.15016085599995677,
+      "scan_receive_age_s": 0.2592142360001617,
+      "pose_age_s": 0.37839820389453127,
+      "scan_age_s": 0.37839820389453127,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10864181965224884,
+        -0.08952604169281722,
+        -0.2967492239930713
+      ],
+      "covariance": [
+        5.0696299370949285e-05,
+        9.65860002625999e-05,
+        3.340581862211467e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550670.8816745,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.037802806000172495,
+      "scan_receive_age_s": 0.03761417399982747,
+      "pose_age_s": 0.3526890462208252,
+      "scan_age_s": 0.3526890462208252,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.1044321069378533,
+        -0.09380905498510278,
+        -0.2886010451588413
+      ],
+      "covariance": [
+        5.7042286378554755e-05,
+        9.936691486099082e-05,
+        3.635129356388539e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550671.390664,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.06832403500015971,
+      "scan_receive_age_s": 0.06735390699986965,
+      "pose_age_s": 0.15108871811352537,
+      "scan_age_s": 0.15108871811352537,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.08260239807798211,
+        -0.1406574459037244,
+        -0.282136694101306
+      ],
+      "covariance": [
+        6.900020420829399e-05,
+        0.00010682334026634183,
+        4.3374120615464084e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550671.8972225,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.10789707300000373,
+      "scan_receive_age_s": 0.10671133499999996,
+      "pose_age_s": 0.25596778410314935,
+      "scan_age_s": 0.25596778410314935,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07173782174696855,
+        -0.1753184205018258,
+        -0.28137760141810825
+      ],
+      "covariance": [
+        7.239085276090126e-05,
+        0.00011218430447420061,
+        4.474216855344314e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550672.4011292,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.05481376900002033,
+      "scan_receive_age_s": 0.16436992200010536,
+      "pose_age_s": 0.21761474759936522,
+      "scan_age_s": 0.21761474759936522,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06189512551052301,
+        -0.19930307163115027,
+        -0.2795882978621302
+      ],
+      "covariance": [
+        7.426095045793332e-05,
+        0.00010464682679065668,
+        4.8289277264947436e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550672.90192,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.08406656900001508,
+      "scan_receive_age_s": 0.20021322599995983,
+      "pose_age_s": 0.3168402375407714,
+      "scan_age_s": 0.3168402375407714,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06531878775588837,
+        -0.19348772013796153,
+        -0.2793285527932936
+      ],
+      "covariance": [
+        7.731925653680412e-05,
+        0.00010742392301910098,
+        4.638933189098746e-05
+      ],
+      "scan_match": 0.9868421052631579,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550673.413599,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.026437874000066586,
+      "scan_receive_age_s": 0.02628190999985236,
+      "pose_age_s": 0.8215206326671142,
+      "scan_age_s": 0.8215206326671142,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06531878775588837,
+        -0.19348772013796153,
+        -0.2793285527932936
+      ],
+      "covariance": [
+        7.731925653680412e-05,
+        0.00010742392301910098,
+        4.638933189098746e-05
+      ],
+      "scan_match": 0.9868421052631579,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550673.9144192,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.008234633000029135,
+      "scan_receive_age_s": 0.14666468500013252,
+      "pose_age_s": 0.2250276058199463,
+      "scan_age_s": 0.2250276058199463,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.062210460676964126,
+        -0.19233466020494222,
+        -0.28027152334176186
+      ],
+      "covariance": [
+        7.005841290157319e-05,
+        0.00011527711961630688,
+        4.93842338984357e-05
+      ],
+      "scan_match": 0.9880952380952381,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550674.4172668,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.09487816900013968,
+      "scan_receive_age_s": 0.19884338299993942,
+      "pose_age_s": 0.28856688971655275,
+      "scan_age_s": 0.28856688971655275,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06771423504694526,
+        -0.19382296904672638,
+        -0.28089194003710505
+      ],
+      "covariance": [
+        7.05285548143449e-05,
+        0.00011929491503694101,
+        5.049926278949173e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550674.9263296,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.025058849999822996,
+      "scan_receive_age_s": 0.13626340599989817,
+      "pose_age_s": 0.23354325390356445,
+      "scan_age_s": 0.23354325390356445,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06679952481078683,
+        -0.1931632174987401,
+        -0.2811453761758022
+      ],
+      "covariance": [
+        7.189882338891253e-05,
+        0.00011615196534070504,
+        5.0222052152851104e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550675.4407358,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.03547443399997974,
+      "scan_receive_age_s": 0.16829313900007037,
+      "pose_age_s": 0.30219545819519045,
+      "scan_age_s": 0.30219545819519045,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06557678878247473,
+        -0.1969521486894858,
+        -0.28086837132668047
+      ],
+      "covariance": [
+        6.919850667164423e-05,
+        0.00011414629112541791,
+        5.3053259208957685e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550675.9427917,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.07563289099994108,
+      "scan_receive_age_s": 0.1817068279999603,
+      "pose_age_s": 0.3078096174936523,
+      "scan_age_s": 0.3078096174936523,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06907925532838909,
+        -0.18911240197471488,
+        -0.28050389191005193
+      ],
+      "covariance": [
+        7.2192312099921e-05,
+        0.00010779841347517694,
+        4.953682646875285e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550676.4522321,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.11836400000015601,
+      "scan_receive_age_s": 0.22781243800000084,
+      "pose_age_s": 0.8062448763590088,
+      "scan_age_s": 0.8062448763590088,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06907925532838909,
+        -0.18911240197471488,
+        -0.28050389191005193
+      ],
+      "covariance": [
+        7.2192312099921e-05,
+        0.00010779841347517694,
+        4.953682646875285e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550676.9635894,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.08130767300008301,
+      "scan_receive_age_s": 0.08028771799990864,
+      "pose_age_s": 0.43098404866845696,
+      "scan_age_s": 0.43098404866845696,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06564578106539386,
+        -0.193069209026076,
+        -0.28138201747209085
+      ],
+      "covariance": [
+        7.524983271821242e-05,
+        0.00010274272754336872,
+        4.35534070509122e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550677.4781058,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.1172447030000967,
+      "scan_receive_age_s": 0.11600226299992755,
+      "pose_age_s": 0.1883753238000488,
+      "scan_age_s": 0.1883753238000488,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06658878593434334,
+        -0.19454710483345697,
+        -0.2817149051910976
+      ],
+      "covariance": [
+        7.451902465420695e-05,
+        0.0001144756185562229,
+        4.286931666667068e-05
+      ],
+      "scan_match": 0.9861111111111112,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550677.9778082,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.003703564000034021,
+      "scan_receive_age_s": 0.12715666300005068,
+      "pose_age_s": 0.49232964122619627,
+      "scan_age_s": 0.49232964122619627,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06842865778497023,
+        -0.19702885239395723,
+        -0.2814019545524269
+      ],
+      "covariance": [
+        7.056797646220244e-05,
+        0.00011178554703953486,
+        4.315330289999616e-05
+      ],
+      "scan_match": 0.9722222222222222,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550678.4925163,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.07611449000000903,
+      "scan_receive_age_s": 0.17975519500009796,
+      "pose_age_s": 0.2096944030941162,
+      "scan_age_s": 0.2096944030941162,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06727535996443787,
+        -0.19434074582379238,
+        -0.28102469780182066
+      ],
+      "covariance": [
+        7.533594811752475e-05,
+        0.00010470771989667949,
+        4.3513711361003524e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550679.0106735,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.07559361800008446,
+      "scan_receive_age_s": 0.21318751800004065,
+      "pose_age_s": 0.32771599139990226,
+      "scan_age_s": 0.32771599139990226,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06954406986491513,
+        -0.18904423731373116,
+        -0.2817705337275696
+      ],
+      "covariance": [
+        7.076478933871252e-05,
+        0.00010438550703987387,
+        4.059841162020785e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550679.5142925,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.06579934899991713,
+      "scan_receive_age_s": 0.2035660999999891,
+      "pose_age_s": 0.8440815195065917,
+      "scan_age_s": 0.8440815195065917,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06954406986491513,
+        -0.18904423731373116,
+        -0.2817705337275696
+      ],
+      "covariance": [
+        7.076478933871252e-05,
+        0.00010438550703987387,
+        4.059841162020785e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550680.0245965,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.03919419699991522,
+      "scan_receive_age_s": 0.1445346119999158,
+      "pose_age_s": 0.23308694486132808,
+      "scan_age_s": 0.23308694486132808,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07264284314412923,
+        -0.19433691179154713,
+        -0.28203316519499744
+      ],
+      "covariance": [
+        8.530514191967126e-05,
+        9.837651582559476e-05,
+        3.577660510854262e-05
+      ],
+      "scan_match": 0.9545454545454546,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550680.547595,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.07170908000011877,
+      "scan_receive_age_s": 0.1760139360001176,
+      "pose_age_s": 0.3097709405916748,
+      "scan_age_s": 0.3097709405916748,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06724802414904467,
+        -0.19212345001252681,
+        -0.2815725934456937
+      ],
+      "covariance": [
+        8.389282257689756e-05,
+        9.520788894708254e-05,
+        3.089356678884258e-05
+      ],
+      "scan_match": 0.9838709677419355,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550681.0599267,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.027507423000088238,
+      "scan_receive_age_s": 0.026351174000183164,
+      "pose_age_s": 0.5634799298671874,
+      "scan_age_s": 0.5634799298671874,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.0684319999568577,
+        -0.18909906241133975,
+        -0.2801177029303509
+      ],
+      "covariance": [
+        7.805243482677734e-05,
+        0.00010632569145151843,
+        2.9979479663456356e-05
+      ],
+      "scan_match": 0.971830985915493,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550681.5694542,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.10393837399988115,
+      "scan_receive_age_s": 0.10300112799995986,
+      "pose_age_s": 0.1828048743840332,
+      "scan_age_s": 0.1828048743840332,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06616063582901106,
+        -0.19118199911832534,
+        -0.2807609056676775
+      ],
+      "covariance": [
+        7.561647767889354e-05,
+        0.00011217020725361876,
+        3.4112145727908014e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550682.0876014,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.05954364399985934,
+      "scan_receive_age_s": 0.1764967639999213,
+      "pose_age_s": 0.44817569480847164,
+      "scan_age_s": 0.44817569480847164,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06829575148211144,
+        -0.18597859684586923,
+        -0.28134095832886746
+      ],
+      "covariance": [
+        7.237012275761786e-05,
+        0.00010463046434019962,
+        3.311777130672617e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550682.5880892,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.06512060900013239,
+      "scan_receive_age_s": 0.16876135400002568,
+      "pose_age_s": 0.25423014670336913,
+      "scan_age_s": 0.25423014670336913,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06926130182283426,
+        -0.19380616086904037,
+        -0.2819341180346624
+      ],
+      "covariance": [
+        7.654212386982301e-05,
+        0.00010647568178769745,
+        3.381254413320648e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550683.0907402,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.09175159200003691,
+      "scan_receive_age_s": 0.1927731760001734,
+      "pose_age_s": 0.2930489325423583,
+      "scan_age_s": 0.2930489325423583,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06773400659223988,
+        -0.18675345868934407,
+        -0.2801560119124281
+      ],
+      "covariance": [
+        7.430816428054092e-05,
+        9.854117702345205e-05,
+        3.251778012922475e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550683.5963721,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.003099106000036045,
+      "scan_receive_age_s": 0.002938287000006312,
+      "pose_age_s": 0.7992945456405028,
+      "scan_age_s": 0.7992945456405028,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06773400659223988,
+        -0.18675345868934407,
+        -0.2801560119124281
+      ],
+      "covariance": [
+        7.430816428054092e-05,
+        9.854117702345205e-05,
+        3.251778012922475e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550684.1081908,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.09048478699992302,
+      "scan_receive_age_s": 0.1968948400001409,
+      "pose_age_s": 0.26692282626782227,
+      "scan_age_s": 0.26692282626782227,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06765709853973853,
+        -0.18879671834995773,
+        -0.2824900235329762
+      ],
+      "covariance": [
+        6.931665317766976e-05,
+        9.798072292427351e-05,
+        3.386434481385005e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550684.6246793,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.06863853400000153,
+      "scan_receive_age_s": 0.06762880100018265,
+      "pose_age_s": 0.5283906786132813,
+      "scan_age_s": 0.5283906786132813,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06590508446192228,
+        -0.19227911989248947,
+        -0.28072870387353493
+      ],
+      "covariance": [
+        7.135181284279035e-05,
+        0.0001097958324333681,
+        3.2164457752812827e-05
+      ],
+      "scan_match": 0.9875,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550685.13213,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.12134086800006116,
+      "scan_receive_age_s": 0.12027753800020946,
+      "pose_age_s": 0.1962497737279052,
+      "scan_age_s": 0.1962497737279052,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06932387648123291,
+        -0.18924098425500036,
+        -0.2797564036042552
+      ],
+      "covariance": [
+        6.886027506747966e-05,
+        0.00011366216597291645,
+        2.7735352778949802e-05
+      ],
+      "scan_match": 0.9682539682539683,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550685.636831,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.06196670899998935,
+      "scan_receive_age_s": 0.1777570049998758,
+      "pose_age_s": 0.6899242904057616,
+      "scan_age_s": 0.6899242904057616,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06932387648123291,
+        -0.18924098425500036,
+        -0.2797564036042552
+      ],
+      "covariance": [
+        6.886027506747966e-05,
+        0.00011366216597291645,
+        2.7735352778949802e-05
+      ],
+      "scan_match": 0.9682539682539683,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550686.1420183,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.04440967200002888,
+      "scan_receive_age_s": 0.04338530600011836,
+      "pose_age_s": 0.15093003755114745,
+      "scan_age_s": 0.15093003755114745,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06520718088440533,
+        -0.18919830645825234,
+        -0.2802312942045135
+      ],
+      "covariance": [
+        6.260783673545881e-05,
+        0.00011377922648737188,
+        2.6134465082226905e-05
+      ],
+      "scan_match": 0.9692307692307692,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550686.6619139,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.0807189820000076,
+      "scan_receive_age_s": 0.07961679799996091,
+      "pose_age_s": 0.17111565451232902,
+      "scan_age_s": 0.17111565451232902,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06633981618762815,
+        -0.19123838534166904,
+        -0.2786925330528028
+      ],
+      "covariance": [
+        6.486700797984479e-05,
+        0.00010638456515445205,
+        2.5317992627202942e-05
+      ],
+      "scan_match": 0.9850746268656716,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550687.1749773,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.1326772779998464,
+      "scan_receive_age_s": 0.1316279550001127,
+      "pose_age_s": 0.18521435158911131,
+      "scan_age_s": 0.18521435158911131,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07049548912343626,
+        -0.1884097344691565,
+        -0.280980233453943
+      ],
+      "covariance": [
+        6.0541549005342817e-05,
+        0.00010549645291751952,
+        2.231922206348999e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550687.7001302,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.08857872699991276,
+      "scan_receive_age_s": 0.204273220999994,
+      "pose_age_s": 0.26655580238415527,
+      "scan_age_s": 0.26655580238415527,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.0680999848594851,
+        -0.19132441776837164,
+        -0.2790650141154708
+      ],
+      "covariance": [
+        5.85150464340713e-05,
+        0.00010416227085187357,
+        2.0580079488495013e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550688.2065892,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.05475969500002975,
+      "scan_receive_age_s": 0.053533690999984174,
+      "pose_age_s": 0.5660930876390381,
+      "scan_age_s": 0.5660930876390381,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.0689548369240178,
+        -0.1887075287568201,
+        -0.28134029705800395
+      ],
+      "covariance": [
+        6.123894013055145e-05,
+        0.00010631021415406089,
+        2.129493324781234e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550688.7226446,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.1284377689999019,
+      "scan_receive_age_s": 0.1273933989998568,
+      "pose_age_s": 0.23678389740393058,
+      "scan_age_s": 0.23678389740393058,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06970766434907445,
+        -0.18693753970984883,
+        -0.28035148844165264
+      ],
+      "covariance": [
+        6.507050847929467e-05,
+        0.00010167307853246182,
+        2.3848698523289967e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550689.237545,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.1012811849998343,
+      "scan_receive_age_s": 0.19783759100005227,
+      "pose_age_s": 0.7492846603433837,
+      "scan_age_s": 0.7492846603433837,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06970766434907445,
+        -0.18693753970984883,
+        -0.28035148844165264
+      ],
+      "covariance": [
+        6.507050847929467e-05,
+        0.00010167307853246182,
+        2.3848698523289967e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550689.7455606,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.03863691499986999,
+      "scan_receive_age_s": 0.037440564000007726,
+      "pose_age_s": 0.2984345755072021,
+      "scan_age_s": 0.2984345755072021,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07023677325142214,
+        -0.1891755193012956,
+        -0.2800579724453804
+      ],
+      "covariance": [
+        6.126614012065719e-05,
+        0.00010883859130031426,
+        2.6927656427505195e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550690.247474,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.11205100799998036,
+      "scan_receive_age_s": 0.11104084399994463,
+      "pose_age_s": 0.20561076825524902,
+      "scan_age_s": 0.20561076825524902,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06780781399529688,
+        -0.19269858423038566,
+        -0.27976677221043683
+      ],
+      "covariance": [
+        6.1008121336920094e-05,
+        0.0001303105199224261,
+        2.7227746777952985e-05
+      ],
+      "scan_match": 0.9830508474576272,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550690.7627695,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.07701702700001078,
+      "scan_receive_age_s": 0.1735132909998356,
+      "pose_age_s": 0.2653211093272705,
+      "scan_age_s": 0.2653211093272705,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07003839945751436,
+        -0.19014262475633908,
+        -0.2819612016094772
+      ],
+      "covariance": [
+        6.206538781375077e-05,
+        0.00013288149001110944,
+        2.8953691394579347e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550691.2746904,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.0380092750001495,
+      "scan_receive_age_s": 0.2593006100000821,
+      "pose_age_s": 0.2937369792811279,
+      "scan_age_s": 0.2937369792811279,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07063786805007426,
+        -0.19422851686636003,
+        -0.28203600281117097
+      ],
+      "covariance": [
+        6.595031902731883e-05,
+        0.00013461517250741573,
+        2.6856227312797666e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550691.7970057,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.08196204699993359,
+      "scan_receive_age_s": 0.18276623000019754,
+      "pose_age_s": 0.2625911517293701,
+      "scan_age_s": 0.2625911517293701,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.068654537808373,
+        -0.1957615442972422,
+        -0.28203366343374336
+      ],
+      "covariance": [
+        6.646136503413169e-05,
+        0.00011705240162040997,
+        2.955701413566132e-05
+      ],
+      "scan_match": 0.9722222222222222,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550692.3093092,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.056022019000010914,
+      "scan_receive_age_s": 0.05473026000004211,
+      "pose_age_s": 0.5702732787086181,
+      "scan_age_s": 0.5702732787086181,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07047505738000173,
+        -0.19444307774342565,
+        -0.28264585906714607
+      ],
+      "covariance": [
+        6.5519947486538e-05,
+        0.00011824424341124601,
+        3.040349380691098e-05
+      ],
+      "scan_match": 0.9868421052631579,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550692.8301995,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.02240979599991988,
+      "scan_receive_age_s": 0.1286984810001286,
+      "pose_age_s": 0.24635389294873045,
+      "scan_age_s": 0.24635389294873045,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06692220857437461,
+        -0.19096904898634967,
+        -0.2828633429597667
+      ],
+      "covariance": [
+        5.607447611342877e-05,
+        0.00010476272065491898,
+        2.8546438711424625e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550693.345872,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.07280356499995833,
+      "scan_receive_age_s": 0.19507008499999756,
+      "pose_age_s": 0.29798636522424315,
+      "scan_age_s": 0.29798636522424315,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.0703514741999181,
+        -0.19531967138489645,
+        -0.28199479789433307
+      ],
+      "covariance": [
+        5.693029446755902e-05,
+        0.00010320375695909573,
+        2.8951308190418123e-05
+      ],
+      "scan_match": 0.9873417721518988,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550693.8657794,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.11218552699983775,
+      "scan_receive_age_s": 0.2155796829999872,
+      "pose_age_s": 0.2828677509741211,
+      "scan_age_s": 0.2828677509741211,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06370354529007795,
+        -0.19714890778140112,
+        -0.28290297236315204
+      ],
+      "covariance": [
+        5.6649128152415525e-05,
+        9.52388473738422e-05,
+        3.171512291196461e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550694.3782122,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.012466354000025603,
+      "scan_receive_age_s": 0.012241979999998875,
+      "pose_age_s": 0.6432453375957031,
+      "scan_age_s": 0.6432453375957031,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06882205626144855,
+        -0.19596525622161393,
+        -0.28177525437947293
+      ],
+      "covariance": [
+        5.67853062412001e-05,
+        9.929984627158467e-05,
+        3.312654834862514e-05
+      ],
+      "scan_match": 0.9864864864864865,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550694.8901188,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.08160664000001816,
+      "scan_receive_age_s": 0.08059165200006646,
+      "pose_age_s": 0.3978753952269287,
+      "scan_age_s": 0.3978753952269287,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06773671768191852,
+        -0.1956133044190935,
+        -0.28130905543521006
+      ],
+      "covariance": [
+        6.065346713267014e-05,
+        0.00010197627543399174,
+        3.535381320787599e-05
+      ],
+      "scan_match": 0.9848484848484849,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550695.4065578,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.033081252999863864,
+      "scan_receive_age_s": 0.13145696099991255,
+      "pose_age_s": 0.21632540247021484,
+      "scan_age_s": 0.21632540247021484,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06738049418300396,
+        -0.19252682932152038,
+        -0.28356574434266
+      ],
+      "covariance": [
+        6.522598461468528e-05,
+        9.946048407818986e-05,
+        3.467454117510321e-05
+      ],
+      "scan_match": 0.9830508474576272,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550695.9082856,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.0823926670000219,
+      "scan_receive_age_s": 0.18300167500001407,
+      "pose_age_s": 0.717677951069458,
+      "scan_age_s": 0.717677951069458,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06738049418300396,
+        -0.19252682932152038,
+        -0.28356574434266
+      ],
+      "covariance": [
+        6.522598461468528e-05,
+        9.946048407818986e-05,
+        3.467454117510321e-05
+      ],
+      "scan_match": 0.9830508474576272,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550696.4086547,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.03341543100009403,
+      "scan_receive_age_s": 0.03240898399985781,
+      "pose_age_s": 0.3705946690928955,
+      "scan_age_s": 0.3705946690928955,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07311043065480946,
+        -0.19231427213227678,
+        -0.28477569428442867
+      ],
+      "covariance": [
+        7.225863612184656e-05,
+        9.775698942986188e-05,
+        3.2034436059380626e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550696.9325366,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.09614070400016317,
+      "scan_receive_age_s": 0.09490883800003758,
+      "pose_age_s": 0.24137288172717286,
+      "scan_age_s": 0.24137288172717286,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06743820894315483,
+        -0.1944384540526489,
+        -0.28271900359604063
+      ],
+      "covariance": [
+        7.662570674154233e-05,
+        0.00012163260562698258,
+        3.568882688389163e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550697.4343178,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.13192918499998996,
+      "scan_receive_age_s": 0.1308493129999988,
+      "pose_age_s": 0.24254004318774414,
+      "scan_age_s": 0.24254004318774414,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06923373816871133,
+        -0.19332243456696319,
+        -0.28359679083858075
+      ],
+      "covariance": [
+        6.927980816364646e-05,
+        0.00012038262019206658,
+        3.7082645348812165e-05
+      ],
+      "scan_match": 0.9873417721518988,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550697.9580846,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.0019741119999707735,
+      "scan_receive_age_s": 0.14627661300005457,
+      "pose_age_s": 0.5241643812006835,
+      "scan_age_s": 0.5241643812006835,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06610750694544701,
+        -0.19299136480585155,
+        -0.27974702284506536
+      ],
+      "covariance": [
+        7.068677621370999e-05,
+        0.00012677107571551494,
+        3.640908861631372e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550698.4833581,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.08453478299998096,
+      "scan_receive_age_s": 0.20261221900000237,
+      "pose_age_s": 0.5481302258685302,
+      "scan_age_s": 0.5481302258685302,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06326575068577701,
+        -0.19481000756167022,
+        -0.28152134093615694
+      ],
+      "covariance": [
+        6.832659660231579e-05,
+        0.00011875763656021138,
+        3.468749570270303e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550699.0015342,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.11198933099990427,
+      "scan_receive_age_s": 0.2134341129999484,
+      "pose_age_s": 0.30552149643005366,
+      "scan_age_s": 0.30552149643005366,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06612589854765913,
+        -0.19538651222511189,
+        -0.28137336065683394
+      ],
+      "covariance": [
+        7.069700851734199e-05,
+        0.0001366231286873687,
+        3.343248532867745e-05
+      ],
+      "scan_match": 0.9861111111111112,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550699.5111368,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.06459412899994277,
+      "scan_receive_age_s": 0.06359214600001906,
+      "pose_age_s": 0.11478043525878906,
+      "scan_age_s": 0.11478043525878906,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06558513785871035,
+        -0.18857622109304487,
+        -0.2799444216661484
+      ],
+      "covariance": [
+        7.322096063169196e-05,
+        0.00012531953936363582,
+        3.486813252198987e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550700.0134163,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.1176087409999127,
+      "scan_receive_age_s": 0.21706765799990535,
+      "pose_age_s": 0.2934149134100341,
+      "scan_age_s": 0.2934149134100341,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06763287937207177,
+        -0.19239118095547983,
+        -0.28164347408141704
+      ],
+      "covariance": [
+        7.441437581162582e-05,
+        0.000122787042333386,
+        3.516513828948863e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550700.5257027,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.08094121499993889,
+      "scan_receive_age_s": 0.07983055099998637,
+      "pose_age_s": 0.5967796971271973,
+      "scan_age_s": 0.5967796971271973,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06599622580801605,
+        -0.18776513769925632,
+        -0.28203811535857404
+      ],
+      "covariance": [
+        7.231732068305533e-05,
+        0.00012151229395426094,
+        3.333512010007837e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550701.035694,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.057580534000180705,
+      "scan_receive_age_s": 0.16786966900008338,
+      "pose_age_s": 0.31412434998095695,
+      "scan_age_s": 0.31412434998095695,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06549006393000276,
+        -0.19043811220855955,
+        -0.2821093009485544
+      ],
+      "covariance": [
+        7.153300748720219e-05,
+        0.00010719707018025382,
+        3.113969508064906e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550701.547134,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.07378320200018607,
+      "scan_receive_age_s": 0.17215279900005953,
+      "pose_age_s": 0.29900485261450194,
+      "scan_age_s": 0.29900485261450194,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06997777895978385,
+        -0.18178239295998158,
+        -0.28202906784021275
+      ],
+      "covariance": [
+        7.582376926720119e-05,
+        0.00011097091677970267,
+        3.125508223601648e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550702.0688636,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.07542851999983213,
+      "scan_receive_age_s": 0.074340323999877,
+      "pose_age_s": 0.2299734294791259,
+      "scan_age_s": 0.2299734294791259,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06968646265788563,
+        -0.191117910339943,
+        -0.28177788906015266
+      ],
+      "covariance": [
+        7.495574591099077e-05,
+        0.0001190612936182861,
+        3.068592896281911e-05
+      ],
+      "scan_match": 0.9876543209876543,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550702.5937304,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.04569569600016621,
+      "scan_receive_age_s": 0.15515597800003889,
+      "pose_age_s": 0.7504526317496337,
+      "scan_age_s": 0.7504526317496337,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06968646265788563,
+        -0.191117910339943,
+        -0.28177788906015266
+      ],
+      "covariance": [
+        7.495574591099077e-05,
+        0.0001190612936182861,
+        3.068592896281911e-05
+      ],
+      "scan_match": 0.9876543209876543,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550703.1179016,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.03855072900000778,
+      "scan_receive_age_s": 0.03330102499990062,
+      "pose_age_s": 0.34193289449975584,
+      "scan_age_s": 0.34193289449975584,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.0647344937961897,
+        -0.1887631001714725,
+        -0.28149123279793814
+      ],
+      "covariance": [
+        7.404502679975774e-05,
+        0.00014302723211369328,
+        2.8907363489057595e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550703.629214,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.09158021799999005,
+      "scan_receive_age_s": 0.2954042409999147,
+      "pose_age_s": 0.3334475520427246,
+      "scan_age_s": 0.3334475520427246,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06706410857086083,
+        -0.19421573064711437,
+        -0.28177659736277766
+      ],
+      "covariance": [
+        7.61506287597748e-05,
+        0.00013355554950624654,
+        2.726350706200675e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550704.1496851,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.08328669699994862,
+      "scan_receive_age_s": 0.08216777699999511,
+      "pose_age_s": 0.17053965755529785,
+      "scan_age_s": 0.17053965755529785,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06747573172560016,
+        -0.19137201691283828,
+        -0.28054909970215575
+      ],
+      "covariance": [
+        7.846234572470717e-05,
+        0.00011421966554959334,
+        2.4030894100953226e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550704.6585743,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.06075369400014097,
+      "scan_receive_age_s": 0.15805044699982318,
+      "pose_age_s": 0.22703464503247067,
+      "scan_age_s": 0.22703464503247067,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06487352472493742,
+        -0.18652210290830742,
+        -0.2799631539228084
+      ],
+      "covariance": [
+        7.929123820829206e-05,
+        0.000108415846447385,
+        2.338263119938562e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550705.1630402,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.09113802899992152,
+      "scan_receive_age_s": 0.0899311939999734,
+      "pose_age_s": 0.1306344306960449,
+      "scan_age_s": 0.1306344306960449,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06761823578171035,
+        -0.18826801916727903,
+        -0.2810393398994167
+      ],
+      "covariance": [
+        7.359187766832129e-05,
+        0.00010526333520713416,
+        2.388322951840483e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550705.670346,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.02786355599982926,
+      "scan_receive_age_s": 0.12594176599986895,
+      "pose_age_s": 0.2749548582861328,
+      "scan_age_s": 0.2749548582861328,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06204810692693222,
+        -0.18961407723105714,
+        -0.28106918757124505
+      ],
+      "covariance": [
+        7.202934080526979e-05,
+        0.0001053392060465369,
+        2.44350382111568e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550706.1910045,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.0886989599998742,
+      "scan_receive_age_s": 0.08740223999984664,
+      "pose_age_s": 0.15652238554077147,
+      "scan_age_s": 0.15652238554077147,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06467365993776604,
+        -0.18864363939990966,
+        -0.28023866301146066
+      ],
+      "covariance": [
+        7.019003183138337e-05,
+        0.00011234066869445641,
+        2.6839651271565274e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550706.6911423,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.11626265900008548,
+      "scan_receive_age_s": 0.21506937699996342,
+      "pose_age_s": 0.3500026439671631,
+      "scan_age_s": 0.3500026439671631,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06302413748718202,
+        -0.1898607691033854,
+        -0.28023216164092285
+      ],
+      "covariance": [
+        7.273595335215328e-05,
+        0.00011124437491189659,
+        2.7661835029862562e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550707.2093084,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.09243014399999083,
+      "scan_receive_age_s": 0.09129800499999874,
+      "pose_age_s": 0.4186958151785888,
+      "scan_age_s": 0.4186958151785888,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.0704395529668674,
+        -0.18959500617340108,
+        -0.28092307420884655
+      ],
+      "covariance": [
+        7.144520779982233e-05,
+        0.00011285645586301546,
+        2.909770818460142e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550707.720855,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.056607638999821575,
+      "scan_receive_age_s": 0.1589556190001531,
+      "pose_age_s": 0.28171469275708005,
+      "scan_age_s": 0.28171469275708005,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06810162668360933,
+        -0.1915241824473744,
+        -0.27986619433330273
+      ],
+      "covariance": [
+        7.516717104544442e-05,
+        0.00010846634723084975,
+        2.8546858751427523e-05
+      ],
+      "scan_match": 0.9875,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550708.2456906,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.03979067600016606,
+      "scan_receive_age_s": 0.038697801999887815,
+      "pose_age_s": 0.34893996058020016,
+      "scan_age_s": 0.34893996058020016,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.0675184902049209,
+        -0.18734444761349395,
+        -0.2789012976151298
+      ],
+      "covariance": [
+        7.30318504732156e-05,
+        0.00011230130099576519,
+        2.8099977878395717e-05
+      ],
+      "scan_match": 0.9855072463768116,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550708.7644668,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.02578381399985119,
+      "scan_receive_age_s": 0.12244764299998678,
+      "pose_age_s": 0.8671317750028076,
+      "scan_age_s": 0.8671317750028076,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.0675184902049209,
+        -0.18734444761349395,
+        -0.2789012976151298
+      ],
+      "covariance": [
+        7.30318504732156e-05,
+        0.00011230130099576519,
+        2.8099977878395717e-05
+      ],
+      "scan_match": 0.9855072463768116,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550709.2808154,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.1062377830000969,
+      "scan_receive_age_s": 0.21408158999997795,
+      "pose_age_s": 0.33801741805664054,
+      "scan_age_s": 0.33801741805664054,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06780310413720257,
+        -0.19237520770617916,
+        -0.2815951244326778
+      ],
+      "covariance": [
+        7.89147048388594e-05,
+        0.00012001227626737276,
+        2.8163227182769427e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550709.7939324,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.04846685000006801,
+      "scan_receive_age_s": 0.047463622000122996,
+      "pose_age_s": 0.19766042623376456,
+      "scan_age_s": 0.19766042623376456,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07052377610988042,
+        -0.18945761126683883,
+        -0.28137327819508273
+      ],
+      "covariance": [
+        7.475367178931287e-05,
+        0.0001333443876735188,
+        2.8572972400312673e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550710.3074758,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.0950114309998753,
+      "scan_receive_age_s": 0.09393855400003304,
+      "pose_age_s": 0.362109242821289,
+      "scan_age_s": 0.362109242821289,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06686930931261492,
+        -0.1854927176227775,
+        -0.28175306120851606
+      ],
+      "covariance": [
+        6.906015380397056e-05,
+        0.00013255498678932387,
+        2.8414124983568362e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550710.8323963,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.07477446699999746,
+      "scan_receive_age_s": 0.18186289200002648,
+      "pose_age_s": 0.3375400223326416,
+      "scan_age_s": 0.3375400223326416,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06870385758009469,
+        -0.18592463940834217,
+        -0.2812984261562734
+      ],
+      "covariance": [
+        7.362107893505321e-05,
+        0.0001324833049423657,
+        2.7275473835094732e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550711.3525317,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.025983259000213366,
+      "scan_receive_age_s": 0.02497201899996071,
+      "pose_age_s": 0.3552379968092041,
+      "scan_age_s": 0.3552379968092041,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07099346167670609,
+        -0.1883372729890023,
+        -0.282079508238325
+      ],
+      "covariance": [
+        7.392715445117548e-05,
+        0.00012564200510937346,
+        2.345707960863411e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550711.8716772,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.0889911149999989,
+      "scan_receive_age_s": 0.08796069699997133,
+      "pose_age_s": 0.3886092476472167,
+      "scan_age_s": 0.3886092476472167,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06744764558933891,
+        -0.18970668073870342,
+        -0.2802327152693717
+      ],
+      "covariance": [
+        7.054063747958562e-05,
+        0.00012451580793109568,
+        2.2820324890769593e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550712.3819969,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.014338210000005347,
+      "scan_receive_age_s": 0.12457517999996526,
+      "pose_age_s": 0.23931146468188474,
+      "scan_age_s": 0.23931146468188474,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06959997835625459,
+        -0.18692246264322085,
+        -0.2815821507218436
+      ],
+      "covariance": [
+        6.829123964822992e-05,
+        0.00012562712150580857,
+        2.4072117254199418e-05
+      ],
+      "scan_match": 0.9857142857142858,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550712.895726,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.10204418800003623,
+      "scan_receive_age_s": 0.20006876999991619,
+      "pose_age_s": 0.5488655077475586,
+      "scan_age_s": 0.5488655077475586,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06971262542049023,
+        -0.18559414645232644,
+        -0.28164012506695313
+      ],
+      "covariance": [
+        6.916675922826517e-05,
+        0.0001282325330945952,
+        2.6453384088239813e-05
+      ],
+      "scan_match": 0.9864864864864865,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550713.401681,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.08068942299996706,
+      "scan_receive_age_s": 0.07966168500001913,
+      "pose_age_s": 0.16037392739160156,
+      "scan_age_s": 0.16037392739160156,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07337730102717845,
+        -0.18739249686337964,
+        -0.2827789780900627
+      ],
+      "covariance": [
+        6.761045303064778e-05,
+        0.00011897274161636745,
+        3.090042858694964e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550713.909233,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.05195674300011888,
+      "scan_receive_age_s": 0.050751300999991145,
+      "pose_age_s": 0.1679329307325439,
+      "scan_age_s": 0.1679329307325439,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06833346304188219,
+        -0.18440501289388544,
+        -0.2808093979854687
+      ],
+      "covariance": [
+        6.860757452906759e-05,
+        0.00011900585477830905,
+        3.383100262367241e-05
+      ],
+      "scan_match": 0.9795918367346939,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550714.4134166,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.07723215000009986,
+      "scan_receive_age_s": 0.07625670600009471,
+      "pose_age_s": 0.21635381470166015,
+      "scan_age_s": 0.21635381470166015,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.0681511355031376,
+        -0.18776532002817786,
+        -0.281218910344615
+      ],
+      "covariance": [
+        6.984437725065986e-05,
+        0.00012151214766063095,
+        3.069764258279147e-05
+      ],
+      "scan_match": 0.9830508474576272,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550714.9199202,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.058643622000090545,
+      "scan_receive_age_s": 0.1558610200002022,
+      "pose_age_s": 0.7372259307905273,
+      "scan_age_s": 0.7372259307905273,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.0681511355031376,
+        -0.18776532002817786,
+        -0.281218910344615
+      ],
+      "covariance": [
+        6.984437725065986e-05,
+        0.00012151214766063095,
+        3.069764258279147e-05
+      ],
+      "scan_match": 0.9830508474576272,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550715.438433,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.11251652000009926,
+      "scan_receive_age_s": 0.21614587699991716,
+      "pose_age_s": 0.49536070908984364,
+      "scan_age_s": 0.49536070908984364,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06897483545316511,
+        -0.18888865810139072,
+        -0.281281947675377
+      ],
+      "covariance": [
+        6.443652805815294e-05,
+        0.00012454766441701015,
+        3.0523022932463016e-05
+      ],
+      "scan_match": 0.9864864864864865,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550715.9523542,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.06622233200005212,
+      "scan_receive_age_s": 0.06507498399992073,
+      "pose_age_s": 0.2105736321020507,
+      "scan_age_s": 0.2105736321020507,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06746769864387528,
+        -0.1898598197449904,
+        -0.28441967677220964
+      ],
+      "covariance": [
+        6.652270957209147e-05,
+        0.0001403511979667163,
+        3.276806919301718e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550716.4608269,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.015000899999904505,
+      "scan_receive_age_s": 0.12039991799997551,
+      "pose_age_s": 0.26203038560717773,
+      "scan_age_s": 0.26203038560717773,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06723845054477391,
+        -0.19245301520220542,
+        -0.2811738052057029
+      ],
+      "covariance": [
+        6.378023909259147e-05,
+        0.00013962666199152096,
+        3.448087404583765e-05
+      ],
+      "scan_match": 0.9868421052631579,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550716.9628823,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.07515409500001624,
+      "scan_receive_age_s": 0.18868947999999364,
+      "pose_age_s": 0.272267166935913,
+      "scan_age_s": 0.272267166935913,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07115077039053877,
+        -0.19114140746827832,
+        -0.2815032022535876
+      ],
+      "covariance": [
+        7.438340981335157e-05,
+        0.0001282032120670587,
+        3.56645365123126e-05
+      ],
+      "scan_match": 0.9875,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550717.4859157,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.03173181199986175,
+      "scan_receive_age_s": 0.1376177629999802,
+      "pose_age_s": 0.4937734983041992,
+      "scan_age_s": 0.4937734983041992,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07301826196331283,
+        -0.1876335276947666,
+        -0.2819237397971598
+      ],
+      "covariance": [
+        7.484197296722759e-05,
+        0.00011963626672883976,
+        3.80933305603839e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550718.0008128,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.08335713299993586,
+      "scan_receive_age_s": 0.19591114400009246,
+      "pose_age_s": 0.3100018237147216,
+      "scan_age_s": 0.3100018237147216,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07171029471790376,
+        -0.18640384033379875,
+        -0.28213399965298847
+      ],
+      "covariance": [
+        7.37947749395642e-05,
+        0.00012702429685539085,
+        3.116158415484609e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550718.521981,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.07310838900002636,
+      "scan_receive_age_s": 0.07184777199995551,
+      "pose_age_s": 0.18813812452307127,
+      "scan_age_s": 0.18813812452307127,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06731020228710101,
+        -0.19194474468471392,
+        -0.2825033725028955
+      ],
+      "covariance": [
+        7.122555552069483e-05,
+        0.0001390333348049444,
+        3.005072990330349e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550719.0343258,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.11684394399981102,
+      "scan_receive_age_s": 0.11575866399994084,
+      "pose_age_s": 0.24634890810644527,
+      "scan_age_s": 0.24634890810644527,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07029669576685765,
+        -0.1877330839953301,
+        -0.28301788249060467
+      ],
+      "covariance": [
+        6.989353150178412e-05,
+        0.00016714482416580606,
+        2.9958884465276535e-05
+      ],
+      "scan_match": 0.9830508474576272,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550719.558318,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.06357822499990107,
+      "scan_receive_age_s": 0.18060122799988676,
+      "pose_age_s": 0.2733052698574219,
+      "scan_age_s": 0.2733052698574219,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06846853393505946,
+        -0.19066210385754845,
+        -0.2811969092121512
+      ],
+      "covariance": [
+        6.509132734007494e-05,
+        0.0001624048321176852,
+        3.0051314641021348e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550720.0643625,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.1328852949998236,
+      "scan_receive_age_s": 0.23645833399996263,
+      "pose_age_s": 0.576661244194336,
+      "scan_age_s": 0.576661244194336,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.0688487482006819,
+        -0.19105515161787934,
+        -0.2832834000618883
+      ],
+      "covariance": [
+        6.386172259024644e-05,
+        0.00016798284597458607,
+        2.9322060436626405e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550720.5861359,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.05396686099993531,
+      "scan_receive_age_s": 0.05309540999996898,
+      "pose_age_s": 0.14447341279089354,
+      "scan_age_s": 0.14447341279089354,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07079549677854148,
+        -0.18693294925681445,
+        -0.2809411761230026
+      ],
+      "covariance": [
+        7.558275386952609e-05,
+        0.00016274874303148779,
+        3.0892015339667946e-05
+      ],
+      "scan_match": 0.972972972972973,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550721.0916157,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.11888869900008103,
+      "scan_receive_age_s": 0.11785905600004298,
+      "pose_age_s": 0.2614198534022216,
+      "scan_age_s": 0.2614198534022216,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07226541915260025,
+        -0.18423061048434622,
+        -0.28075015312247015
+      ],
+      "covariance": [
+        6.887369350235938e-05,
+        0.00016167296918881413,
+        3.007725904884144e-05
+      ],
+      "scan_match": 0.96,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550721.6009734,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.02904609999995955,
+      "scan_receive_age_s": 0.1433011000001443,
+      "pose_age_s": 0.2564491479677734,
+      "scan_age_s": 0.2564491479677734,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07234527274560293,
+        -0.1918397490598749,
+        -0.28238106707563077
+      ],
+      "covariance": [
+        6.401709136722757e-05,
+        0.0001596434999223892,
+        3.0292898992098616e-05
+      ],
+      "scan_match": 0.9642857142857143,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550722.1181412,
+      "candidate_stable": true,
+      "particle_receive_age_s": 0.06445266200012156,
+      "scan_receive_age_s": 0.1759569799999099,
+      "pose_age_s": 0.2839436806628417,
+      "scan_age_s": 0.2839436806628417,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.070413927808616,
+        -0.188277139088473,
+        -0.28081435131933585
+      ],
+      "covariance": [
+        7.579547799737608e-05,
+        0.00016561205138274082,
+        3.014798939864504e-05
+      ],
+      "scan_match": 0.961038961038961,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550722.6294804,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.10453183699996771,
+      "scan_receive_age_s": 0.21389581499988708,
+      "pose_age_s": 0.794595030684204,
+      "scan_age_s": 0.794595030684204,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.070413927808616,
+        -0.188277139088473,
+        -0.28081435131933585
+      ],
+      "covariance": [
+        7.579547799737608e-05,
+        0.00016561205138274082,
+        3.014798939864504e-05
+      ],
+      "scan_match": 0.961038961038961,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550723.1512575,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.037941450000062105,
+      "scan_receive_age_s": 0.03680015800000547,
+      "pose_age_s": 0.10219648558154297,
+      "scan_age_s": 0.10219648558154297,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07005356441711465,
+        -0.1860239875766617,
+        -0.2825872465713837
+      ],
+      "covariance": [
+        7.231303856302957e-05,
+        0.00015267132555206453,
+        3.36822891236924e-05
+      ],
+      "scan_match": 0.9333333333333333,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550723.652533,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.08912496399989323,
+      "scan_receive_age_s": 0.08811051000020598,
+      "pose_age_s": 0.21167626037182613,
+      "scan_age_s": 0.21167626037182613,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.0741884638507054,
+        -0.18679871777780707,
+        -0.2826041714997004
+      ],
+      "covariance": [
+        7.075911726947375e-05,
+        0.00015595700140098173,
+        3.329131520459329e-05
+      ],
+      "scan_match": 0.9824561403508771,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550724.164769,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.11355436499979987,
+      "scan_receive_age_s": 0.11223254300011831,
+      "pose_age_s": 0.43221974966821286,
+      "scan_age_s": 0.43221974966821286,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06770373373139009,
+        -0.19454044225225542,
+        -0.28233189493778293
+      ],
+      "covariance": [
+        7.312890198347445e-05,
+        0.0001705994181816703,
+        2.994186213084211e-05
+      ],
+      "scan_match": 0.9818181818181818,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550724.6842523,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.062124558000050456,
+      "scan_receive_age_s": 0.1656461519999084,
+      "pose_age_s": 0.4918170040303955,
+      "scan_age_s": 0.4918170040303955,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06841382347034303,
+        -0.18859104533359786,
+        -0.28158176572680776
+      ],
+      "covariance": [
+        7.401164486684972e-05,
+        0.00017361547661473575,
+        2.9317163572534878e-05
+      ],
+      "scan_match": 0.9861111111111112,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550725.2072294,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.022852093999972567,
+      "scan_receive_age_s": 0.022678697000173997,
+      "pose_age_s": 0.5207376501267089,
+      "scan_age_s": 0.5207376501267089,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06744503004988396,
+        -0.19333436771340032,
+        -0.28119168456515253
+      ],
+      "covariance": [
+        6.655597457677458e-05,
+        0.00015124614053202423,
+        2.9472858930621386e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550725.7215352,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.07823953499996605,
+      "scan_receive_age_s": 0.07727210899997772,
+      "pose_age_s": 0.1754272712945556,
+      "scan_age_s": 0.1754272712945556,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.06886418671416293,
+        -0.1893135552747021,
+        -0.2813674026568821
+      ],
+      "covariance": [
+        6.884034097432747e-05,
+        0.00016089896366180967,
+        3.12710800753387e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    }
+  ],
+  "latest": {
+    "time": 1789550725.7215352,
+    "candidate_stable": false,
+    "particle_receive_age_s": 0.07823953499996605,
+    "scan_receive_age_s": 0.07727210899997772,
+    "pose_age_s": 0.1754272712945556,
+    "scan_age_s": 0.1754272712945556,
+    "pose_scan_offset_s": 0.0,
+    "pose": [
+      0.06886418671416293,
+      -0.1893135552747021,
+      -0.2813674026568821
+    ],
+    "covariance": [
+      6.884034097432747e-05,
+      0.00016089896366180967,
+      3.12710800753387e-05
+    ],
+    "scan_match": 1.0,
+    "dominant_particle_mass": 1.0,
+    "particle_count": 5000
+  },
+  "error": "Interrupted"
+}

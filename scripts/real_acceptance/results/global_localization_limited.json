@@ -1,0 +1,456 @@
+{
+  "motion_authorized": false,
+  "globalization_requested": false,
+  "trace": [
+    {
+      "time": 1789550251.8424613,
+      "candidate_stable": false,
+      "pose_age_s": 0.07436089568518056,
+      "scan_age_s": 0.07436089568518056,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.07820715577996139,
+        -0.08160419454770153,
+        -0.2932829316291253
+      ],
+      "covariance": [
+        0.006223375309923215,
+        0.002687827983449698,
+        0.0006293005171496686
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 0.9800199800199805,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789550252.3475091,
+      "candidate_stable": false,
+      "pose_age_s": 0.13475128643811035,
+      "scan_age_s": 0.18434514243811034,
+      "pose_scan_offset_s": 0.049593856000000006,
+      "pose": [
+        0.09389296069328738,
+        -0.09081934714506844,
+        -0.2837816079891207
+      ],
+      "covariance": [
+        0.0005542069574661565,
+        0.0006982317286326253,
+        0.0003523286433532426
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 0.9960039960039961,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789550252.8494685,
+      "candidate_stable": false,
+      "pose_age_s": 0.08146913214245599,
+      "scan_age_s": 0.08146913214245599,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.099704597761458,
+        -0.09740421728866965,
+        -0.2802990676165006
+      ],
+      "covariance": [
+        9.746457177512748e-05,
+        0.00015309420636802108,
+        0.0001490310984564101
+      ],
+      "scan_match": 0.9710144927536232,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789550253.367327,
+      "candidate_stable": false,
+      "pose_age_s": 0.10389941735827635,
+      "scan_age_s": 0.05544578535827632,
+      "pose_scan_offset_s": -0.048453632,
+      "pose": [
+        0.09827998099412806,
+        -0.09691447505263996,
+        -0.28037873345655606
+      ],
+      "covariance": [
+        8.197217710086309e-05,
+        8.736456534100441e-05,
+        0.00012122986057023693
+      ],
+      "scan_match": 0.984375,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789550253.8860261,
+      "candidate_stable": false,
+      "pose_age_s": 0.11837113583117675,
+      "scan_age_s": 0.11837113583117675,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.09881899086405069,
+        -0.09557323877094936,
+        -0.281263850286915
+      ],
+      "covariance": [
+        9.932017421819192e-05,
+        8.314893958470161e-05,
+        0.00014050442570997891
+      ],
+      "scan_match": 0.9824561403508771,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789550254.3927562,
+      "candidate_stable": false,
+      "pose_age_s": 0.13131446683154296,
+      "scan_age_s": 0.17946806683154296,
+      "pose_scan_offset_s": 0.048153600000000005,
+      "pose": [
+        0.09574812345408562,
+        -0.094291666583635,
+        -0.28150882956876966
+      ],
+      "covariance": [
+        7.585452713512915e-05,
+        0.00011429027698780202,
+        0.00011737981164476097
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789550254.90518,
+      "candidate_stable": true,
+      "pose_age_s": 0.0866061066995849,
+      "scan_age_s": 0.0866061066995849,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.09738690818394054,
+        -0.09422145699088978,
+        -0.28289529448046385
+      ],
+      "covariance": [
+        8.650074939912412e-05,
+        0.00029414802936025136,
+        0.00011306419270748688
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789550255.409855,
+      "candidate_stable": true,
+      "pose_age_s": 0.09197926555993652,
+      "scan_age_s": 0.09197926555993652,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.09722286357960562,
+        -0.09368087766052106,
+        -0.2815687316335604
+      ],
+      "covariance": [
+        6.689507918699635e-05,
+        0.0001521347099815544,
+        8.118999219070621e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789550255.918719,
+      "candidate_stable": true,
+      "pose_age_s": 0.15066252538354485,
+      "scan_age_s": 0.15066252538354485,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.09594313188693347,
+        -0.09347966794853627,
+        -0.2820367364125676
+      ],
+      "covariance": [
+        8.087308999118158e-05,
+        0.0002601731386728586,
+        9.161726862642403e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789550256.4295702,
+      "candidate_stable": true,
+      "pose_age_s": 0.06235701334753413,
+      "scan_age_s": 0.06235701334753413,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.0996258651026623,
+        -0.09836593365438304,
+        -0.28307225894796645
+      ],
+      "covariance": [
+        9.264783150189984e-05,
+        7.279293668076108e-05,
+        8.704934557679128e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1019
+    },
+    {
+      "time": 1789550256.9326863,
+      "candidate_stable": true,
+      "pose_age_s": 0.12200685892138663,
+      "scan_age_s": 0.12200685892138663,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.09973333057740602,
+        -0.09468288141419282,
+        -0.2836267595675622
+      ],
+      "covariance": [
+        8.202953321093803e-05,
+        5.873363187332975e-05,
+        6.355785919648036e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1499
+    },
+    {
+      "time": 1789550257.4432015,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.05 s of AMCL pose"
+    },
+    {
+      "time": 1789550257.9466658,
+      "candidate_stable": false,
+      "pose_age_s": 0.19751963710266107,
+      "scan_age_s": 0.19751963710266107,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.09989704376589835,
+        -0.09439231394504602,
+        -0.2852051583842279
+      ],
+      "covariance": [
+        9.218398109186836e-05,
+        6.1006558973706465e-05,
+        6.992713130501634e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550258.447664,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.05 s of AMCL pose"
+    },
+    {
+      "time": 1789550258.9529603,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.05 s of AMCL pose"
+    },
+    {
+      "time": 1789550259.4552925,
+      "candidate_stable": false,
+      "pose_age_s": 0.1642303541306152,
+      "scan_age_s": 0.1642303541306152,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.1013519152474757,
+        -0.09342070854325255,
+        -0.28900075370015227
+      ],
+      "covariance": [
+        9.381629210526189e-05,
+        7.43045063712304e-05,
+        5.7600036102888844e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550259.9605732,
+      "candidate_stable": false,
+      "pose_age_s": 0.21722702579663078,
+      "scan_age_s": 0.21722702579663078,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        0.10270279689965768,
+        -0.09276697648333201,
+        -0.2895464463507116
+      ],
+      "covariance": [
+        9.53570515634973e-05,
+        7.800861536701349e-05,
+        5.435583401002635e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550260.4609485,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.05 s of AMCL pose"
+    },
+    {
+      "time": 1789550260.9648364,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.05 s of AMCL pose"
+    },
+    {
+      "time": 1789550261.4816113,
+      "candidate_stable": false,
+      "pose_age_s": 0.24038589169079588,
+      "scan_age_s": 0.19048022769079587,
+      "pose_scan_offset_s": -0.049905664,
+      "pose": [
+        0.10083418981773411,
+        -0.09563258407111035,
+        -0.2901764152713591
+      ],
+      "covariance": [
+        0.00010177789964093374,
+        9.178503317594684e-05,
+        5.083855578886909e-05
+      ],
+      "scan_match": 0.9868421052631579,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550261.9930184,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.05 s of AMCL pose"
+    },
+    {
+      "time": 1789550262.493873,
+      "candidate_stable": false,
+      "pose_age_s": 0.20896966310339354,
+      "scan_age_s": 0.2587457911033935,
+      "pose_scan_offset_s": 0.049776128,
+      "pose": [
+        0.10083845394885195,
+        -0.09761203683544994,
+        -0.2943888663157997
+      ],
+      "covariance": [
+        0.00010600608710737043,
+        9.753884320448658e-05,
+        4.825012011207517e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550263.0046835,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.05 s of AMCL pose"
+    },
+    {
+      "time": 1789550263.5055864,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.05 s of AMCL pose"
+    },
+    {
+      "time": 1789550264.0117433,
+      "candidate_stable": false,
+      "pose_age_s": 0.17312990483203117,
+      "scan_age_s": 0.12318814483203122,
+      "pose_scan_offset_s": -0.04994176,
+      "pose": [
+        0.09994939364305204,
+        -0.09846265901288781,
+        -0.29267811855519316
+      ],
+      "covariance": [
+        0.00010470256894981947,
+        7.856779298721049e-05,
+        4.169067464031285e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550264.5233896,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.05 s of AMCL pose"
+    },
+    {
+      "time": 1789550265.037793,
+      "candidate_stable": false,
+      "error": "No scan aligned within 0.05 s of AMCL pose"
+    },
+    {
+      "time": 1789550265.542081,
+      "candidate_stable": false,
+      "pose_age_s": 0.25129123437145995,
+      "scan_age_s": 0.3012273623714599,
+      "pose_scan_offset_s": 0.049936128,
+      "pose": [
+        0.10126561984670746,
+        -0.09508497792890587,
+        -0.2943405449245047
+      ],
+      "covariance": [
+        0.0001264411536841016,
+        8.652541416154062e-05,
+        4.335036971153458e-05
+      ],
+      "scan_match": 1.0,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550266.0533721,
+      "candidate_stable": false,
+      "pose_age_s": 0.2043882357073974,
+      "scan_age_s": 0.1544649077073974,
+      "pose_scan_offset_s": -0.049923328,
+      "pose": [
+        0.10103271375179358,
+        -0.09610932097831498,
+        -0.29617068552036974
+      ],
+      "covariance": [
+        0.00013232074653720532,
+        8.879443277432127e-05,
+        3.792678958553292e-05
+      ],
+      "scan_match": 0.9880952380952381,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    }
+  ],
+  "latest": {
+    "time": 1789550266.0533721,
+    "candidate_stable": false,
+    "pose_age_s": 0.2043882357073974,
+    "scan_age_s": 0.1544649077073974,
+    "pose_scan_offset_s": -0.049923328,
+    "pose": [
+      0.10103271375179358,
+      -0.09610932097831498,
+      -0.29617068552036974
+    ],
+    "covariance": [
+      0.00013232074653720532,
+      8.879443277432127e-05,
+      3.792678958553292e-05
+    ],
+    "scan_match": 0.9880952380952381,
+    "dominant_particle_mass": 1.0,
+    "particle_count": 5000
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "correction_xy_m": [
+    0.024657637624864788,
+    0.060669010254706404
+  ],
+  "fit_rms_m": 0.007638846922564195,
+  "sweep_rad": 1.9137731153474682,
+  "independent_validation_passed": false,
+  "source": "/home/soyo/sentry_ws/scripts/real_acceptance/results/startup_20260916_163351/motion_probe.json",
+  "stationary_confirmed": false,
+  "status": "invalid_do_not_apply",
+  "reason": "Operator reported manually relocating chassis and being away during this capture; stationary-body assumption false."
+}

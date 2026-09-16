@@ -1,0 +1,141 @@
+{
+  "motion_authorized": false,
+  "globalization_requested": false,
+  "trace": [
+    {
+      "time": 1789550060.3305187,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550060.6858475,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550061.2034526,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550061.7058258,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550062.2175977,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550062.7369583,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550063.24299,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550063.7640314,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550064.2698686,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550064.7787116,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550065.2871482,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550065.7959633,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550066.3023312,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550066.8180454,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550067.3240721,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550067.831202,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550068.3493662,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550068.8545787,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550069.3704245,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550069.8890147,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550070.4002786,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550070.9155867,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550071.437211,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550071.93972,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550072.4573824,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    },
+    {
+      "time": 1789550072.9751089,
+      "candidate_stable": false,
+      "error": "Pose/scan measurement offset exceeds 0.2 s"
+    }
+  ],
+  "latest": {
+    "time": 1789550072.9751089,
+    "candidate_stable": false,
+    "error": "Pose/scan measurement offset exceeds 0.2 s"
+  }
+}

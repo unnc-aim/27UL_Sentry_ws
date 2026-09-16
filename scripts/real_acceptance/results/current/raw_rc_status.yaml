@@ -1,0 +1,34 @@
+header:
+  stamp:
+    sec: 1789545939
+    nanosec: 524545336
+  frame_id: ''
+online: 0
+left_x: 0.0
+left_y: 0.0
+right_x: 0.0
+right_y: 0.0
+dial: 0.0
+left_switch: 0
+right_switch: 0
+w: 0
+s: 0
+a: 0
+d: 0
+q: 0
+e: 0
+r: 0
+f: 0
+g: 0
+z: 0
+x: 0
+c: 0
+v: 0
+b: 0
+shift: 0
+ctrl: 0
+mouse_x: 0
+mouse_y: 0
+mouse_left_clicked: 0
+mouse_right_clicked: 0
+---

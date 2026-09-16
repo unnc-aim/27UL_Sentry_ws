@@ -1,0 +1,5 @@
+{
+  "spawn_yaw": -2.0,
+  "nav_spin_speed": 0.3,
+  "robot_model": "pb2025_robot_description/simulation_robot"
+}
