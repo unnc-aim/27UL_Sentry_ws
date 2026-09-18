@@ -1,0 +1,11 @@
+{
+  "commands": 2004,
+  "commands_all_zero": true,
+  "wheel_samples": 3391,
+  "wheel_max_abs_raw_speed": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

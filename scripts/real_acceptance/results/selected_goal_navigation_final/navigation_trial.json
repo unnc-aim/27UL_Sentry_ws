@@ -1,0 +1,53 @@
+{
+  "radius_m": 0.2,
+  "max_speed_mps": 0.15,
+  "physical_acceptance_passed": false,
+  "hub_input_linear_sign": -1,
+  "waypoints": [],
+  "trace": [
+    {
+      "time": 1566.891245149,
+      "target": "segment_1",
+      "pose": [
+        0.06836709554127879,
+        -0.18501063080637828
+      ],
+      "distance": 0.18217172818959376,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ]
+    },
+    {
+      "time": 1566.94176036,
+      "target": "segment_1",
+      "pose": [
+        0.06836709554127879,
+        -0.18501063080637828
+      ],
+      "distance": 0.18217172818959376,
+      "command": [
+        -0.0002336881238430987,
+        0.06076352820278331
+      ],
+      "hub_command": [
+        0.0002336881238430987,
+        -0.06076352820278331
+      ]
+    }
+  ],
+  "scope": "Current local map; no prebuilt-field global localization certification",
+  "landmarks": "scripts/real_acceptance/results/selected_goal_route_resumed.json",
+  "course": "saved_landmarks",
+  "abort_reason": "RC manual takeover",
+  "final_wheel_speeds": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

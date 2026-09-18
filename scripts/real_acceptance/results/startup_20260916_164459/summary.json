@@ -1,0 +1,52 @@
+{
+  "status": "local_startup_task_passed",
+  "physical_acceptance_passed": false,
+  "stages": [
+    {
+      "name": "scan_two_turns",
+      "exit_code": 0
+    },
+    {
+      "name": "save_scanned_map",
+      "exit_code": 0
+    },
+    {
+      "name": "navigate_saved_goal",
+      "exit_code": 0
+    },
+    {
+      "name": "save_final_map",
+      "exit_code": 0
+    }
+  ],
+  "lidar_calibration": "scripts/real_acceptance/results/lidar_offset_stationary.json",
+  "scope": "Navigation-process startup; fresh local SLAM, not power-cycle or saved-map global localization",
+  "initial_pose_map": [
+    -0.02403072216172602,
+    -0.04562615079032887,
+    -0.0038253430700919025
+  ],
+  "goal_map": [
+    0.17596781451509802,
+    -0.04639121753844195
+  ],
+  "gimbal_scan_travel_rad": 12.58072104690251,
+  "gimbal_scan_coverage_bins": 24,
+  "waypoints": [
+    {
+      "name": "startup_forward",
+      "target": [
+        0.17596781451509802,
+        -0.04639121753844195
+      ],
+      "status": 4,
+      "position_error_m": 0.05176137644962391
+    }
+  ],
+  "final_wheel_speeds": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

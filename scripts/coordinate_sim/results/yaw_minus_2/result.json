@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "localization": "AMCL global, no initialpose",
+  "odometry": "Gazebo relative motion (ideal)",
+  "goals": [
+    {
+      "name": "east",
+      "target": [
+        1.0,
+        -2.0
+      ],
+      "actual": [
+        0.8914374341319405,
+        -1.891524706131862
+      ],
+      "error_m": 0.1534689548007532,
+      "localization_error": {
+        "position_m": 0.030831305096194025,
+        "yaw_rad": 0.010292096343081258
+      }
+    },
+    {
+      "name": "north",
+      "target": [
+        1.0,
+        2.4
+      ],
+      "actual": [
+        1.0172451150389146,
+        2.298015167052997
+      ],
+      "error_m": 0.1034325874371006,
+      "localization_error": {
+        "position_m": 0.04503557930742654,
+        "yaw_rad": 0.0014178928863877172
+      }
+    },
+    {
+      "name": "home",
+      "target": [
+        -2.5,
+        0.0
+      ],
+      "actual": [
+        -2.3205204571286564,
+        0.0480272958489523
+      ],
+      "error_m": 0.18579431491805462,
+      "localization_error": {
+        "position_m": 0.04313178369430251,
+        "yaw_rad": 0.007110104280546369
+      }
+    }
+  ],
+  "startup_rotation_rad": 12.591188473062495,
+  "localization_error": {
+    "position_m": 0.07033865198437166,
+    "yaw_rad": 0.011423803432957238
+  },
+  "minimum_center_clearance_m": 0.5411026372930579
+}

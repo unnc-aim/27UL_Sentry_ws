@@ -1,0 +1,21 @@
+{
+  "status": "incomplete",
+  "physical_acceptance_passed": false,
+  "stages": [
+    {
+      "name": "scan_two_turns",
+      "exit_code": 0
+    },
+    {
+      "name": "save_scanned_map",
+      "exit_code": 0
+    }
+  ],
+  "scope": "Navigation-process startup; fresh local SLAM, not power-cycle or saved-map global localization",
+  "initial_pose_map": [
+    0.017706269071792183,
+    0.018740798565482795,
+    0.010555379500005421
+  ],
+  "reason": "Forward map goal corridor occupied or unknown"
+}

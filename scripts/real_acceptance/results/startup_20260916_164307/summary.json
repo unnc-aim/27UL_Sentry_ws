@@ -1,0 +1,14 @@
+{
+  "status": "incomplete",
+  "physical_acceptance_passed": false,
+  "stages": [
+    {
+      "name": "save_partial_map",
+      "exit_code": 1
+    }
+  ],
+  "lidar_calibration": "scripts/real_acceptance/results/lidar_offset_stationary.json",
+  "scope": "Navigation-process startup; fresh local SLAM, not power-cycle or saved-map global localization",
+  "reason": "Fresh map/pose unavailable",
+  "partial_map_error": "save_partial_map failed; subsequent movement skipped"
+}

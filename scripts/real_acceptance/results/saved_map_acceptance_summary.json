@@ -1,0 +1,26 @@
+{
+  "status": "selected_map_goal_reached",
+  "passed": true,
+  "map": "../maps/rectangle_20260916/map.yaml",
+  "selected_goal": [
+    -0.2153846025466919,
+    -2.6307692527770996
+  ],
+  "clockwise_scan_evidence": "clockwise_global_scan/motion_probe.json",
+  "localization_evidence": "global_localization_resume.json",
+  "navigation_evidence": "selected_goal_navigation_after_takeover/navigation_trial.json",
+  "final_target_reached": true,
+  "protected_control_paths_modified": false,
+  "scope": "Current saved map, current starting pose: clockwise scan, localization and selected-goal navigation. Not arbitrary-start or power-cycle certification.",
+  "final_target_error_m": 0.040722948771347384,
+  "completed_segments": 17,
+  "final_wheel_speeds": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "arbitrary_start_verified": false,
+  "power_cycle_verified": false,
+  "competition_activation_verified": false
+}

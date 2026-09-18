@@ -1,0 +1,13 @@
+{
+  "correction_xy_m": [
+    0.020544742438852057,
+    0.05977499785938049
+  ],
+  "fit_rms_m": 0.009478779550781195,
+  "sweep_rad": 2.9178015924196377,
+  "independent_validation_passed": true,
+  "source": "/home/soyo/sentry_ws/scripts/real_acceptance/results/startup_20260916_163744/motion_probe.json",
+  "stationary_confirmed": true,
+  "validation_scope": "Stationary-body full gimbal sweep and short map goal; not complete physical extrinsic calibration",
+  "validation_evidence": "startup_20260916_164459/summary.json"
+}

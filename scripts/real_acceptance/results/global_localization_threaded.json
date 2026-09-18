@@ -1,0 +1,141 @@
+{
+  "motion_authorized": false,
+  "globalization_requested": false,
+  "trace": [
+    {
+      "time": 1789549986.0448706,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549985.500713 but the latest data is at time 1789549984.020881, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549986.4861445,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549986.150863 but the latest data is at time 1789549985.370742, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549986.9923694,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549986.400657 but the latest data is at time 1789549985.370742, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549987.4982662,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549987.050881 but the latest data is at time 1789549985.370742, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549988.0180178,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549987.650572 but the latest data is at time 1789549985.370742, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549988.5286276,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549988.050732 but the latest data is at time 1789549985.370742, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549989.0338593,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549988.700688 but the latest data is at time 1789549987.570660, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549989.5392036,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549989.050734 but the latest data is at time 1789549988.220893, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549990.050063,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549989.700778 but the latest data is at time 1789549988.870823, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549990.5590339,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549989.950732 but the latest data is at time 1789549989.220769, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549991.0754793,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549990.748829 but the latest data is at time 1789549989.220769, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549991.5860922,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549991.000820 but the latest data is at time 1789549989.220769, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549992.1083713,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549991.700654 but the latest data is at time 1789549990.570470, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549992.6233075,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549992.050654 but the latest data is at time 1789549991.220479, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549993.125391,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549992.700758 but the latest data is at time 1789549991.570453, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549993.6476297,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549993.050633 but the latest data is at time 1789549991.570453, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549994.1533287,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549993.700731 but the latest data is at time 1789549991.570453, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549994.657935,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549994.000828 but the latest data is at time 1789549991.570453, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549995.1635797,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549994.700742 but the latest data is at time 1789549991.570453, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549995.6865368,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549995.399222 but the latest data is at time 1789549991.570453, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549996.1896937,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549995.700673 but the latest data is at time 1789549991.570453, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549996.7101824,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549996.300572 but the latest data is at time 1789549991.570453, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549997.2182417,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549996.700538 but the latest data is at time 1789549991.570453, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549997.7344635,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549997.100737 but the latest data is at time 1789549991.570453, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549998.2431233,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549997.500773 but the latest data is at time 1789549991.570453, when looking up transform from frame [base_footprint] to frame [map]"
+    },
+    {
+      "time": 1789549998.76506,
+      "candidate_stable": false,
+      "error": "Lookup would require extrapolation into the future.  Requested time 1789549998.350809 but the latest data is at time 1789549997.520773, when looking up transform from frame [base_footprint] to frame [map]"
+    }
+  ],
+  "latest": {
+    "time": 1789549998.76506,
+    "candidate_stable": false,
+    "error": "Lookup would require extrapolation into the future.  Requested time 1789549998.350809 but the latest data is at time 1789549997.520773, when looking up transform from frame [base_footprint] to frame [map]"
+  }
+}

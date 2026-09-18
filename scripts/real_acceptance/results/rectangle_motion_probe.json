@@ -1,0 +1,10 @@
+{
+  "physical_acceptance_passed": false,
+  "pulse_sent": true,
+  "speed_mps": 0.1,
+  "duration_s": 0.5,
+  "observed_odom_displacement_m": [
+    -0.0073518098171239665,
+    0.005487068038854577
+  ]
+}

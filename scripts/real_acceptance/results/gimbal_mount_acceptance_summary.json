@@ -1,0 +1,73 @@
+{
+  "local_sequence_passed": true,
+  "physical_acceptance_passed": false,
+  "production_deployed": false,
+  "radius_m": 0.2,
+  "linear_speed_limit_mps": 0.15,
+  "yaw_rate_limit_radps": 0.4,
+  "measured_two_turns_deg": 720.7221096719124,
+  "findings": [
+    "Operator confirmed lidar rotates with gimbal; upstream model attached it to chassis. Diagnostic URDF corrected.",
+    "After mount correction, two-axis pulses were reversed relative to TF; navigation adapter compensates existing Hub double-axis negation. Hub, RC and emergency stop unchanged."
+  ],
+  "stages": [
+    {
+      "stage": "gimbal_mount_rectangle",
+      "local_navigation_passed": true,
+      "errors_m": [
+        0.04276356227058841,
+        0.04564616826925856,
+        0.03997513100027466,
+        0.04936483415307357
+      ],
+      "final_wheel_speeds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": "gimbal_mount_rectangle/navigation_trial.json"
+    },
+    {
+      "stage": "gimbal_mount_changed_heading",
+      "local_navigation_passed": true,
+      "errors_m": [
+        0.028606725643972552,
+        0.036451923762740354,
+        0.011839293677556754,
+        0.04006817948230075
+      ],
+      "final_wheel_speeds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": "gimbal_mount_changed_heading/navigation_trial.json"
+    },
+    {
+      "stage": "gimbal_mount_post_turns",
+      "local_navigation_passed": true,
+      "errors_m": [
+        0.008259916847619285,
+        0.03902557749873902,
+        0.025141493434906428,
+        0.047410639366865404
+      ],
+      "final_wheel_speeds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": "gimbal_mount_post_turns/navigation_trial.json"
+    }
+  ],
+  "pending": [
+    "Production competition startup sequence and deployment",
+    "Saved-map relocalization after restart, including rectangular symmetry",
+    "Physical obstacle avoidance and stop-distance validation",
+    "Emergency-stop braking and sensor-loss stop under controlled physical conditions",
+    "Independent ground-truth endpoint measurement and full mount extrinsic calibration"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "frame": "map",
+  "map_yaml": "/home/soyo/sentry_ws/scripts/real_acceptance/maps/rectangle_20260916/map.yaml",
+  "map_sha256": "38d4fad1bbf4c2dfa0002a3e54638a15c75a762a139ea5c25f2cb0d2ac2f3d5f",
+  "targets": [
+    {
+      "name": "selected_goal",
+      "x": -0.2153846025466919,
+      "y": -2.6307692527770996
+    }
+  ],
+  "motion_authorized": false
+}

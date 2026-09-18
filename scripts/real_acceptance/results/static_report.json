@@ -1,0 +1,527 @@
+{
+  "physical_acceptance_passed": false,
+  "motion_authorized": false,
+  "static_checks_passed": false,
+  "ros_domain_id": "88",
+  "nodes": [
+    "behavior_server",
+    "bt_navigator",
+    "bt_navigator_navigate_through_poses_rclcpp_node",
+    "bt_navigator_navigate_to_pose_rclcpp_node",
+    "controller_server",
+    "diagnostic_map_origin",
+    "fake_vel_transform",
+    "global_costmap",
+    "lifecycle_manager_navigation",
+    "livox_ros_driver2",
+    "loam_interface",
+    "local_costmap",
+    "planner_server",
+    "point_lio",
+    "pointcloud_to_laserscan",
+    "real_acceptance_observer",
+    "robot_state_publisher",
+    "sensor_scan_generation",
+    "slam_toolbox",
+    "smoother_server",
+    "terrain_analysis",
+    "terrain_analysis_ext",
+    "transform_listener_impl_5acd6e755210",
+    "transform_listener_impl_5b353ac22fa0",
+    "transform_listener_impl_5ef1273710a0",
+    "transform_listener_impl_60e9f89d3440",
+    "transform_listener_impl_6270915c5120",
+    "transform_listener_impl_635bacaace70",
+    "transform_listener_impl_63ace98f7cc0",
+    "transform_listener_impl_650586317f60",
+    "velocity_smoother",
+    "waypoint_follower"
+  ],
+  "topics": {
+    "/Laser_map": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/aft_mapped_to_init": [
+      "nav_msgs/msg/Odometry"
+    ],
+    "/assisted_teleop/_action/feedback": [
+      "nav2_msgs/action/AssistedTeleop_FeedbackMessage"
+    ],
+    "/assisted_teleop/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/backup/_action/feedback": [
+      "nav2_msgs/action/BackUp_FeedbackMessage"
+    ],
+    "/backup/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/behavior_server/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/bt_navigator/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/cloud_clearing": [
+      "std_msgs/msg/Float32"
+    ],
+    "/cloud_effected": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/cloud_registered": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/cloud_registered_body": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/cmd_vel_controller": [
+      "geometry_msgs/msg/Twist"
+    ],
+    "/cmd_vel_nav2_result": [
+      "geometry_msgs/msg/Twist"
+    ],
+    "/cmd_vel_teleop": [
+      "geometry_msgs/msg/Twist"
+    ],
+    "/compute_path_through_poses/_action/feedback": [
+      "nav2_msgs/action/ComputePathThroughPoses_FeedbackMessage"
+    ],
+    "/compute_path_through_poses/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/compute_path_to_pose/_action/feedback": [
+      "nav2_msgs/action/ComputePathToPose_FeedbackMessage"
+    ],
+    "/compute_path_to_pose/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/controller_server/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/curvature_points_marker_array": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/diagnostics": [
+      "diagnostic_msgs/msg/DiagnosticArray"
+    ],
+    "/drive_on_heading/_action/feedback": [
+      "nav2_msgs/action/DriveOnHeading_FeedbackMessage"
+    ],
+    "/drive_on_heading/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/follow_path/_action/feedback": [
+      "nav2_msgs/action/FollowPath_FeedbackMessage"
+    ],
+    "/follow_path/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/follow_waypoints/_action/feedback": [
+      "nav2_msgs/action/FollowWaypoints_FeedbackMessage"
+    ],
+    "/follow_waypoints/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/global_costmap/costmap": [
+      "nav_msgs/msg/OccupancyGrid"
+    ],
+    "/global_costmap/costmap_raw": [
+      "nav2_msgs/msg/Costmap"
+    ],
+    "/global_costmap/costmap_updates": [
+      "map_msgs/msg/OccupancyGridUpdate"
+    ],
+    "/global_costmap/footprint": [
+      "geometry_msgs/msg/Polygon"
+    ],
+    "/global_costmap/global_costmap/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/global_costmap/published_footprint": [
+      "geometry_msgs/msg/PolygonStamped"
+    ],
+    "/goal_pose": [
+      "geometry_msgs/msg/PoseStamped"
+    ],
+    "/joint_states": [
+      "sensor_msgs/msg/JointState"
+    ],
+    "/joy": [
+      "sensor_msgs/msg/Joy"
+    ],
+    "/lidar_odometry": [
+      "nav_msgs/msg/Odometry"
+    ],
+    "/livox/imu": [
+      "sensor_msgs/msg/Imu"
+    ],
+    "/livox/lidar": [
+      "livox_ros_driver2/msg/CustomMsg"
+    ],
+    "/livox/lidar/pointcloud": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/local_costmap/costmap": [
+      "nav_msgs/msg/OccupancyGrid"
+    ],
+    "/local_costmap/costmap_raw": [
+      "nav2_msgs/msg/Costmap"
+    ],
+    "/local_costmap/costmap_updates": [
+      "map_msgs/msg/OccupancyGridUpdate"
+    ],
+    "/local_costmap/footprint": [
+      "geometry_msgs/msg/Polygon"
+    ],
+    "/local_costmap/local_costmap/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/local_costmap/published_footprint": [
+      "geometry_msgs/msg/PolygonStamped"
+    ],
+    "/local_plan": [
+      "nav_msgs/msg/Path"
+    ],
+    "/lookahead_point": [
+      "geometry_msgs/msg/PointStamped"
+    ],
+    "/map": [
+      "nav_msgs/msg/OccupancyGrid"
+    ],
+    "/map_clearing": [
+      "std_msgs/msg/Float32"
+    ],
+    "/map_metadata": [
+      "nav_msgs/msg/MapMetaData"
+    ],
+    "/navigate_through_poses/_action/feedback": [
+      "nav2_msgs/action/NavigateThroughPoses_FeedbackMessage"
+    ],
+    "/navigate_through_poses/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/navigate_to_pose/_action/feedback": [
+      "nav2_msgs/action/NavigateToPose_FeedbackMessage"
+    ],
+    "/navigate_to_pose/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/obstacle_scan": [
+      "sensor_msgs/msg/LaserScan"
+    ],
+    "/odometry": [
+      "nav_msgs/msg/Odometry"
+    ],
+    "/parameter_events": [
+      "rcl_interfaces/msg/ParameterEvent"
+    ],
+    "/path": [
+      "nav_msgs/msg/Path"
+    ],
+    "/plan": [
+      "nav_msgs/msg/Path"
+    ],
+    "/plan_smoothed": [
+      "nav_msgs/msg/Path"
+    ],
+    "/planner_server/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/pose": [
+      "geometry_msgs/msg/PoseWithCovarianceStamped"
+    ],
+    "/preempt_teleop": [
+      "std_msgs/msg/Empty"
+    ],
+    "/registered_scan": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/robot_description": [
+      "std_msgs/msg/String"
+    ],
+    "/rosout": [
+      "rcl_interfaces/msg/Log"
+    ],
+    "/sensor_scan": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/slam_toolbox/feedback": [
+      "visualization_msgs/msg/InteractiveMarkerFeedback"
+    ],
+    "/slam_toolbox/graph_visualization": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/slam_toolbox/scan_visualization": [
+      "sensor_msgs/msg/LaserScan"
+    ],
+    "/slam_toolbox/update": [
+      "visualization_msgs/msg/InteractiveMarkerUpdate"
+    ],
+    "/smooth_path/_action/feedback": [
+      "nav2_msgs/action/SmoothPath_FeedbackMessage"
+    ],
+    "/smooth_path/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/smoother_server/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/speed_limit": [
+      "nav2_msgs/msg/SpeedLimit"
+    ],
+    "/spin/_action/feedback": [
+      "nav2_msgs/action/Spin_FeedbackMessage"
+    ],
+    "/spin/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/static_acceptance/cmd_spin": [
+      "example_interfaces/msg/Float32"
+    ],
+    "/static_acceptance/cmd_vel": [
+      "geometry_msgs/msg/TwistStamped"
+    ],
+    "/terrain_map": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/terrain_map_ext": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/tf": [
+      "tf2_msgs/msg/TFMessage"
+    ],
+    "/tf_static": [
+      "tf2_msgs/msg/TFMessage"
+    ],
+    "/velocity_smoother/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/wait/_action/feedback": [
+      "nav2_msgs/action/Wait_FeedbackMessage"
+    ],
+    "/wait/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/waypoint_follower/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ]
+  },
+  "checks": [
+    {
+      "name": "/static_acceptance/cmd_vel:publisher",
+      "passed": true,
+      "detail": "1 publishers; presence does not prove fresh data"
+    },
+    {
+      "name": "cmd_vel:type",
+      "passed": true,
+      "detail": "All endpoints must use the currently expected Hub TwistStamped interface"
+    },
+    {
+      "name": "/map:publisher",
+      "passed": true,
+      "detail": "1 publishers; presence does not prove fresh data"
+    },
+    {
+      "name": "map->odom",
+      "passed": true,
+      "detail": {
+        "stamp_sec": 0,
+        "note": "Connectivity only; freshness and physical calibration are not certified"
+      }
+    },
+    {
+      "name": "odom->base_footprint",
+      "passed": true,
+      "detail": {
+        "stamp_sec": 1789542555,
+        "note": "Connectivity only; freshness and physical calibration are not certified"
+      }
+    },
+    {
+      "name": "base_footprint->gimbal_yaw",
+      "passed": false,
+      "detail": "Could not find a connection between 'base_footprint' and 'gimbal_yaw' because they are not part of the same tree.Tf has two or more unconnected trees."
+    },
+    {
+      "name": "/livox/imu:recent_sample",
+      "passed": true,
+      "detail": {
+        "receive_age_seconds": 0.04826932899999292,
+        "note": "Receive freshness only; no calibration certification"
+      }
+    },
+    {
+      "name": "/livox/lidar:recent_sample",
+      "passed": true,
+      "detail": {
+        "receive_age_seconds": 0.001296878999994533,
+        "note": "Receive freshness only; no calibration certification"
+      }
+    },
+    {
+      "name": "/odometry:recent_sample",
+      "passed": true,
+      "detail": {
+        "receive_age_seconds": 0.15724911800000996,
+        "note": "Receive freshness only; no calibration certification"
+      }
+    },
+    {
+      "name": "/serial/gimbal_joint_state:recent_sample",
+      "passed": false,
+      "detail": {
+        "receive_age_seconds": null,
+        "note": "Receive freshness only; no calibration certification"
+      }
+    },
+    {
+      "name": "/cmd_vel:no_publisher_in_test_domain",
+      "passed": true,
+      "detail": "Isolated diagnostics must not publish hardware commands"
+    },
+    {
+      "name": "/chassis_command:no_publisher_in_test_domain",
+      "passed": true,
+      "detail": "Isolated diagnostics must not publish hardware commands"
+    },
+    {
+      "name": "/gimbal_scan_cmd:no_publisher_in_test_domain",
+      "passed": true,
+      "detail": "Isolated diagnostics must not publish hardware commands"
+    },
+    {
+      "name": "/auto_aim_switch:no_publisher_in_test_domain",
+      "passed": true,
+      "detail": "Isolated diagnostics must not publish hardware commands"
+    },
+    {
+      "name": "prebuilt_map_localization",
+      "passed": false,
+      "detail": "Diagnostic online map with arbitrary origin; field-map localization not tested"
+    },
+    {
+      "name": "controller_files_unchanged_during_check",
+      "passed": true,
+      "detail": "Existing content fingerprints only; not a physical emergency-stop test"
+    }
+  ],
+  "interfaces": {
+    "/static_acceptance/cmd_vel": {
+      "publishers": [
+        {
+          "node": "fake_vel_transform",
+          "type": "geometry_msgs/msg/TwistStamped",
+          "qos": "QoSProfile(history=HistoryPolicy.UNKNOWN, depth=0, reliability=ReliabilityPolicy.RELIABLE, durability=DurabilityPolicy.VOLATILE, lifespan=Infinite, deadline=Infinite, liveliness=LivelinessPolicy.AUTOMATIC, liveliness_lease_duration=Infinite, avoid_ros_namespace_conventions=False)"
+        }
+      ],
+      "subscribers": []
+    },
+    "/map": {
+      "publishers": [
+        {
+          "node": "slam_toolbox",
+          "type": "nav_msgs/msg/OccupancyGrid",
+          "qos": "QoSProfile(history=HistoryPolicy.UNKNOWN, depth=0, reliability=ReliabilityPolicy.RELIABLE, durability=DurabilityPolicy.TRANSIENT_LOCAL, lifespan=Infinite, deadline=Infinite, liveliness=LivelinessPolicy.AUTOMATIC, liveliness_lease_duration=Infinite, avoid_ros_namespace_conventions=False)"
+        }
+      ],
+      "subscribers": [
+        {
+          "node": "slam_toolbox",
+          "type": "nav_msgs/msg/OccupancyGrid",
+          "qos": "QoSProfile(history=HistoryPolicy.UNKNOWN, depth=0, reliability=ReliabilityPolicy.RELIABLE, durability=DurabilityPolicy.VOLATILE, lifespan=Infinite, deadline=Infinite, liveliness=LivelinessPolicy.AUTOMATIC, liveliness_lease_duration=Infinite, avoid_ros_namespace_conventions=False)"
+        },
+        {
+          "node": "local_costmap",
+          "type": "nav_msgs/msg/OccupancyGrid",
+          "qos": "QoSProfile(history=HistoryPolicy.UNKNOWN, depth=0, reliability=ReliabilityPolicy.RELIABLE, durability=DurabilityPolicy.TRANSIENT_LOCAL, lifespan=Infinite, deadline=Infinite, liveliness=LivelinessPolicy.AUTOMATIC, liveliness_lease_duration=Infinite, avoid_ros_namespace_conventions=False)"
+        },
+        {
+          "node": "global_costmap",
+          "type": "nav_msgs/msg/OccupancyGrid",
+          "qos": "QoSProfile(history=HistoryPolicy.UNKNOWN, depth=0, reliability=ReliabilityPolicy.RELIABLE, durability=DurabilityPolicy.TRANSIENT_LOCAL, lifespan=Infinite, deadline=Infinite, liveliness=LivelinessPolicy.AUTOMATIC, liveliness_lease_duration=Infinite, avoid_ros_namespace_conventions=False)"
+        }
+      ]
+    }
+  },
+  "controller_sha256": {
+    "src/universal_controller/src/main.cpp": "9cc673f8a70d0464358c4bbea3db31d487c018db1f5debcb717bca080917a6d7",
+    "src/universal_controller/src/tools/rc_yaml_parser.cpp": "6ee8db8b3c0744cb959857c81e7603e930a13c77bb2ef9c4d0840adc75dc79d6",
+    "src/universal_controller/src/tools/keyboard_mouse_parser.cpp": "98f4d493252ee14be965f7acff1674351fa82c26363096beff4e79458e5fb33a",
+    "src/universal_controller/src/tools/swerve_kinematics.cpp": "8754869a551f86eed4122e76ede125a7b7968c50710c4f15b28603859cc7d407",
+    "src/universal_controller/src/hub/hub_subscribers.cpp": "ca845d582d8192bd5f15ffcd25bbe378da2f169021ca5a9e8bfdffa94e9bcb5c",
+    "src/universal_controller/src/hub/hub_core.cpp": "3e014cd47fc4cb8e54531af1d2592b78330008bd1d31b78805ce5a0c35367a52",
+    "src/universal_controller/src/hub/hub_rc.cpp": "5b4a3aba4aedcbcabcbdd0c345de3e4d99b62714fb72afda588cfdbae5c1e2f1",
+    "src/universal_controller/src/hub/hub_arbitration.cpp": "80f329168b8257b2885022ccaf668a731567869607c55c79969cb3da2d371faf",
+    "src/universal_controller/src/controllers/gimbal_controller.cpp": "102c86b07cd8b7e37e488a452238e7a5219577e8b0bacbf1da042028c8cbd5d2",
+    "src/universal_controller/src/controllers/chassis_controller.infantry.cpp": "89dafbcbe642aa2d244f4cbd76e678b0724aa0ee64ee84e6647da87e59253e5d",
+    "src/universal_controller/src/controllers/chassis_controller.sentry.cpp": "994285b7f5662ce0e58d2cef1357ac1a38f2737feeebe7ff6d71cc31b616d33b",
+    "src/universal_controller/src/controllers/fire_controller.cpp": "afebd8e0e8264d102916f1469a3d27a690f126f07082ad53d43659398d37ebf1",
+    "src/universal_controller/src/interpreters/vtm_interpreter.cpp": "6c4cb27cbccdf696d2f3ccb452a5c68bb2f8cfcb1882cb8e03e149e33e07a0cd",
+    "src/universal_controller/src/interpreters/ndj_interpreter.cpp": "63a125aac7ea5ef72494ccdb1ca7cf924551903a192c7e4699f92c5d8ed8a00e",
+    "src/universal_controller/include/universal_controller/common/types.hpp": "797ed0acf64d3dedb73c9f360f99d77ea32a1e819b62cb43690253e29a42192c",
+    "src/universal_controller/include/universal_controller/common/config.hpp": "f11377c2503df613abd29338b23e038d32faf3ba836593511acc5aa96dbf4d63",
+    "src/universal_controller/include/universal_controller/tools/keyboard_mouse_parser.hpp": "e06207a16d91d4a43a71753b12f7542131f025900cac80efaf5421ee8cc0670a",
+    "src/universal_controller/include/universal_controller/tools/rc_action_types.hpp": "d5e755e73c34824f768a5dde2287ed6b163ab3d42c7a5014e40ca6e7953cac51",
+    "src/universal_controller/include/universal_controller/tools/pid.hpp": "1230abec27306a2527aca704b5463d7e827747a3ee5ce662107ccffdf1713af3",
+    "src/universal_controller/include/universal_controller/tools/input_processor.hpp": "a72e73ba23c192b375b2e5f445a5fb690436f5a1dffa06bbb126c011d0e9d183",
+    "src/universal_controller/include/universal_controller/tools/swerve_kinematics.hpp": "58364dbfa08ea8d8fb5bc3ca8e98fcae7a750295e6816c538120ab87575df8c4",
+    "src/universal_controller/include/universal_controller/tools/rc_yaml_parser.hpp": "ea3393dd7d7a2d1849c3211ce60b997b36be12a710d4f40bd7929c790a7e4f20",
+    "src/universal_controller/include/universal_controller/hub/hub.hpp": "76b740af738a5bdfd1cf0d88b429e6078c07aa3d7bf3580bd5cef42bc4f5cfaf",
+    "src/universal_controller/include/universal_controller/controllers/fire_controller.hpp": "c3902f2f7f0106a5a0a336e356f3e5c363b48e1dcea64aa8fc18a34a6da51384",
+    "src/universal_controller/include/universal_controller/controllers/base_controller.hpp": "52e16e0371ef61cb2ab11509a2482e96cdd4bb1a0e2aa2196b7f691165950bfb",
+    "src/universal_controller/include/universal_controller/controllers/gimbal_controller.hpp": "d969e15ed1ac380aebf7d630710fef731b68cfc3716b384245369b8d8b0c566f",
+    "src/universal_controller/include/universal_controller/controllers/chassis_controller.hpp": "c6da0901bd4c1b6dd35339d99f8cf7d542abab37d00626de514e0ed7c8e42376",
+    "src/universal_controller/include/universal_controller/interpreters/vtm_interpreter.hpp": "48fec670d4cc62af92aa4c1cc405418bd24f1d5eaf0a34dc37dec673979db11c",
+    "src/universal_controller/include/universal_controller/interpreters/ndj_interpreter.hpp": "24d33416ae43070222318e9a73201dca369c7c5a5829739fb79ddae266e93bf0",
+    "src/universal_controller/build/universal_controller/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp": "bd1f2250416e16ed26d6db1890f822a01d487df29d20e87407ef4ce72c314ba0",
+    "src/universal_controller/build/universal_controller/rosidl_typesupport_cpp/universal_controller/msg/unified_input__type_support.cpp": "f7de807e0939483ea1dc6d9aa31e9085745d88fd504725620097baf131cacb43",
+    "src/universal_controller/build/universal_controller/rosidl_typesupport_c/universal_controller/msg/unified_input__type_support.cpp": "e5ac6ea78bb96a0af992402afe90ac2d92eb975bc0a271fa8577df2a730aae85",
+    "src/universal_controller/build/universal_controller/rosidl_typesupport_fastrtps_c/universal_controller/msg/detail/unified_input__type_support_c.cpp": "80276f2539c5ddcc42f5c548bcf8dc64813b33c42f66b4b9501628c42de010e5",
+    "src/universal_controller/build/universal_controller/rosidl_generator_cpp/universal_controller/msg/unified_input.hpp": "a74a4c9c21778bced8f2adc89caed3d9f6a33fb9d72d4dcbfa2e633125445c58",
+    "src/universal_controller/build/universal_controller/rosidl_generator_cpp/universal_controller/msg/rosidl_generator_cpp__visibility_control.hpp": "6d92700a3e98de385faf7b5985a48090b7652558ab77167e0c40963aed3f7126",
+    "src/universal_controller/build/universal_controller/rosidl_generator_cpp/universal_controller/msg/detail/unified_input__builder.hpp": "17fa34a1f6eb57a4a4f28c7668fc838f8a960ab6e61de98c95a07477ab63c1bc",
+    "src/universal_controller/build/universal_controller/rosidl_generator_cpp/universal_controller/msg/detail/unified_input__traits.hpp": "aaa17153ac6b60858daf4a4cfb3c49a95fb7254f5e0ef622e210cf43ee2bedef",
+    "src/universal_controller/build/universal_controller/rosidl_generator_cpp/universal_controller/msg/detail/unified_input__type_support.hpp": "5220017190a48416d7638f8275ee47f5b9441ec48d47dec1f9ca6a12ef432a2f",
+    "src/universal_controller/build/universal_controller/rosidl_generator_cpp/universal_controller/msg/detail/unified_input__struct.hpp": "1cc925de163eb7b324436e0b7c394c7b689a9d861b6ea992d6c5ed1c49cd41c4",
+    "src/universal_controller/build/universal_controller/rosidl_typesupport_introspection_cpp/universal_controller/msg/detail/unified_input__type_support.cpp": "04b5a270dc413b8685a09fe6bc153c0e020460c8a06253fd55f6aa59ef4f9eb5",
+    "src/universal_controller/build/universal_controller/rosidl_typesupport_introspection_cpp/universal_controller/msg/detail/unified_input__rosidl_typesupport_introspection_cpp.hpp": "7f8459bf7ffdd5f61ae971e5396f1259c0072ea3b9dcd046262529c252202bad",
+    "src/universal_controller/build/universal_controller/rosidl_typesupport_fastrtps_cpp/universal_controller/msg/detail/unified_input__rosidl_typesupport_fastrtps_cpp.hpp": "f421f39daab6732f9c274977996ad292e3c6c32977e50728746468a34976a701",
+    "src/universal_controller/build/universal_controller/rosidl_typesupport_fastrtps_cpp/universal_controller/msg/detail/dds_fastrtps/unified_input__type_support.cpp": "50a5fe7e8ad6e9ba40839e9694a420c3fdad8019d981ddd4f005cbdf9797ed98",
+    "src/universal_controller/install/universal_controller/share/universal_controller/config/vtm_definition.sentry.yaml": "842a85f2d24787590fbaae074f5ce812a95ff75d454c8ba7ce857e171c7d4b4d",
+    "src/universal_controller/install/universal_controller/share/universal_controller/config/ndj_definition.sentry.yaml": "d58a1a5246adbc3a6d534141e3ccaab0f7ad920dde550623b8204b548ad76f21",
+    "src/universal_controller/install/universal_controller/include/universal_controller/common/types.hpp": "797ed0acf64d3dedb73c9f360f99d77ea32a1e819b62cb43690253e29a42192c",
+    "src/universal_controller/install/universal_controller/include/universal_controller/common/config.hpp": "f11377c2503df613abd29338b23e038d32faf3ba836593511acc5aa96dbf4d63",
+    "src/universal_controller/install/universal_controller/include/universal_controller/tools/rc_action_types.hpp": "d5e755e73c34824f768a5dde2287ed6b163ab3d42c7a5014e40ca6e7953cac51",
+    "src/universal_controller/install/universal_controller/include/universal_controller/tools/pid.hpp": "1230abec27306a2527aca704b5463d7e827747a3ee5ce662107ccffdf1713af3",
+    "src/universal_controller/install/universal_controller/include/universal_controller/tools/input_processor.hpp": "a72e73ba23c192b375b2e5f445a5fb690436f5a1dffa06bbb126c011d0e9d183",
+    "src/universal_controller/install/universal_controller/include/universal_controller/tools/swerve_kinematics.hpp": "58364dbfa08ea8d8fb5bc3ca8e98fcae7a750295e6816c538120ab87575df8c4",
+    "src/universal_controller/install/universal_controller/include/universal_controller/tools/rc_yaml_parser.hpp": "ea3393dd7d7a2d1849c3211ce60b997b36be12a710d4f40bd7929c790a7e4f20",
+    "src/universal_controller/install/universal_controller/include/universal_controller/hub/hub.hpp": "76b740af738a5bdfd1cf0d88b429e6078c07aa3d7bf3580bd5cef42bc4f5cfaf",
+    "src/universal_controller/install/universal_controller/include/universal_controller/controllers/fire_controller.hpp": "c3902f2f7f0106a5a0a336e356f3e5c363b48e1dcea64aa8fc18a34a6da51384",
+    "src/universal_controller/install/universal_controller/include/universal_controller/controllers/base_controller.hpp": "52e16e0371ef61cb2ab11509a2482e96cdd4bb1a0e2aa2196b7f691165950bfb",
+    "src/universal_controller/install/universal_controller/include/universal_controller/controllers/gimbal_controller.hpp": "d969e15ed1ac380aebf7d630710fef731b68cfc3716b384245369b8d8b0c566f",
+    "src/universal_controller/install/universal_controller/include/universal_controller/controllers/chassis_controller.hpp": "c6da0901bd4c1b6dd35339d99f8cf7d542abab37d00626de514e0ed7c8e42376",
+    "src/universal_controller/install/universal_controller/include/universal_controller/universal_controller/msg/unified_input.hpp": "a74a4c9c21778bced8f2adc89caed3d9f6a33fb9d72d4dcbfa2e633125445c58",
+    "src/universal_controller/install/universal_controller/include/universal_controller/universal_controller/msg/rosidl_generator_cpp__visibility_control.hpp": "6d92700a3e98de385faf7b5985a48090b7652558ab77167e0c40963aed3f7126",
+    "src/universal_controller/install/universal_controller/include/universal_controller/universal_controller/msg/detail/unified_input__rosidl_typesupport_introspection_cpp.hpp": "7f8459bf7ffdd5f61ae971e5396f1259c0072ea3b9dcd046262529c252202bad",
+    "src/universal_controller/install/universal_controller/include/universal_controller/universal_controller/msg/detail/unified_input__builder.hpp": "17fa34a1f6eb57a4a4f28c7668fc838f8a960ab6e61de98c95a07477ab63c1bc",
+    "src/universal_controller/install/universal_controller/include/universal_controller/universal_controller/msg/detail/unified_input__traits.hpp": "aaa17153ac6b60858daf4a4cfb3c49a95fb7254f5e0ef622e210cf43ee2bedef",
+    "src/universal_controller/install/universal_controller/include/universal_controller/universal_controller/msg/detail/unified_input__type_support.hpp": "5220017190a48416d7638f8275ee47f5b9441ec48d47dec1f9ca6a12ef432a2f",
+    "src/universal_controller/install/universal_controller/include/universal_controller/universal_controller/msg/detail/unified_input__struct.hpp": "1cc925de163eb7b324436e0b7c394c7b689a9d861b6ea992d6c5ed1c49cd41c4",
+    "src/universal_controller/install/universal_controller/include/universal_controller/universal_controller/msg/detail/unified_input__rosidl_typesupport_fastrtps_cpp.hpp": "f421f39daab6732f9c274977996ad292e3c6c32977e50728746468a34976a701",
+    "src/universal_controller/install/universal_controller/include/universal_controller/interpreters/vtm_interpreter.hpp": "48fec670d4cc62af92aa4c1cc405418bd24f1d5eaf0a34dc37dec673979db11c",
+    "src/universal_controller/install/universal_controller/include/universal_controller/interpreters/ndj_interpreter.hpp": "24d33416ae43070222318e9a73201dca369c7c5a5829739fb79ddae266e93bf0",
+    "src/universal_controller/config/vtm_definition.sentry.yaml": "842a85f2d24787590fbaae074f5ce812a95ff75d454c8ba7ce857e171c7d4b4d",
+    "src/universal_controller/config/controller_params.sentry.yaml": "05927f0a4a4e9774ace17d7a6b2c69f448679f680fd559b4175c3a36a6714b98",
+    "src/universal_controller/config/ndj_definition.sentry.yaml": "d58a1a5246adbc3a6d534141e3ccaab0f7ad920dde550623b8204b548ad76f21",
+    "src/universal_controller/config/controller_params.infantry.yaml": "110594ccb03b9ddbc9c7760b4e3e42202bd893d0048f415a70c7fbee9006879c",
+    "src/universal_controller/config/km_definition.yaml": "41eac82700a8703ca6006c491fa7a8ec3847038b469c16519661aac389a3fdb7"
+  },
+  "pending": [
+    "Physical emergency stop and RC takeover",
+    "Sensor freshness and localization quality",
+    "Axis calibration and rotating-gimbal navigation",
+    "Obstacle avoidance and fault stopping"
+  ]
+}

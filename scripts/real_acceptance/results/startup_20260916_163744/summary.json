@@ -1,0 +1,21 @@
+{
+  "status": "incomplete",
+  "physical_acceptance_passed": false,
+  "stages": [
+    {
+      "name": "scan_two_turns",
+      "exit_code": 1
+    },
+    {
+      "name": "save_partial_map",
+      "exit_code": 0
+    }
+  ],
+  "scope": "Navigation-process startup; fresh local SLAM, not power-cycle or saved-map global localization",
+  "initial_pose_map": [
+    0.002270583925271359,
+    0.008183327533619798,
+    -0.01196915200534614
+  ],
+  "reason": "scan_two_turns failed; subsequent movement skipped"
+}

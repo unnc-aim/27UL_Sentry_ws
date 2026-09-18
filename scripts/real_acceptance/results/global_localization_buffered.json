@@ -1,0 +1,379 @@
+{
+  "motion_authorized": false,
+  "globalization_requested": false,
+  "trace": [
+    {
+      "time": 1789550543.4134827,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.200s, buffer=17"
+    },
+    {
+      "time": 1789550543.8094907,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.500s, buffer=21"
+    },
+    {
+      "time": 1789550544.3144708,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.750s, buffer=26"
+    },
+    {
+      "time": 1789550544.8400667,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=30"
+    },
+    {
+      "time": 1789550545.3608286,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.948s, buffer=32"
+    },
+    {
+      "time": 1789550545.8819158,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=25"
+    },
+    {
+      "time": 1789550546.3941057,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=19"
+    },
+    {
+      "time": 1789550546.9109845,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.850s, buffer=18"
+    },
+    {
+      "time": 1789550547.436577,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=17"
+    },
+    {
+      "time": 1789550547.9556673,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=18"
+    },
+    {
+      "time": 1789550548.456223,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.900s, buffer=18"
+    },
+    {
+      "time": 1789550548.96713,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=18"
+    },
+    {
+      "time": 1789550549.4703104,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=19"
+    },
+    {
+      "time": 1789550549.9850724,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.949s, buffer=19"
+    },
+    {
+      "time": 1789550550.4933543,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=20"
+    },
+    {
+      "time": 1789550551.0024958,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.951s, buffer=20"
+    },
+    {
+      "time": 1789550551.518826,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.900s, buffer=19"
+    },
+    {
+      "time": 1789550552.023833,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.948s, buffer=18"
+    },
+    {
+      "time": 1789550552.529048,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=18"
+    },
+    {
+      "time": 1789550553.036839,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.900s, buffer=18"
+    },
+    {
+      "time": 1789550553.540473,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.949s, buffer=19"
+    },
+    {
+      "time": 1789550554.048894,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.800s, buffer=19"
+    },
+    {
+      "time": 1789550554.5602193,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.850s, buffer=18"
+    },
+    {
+      "time": 1789550555.0715134,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.951s, buffer=20"
+    },
+    {
+      "time": 1789550555.5723035,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=19"
+    },
+    {
+      "time": 1789550556.0928779,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=20"
+    },
+    {
+      "time": 1789550556.5998497,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.900s, buffer=20"
+    },
+    {
+      "time": 1789550557.1113613,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.949s, buffer=20"
+    },
+    {
+      "time": 1789550557.6241028,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=21"
+    },
+    {
+      "time": 1789550558.1458762,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=20"
+    },
+    {
+      "time": 1789550558.6634874,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=20"
+    },
+    {
+      "time": 1789550559.1783233,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=20"
+    },
+    {
+      "time": 1789550559.6869779,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=19"
+    },
+    {
+      "time": 1789550560.1911302,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=19"
+    },
+    {
+      "time": 1789550560.7031682,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=20"
+    },
+    {
+      "time": 1789550561.2059193,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.900s, buffer=20"
+    },
+    {
+      "time": 1789550561.7255688,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.900s, buffer=21"
+    },
+    {
+      "time": 1789550562.2469687,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=22"
+    },
+    {
+      "time": 1789550562.759996,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.900s, buffer=21"
+    },
+    {
+      "time": 1789550563.273265,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=21"
+    },
+    {
+      "time": 1789550563.7860198,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.949s, buffer=20"
+    },
+    {
+      "time": 1789550564.2949703,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.900s, buffer=20"
+    },
+    {
+      "time": 1789550564.809329,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.900s, buffer=19"
+    },
+    {
+      "time": 1789550565.311053,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=19"
+    },
+    {
+      "time": 1789550565.8241,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=19"
+    },
+    {
+      "time": 1789550566.3329825,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.850s, buffer=20"
+    },
+    {
+      "time": 1789550566.8386936,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=19"
+    },
+    {
+      "time": 1789550567.3411229,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.900s, buffer=21"
+    },
+    {
+      "time": 1789550567.8611722,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.900s, buffer=20"
+    },
+    {
+      "time": 1789550568.3637154,
+      "candidate_stable": false,
+      "particle_receive_age_s": 0.10289106300001549,
+      "scan_receive_age_s": 0.21372385600011512,
+      "pose_age_s": 0.2179607045715332,
+      "scan_age_s": 0.2678950405715332,
+      "pose_scan_offset_s": 0.049934336,
+      "pose": [
+        0.10709481131633262,
+        -0.08479783611221793,
+        -0.2982837005111272
+      ],
+      "covariance": [
+        7.888871348592404e-05,
+        7.997139623060028e-05,
+        2.598400001731738e-05
+      ],
+      "scan_match": 0.9791666666666666,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 5000
+    },
+    {
+      "time": 1789550568.8735385,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.350s, buffer=33"
+    },
+    {
+      "time": 1789550569.3850884,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.600s, buffer=35"
+    },
+    {
+      "time": 1789550569.9084048,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.850s, buffer=38"
+    },
+    {
+      "time": 1789550570.412813,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=35"
+    },
+    {
+      "time": 1789550570.9361603,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=30"
+    },
+    {
+      "time": 1789550571.4485946,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.952s, buffer=25"
+    },
+    {
+      "time": 1789550571.9640012,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.800s, buffer=19"
+    },
+    {
+      "time": 1789550572.4680676,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.951s, buffer=19"
+    },
+    {
+      "time": 1789550572.978318,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=18"
+    },
+    {
+      "time": 1789550573.4818017,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.849s, buffer=17"
+    },
+    {
+      "time": 1789550574.0005178,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=18"
+    },
+    {
+      "time": 1789550574.5257058,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=19"
+    },
+    {
+      "time": 1789550575.0396771,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=19"
+    },
+    {
+      "time": 1789550575.5509133,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=20"
+    },
+    {
+      "time": 1789550576.0523365,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=20"
+    },
+    {
+      "time": 1789550576.5681958,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.900s, buffer=19"
+    },
+    {
+      "time": 1789550577.0772178,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.900s, buffer=18"
+    },
+    {
+      "time": 1789550577.5818567,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=20"
+    },
+    {
+      "time": 1789550578.089937,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.949s, buffer=20"
+    },
+    {
+      "time": 1789550578.6035087,
+      "candidate_stable": false,
+      "error": "No matching scan: offset=0.950s, buffer=19"
+    }
+  ],
+  "latest": {
+    "time": 1789550578.6035087,
+    "candidate_stable": false,
+    "error": "No matching scan: offset=0.950s, buffer=19"
+  },
+  "error": "Interrupted"
+}

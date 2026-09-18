@@ -1,0 +1,18 @@
+{
+  "status": "incomplete",
+  "physical_acceptance_passed": false,
+  "radius_m": 0.2,
+  "stages": [
+    {
+      "name": "baseline_rectangle",
+      "exit_code": 1,
+      "evidence": "baseline_rectangle.json"
+    }
+  ],
+  "pending": [
+    "Physical emergency-stop braking with operator",
+    "Saved-map global localization and symmetry resolution",
+    "Physical obstruction/avoidance and data-loss stop test"
+  ],
+  "reason": "baseline_rectangle failed; subsequent motion skipped"
+}

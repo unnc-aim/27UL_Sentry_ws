@@ -1,0 +1,16 @@
+{
+  "radius_m": 0.2,
+  "max_speed_mps": 0.15,
+  "physical_acceptance_passed": false,
+  "hub_input_linear_sign": -1,
+  "waypoints": [],
+  "trace": [],
+  "scope": "Current local map; no prebuilt-field global localization certification",
+  "abort_reason": "Global localization readiness lost",
+  "final_wheel_speeds": [
+    0,
+    0,
+    0,
+    0
+  ]
+}
