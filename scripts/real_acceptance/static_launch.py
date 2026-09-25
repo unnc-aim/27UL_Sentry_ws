@@ -2,6 +2,7 @@
 import os
 import json
 import math
+import runpy
 import sys
 from pathlib import Path
 import tempfile
@@ -25,11 +26,18 @@ def generate_launch_description():
     params = yaml.safe_load((bringup/'config/reality/nav2_params.yaml').read_text())
     for costmap in ('local_costmap', 'global_costmap'):
         params[costmap][costmap]['ros__parameters']['robot_radius'] = diagnostic_radius
+        params[costmap][costmap]['ros__parameters']['always_send_full_costmap'] = True
     params['controller_server']['ros__parameters']['general_goal_checker']['xy_goal_tolerance'] = .04
+    # At 0.15 m/s, steering and bounded gaze alignment precede translation.
+    # Keep a progress deadline, but do not require 0.30 m during that startup.
+    params['controller_server']['ros__parameters']['progress_checker'].update(
+        required_movement_radius=.05, movement_time_allowance=20.0)
+    # Keep publishing zero on collision while the 1 Hz planner updates its path.
+    params['controller_server']['ros__parameters']['failure_tolerance'] = 2.0
     params['livox_ros_driver2']['ros__parameters']['user_config_path'] = str(bringup/'config/reality/mid360_user_config.json')
     params['fake_vel_transform']['ros__parameters'].update(
         output_cmd_vel_topic='/static_acceptance/cmd_vel',
-        cmd_spin_topic='/static_acceptance/cmd_spin', init_spin_speed=0.0)
+        cmd_spin_topic='/static_acceptance/cmd_spin', init_spin_speed=0.0, translation_scale=1.0)
     # Let the mapper publish its estimated map->odom correction; do not freeze it.
     params['slam_toolbox']['ros__parameters'].update(
         transform_publish_period=.05, minimum_travel_distance=0.0,
@@ -39,14 +47,8 @@ def generate_launch_description():
     saved_map = os.environ.get('SENTRY_ACCEPTANCE_SAVED_MAP')
     if saved_map:
         saved_map = str(Path(saved_map).resolve(strict=True))
-        localization = yaml.safe_load((Path(__file__).parent.parent/'coordinate_sim/params.yaml').read_text())
-        params['map_server'] = localization['map_server']
         params['map_server']['ros__parameters'].update(yaml_filename=saved_map, use_sim_time=False)
-        params['amcl'] = localization['amcl']
-        params['amcl']['ros__parameters'].update(use_sim_time=False, scan_topic='obstacle_scan',
-            update_min_a=0.0, update_min_d=0.0, laser_min_range=.3, laser_max_range=10.0,
-            min_particles=1000, max_particles=5000, max_beams=60,
-            recovery_alpha_fast=0.0, recovery_alpha_slow=0.0)
+        params['amcl']['ros__parameters'].update(use_sim_time=False, set_initial_pose=False)
     directory = Path(tempfile.mkdtemp(prefix='sentry-static-'))
     config = directory/'params.yaml'
     config.write_text(yaml.safe_dump(params).replace("<robot_namespace>", ""))
@@ -55,36 +57,13 @@ def generate_launch_description():
     macro.generate()
     generator = UrdfGenerator()
     generator.parse_from_sdf_string(macro.to_string())
-    # The original model splits one physical yaw across two virtual yaw joints.
-    # Collapse the translation-only intermediate chain in this diagnostic URDF;
-    # publish the measured physical yaw once, without inventing a second encoder.
-    urdf = ET.fromstring(generator.to_string())
-    chain = [urdf.find("joint[@name='" + name + "']") for name in
-             ['gimbal_yaw_odom_joint', 'gimbal_pitch_odom_joint', 'gimbal_yaw_joint']]
-    if any(j is None for j in chain):
-        raise RuntimeError('Unexpected yaw chain; re-audit robot geometry')
-    origins = [j.find('origin') for j in chain]
-    if any(o.get('rpy') != '0 0 0' for o in origins):
-        raise RuntimeError('Yaw chain has rotated origins; re-audit composition')
-    xyz = [sum(float(o.get('xyz').split()[i]) for o in origins) for i in range(3)]
-    chain[-1].find('parent').set('link', chain[0].find('parent').get('link'))
-    chain[-1].find('origin').set('xyz', ' '.join(map(str, xyz)))
-    for joint in chain[:-1]:
-        link_name = joint.find('child').get('link')
-        urdf.remove(joint)
-        urdf.remove(urdf.find("link[@name='" + link_name + "']"))
-    # Operator confirmed MID360 rotates with yaw, unlike the upstream chassis mount.
-    # Preserve nominal zero-yaw installation geometry; numerical extrinsics remain
-    # subject to physical acceptance, not inferred from the parent correction.
+    # Use the same measured-yaw geometry as the production real robot.
+    real_sentry_urdf = runpy.run_path(str(
+        Path(share('pb2025_robot_description'))/'launch/robot_description_launch.py'
+    ))['real_sentry_urdf']
+    urdf = ET.fromstring(real_sentry_urdf(generator.to_string()))
     lidar_joint = urdf.find("joint[@name='front_livox_joint']")
-    if lidar_joint is None or lidar_joint.find('parent').get('link') != 'chassis':
-        raise RuntimeError('Unexpected lidar mount; re-audit model')
-    if chain[-1].find('parent').get('link') != 'chassis':
-        raise RuntimeError('Unexpected yaw parent; re-audit model')
     origin = lidar_joint.find('origin')
-    lidar_xyz = [float(v) for v in origin.get('xyz').split()]
-    origin.set('xyz', ' '.join(str(lidar_xyz[i]-xyz[i]) for i in range(3)))
-    lidar_joint.find('parent').set('link', 'gimbal_yaw')
     calibration_path = os.environ.get('SENTRY_ACCEPTANCE_LIDAR_CALIBRATION')
     if calibration_path:
         calibration = json.loads(Path(calibration_path).read_text())

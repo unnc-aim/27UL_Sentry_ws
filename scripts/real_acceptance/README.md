@@ -1,5 +1,8 @@
 # 实车验收
 
+当前推荐流程（2026-09-17）：[手动建图、无旋转原地定位与单目标避障测试](MANUAL_MAP_TEST.md)。
+下文两圈扫描为历史验收记录，不是新流程的启动步骤。
+
 ## 隔离启动静态验收（已实现）
 
 ```bash
@@ -228,42 +231,34 @@ python3 scripts/real_acceptance/startup_trial.py --execute \
 这是当前场地的局部建图启动任务。未验证物理断电自启、预建图重定位、
 比赛裁判触发及动态避障，不应把 `local_startup_task_passed` 当作整车比赛认证。
 
-### 旧地图定位及 RViz 选点（实车验收中）
+### 保存地图与原生 AMCL 定位（2026-09-24）
 
-保存的固定地图：`maps/rectangle_20260916/map.yaml`。原点和坐标不随本次启动
-改变。该目录 `select_goal.png` 展示完整地图及坐标；地图外部杂点仍保留，不能
-把所有观测范围都当成矩形内部可行驶区域。
-
-通过环境变量加载旧地图时，`static_launch.py` 启动 map_server 和 AMCL，
-不启动 SLAM，避免两个节点同时发布 map→odom。AMCL 全局初始化不发布人工
-初始位姿。当前参数使用 1000–5000 个粒子、60 条激光束，随机恢复注入关闭；
-重新搬车后必须重新调用全局初始化，不能沿用旧定位。
+建图继续使用现有 Point-LIO、地形处理、点云转 LaserScan 和 slam_toolbox。
+地图由原生 map_saver_cli 保存为 YAML/PGM。定位复用这份地图。
 
 ```bash
-source install/setup.bash
-ROS_DOMAIN_ID=88 ROS_LOCALHOST_ONLY=1 \
-SENTRY_ACCEPTANCE_LIDAR_CALIBRATION="$PWD/scripts/real_acceptance/results/lidar_offset_stationary.json" \
-SENTRY_ACCEPTANCE_SAVED_MAP="$PWD/scripts/real_acceptance/maps/rectangle_20260916/map.yaml" \
-ros2 launch ./scripts/real_acceptance/static_launch.py
+bash scripts/real_acceptance/run_map_test.sh localize
 ```
 
-RViz 配置 `select_goal.rviz` 的 **2D Goal Pose** 只发布到
-`/acceptance/selected_goal`。`select_goal.py --map <地图yaml>` 校验目标周围
-0.40 米已知空闲圆，显示坐标并保存 `selected_goal.json`；不发送导航动作。
-选点失败时删除之前的目标文件，避免误执行旧目标。
+`static_launch.py` 的保存地图模式启动 map_server、AMCL 和现有扫描转换节点。
+AMCL 参数直接读取生产 `config/reality/nav2_params.yaml`，定位 TF 由 AMCL 发布。
+雷达标定候选通过 `SENTRY_ACCEPTANCE_LIDAR_CALIBRATION` 显式选用。
 
-`localization_probe.py --globalize --seconds 240` 在独立域初始化 AMCL，
-检查协方差、粒子集中度和扫描端点与地图的一致性，持续发布短期有效的
-`/acceptance/localization_ready`。扫描与定位都缓存，以测量时间配对，配对
-偏差不超过 0.025 秒；检查测量新鲜度，不以收到消息代替有效定位。
-粒子云原始消息限频解码，避免大消息处理拖慢传感器配对。诊断结束发布 false，
-接收方同时检查心跳超时。该统计检查不保证对称场地绝对无歧义。
+`localization_probe.py --globalize` 等待地图、扫描、局部 TF 和 AMCL active，
+调用原生 `reinitialize_global_localization`。收到响应后清理旧位姿，等待新扫描
+对应的 `amcl_pose`。静止更新使用原生 `request_nomotion_update`。
 
-`plan_selected_goal.py <selected_goal.json> <route.json>` 只规划路径，分成
-约 0.15–0.25 米小段，并检查整个分段走廊已知空闲，路线总长限定 5 米。
-`navigation_trial.py --execute --segmented-global --landmarks <route.json>`
-才会在原遥控授权下执行；每段保留 0.35 米位移边界、0.15 m/s 速度上限及
-定位/扫描/遥控门控。遥控接管后不自动重试。
+`/acceptance/localization_ready` 与 JSON `latest.candidate_stable` 保留原接口。
+其含义为：有效位姿、扫描和 TF 足够新，位置方差小于 0.04 m²，朝向方差小于
+0.025 rad²，连续满足 3 秒。现场另行核对位置和朝向，尤其关注对称场地。
+诊断结束时话题及 JSON 都写入 false。
+
+RViz 的 **2D Goal Pose** 保存目标。现场完成位置与朝向复核后，再显式执行
+`drive --execute`。既有遥控接管、停车、障碍检查和速度限制继续沿用。
+完整步骤见 `MANUAL_MAP_TEST.md`。
+
+此前额外编写的全图搜索、候选评分和连续恢复实现已删除。
+下面保留历史测试记录，其结果对应各记录当时的程序版本。
 
 本轮已实测顺时针连续扫描约 722 度，证据：
 `results/clockwise_global_scan/motion_probe.json`。现场已确认允许连续两圈，
