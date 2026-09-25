@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "peak_command_mps": 0.15000000000000002,
+  "waypoints": [
+    {
+      "name": "selected_goal",
+      "target": [
+        -1.938461422920227,
+        -0.7692306041717529
+      ],
+      "status": 4,
+      "position_error_m": 0.016158496093466982
+    }
+  ],
+  "localization_pauses": 0,
+  "final_wheel_speeds": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "independent_physical_measurement": false
+}

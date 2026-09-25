@@ -1,0 +1,5 @@
+{
+  "pose_applied": false,
+  "motion_commanded": false,
+  "error": "Capture was not stationary; do not aggregate"
+}

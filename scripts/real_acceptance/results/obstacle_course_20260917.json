@@ -1,0 +1,18 @@
+{
+  "segments": [
+    "stationary_goal_20260917_154247",
+    "stationary_goal_20260917_154536",
+    "stationary_goal_20260917_155624"
+  ],
+  "estimated_min_center_distance_to_recorded_box_region_m": 0.3771842100789793,
+  "box_region_is_inferred_not_surveyed": true,
+  "latest_goal_error_m": 0.01466921636525317,
+  "max_command_speed_mps": 0.15000000000000002,
+  "all_localization_wait_commands_zero": true,
+  "final_wheel_speeds": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

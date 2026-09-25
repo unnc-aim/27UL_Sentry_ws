@@ -1,0 +1,7 @@
+{
+  "command_speed_mps": 0.29999999999999993,
+  "post_stop_estimated_excursion_m": 0.0631376166276814,
+  "wheel_near_zero_after_s": 0.4671656810000968,
+  "position_is_localization_estimate": true,
+  "passed_low_speed_only": true
+}

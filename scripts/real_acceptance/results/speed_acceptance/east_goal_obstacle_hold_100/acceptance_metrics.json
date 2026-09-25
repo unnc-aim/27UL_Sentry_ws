@@ -1,0 +1,52 @@
+{
+  "status": "completed",
+  "peak_command_mps": 0.9999999999999999,
+  "peak_1s_map_velocity_estimate_mps": 0.770211130346068,
+  "waypoints": [
+    {
+      "name": "previously_verified_east_goal",
+      "target": [
+        3.1076924800872803,
+        -0.19999969005584717
+      ],
+      "status": 4,
+      "position_error_m": 0.05459987693508006
+    }
+  ],
+  "localization_pauses": [
+    {
+      "start": 615.530339995,
+      "pose": [
+        -0.3729068011660115,
+        -0.3327314024704479
+      ],
+      "end": 619.114250541
+    },
+    {
+      "start": 622.676086417,
+      "pose": [
+        1.1574198611098532,
+        -0.28702573574584617
+      ],
+      "end": 626.367105455
+    },
+    {
+      "start": 629.367135011,
+      "pose": [
+        2.240088406555052,
+        -0.1967573956806454
+      ],
+      "end": 632.948745224
+    }
+  ],
+  "obstacle_pauses": 0,
+  "final_wheel_speeds": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "physical_speed_independently_measured": false,
+  "obstacle_hold_triggered_in_this_trial": false,
+  "competition_acceptance_passed": false
+}

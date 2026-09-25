@@ -1,0 +1,7 @@
+{
+  "position_and_chassis_heading_confirmed": true,
+  "operator_observation": "位置和车体朝向都基本一致",
+  "motion_commanded": false,
+  "automatic_gimbal_scan_executed": false,
+  "later_operator_note": "用户为检查点云匹配手动移动过车辆及云台；后续约125度朝向变化不能作为静止漂移证据"
+}

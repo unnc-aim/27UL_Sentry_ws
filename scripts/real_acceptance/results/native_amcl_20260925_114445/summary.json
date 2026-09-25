@@ -1,0 +1,29 @@
+{
+  "map": "/home/soyo/sentry_ws/src/pb2025_sentry_nav/pb2025_nav_bringup/map/reality/field_20260925.yaml",
+  "ros_domain_id": 88,
+  "previous_run": "/home/soyo/sentry_ws/scripts/real_acceptance/results/native_amcl_20260925_113807",
+  "physical_pose_confirmation": "pending",
+  "validation_scope": "second_stationary_placement",
+  "navigation_and_rviz": "running",
+  "behavior_tree": "closed",
+  "fresh_localization_processes": true,
+  "global_initialization_completed": true,
+  "initial_sample_count": 119,
+  "initial_60_seconds_checks_passed": false,
+  "extended_sample_count": 119,
+  "final_sample_checks_passed": true,
+  "final_continuous_stable_seconds": 41.045759439468384,
+  "position_m": [
+    0.9217394296760493,
+    1.0731542056052135
+  ],
+  "yaw_degrees": -47.9505744319185,
+  "covariance": [
+    0.000643109768995398,
+    0.0005825754643733472,
+    0.0004884715861215334
+  ],
+  "probe_error": null,
+  "real_startup_timeout_seconds": 120,
+  "observation": "Initial 60-second observation followed by another 60-second observation using native stationary updates"
+}

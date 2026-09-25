@@ -1,0 +1,43 @@
+{
+  "yaw_feedback": {
+    "pid": 26819,
+    "command": [
+      "/usr/bin/python3",
+      "/home/soyo/sentry_ws/scripts/real_acceptance/yaw_feedback.py"
+    ]
+  },
+  "navigation": {
+    "pid": 26820,
+    "command": [
+      "ros2",
+      "launch",
+      "pb2025_nav_bringup",
+      "rm_navigation_reality_launch.py",
+      "slam:=False",
+      "use_robot_state_pub:=True",
+      "use_rviz:=False",
+      "map:=/home/soyo/sentry_ws/src/pb2025_sentry_nav/pb2025_nav_bringup/map/reality/field_20260925.yaml",
+      "log_dir:=/home/soyo/sentry_ws/scripts/real_acceptance/results/native_amcl_20260925_113807/ros"
+    ]
+  },
+  "localization": {
+    "pid": 26821,
+    "command": [
+      "/usr/bin/python3",
+      "/home/soyo/sentry_ws/scripts/real_acceptance/localization_probe.py",
+      "--globalize",
+      "--seconds",
+      "60",
+      "--output",
+      "/home/soyo/sentry_ws/scripts/real_acceptance/results/native_amcl_20260925_113807/localization.json"
+    ]
+  },
+  "rviz": {
+    "pid": 27639,
+    "command": [
+      "rviz2",
+      "-d",
+      "/home/soyo/sentry_ws/src/pb2025_sentry_nav/pb2025_nav_bringup/rviz/nav2_default_view.rviz"
+    ]
+  }
+}

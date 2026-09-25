@@ -1,0 +1,25 @@
+{
+  "map": "/home/soyo/sentry_ws/src/pb2025_sentry_nav/pb2025_nav_bringup/map/reality/field_20260925.yaml",
+  "ros_domain_id": 88,
+  "global_initialization_completed": true,
+  "sample_count": 119,
+  "final_sample_checks_passed": true,
+  "final_continuous_stable_seconds": 47.12260174751282,
+  "position_m": [
+    0.5449446992381078,
+    -0.004630911228247601
+  ],
+  "yaw_degrees": -7.436206379798038,
+  "covariance": [
+    0.00018787560569805128,
+    0.00023354171731943495,
+    0.00010591391031076995
+  ],
+  "probe_error": null,
+  "physical_pose_confirmation": "confirmed_by_user",
+  "navigation_and_rviz": "stopped_for_next_placement",
+  "behavior_tree": "closed",
+  "physical_pose_confirmed_at": "2026-09-25T11:42:32+08:00",
+  "validation_scope": "one_stationary_placement",
+  "stopped_at": "2026-09-25T11:44:27+08:00"
+}

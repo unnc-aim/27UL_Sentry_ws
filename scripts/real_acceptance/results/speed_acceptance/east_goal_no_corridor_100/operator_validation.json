@@ -1,0 +1,7 @@
+{
+  "recorded_at": "2026-09-17 16:47:29",
+  "operator_reports_correct_travel_direction": true,
+  "operator_reports_no_nearby_obstacles": true,
+  "source": "User reply: 行驶方向正确，附近没有障碍物",
+  "isolated_return_cause_confirmed": false
+}

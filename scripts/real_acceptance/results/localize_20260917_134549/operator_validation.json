@@ -1,0 +1,8 @@
+{
+  "accepted": false,
+  "operator_observation": "位置或朝向明显不对",
+  "navigation_executed": false,
+  "automatic_gimbal_scan_executed": false,
+  "reason": "Stationary global localization mismatched physical placement; do not use this estimate",
+  "map": "maps/manual_test/map.yaml"
+}

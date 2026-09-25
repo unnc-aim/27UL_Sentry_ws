@@ -1,0 +1,5 @@
+{
+  "pose_applied": false,
+  "motion_commanded": false,
+  "error": "Global match ambiguous or inconsistent: score gap=0.379; no pose applied"
+}

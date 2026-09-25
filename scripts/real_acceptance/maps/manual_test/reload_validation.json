@@ -1,0 +1,11 @@
+{
+  "saved_map_matches_live": true,
+  "resolution_m": 0.05000000074505806,
+  "width": 449,
+  "height": 273,
+  "unknown_cells": 89701,
+  "free_cells": 29259,
+  "occupied_cells": 3617,
+  "map_sha256": "b13cacfaa3d307dacab9db5e2eea9de1628182711edbeb28b424ddde73791957",
+  "motion_commanded": false
+}

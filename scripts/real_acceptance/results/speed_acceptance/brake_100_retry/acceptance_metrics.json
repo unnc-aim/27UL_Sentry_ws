@@ -1,0 +1,22 @@
+{
+  "status": "aborted",
+  "reason": "Planned controlled stopping measurement; destination not attempted",
+  "peak_command_mps": 0.34663605060000013,
+  "last_position": [
+    0.6625283267235457,
+    -0.26657175039154596
+  ],
+  "final_wheel_speeds": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "speed_1_mps_verified": false,
+  "estimated_displacement_after_zero_m": 0.05101840138656682,
+  "time_to_wheel_feedback_near_zero_s": 0.21733391299994764,
+  "corridor_rejections": {
+    "map": 0,
+    "global_costmap": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "pose_applied": true,
+  "motion_commanded": false,
+  "ray_occlusion_model": "projected_3d_low_barriers",
+  "unknown_start_localization_passed": true,
+  "candidate": {
+    "pose": [
+      3.1024520740215307,
+      -0.19110475839244598,
+      -1.9359957870523048
+    ],
+    "score": 0.9184914958578148,
+    "endpoint_score": 0.9068443541517145,
+    "direction_balanced_score": 0.9184914958578148,
+    "ray_collision_fraction": 0.31367661994830126,
+    "match_fractions": [
+      0.8633540372670807,
+      0.902127659574468,
+      0.958041958041958,
+      0.93125,
+      0.9553571428571429,
+      0.9326923076923077
+    ],
+    "static_support": [
+      {
+        "accepted": true,
+        "match_fraction": 0.8633540372670807,
+        "trimmed_likelihood": 0.9948162944407245,
+        "matched_endpoints": 278,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 322
+      },
+      {
+        "accepted": true,
+        "match_fraction": 0.902127659574468,
+        "trimmed_likelihood": 0.997066953407727,
+        "matched_endpoints": 212,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 235
+      },
+      {
+        "accepted": true,
+        "match_fraction": 0.958041958041958,
+        "trimmed_likelihood": 0.9969899101716365,
+        "matched_endpoints": 274,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 286
+      },
+      {
+        "accepted": true,
+        "match_fraction": 0.93125,
+        "trimmed_likelihood": 0.9961088376009151,
+        "matched_endpoints": 298,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 320
+      },
+      {
+        "accepted": true,
+        "match_fraction": 0.9553571428571429,
+        "trimmed_likelihood": 0.9979519475216556,
+        "matched_endpoints": 214,
+        "supported_bearing_bins": 5,
+        "endpoint_count": 224
+      },
+      {
+        "accepted": true,
+        "match_fraction": 0.9326923076923077,
+        "trimmed_likelihood": 0.9946562777114666,
+        "matched_endpoints": 291,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 312
+      }
+    ],
+    "median_error_m": 0.0015375692599221226
+  }
+}

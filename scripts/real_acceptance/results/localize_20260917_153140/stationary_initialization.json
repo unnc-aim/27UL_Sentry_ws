@@ -1,0 +1,74 @@
+{
+  "pose_applied": true,
+  "motion_commanded": false,
+  "ray_occlusion_model": "projected_3d_low_barriers",
+  "candidate": {
+    "pose": [
+      2.360538843336599,
+      -0.22234765690192812,
+      0.3313299219289004
+    ],
+    "score": 0.9477412915503239,
+    "endpoint_score": 0.9477412915503239,
+    "ray_collision_fraction": 0.20684119417908695,
+    "match_fractions": [
+      0.9561128526645768,
+      0.9681978798586572,
+      0.9481268011527377,
+      0.9605263157894737,
+      0.9779874213836478,
+      0.9673590504451038
+    ],
+    "static_support": [
+      {
+        "accepted": true,
+        "match_fraction": 0.9561128526645768,
+        "trimmed_likelihood": 0.9980767136310426,
+        "matched_endpoints": 305,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 319
+      },
+      {
+        "accepted": true,
+        "match_fraction": 0.9681978798586572,
+        "trimmed_likelihood": 0.9996008621785875,
+        "matched_endpoints": 274,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 283
+      },
+      {
+        "accepted": true,
+        "match_fraction": 0.9481268011527377,
+        "trimmed_likelihood": 0.9981009348091797,
+        "matched_endpoints": 329,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 347
+      },
+      {
+        "accepted": true,
+        "match_fraction": 0.9605263157894737,
+        "trimmed_likelihood": 0.9989521646356647,
+        "matched_endpoints": 292,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 304
+      },
+      {
+        "accepted": true,
+        "match_fraction": 0.9779874213836478,
+        "trimmed_likelihood": 0.99886041630566,
+        "matched_endpoints": 311,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 318
+      },
+      {
+        "accepted": true,
+        "match_fraction": 0.9673590504451038,
+        "trimmed_likelihood": 0.9991155506678928,
+        "matched_endpoints": 326,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 337
+      }
+    ],
+    "median_error_m": 0.0
+  }
+}

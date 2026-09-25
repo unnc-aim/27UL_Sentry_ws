@@ -1,0 +1,3165 @@
+{
+  "motion_authorized": false,
+  "globalization_requested": false,
+  "trace": [
+    {
+      "time": 1789635043.629664,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.951417004048583,
+        "trimmed_likelihood": 0.996251435251978,
+        "matched_endpoints": 235,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 247
+      },
+      "scan_endpoint_count": 247,
+      "particle_pose_offset_s": -0.009658469000000001,
+      "particle_stamp_age_s": 0.07611700973254387,
+      "particle_receive_age_s": 0.040214444000071126,
+      "scan_receive_age_s": 0.03379585200002566,
+      "pose_age_s": 0.08577547873254388,
+      "scan_age_s": 0.08577547873254388,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.049958851915581,
+        -0.2196722615725381,
+        -1.933478832081694
+      ],
+      "covariance": [
+        0.000825052001975024,
+        0.0004136980603652307,
+        0.000304909057793118
+      ],
+      "scan_match": 0.951417004048583,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635044.1373332,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9407665505226481,
+        "trimmed_likelihood": 0.9983208477180988,
+        "matched_endpoints": 270,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 287
+      },
+      "scan_endpoint_count": 287,
+      "particle_pose_offset_s": -0.009658469000000001,
+      "particle_stamp_age_s": 0.5842134662602538,
+      "particle_receive_age_s": 0.548307498999975,
+      "scan_receive_age_s": 0.03631823700004588,
+      "pose_age_s": 0.09369503926025391,
+      "scan_age_s": 0.09369503926025391,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0378133321344927,
+        -0.2203579340993709,
+        -1.9353312652483055
+      ],
+      "covariance": [
+        0.0008400024226897784,
+        0.0004165913345480013,
+        0.00025117618725074744
+      ],
+      "scan_match": 0.9407665505226481,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635044.651109,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9442622950819672,
+        "trimmed_likelihood": 0.9986382364921649,
+        "matched_endpoints": 288,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 305
+      },
+      "scan_endpoint_count": 305,
+      "particle_pose_offset_s": 0.020845359,
+      "particle_stamp_age_s": 0.32832160998364257,
+      "particle_receive_age_s": 0.30670150399998874,
+      "scan_receive_age_s": 0.08108086699996875,
+      "pose_age_s": 0.1075991309836426,
+      "scan_age_s": 0.1075991309836426,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.035015406215601,
+        -0.2152464926767312,
+        -1.9363291643796436
+      ],
+      "covariance": [
+        0.0007509779624772506,
+        0.0003073656712601347,
+        0.0001982604632433809
+      ],
+      "scan_match": 0.9442622950819672,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635045.1599083,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9368421052631579,
+        "trimmed_likelihood": 0.9996584855694678,
+        "matched_endpoints": 267,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 285
+      },
+      "scan_endpoint_count": 285,
+      "particle_pose_offset_s": 0.020845359,
+      "particle_stamp_age_s": 0.8368653397657471,
+      "particle_receive_age_s": 0.8152581230000351,
+      "scan_receive_age_s": 0.10869388800006163,
+      "pose_age_s": 0.166021388765747,
+      "scan_age_s": 0.166021388765747,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0286601336658276,
+        -0.2200739278003192,
+        -1.9385597444763827
+      ],
+      "covariance": [
+        0.0008013958258370479,
+        0.0003340951886776772,
+        0.00016776337949806893
+      ],
+      "scan_match": 0.9368421052631579,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635045.678736,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9211356466876972,
+        "trimmed_likelihood": 0.9984950288570535,
+        "matched_endpoints": 292,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 317
+      },
+      "scan_endpoint_count": 317,
+      "particle_pose_offset_s": -0.019539597000000002,
+      "particle_stamp_age_s": 0.5154739309573975,
+      "particle_receive_age_s": 0.4673510060000581,
+      "scan_receive_age_s": 0.027888932999985627,
+      "pose_age_s": 0.08477864795739742,
+      "scan_age_s": 0.08477864795739742,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.029372689645819,
+        -0.21792147899708206,
+        -1.9385020432375488
+      ],
+      "covariance": [
+        0.0007367230045804973,
+        0.00041421039738779447,
+        0.00021817173486350788
+      ],
+      "scan_match": 0.9211356466876972,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635046.1964304,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.948220064724919,
+        "trimmed_likelihood": 0.99926912007737,
+        "matched_endpoints": 293,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 309
+      },
+      "scan_endpoint_count": 309,
+      "particle_pose_offset_s": 0.005520692000000001,
+      "particle_stamp_age_s": 0.25817826372558583,
+      "particle_receive_age_s": 0.22653031300001203,
+      "scan_receive_age_s": 0.022961282999972354,
+      "pose_age_s": 0.052506275725585916,
+      "scan_age_s": 0.052506275725585916,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0393020739239907,
+        -0.2175282012181058,
+        -1.9380282282957773
+      ],
+      "covariance": [
+        0.0007696685767211164,
+        0.0004020441555424095,
+        0.00020394529597920168
+      ],
+      "scan_match": 0.948220064724919,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635046.7045777,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9679715302491103,
+        "trimmed_likelihood": 0.999469055968606,
+        "matched_endpoints": 272,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 281
+      },
+      "scan_endpoint_count": 281,
+      "particle_pose_offset_s": 0.005520692000000001,
+      "particle_stamp_age_s": 0.7661996184008788,
+      "particle_receive_age_s": 0.7345696870000893,
+      "scan_receive_age_s": 0.10266701900002317,
+      "pose_age_s": 0.16052276640087892,
+      "scan_age_s": 0.16052276640087892,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.034429344985729,
+        -0.22089758574547183,
+        -1.937749844797129
+      ],
+      "covariance": [
+        0.0007106596724710812,
+        0.0004324505917877655,
+        0.0001919118597589897
+      ],
+      "scan_match": 0.9679715302491103,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635047.2244205,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9699570815450643,
+        "trimmed_likelihood": 0.9997315897164533,
+        "matched_endpoints": 226,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 233
+      },
+      "scan_endpoint_count": 233,
+      "particle_pose_offset_s": -0.010201203,
+      "particle_stamp_age_s": 0.5204511144749755,
+      "particle_receive_age_s": 0.48857089499995254,
+      "scan_receive_age_s": 0.022253456999919763,
+      "pose_age_s": 0.13168322947497557,
+      "scan_age_s": 0.13168322947497557,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0318421801668514,
+        -0.21912968707151181,
+        -1.938373983388349
+      ],
+      "covariance": [
+        0.0006762941195574967,
+        0.00041135977194185075,
+        0.00017090258261551162
+      ],
+      "scan_match": 0.9699570815450643,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635047.7427638,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9487179487179487,
+        "trimmed_likelihood": 0.9994257037830089,
+        "matched_endpoints": 222,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 234
+      },
+      "scan_endpoint_count": 234,
+      "particle_pose_offset_s": -0.010510084000000001,
+      "particle_stamp_age_s": 0.2401978015966797,
+      "particle_receive_age_s": 0.2063943800000061,
+      "scan_receive_age_s": 0.007982629000025554,
+      "pose_age_s": 0.14921566159667965,
+      "scan_age_s": 0.14921566159667965,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.039352089062486,
+        -0.2198699954854464,
+        -1.9389657750939142
+      ],
+      "covariance": [
+        0.0006433528689520074,
+        0.0003750633325400321,
+        0.00013891466106512112
+      ],
+      "scan_match": 0.9487179487179487,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635048.2525222,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9605263157894737,
+        "trimmed_likelihood": 0.9997301487908792,
+        "matched_endpoints": 219,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 228
+      },
+      "scan_endpoint_count": 228,
+      "particle_pose_offset_s": -0.010510084000000001,
+      "particle_stamp_age_s": 0.7484914302893066,
+      "particle_receive_age_s": 0.714675871000054,
+      "scan_receive_age_s": 0.03342963500006135,
+      "pose_age_s": 0.10836932228930662,
+      "scan_age_s": 0.10836932228930662,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0411401864195633,
+        -0.22248763787676398,
+        -1.936510527799285
+      ],
+      "covariance": [
+        0.0007079299660404104,
+        0.0003601836517793944,
+        0.00014252304689513941
+      ],
+      "scan_match": 0.9605263157894737,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635048.7648149,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9669117647058824,
+        "trimmed_likelihood": 0.9994944641872641,
+        "matched_endpoints": 263,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 272
+      },
+      "scan_endpoint_count": 272,
+      "particle_pose_offset_s": -0.009016249,
+      "particle_stamp_age_s": 0.46263990145300293,
+      "particle_receive_age_s": 0.44097225300004084,
+      "scan_receive_age_s": 0.006844026999942798,
+      "pose_age_s": 0.12279803845300286,
+      "scan_age_s": 0.12279803845300286,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0345544950944054,
+        -0.22529497390378408,
+        -1.9351784643457812
+      ],
+      "covariance": [
+        0.0006239973017034828,
+        0.00037649543022947457,
+        0.00014381003298412774
+      ],
+      "scan_match": 0.9669117647058824,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635049.2790787,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.954225352112676,
+        "trimmed_likelihood": 0.9992477755041868,
+        "matched_endpoints": 271,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 284
+      },
+      "scan_endpoint_count": 284,
+      "particle_pose_offset_s": -0.014031727,
+      "particle_stamp_age_s": 0.21952061433361816,
+      "particle_receive_age_s": 0.20018231300002753,
+      "scan_receive_age_s": 0.040950672000008126,
+      "pose_age_s": 0.13507758933361816,
+      "scan_age_s": 0.13507758933361816,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.033737901897141,
+        -0.224241934659239,
+        -1.9344722525222993
+      ],
+      "covariance": [
+        0.0005570893395496768,
+        0.0003655292997747639,
+        0.00013083716295009617
+      ],
+      "scan_match": 0.954225352112676,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635049.7873063,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9314641744548287,
+        "trimmed_likelihood": 0.9995427067978082,
+        "matched_endpoints": 299,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 321
+      },
+      "scan_endpoint_count": 321,
+      "particle_pose_offset_s": -0.014031727,
+      "particle_stamp_age_s": 0.7289562680201416,
+      "particle_receive_age_s": 0.709620874000052,
+      "scan_receive_age_s": 0.034989640000048894,
+      "pose_age_s": 0.14376111502014155,
+      "scan_age_s": 0.14376111502014155,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.036074151025263,
+        -0.21989264501506187,
+        -1.9333783200894203
+      ],
+      "covariance": [
+        0.00041951473388657234,
+        0.00042267749233447505,
+        0.0001308017096155008
+      ],
+      "scan_match": 0.9314641744548287,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635050.3007376,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9351032448377581,
+        "trimmed_likelihood": 0.99869621039698,
+        "matched_endpoints": 317,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 339
+      },
+      "scan_endpoint_count": 339,
+      "particle_pose_offset_s": -0.009274755,
+      "particle_stamp_age_s": 0.4473514322392578,
+      "particle_receive_age_s": 0.41813201200000094,
+      "scan_receive_age_s": 0.03765104199999314,
+      "pose_age_s": 0.10699725923925779,
+      "scan_age_s": 0.10699725923925779,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.040489809593826,
+        -0.22424643875412767,
+        -1.9338533300935417
+      ],
+      "covariance": [
+        0.0003346172761524713,
+        0.0004736373280037412,
+        0.00014809325839232915
+      ],
+      "scan_match": 0.9351032448377581,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635050.813595,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9379084967320261,
+        "trimmed_likelihood": 0.9978254817741945,
+        "matched_endpoints": 287,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 306
+      },
+      "scan_endpoint_count": 306,
+      "particle_pose_offset_s": 0.020683272000000003,
+      "particle_stamp_age_s": 0.1914482068631591,
+      "particle_receive_age_s": 0.16074387200001183,
+      "scan_receive_age_s": 0.07846211200001107,
+      "pose_age_s": 0.12036519086315911,
+      "scan_age_s": 0.12036519086315911,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0497611969325362,
+        -0.22469170294470225,
+        -1.9333835224818625
+      ],
+      "covariance": [
+        0.00034529344063471967,
+        0.0004006649418922398,
+        0.00013191547918645186
+      ],
+      "scan_match": 0.9379084967320261,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635051.3232667,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9242902208201893,
+        "trimmed_likelihood": 0.9973924436351741,
+        "matched_endpoints": 293,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 317
+      },
+      "scan_endpoint_count": 317,
+      "particle_pose_offset_s": 0.020683272000000003,
+      "particle_stamp_age_s": 0.6998205136868896,
+      "particle_receive_age_s": 0.6691005540000106,
+      "scan_receive_age_s": 0.04533712599993578,
+      "pose_age_s": 0.07935765768688963,
+      "scan_age_s": 0.07935765768688963,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0398540373895244,
+        -0.22316734382569542,
+        -1.937221829953691
+      ],
+      "covariance": [
+        0.0003078967540997013,
+        0.0004375482952273524,
+        0.0001259596613093677
+      ],
+      "scan_match": 0.9242902208201893,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635051.8353784,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9272727272727272,
+        "trimmed_likelihood": 0.9986049295390891,
+        "matched_endpoints": 255,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 275
+      },
+      "scan_endpoint_count": 275,
+      "particle_pose_offset_s": -0.019933611,
+      "particle_stamp_age_s": 0.3728884675743408,
+      "particle_receive_age_s": 0.3528719440000714,
+      "scan_receive_age_s": 0.019071768999992855,
+      "pose_age_s": 0.09061279857434079,
+      "scan_age_s": 0.09061279857434079,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0541835287288808,
+        -0.23176583496735167,
+        -1.9348688508321212
+      ],
+      "covariance": [
+        0.0004046140320852487,
+        0.00046950037752572366,
+        0.00013335756738253052
+      ],
+      "scan_match": 0.9272727272727272,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635052.3473883,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9728682170542635,
+        "trimmed_likelihood": 0.999369547651496,
+        "matched_endpoints": 251,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 258
+      },
+      "scan_endpoint_count": 258,
+      "error": "Particle cloud lacks a time-aligned pose"
+    },
+    {
+      "time": 1789635052.8523285,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9611307420494699,
+        "trimmed_likelihood": 0.9976129871045653,
+        "matched_endpoints": 272,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 283
+      },
+      "scan_endpoint_count": 283,
+      "particle_pose_offset_s": -0.005623963,
+      "particle_stamp_age_s": 0.6038222426939697,
+      "particle_receive_age_s": 0.5722088510000276,
+      "scan_receive_age_s": 0.014797861000033663,
+      "pose_age_s": 0.10897414169396968,
+      "scan_age_s": 0.10897414169396968,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.051280494568727,
+        -0.23110844423316562,
+        -1.9330487528311737
+      ],
+      "covariance": [
+        0.00034811176588256387,
+        0.0005410715285506171,
+        0.0001451205337386064
+      ],
+      "scan_match": 0.9611307420494699,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635053.3664346,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9676258992805755,
+        "trimmed_likelihood": 0.997163706882546,
+        "matched_endpoints": 269,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 278
+      },
+      "scan_endpoint_count": 278,
+      "particle_pose_offset_s": -0.005515505,
+      "particle_stamp_age_s": 0.26866529908776854,
+      "particle_receive_age_s": 0.2354384029999892,
+      "scan_receive_age_s": 0.09700951399997848,
+      "pose_age_s": 0.12427642008776854,
+      "scan_age_s": 0.12427642008776854,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0411078468180586,
+        -0.22973981232619167,
+        -1.9308741225450705
+      ],
+      "covariance": [
+        0.00046596600119386267,
+        0.000551474182329266,
+        0.0001670719767792669
+      ],
+      "scan_match": 0.9676258992805755,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635053.8817096,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9478827361563518,
+        "trimmed_likelihood": 0.9981678670905232,
+        "matched_endpoints": 291,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 307
+      },
+      "scan_endpoint_count": 307,
+      "particle_pose_offset_s": -0.005515505,
+      "particle_stamp_age_s": 0.8023466917574463,
+      "particle_receive_age_s": 0.004319009999903756,
+      "scan_receive_age_s": 0.038762571999996,
+      "pose_age_s": 0.10788446875744628,
+      "scan_age_s": 0.10788446875744628,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0431378330635805,
+        -0.2248290114059833,
+        -1.9315333744724963
+      ],
+      "covariance": [
+        0.00048683395893611703,
+        0.0005677363748795364,
+        0.00016179772200477886
+      ],
+      "scan_match": 0.9478827361563518,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635054.3903387,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9240506329113924,
+        "trimmed_likelihood": 0.998708304743632,
+        "matched_endpoints": 292,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 316
+      },
+      "scan_endpoint_count": 316,
+      "particle_pose_offset_s": -0.021487068,
+      "particle_stamp_age_s": 0.5255263259208984,
+      "particle_receive_age_s": 0.4934663179999461,
+      "scan_receive_age_s": 0.03851013600001352,
+      "pose_age_s": 0.09879092992089844,
+      "scan_age_s": 0.09879092992089844,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.043988009026123,
+        -0.22791797868476216,
+        -1.9330733077394002
+      ],
+      "covariance": [
+        0.000489322402126291,
+        0.0005252121349824806,
+        0.0001828248884068061
+      ],
+      "scan_match": 0.9240506329113924,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635054.9045928,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9537037037037037,
+        "trimmed_likelihood": 0.9971989654956036,
+        "matched_endpoints": 309,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 324
+      },
+      "scan_endpoint_count": 324,
+      "particle_pose_offset_s": -0.005816117,
+      "particle_stamp_age_s": 0.2558020581553955,
+      "particle_receive_age_s": 0.23263924600007613,
+      "scan_receive_age_s": 0.02283914800000275,
+      "pose_age_s": 0.06152703915539548,
+      "scan_age_s": 0.06152703915539548,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0473452139783057,
+        -0.23450551193055566,
+        -1.9289318946206768
+      ],
+      "covariance": [
+        0.00035815661869165183,
+        0.0004576622763613897,
+        0.0001864448278757055
+      ],
+      "scan_match": 0.9537037037037037,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635055.4194062,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9619377162629758,
+        "trimmed_likelihood": 0.9995930134741069,
+        "matched_endpoints": 278,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 289
+      },
+      "scan_endpoint_count": 289,
+      "particle_pose_offset_s": -0.005816117,
+      "particle_stamp_age_s": 0.7887450684855957,
+      "particle_receive_age_s": 0.004560188000027665,
+      "scan_receive_age_s": 0.04149823300008393,
+      "pose_age_s": 0.09465513748559568,
+      "scan_age_s": 0.09465513748559568,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0367124713055995,
+        -0.23276510401624445,
+        -1.9299169301034127
+      ],
+      "covariance": [
+        0.000430351910553739,
+        0.0004853472488854302,
+        0.00019040414000033088
+      ],
+      "scan_match": 0.9619377162629758,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635055.927413,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9427480916030534,
+        "trimmed_likelihood": 0.9986202199556079,
+        "matched_endpoints": 247,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 262
+      },
+      "scan_endpoint_count": 262,
+      "particle_pose_offset_s": -0.008632541,
+      "particle_stamp_age_s": 0.5260791632794188,
+      "particle_receive_age_s": 0.4941088479999962,
+      "scan_receive_age_s": 0.027287306999937755,
+      "pose_age_s": 0.08412943227941894,
+      "scan_age_s": 0.08412943227941894,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0471131114109444,
+        -0.23422821244240177,
+        -1.9281632881594344
+      ],
+      "covariance": [
+        0.0003686730276850625,
+        0.0004850411110535399,
+        0.00018497748704209268
+      ],
+      "scan_match": 0.9427480916030534,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635056.4424133,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9414225941422594,
+        "trimmed_likelihood": 0.998437277156888,
+        "matched_endpoints": 225,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 239
+      },
+      "scan_endpoint_count": 239,
+      "particle_pose_offset_s": -0.01637489,
+      "particle_stamp_age_s": 0.1825687676568603,
+      "particle_receive_age_s": 0.1531559310000148,
+      "scan_receive_age_s": 0.008979158999977699,
+      "pose_age_s": 0.09897104965686032,
+      "scan_age_s": 0.09897104965686032,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.049477803301936,
+        -0.23841573820052858,
+        -1.9280319101900547
+      ],
+      "covariance": [
+        0.0003291677937262705,
+        0.0005078100680271092,
+        0.0001788290803190114
+      ],
+      "scan_match": 0.9414225941422594,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635056.9510202,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9264705882352942,
+        "trimmed_likelihood": 0.9967273730922659,
+        "matched_endpoints": 252,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 272
+      },
+      "scan_endpoint_count": 272,
+      "particle_pose_offset_s": -0.01637489,
+      "particle_stamp_age_s": 0.6916584759851074,
+      "particle_receive_age_s": 0.662237389999973,
+      "scan_receive_age_s": 0.004381970000054025,
+      "pose_age_s": 0.1582114139851074,
+      "scan_age_s": 0.1582114139851074,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0472189772271476,
+        -0.23506289693815485,
+        -1.9267546851548065
+      ],
+      "covariance": [
+        0.00024321497543056125,
+        0.0005125519627110914,
+        0.0001707230687036392
+      ],
+      "scan_match": 0.9264705882352942,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635057.4660594,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.954225352112676,
+        "trimmed_likelihood": 0.9984127087445015,
+        "matched_endpoints": 271,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 284
+      },
+      "scan_endpoint_count": 284,
+      "particle_pose_offset_s": 0.004562852,
+      "particle_stamp_age_s": 0.42736443651464845,
+      "particle_receive_age_s": 0.39894120299993574,
+      "scan_receive_age_s": 0.009288377000075343,
+      "pose_age_s": 0.07269316851464841,
+      "scan_age_s": 0.07269316851464841,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.041124980827867,
+        -0.23627364168967746,
+        -1.9270035924529623
+      ],
+      "covariance": [
+        0.00023978925273837604,
+        0.0005348958481845301,
+        0.0001657115880923295
+      ],
+      "scan_match": 0.954225352112676,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635057.9800863,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9721254355400697,
+        "trimmed_likelihood": 0.9988659341152463,
+        "matched_endpoints": 279,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 287
+      },
+      "scan_endpoint_count": 287,
+      "particle_pose_offset_s": -0.006477162000000001,
+      "particle_stamp_age_s": 0.17872649745410152,
+      "particle_receive_age_s": 0.15535563100002037,
+      "scan_receive_age_s": 0.0812301490000209,
+      "pose_age_s": 0.13503585145410146,
+      "scan_age_s": 0.13503585145410146,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.044406054431508,
+        -0.2396145957777807,
+        -1.9246528258394089
+      ],
+      "covariance": [
+        0.00019897693952408702,
+        0.0004876670202226055,
+        0.00016606881296631345
+      ],
+      "scan_match": 0.9721254355400697,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635058.486677,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.913312693498452,
+        "trimmed_likelihood": 0.9960010373917703,
+        "matched_endpoints": 295,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 323
+      },
+      "scan_endpoint_count": 323,
+      "particle_pose_offset_s": -0.006477162000000001,
+      "particle_stamp_age_s": 0.6856332452720947,
+      "particle_receive_age_s": 0.6622839469999917,
+      "scan_receive_age_s": 0.03844646699997156,
+      "pose_age_s": 0.09202490327209473,
+      "scan_age_s": 0.09202490327209473,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0470810159417523,
+        -0.23717680564812327,
+        -1.9306681682431535
+      ],
+      "covariance": [
+        0.00022030771747161282,
+        0.0005341944230576184,
+        0.00017937727622367698
+      ],
+      "scan_match": 0.913312693498452,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635058.9998512,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9323076923076923,
+        "trimmed_likelihood": 0.9975649417190383,
+        "matched_endpoints": 303,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 325
+      },
+      "scan_endpoint_count": 325,
+      "particle_pose_offset_s": -0.013813452,
+      "particle_stamp_age_s": 0.34298906680041497,
+      "particle_receive_age_s": 0.3237439729999778,
+      "scan_receive_age_s": 0.04191032599999289,
+      "pose_age_s": 0.10678319080041498,
+      "scan_age_s": 0.10678319080041498,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0573675012001162,
+        -0.24386687312216299,
+        -1.9244415542338094
+      ],
+      "covariance": [
+        0.0001846165605812189,
+        0.0005241156585072543,
+        0.00017868455149770026
+      ],
+      "scan_match": 0.9323076923076923,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635059.516087,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9588607594936709,
+        "trimmed_likelihood": 0.9975260648243293,
+        "matched_endpoints": 303,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 316
+      },
+      "scan_endpoint_count": 316,
+      "particle_pose_offset_s": 0.0005004310000000001,
+      "particle_stamp_age_s": 0.07214976772644038,
+      "particle_receive_age_s": 0.05159261100004642,
+      "scan_receive_age_s": 0.021140274000003956,
+      "pose_age_s": 0.07164933672644042,
+      "scan_age_s": 0.07164933672644042,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0581468228887583,
+        -0.24727054757223907,
+        -1.9257735484770728
+      ],
+      "covariance": [
+        0.00017754222422006194,
+        0.0004053238978974569,
+        0.00015308090893991446
+      ],
+      "scan_match": 0.9588607594936709,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635060.024595,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9360902255639098,
+        "trimmed_likelihood": 0.9982155193865654,
+        "matched_endpoints": 249,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 266
+      },
+      "scan_endpoint_count": 266,
+      "particle_pose_offset_s": 0.0005004310000000001,
+      "particle_stamp_age_s": 0.5803289555010986,
+      "particle_receive_age_s": 0.5597301490000746,
+      "scan_receive_age_s": 0.02739004099998965,
+      "pose_age_s": 0.0798569405010986,
+      "scan_age_s": 0.0798569405010986,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0474563128305654,
+        -0.2435061629436182,
+        -1.9248322452177753
+      ],
+      "covariance": [
+        0.00014533179724196543,
+        0.00031088060261305617,
+        0.00011180498131312942
+      ],
+      "scan_match": 0.9360902255639098,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635060.5368493,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.957983193277311,
+        "trimmed_likelihood": 0.9989129914002214,
+        "matched_endpoints": 228,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 238
+      },
+      "scan_endpoint_count": 238,
+      "particle_pose_offset_s": -0.004528534,
+      "particle_stamp_age_s": 0.23772465129626463,
+      "particle_receive_age_s": 0.21745379000003595,
+      "scan_receive_age_s": 0.020808755999951245,
+      "pose_age_s": 0.04233408129626459,
+      "scan_age_s": 0.04233408129626459,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0520040265443567,
+        -0.2512234488388183,
+        -1.9235714272177333
+      ],
+      "covariance": [
+        0.00011614720791008892,
+        0.00033418193400576446,
+        0.00012205804019961522
+      ],
+      "scan_match": 0.957983193277311,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635061.0451093,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9285714285714286,
+        "trimmed_likelihood": 0.9966145465636916,
+        "matched_endpoints": 234,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 252
+      },
+      "scan_endpoint_count": 252,
+      "particle_pose_offset_s": -0.004528534,
+      "particle_stamp_age_s": 0.7464150085045166,
+      "particle_receive_age_s": 0.7261605969999891,
+      "scan_receive_age_s": 0.04587258200001543,
+      "pose_age_s": 0.10135224650451657,
+      "scan_age_s": 0.10135224650451657,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.048402113140192,
+        -0.24888980464856802,
+        -1.921948501464061
+      ],
+      "covariance": [
+        0.00010468079811687403,
+        0.0001700831386328011,
+        0.00011344085732410605
+      ],
+      "scan_match": 0.9285714285714286,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635061.5590641,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9743589743589743,
+        "trimmed_likelihood": 0.9991498822034289,
+        "matched_endpoints": 228,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 234
+      },
+      "scan_endpoint_count": 234,
+      "particle_pose_offset_s": -0.014688709000000001,
+      "particle_stamp_age_s": 0.5003879590616455,
+      "particle_receive_age_s": 0.47872724599994854,
+      "scan_receive_age_s": 0.02546710499996152,
+      "pose_age_s": 0.06491910006164547,
+      "scan_age_s": 0.06491910006164547,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0492921560151576,
+        -0.2502568273739387,
+        -1.9208379531776985
+      ],
+      "covariance": [
+        0.0001198612847179703,
+        0.00012697250937147853,
+        0.0001045180374457162
+      ],
+      "scan_match": 0.9743589743589743,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635062.073668,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9327217125382263,
+        "trimmed_likelihood": 0.9953251454286344,
+        "matched_endpoints": 305,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 327
+      },
+      "scan_endpoint_count": 327,
+      "particle_pose_offset_s": -0.005009101,
+      "particle_stamp_age_s": 0.1752115195700683,
+      "particle_receive_age_s": 0.1502437540000301,
+      "scan_receive_age_s": 0.11380265200000395,
+      "pose_age_s": 0.1300264445700683,
+      "scan_age_s": 0.1300264445700683,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0443702985224443,
+        -0.25059142820361946,
+        -1.9211195813770476
+      ],
+      "covariance": [
+        0.000139006778411499,
+        0.0001243062192408939,
+        0.00010931499472391621
+      ],
+      "scan_match": 0.9327217125382263,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635062.5831645,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9180887372013652,
+        "trimmed_likelihood": 0.9972476751156851,
+        "matched_endpoints": 269,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 293
+      },
+      "scan_endpoint_count": 293,
+      "particle_pose_offset_s": -0.005009101,
+      "particle_stamp_age_s": 0.6842103904196777,
+      "particle_receive_age_s": 0.6592424589999837,
+      "scan_receive_age_s": 0.025658791999944697,
+      "pose_age_s": 0.08952080341967772,
+      "scan_age_s": 0.08952080341967772,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0453225081219943,
+        -0.24907505698014284,
+        -1.9202049121946192
+      ],
+      "covariance": [
+        0.00017947904705550854,
+        8.409143452524359e-05,
+        0.00010293443398606098
+      ],
+      "scan_match": 0.9180887372013652,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635063.0957127,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9345794392523364,
+        "trimmed_likelihood": 0.996384353921264,
+        "matched_endpoints": 300,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 321
+      },
+      "scan_endpoint_count": 321,
+      "particle_pose_offset_s": -0.0055382800000000005,
+      "particle_stamp_age_s": 0.4455752732806396,
+      "particle_receive_age_s": 0.42658932300003016,
+      "scan_receive_age_s": 0.04723536099993453,
+      "pose_age_s": 0.10278996928063955,
+      "scan_age_s": 0.10278996928063955,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.049131211720897,
+        -0.25361674046161864,
+        -1.9221138140660805
+      ],
+      "covariance": [
+        0.00017404634705364685,
+        8.59046408158981e-05,
+        0.00011250032606005348
+      ],
+      "scan_match": 0.9345794392523364,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635063.6077452,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9356913183279743,
+        "trimmed_likelihood": 0.9984373167058421,
+        "matched_endpoints": 291,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 311
+      },
+      "scan_endpoint_count": 311,
+      "particle_pose_offset_s": -0.017397226000000002,
+      "particle_stamp_age_s": 0.1460802800059814,
+      "particle_receive_age_s": 0.12623491700003342,
+      "scan_receive_age_s": 0.027923090000058437,
+      "pose_age_s": 0.1137456660059814,
+      "scan_age_s": 0.1137456660059814,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.04794192538497,
+        -0.2511125589959893,
+        -1.9217662809456757
+      ],
+      "covariance": [
+        0.00019607271381438807,
+        0.00010798154506629076,
+        0.0001010563942468938
+      ],
+      "scan_match": 0.9356913183279743,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635064.1170087,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9276315789473685,
+        "trimmed_likelihood": 0.9923916458196084,
+        "matched_endpoints": 282,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 304
+      },
+      "scan_endpoint_count": 304,
+      "particle_pose_offset_s": -0.017397226000000002,
+      "particle_stamp_age_s": 0.6542408711314697,
+      "particle_receive_age_s": 0.6343979399999853,
+      "scan_receive_age_s": 0.057784425000022566,
+      "pose_age_s": 0.12170504113146963,
+      "scan_age_s": 0.12170504113146963,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0501589904568953,
+        -0.2493213444725144,
+        -1.9220168441016383
+      ],
+      "covariance": [
+        0.00018273170564775398,
+        9.696498390884822e-05,
+        9.456502110125365e-05
+      ],
+      "scan_match": 0.9276315789473685,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635064.6315382,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9764705882352941,
+        "trimmed_likelihood": 0.9993891698032917,
+        "matched_endpoints": 249,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 255
+      },
+      "scan_endpoint_count": 255,
+      "particle_pose_offset_s": -0.005093043,
+      "particle_stamp_age_s": 0.3819014806594238,
+      "particle_receive_age_s": 0.35619439599997804,
+      "scan_receive_age_s": 0.034126534000051834,
+      "pose_age_s": 0.08700681165942381,
+      "scan_age_s": 0.08700681165942381,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.045644997667915,
+        -0.2487577594098408,
+        -1.921220044750784
+      ],
+      "covariance": [
+        0.00019916686166077113,
+        0.0001320798587016031,
+        0.00010102114700216682
+      ],
+      "scan_match": 0.9764705882352941,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635065.1455357,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9106382978723404,
+        "trimmed_likelihood": 0.9869393122506224,
+        "matched_endpoints": 214,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 235
+      },
+      "scan_endpoint_count": 235,
+      "particle_pose_offset_s": -0.005528575999999896,
+      "particle_stamp_age_s": 0.14460486643676757,
+      "particle_receive_age_s": 0.11646887300003073,
+      "scan_receive_age_s": 0.0074116529999628256,
+      "pose_age_s": 0.05121478643676758,
+      "scan_age_s": 0.05121478643676758,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.058897824304848,
+        -0.25406329732143923,
+        -1.9211570168885264
+      ],
+      "covariance": [
+        0.0001689389510666217,
+        0.00012946368749466863,
+        0.00012657638583280463
+      ],
+      "scan_match": 0.9106382978723404,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635065.652681,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.951048951048951,
+        "trimmed_likelihood": 0.9926776298162651,
+        "matched_endpoints": 272,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 286
+      },
+      "scan_endpoint_count": 286,
+      "particle_pose_offset_s": -0.005528575999999896,
+      "particle_stamp_age_s": 0.6519100117004395,
+      "particle_receive_age_s": 0.6237728810000363,
+      "scan_receive_age_s": 0.028376159999993433,
+      "pose_age_s": 0.057461115700439436,
+      "scan_age_s": 0.057461115700439436,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0494485519970844,
+        -0.24904108261266342,
+        -1.92020266716561
+      ],
+      "covariance": [
+        0.00017535935606360908,
+        9.921247951011347e-05,
+        9.485644981095533e-05
+      ],
+      "scan_match": 0.951048951048951,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635066.1657953,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.919732441471572,
+        "trimmed_likelihood": 0.9952611705255613,
+        "matched_endpoints": 275,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 299
+      },
+      "scan_endpoint_count": 299,
+      "particle_pose_offset_s": -0.004961467000000001,
+      "particle_stamp_age_s": 0.3678093970213623,
+      "particle_receive_age_s": 0.3278714890000174,
+      "scan_receive_age_s": 0.007421549000014238,
+      "pose_age_s": 0.1232481760213623,
+      "scan_age_s": 0.1232481760213623,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0524532063927983,
+        -0.2484410208795996,
+        -1.9149098360958408
+      ],
+      "covariance": [
+        0.00021930018740867752,
+        9.229548195244242e-05,
+        0.00010191260740509998
+      ],
+      "scan_match": 0.919732441471572,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635066.6811504,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9250814332247557,
+        "trimmed_likelihood": 0.9935785830619401,
+        "matched_endpoints": 284,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 307
+      },
+      "scan_endpoint_count": 307,
+      "error": "Particle cloud lacks a time-aligned pose"
+    },
+    {
+      "time": 1789635067.1871305,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.96,
+        "trimmed_likelihood": 0.9981594641513709,
+        "matched_endpoints": 312,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 325
+      },
+      "scan_endpoint_count": 325,
+      "particle_pose_offset_s": -0.006290775,
+      "particle_stamp_age_s": 0.5371126379748534,
+      "particle_receive_age_s": 0.5145488300000807,
+      "scan_receive_age_s": 0.008756995999988249,
+      "pose_age_s": 0.0930692049748535,
+      "scan_age_s": 0.0930692049748535,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.053306752319622,
+        -0.252168809805601,
+        -1.9194542222857227
+      ],
+      "covariance": [
+        0.00021646767197402994,
+        0.00010013078351236993,
+        0.00010498163312846406
+      ],
+      "scan_match": 0.96,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635067.7002957,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9554896142433235,
+        "trimmed_likelihood": 0.9960733498222234,
+        "matched_endpoints": 322,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 337
+      },
+      "scan_endpoint_count": 337,
+      "particle_pose_offset_s": 0.010138983,
+      "particle_stamp_age_s": 0.21632362917407222,
+      "particle_receive_age_s": 0.1954705290000902,
+      "scan_receive_age_s": 0.029362410999965505,
+      "pose_age_s": 0.056417734174072254,
+      "scan_age_s": 0.056417734174072254,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0368985652810365,
+        -0.25030172229394354,
+        -1.9174068247917202
+      ],
+      "covariance": [
+        0.0001626980066369299,
+        0.0001405229373492578,
+        9.445367244113223e-05
+      ],
+      "scan_match": 0.9554896142433235,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635068.209952,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9763513513513513,
+        "trimmed_likelihood": 0.9983065020927498,
+        "matched_endpoints": 289,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 296
+      },
+      "scan_endpoint_count": 296,
+      "particle_pose_offset_s": 0.010138983,
+      "particle_stamp_age_s": 0.725560441765625,
+      "particle_receive_age_s": 0.7047174760000416,
+      "scan_receive_age_s": 0.010566401999994923,
+      "pose_age_s": 0.115359762765625,
+      "scan_age_s": 0.115359762765625,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0566791062586245,
+        -0.24789324652988456,
+        -1.914568079072763
+      ],
+      "covariance": [
+        0.0001646589010331212,
+        0.00011514614844865961,
+        7.942396146878492e-05
+      ],
+      "scan_match": 0.9763513513513513,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635068.7239113,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.95,
+        "trimmed_likelihood": 0.9998454707916707,
+        "matched_endpoints": 228,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 240
+      },
+      "scan_endpoint_count": 240,
+      "particle_pose_offset_s": -0.015985781,
+      "particle_stamp_age_s": 0.46317233780285644,
+      "particle_receive_age_s": 0.43373068999994757,
+      "scan_receive_age_s": 0.04206810599998789,
+      "pose_age_s": 0.07917655080285646,
+      "scan_age_s": 0.07917655080285646,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.043987681358951,
+        -0.25167906964135794,
+        -1.9164489157273212
+      ],
+      "covariance": [
+        0.00016034115434671037,
+        0.00012677229670771117,
+        8.119559316572444e-05
+      ],
+      "scan_match": 0.95,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635069.2367206,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.8876811594202898,
+        "trimmed_likelihood": 0.9922694675462531,
+        "matched_endpoints": 245,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 276
+      },
+      "scan_endpoint_count": 276,
+      "particle_pose_offset_s": 0.0068953420000000005,
+      "particle_stamp_age_s": 0.19929834889831544,
+      "particle_receive_age_s": 0.1742047760000105,
+      "scan_receive_age_s": 0.0650969730000952,
+      "pose_age_s": 0.09215263889831543,
+      "scan_age_s": 0.09215263889831543,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0521700817591513,
+        -0.24819687847942556,
+        -1.9190597250017307
+      ],
+      "covariance": [
+        0.00017332041320727853,
+        0.00012188905397592098,
+        9.35610192829659e-05
+      ],
+      "scan_match": 0.8876811594202898,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635069.7466316,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9130434782608695,
+        "trimmed_likelihood": 0.9903480483743887,
+        "matched_endpoints": 252,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 276
+      },
+      "scan_endpoint_count": 276,
+      "particle_pose_offset_s": 0.0068953420000000005,
+      "particle_stamp_age_s": 0.7105900912231445,
+      "particle_receive_age_s": 0.6855172010000388,
+      "scan_receive_age_s": 0.04973928499998692,
+      "pose_age_s": 0.10344796522314448,
+      "scan_age_s": 0.10344796522314448,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0427036951636524,
+        -0.2447090550146956,
+        -1.9203596388990916
+      ],
+      "covariance": [
+        0.00018016004860044177,
+        0.0001315007890314926,
+        0.0001020909192854666
+      ],
+      "scan_match": 0.9130434782608695,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635070.262527,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9385665529010239,
+        "trimmed_likelihood": 0.9934917982912886,
+        "matched_endpoints": 275,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 293
+      },
+      "scan_endpoint_count": 293,
+      "particle_pose_offset_s": -0.007048104,
+      "particle_stamp_age_s": 0.4623641725838623,
+      "particle_receive_age_s": 0.4317082789999631,
+      "scan_receive_age_s": 0.06248596600005385,
+      "pose_age_s": 0.11902789258386229,
+      "scan_age_s": 0.11902789258386229,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.050527854938556,
+        -0.2490260012998838,
+        -1.919334857867977
+      ],
+      "covariance": [
+        0.00014343579269038287,
+        0.00012426524269824185,
+        9.281888254686989e-05
+      ],
+      "scan_match": 0.9385665529010239,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635070.7777505,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9603960396039604,
+        "trimmed_likelihood": 0.9992675966652579,
+        "matched_endpoints": 291,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 303
+      },
+      "scan_endpoint_count": 303,
+      "particle_pose_offset_s": -0.007139384,
+      "particle_stamp_age_s": 0.22769412082629392,
+      "particle_receive_age_s": 0.19869878600002266,
+      "scan_receive_age_s": 0.0302425539999831,
+      "pose_age_s": 0.08494601682629388,
+      "scan_age_s": 0.08494601682629388,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0399714314376745,
+        -0.24674037853225425,
+        -1.9200740545896255
+      ],
+      "covariance": [
+        0.0001301724328044429,
+        0.00013053001676411463,
+        9.858656920297479e-05
+      ],
+      "scan_match": 0.9603960396039604,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635071.2880108,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9367088607594937,
+        "trimmed_likelihood": 0.9954864304368468,
+        "matched_endpoints": 296,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 316
+      },
+      "scan_endpoint_count": 316,
+      "particle_pose_offset_s": -0.007139384,
+      "particle_stamp_age_s": 0.7377198604960937,
+      "particle_receive_age_s": 0.7087208850000479,
+      "scan_receive_age_s": 0.027057331000037266,
+      "pose_age_s": 0.09706353249609373,
+      "scan_age_s": 0.09706353249609373,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.051571370315103,
+        -0.2528488195035147,
+        -1.9200512892884092
+      ],
+      "covariance": [
+        0.00012692937615277344,
+        0.00011400857055508806,
+        9.894865513814183e-05
+      ],
+      "scan_match": 0.9367088607594937,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635071.804239,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9218241042345277,
+        "trimmed_likelihood": 0.9962026335631956,
+        "matched_endpoints": 283,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 307
+      },
+      "scan_endpoint_count": 307,
+      "particle_pose_offset_s": -0.007350276,
+      "particle_stamp_age_s": 0.4538792220902099,
+      "particle_receive_age_s": 0.4283054090000178,
+      "scan_receive_age_s": 0.009308994000093662,
+      "pose_age_s": 0.061295034090209866,
+      "scan_age_s": 0.061295034090209866,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.048828126263271,
+        -0.24290603495885785,
+        -1.9249076924701858
+      ],
+      "covariance": [
+        0.0001227797062171021,
+        0.00014658601521964215,
+        0.00011047885896817988
+      ],
+      "scan_match": 0.9218241042345277,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635072.3235517,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9668874172185431,
+        "trimmed_likelihood": 0.9993886708787262,
+        "matched_endpoints": 292,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 302
+      },
+      "scan_endpoint_count": 302,
+      "particle_pose_offset_s": 0.025387184,
+      "particle_stamp_age_s": 0.20652835429003907,
+      "particle_receive_age_s": 0.17256658400003744,
+      "scan_receive_age_s": 0.0496982790000402,
+      "pose_age_s": 0.08126046629003905,
+      "scan_age_s": 0.08126046629003905,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0400728473820062,
+        -0.2488066443707632,
+        -1.9225954819199074
+      ],
+      "covariance": [
+        0.00011585916096557014,
+        0.00015562538608928506,
+        0.00012321482770677653
+      ],
+      "scan_match": 0.9668874172185431,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635072.835005,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.8938906752411575,
+        "trimmed_likelihood": 0.9933031485535958,
+        "matched_endpoints": 278,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 311
+      },
+      "scan_endpoint_count": 311,
+      "particle_pose_offset_s": 0.025387184,
+      "particle_stamp_age_s": 0.7168208843498535,
+      "particle_receive_age_s": 0.6828365740000208,
+      "scan_receive_age_s": 0.014993539999977656,
+      "pose_age_s": 0.04141642034985349,
+      "scan_age_s": 0.04141642034985349,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0557471158078324,
+        -0.24919268299870267,
+        -1.9225575969461552
+      ],
+      "covariance": [
+        0.00018575590227420946,
+        0.00019117515608505636,
+        0.0001179045463747894
+      ],
+      "scan_match": 0.8938906752411575,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635073.3512468,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9552238805970149,
+        "trimmed_likelihood": 0.9982038968525321,
+        "matched_endpoints": 256,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 268
+      },
+      "scan_endpoint_count": 268,
+      "particle_pose_offset_s": 0.010576691000000001,
+      "particle_stamp_age_s": 0.469747802796997,
+      "particle_receive_age_s": 0.4425808020000659,
+      "scan_receive_age_s": 0.05260631299995566,
+      "pose_age_s": 0.10883024779699704,
+      "scan_age_s": 0.10883024779699704,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0493262831944925,
+        -0.24061978887131324,
+        -1.921196108536038
+      ],
+      "covariance": [
+        0.00016248908132787676,
+        0.00016546472543772783,
+        0.00011111387656378462
+      ],
+      "scan_match": 0.9552238805970149,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635073.8669662,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9652173913043478,
+        "trimmed_likelihood": 0.9994769349252316,
+        "matched_endpoints": 222,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 230
+      },
+      "scan_endpoint_count": 230,
+      "particle_pose_offset_s": -0.017492652,
+      "particle_stamp_age_s": 0.20587942894409172,
+      "particle_receive_age_s": 0.1858864779999294,
+      "scan_receive_age_s": 0.027355083000088598,
+      "pose_age_s": 0.12316651294409175,
+      "scan_age_s": 0.12316651294409175,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.058877124005765,
+        -0.24579057979785277,
+        -1.922174180646572
+      ],
+      "covariance": [
+        0.00018810287987491847,
+        0.00020653582282302574,
+        0.00011011967391092646
+      ],
+      "scan_match": 0.9652173913043478,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635074.376571,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9755244755244755,
+        "trimmed_likelihood": 0.9986888377788358,
+        "matched_endpoints": 279,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 286
+      },
+      "scan_endpoint_count": 286,
+      "particle_pose_offset_s": -0.017492652,
+      "particle_stamp_age_s": 0.715619781574707,
+      "particle_receive_age_s": 0.695627429999945,
+      "scan_receive_age_s": 0.05599836699991556,
+      "pose_age_s": 0.08308440157470703,
+      "scan_age_s": 0.08308440157470703,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.050746109542336,
+        -0.24102797966810907,
+        -1.9257381246543743
+      ],
+      "covariance": [
+        0.00015837823625020064,
+        0.00018513868660358784,
+        0.00012312762866511912
+      ],
+      "scan_match": 0.9755244755244755,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635074.8928504,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9754385964912281,
+        "trimmed_likelihood": 0.9989528605524266,
+        "matched_endpoints": 278,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 285
+      },
+      "scan_endpoint_count": 285,
+      "particle_pose_offset_s": -0.001593295,
+      "particle_stamp_age_s": 0.44721211687072754,
+      "particle_receive_age_s": 0.41962870400004704,
+      "scan_receive_age_s": 0.03040835199999492,
+      "pose_age_s": 0.14879414787072753,
+      "scan_age_s": 0.14879414787072753,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.040828312029104,
+        -0.2400093011845707,
+        -1.9258400567830916
+      ],
+      "covariance": [
+        0.00016768586202609015,
+        0.0002048625437913315,
+        0.00012558307212526425
+      ],
+      "scan_match": 0.9754385964912281,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635075.406796,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9383116883116883,
+        "trimmed_likelihood": 0.9967320792841043,
+        "matched_endpoints": 289,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 308
+      },
+      "scan_endpoint_count": 308,
+      "particle_pose_offset_s": 0.023208761,
+      "particle_stamp_age_s": 0.18673885037512206,
+      "particle_receive_age_s": 0.1622704529999055,
+      "scan_receive_age_s": 0.003852065000046423,
+      "pose_age_s": 0.16353008937512206,
+      "scan_age_s": 0.16353008937512206,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0616675800277706,
+        -0.2447703633322312,
+        -1.9238482226775333
+      ],
+      "covariance": [
+        0.00015781431668315804,
+        0.00023474939655761945,
+        0.00011526177276798588
+      ],
+      "scan_match": 0.9383116883116883,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635075.9180453,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.952076677316294,
+        "trimmed_likelihood": 0.9969307252189403,
+        "matched_endpoints": 298,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 313
+      },
+      "scan_endpoint_count": 313,
+      "particle_pose_offset_s": 0.023208761,
+      "particle_stamp_age_s": 0.6985329406461182,
+      "particle_receive_age_s": 0.6740827439999748,
+      "scan_receive_age_s": 0.019662704999973357,
+      "pose_age_s": 0.07543093164611814,
+      "scan_age_s": 0.07543093164611814,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.05038431823989,
+        -0.2414185768491507,
+        -1.9258236578629477
+      ],
+      "covariance": [
+        0.00016813600771925508,
+        0.00026064826949433184,
+        0.00012562736875615398
+      ],
+      "scan_match": 0.952076677316294,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635076.4340508,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9462025316455697,
+        "trimmed_likelihood": 0.9971701234082238,
+        "matched_endpoints": 299,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 316
+      },
+      "scan_endpoint_count": 316,
+      "particle_pose_offset_s": -0.007453644999999898,
+      "particle_stamp_age_s": 0.43241618459411624,
+      "particle_receive_age_s": 0.4081940930000201,
+      "scan_receive_age_s": 0.01124099000003298,
+      "pose_age_s": 0.03990157359411617,
+      "scan_age_s": 0.03990157359411617,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.048686119056968,
+        -0.241504606378511,
+        -1.9256862494866045
+      ],
+      "covariance": [
+        0.0001499241163500642,
+        0.00027786805317035757,
+        0.00012373790067634575
+      ],
+      "scan_match": 0.9462025316455697,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635076.9489186,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9467084639498433,
+        "trimmed_likelihood": 0.9985471885993232,
+        "matched_endpoints": 302,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 319
+      },
+      "scan_endpoint_count": 319,
+      "particle_pose_offset_s": -0.044355469,
+      "particle_stamp_age_s": 0.11018969128967282,
+      "particle_receive_age_s": 0.08332992099997227,
+      "scan_receive_age_s": 0.11181933800003208,
+      "pose_age_s": 0.1545451602896728,
+      "scan_age_s": 0.1545451602896728,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.033455155691277,
+        -0.24349989361710977,
+        -1.9255684099176362
+      ],
+      "covariance": [
+        0.0001505538834880582,
+        0.0002720941388154527,
+        0.00011481744291404548
+      ],
+      "scan_match": 0.9467084639498433,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635077.4581149,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9511400651465798,
+        "trimmed_likelihood": 0.9968525223118518,
+        "matched_endpoints": 292,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 307
+      },
+      "scan_endpoint_count": 307,
+      "particle_pose_offset_s": 0.005407859,
+      "particle_stamp_age_s": 0.6185138375604248,
+      "particle_receive_age_s": 0.5916454859999476,
+      "scan_receive_age_s": 0.082196778000025,
+      "pose_age_s": 0.11312210656042476,
+      "scan_age_s": 0.11312210656042476,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.047580822202724,
+        -0.24845920678464897,
+        -1.9258955345646604
+      ],
+      "covariance": [
+        0.0001625128162636713,
+        0.0002749047441977584,
+        0.00010316113443644922
+      ],
+      "scan_match": 0.9511400651465798,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635077.9716728,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9442508710801394,
+        "trimmed_likelihood": 0.9965532060779384,
+        "matched_endpoints": 271,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 287
+      },
+      "scan_endpoint_count": 287,
+      "particle_pose_offset_s": 0.024636105000000002,
+      "particle_stamp_age_s": 0.35200537456982417,
+      "particle_receive_age_s": 0.32608591400003206,
+      "scan_receive_age_s": 0.0232632200001035,
+      "pose_age_s": 0.12727992556982415,
+      "scan_age_s": 0.12727992556982415,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0571434224094842,
+        -0.24417179434195682,
+        -1.9259300406987632
+      ],
+      "covariance": [
+        0.00017861317394896048,
+        0.0002682511659949094,
+        0.00012422703798765212
+      ],
+      "scan_match": 0.9442508710801394,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635078.48494,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9429657794676806,
+        "trimmed_likelihood": 0.9947064373331982,
+        "matched_endpoints": 248,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 263
+      },
+      "scan_endpoint_count": 263,
+      "error": "Particle cloud lacks a time-aligned pose"
+    },
+    {
+      "time": 1789635078.9915547,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9072847682119205,
+        "trimmed_likelihood": 0.9922003764339952,
+        "matched_endpoints": 274,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 302
+      },
+      "scan_endpoint_count": 302,
+      "particle_pose_offset_s": -0.01209926,
+      "particle_stamp_age_s": 0.5344211773623047,
+      "particle_receive_age_s": 0.5109685190000164,
+      "scan_receive_age_s": 0.0912559409999858,
+      "pose_age_s": 0.14652402136230458,
+      "scan_age_s": 0.14652402136230458,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0416792041756002,
+        -0.24567904851496702,
+        -1.92484563770624
+      ],
+      "covariance": [
+        0.00020288389792177952,
+        0.0002608349047364608,
+        0.000150180269855503
+      ],
+      "scan_match": 0.9072847682119205,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635079.504963,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.952076677316294,
+        "trimmed_likelihood": 0.9971715305183427,
+        "matched_endpoints": 298,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 313
+      },
+      "scan_endpoint_count": 313,
+      "particle_pose_offset_s": -0.005699942,
+      "particle_stamp_age_s": 0.2546631693074951,
+      "particle_receive_age_s": 0.23146119000000454,
+      "scan_receive_age_s": 0.020662013999981355,
+      "pose_age_s": 0.06043299930749507,
+      "scan_age_s": 0.06043299930749507,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0508480276173198,
+        -0.2492683136965569,
+        -1.9239544582494101
+      ],
+      "covariance": [
+        0.00021863055656545782,
+        0.00026978102157448197,
+        0.00014260549257392993
+      ],
+      "scan_match": 0.952076677316294,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635080.0150099,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9233226837060703,
+        "trimmed_likelihood": 0.9921100607656426,
+        "matched_endpoints": 289,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 313
+      },
+      "scan_endpoint_count": 313,
+      "particle_pose_offset_s": -0.005699942,
+      "particle_stamp_age_s": 0.7659067510793457,
+      "particle_receive_age_s": 0.742706523000038,
+      "scan_receive_age_s": 0.045298844000058125,
+      "pose_age_s": 0.07155165307934563,
+      "scan_age_s": 0.07155165307934563,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0475027034677518,
+        -0.24281385138664205,
+        -1.925082602982007
+      ],
+      "covariance": [
+        0.00025023539361868075,
+        0.00028788088580004867,
+        0.00013340445340706515
+      ],
+      "scan_match": 0.9233226837060703,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635080.5312963,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9214501510574018,
+        "trimmed_likelihood": 0.9945165553821562,
+        "matched_endpoints": 305,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 331
+      },
+      "scan_endpoint_count": 331,
+      "particle_pose_offset_s": 0.01528264,
+      "particle_stamp_age_s": 0.4525741952104492,
+      "particle_receive_age_s": 0.4334732709999116,
+      "scan_receive_age_s": 0.03751676199999565,
+      "pose_age_s": 0.1371804512104492,
+      "scan_age_s": 0.1371804512104492,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.047599417282128,
+        -0.2414935797191976,
+        -1.925489570087704
+      ],
+      "covariance": [
+        0.0002164765368029009,
+        0.0002777016027235221,
+        0.00014117240265611113
+      ],
+      "scan_match": 0.9214501510574018,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635081.0468743,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.8619631901840491,
+        "trimmed_likelihood": 0.9888709643584981,
+        "matched_endpoints": 281,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 326
+      },
+      "scan_endpoint_count": 326,
+      "particle_pose_offset_s": -0.018026909,
+      "particle_stamp_age_s": 0.18363772623840324,
+      "particle_receive_age_s": 0.16165416299998014,
+      "scan_receive_age_s": 0.00678869700004725,
+      "pose_age_s": 0.1016874192384033,
+      "scan_age_s": 0.1016874192384033,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0498332793671996,
+        -0.24680169518478998,
+        -1.9231911284199052
+      ],
+      "covariance": [
+        0.00023759374315091009,
+        0.00025415803686617416,
+        0.0001452905111483398
+      ],
+      "scan_match": 0.8619631901840491,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635081.5559237,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.8160237388724035,
+        "trimmed_likelihood": 0.9745170628090641,
+        "matched_endpoints": 275,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 337
+      },
+      "scan_endpoint_count": 337,
+      "particle_pose_offset_s": -0.018026909,
+      "particle_stamp_age_s": 0.6937698005944823,
+      "particle_receive_age_s": 0.6717844589999231,
+      "scan_receive_age_s": 0.03382674799991037,
+      "pose_age_s": 0.11195747759448238,
+      "scan_age_s": 0.11195747759448238,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.054905027610564,
+        -0.24463703224769986,
+        -1.9225391027928351
+      ],
+      "covariance": [
+        0.0002108208368820641,
+        0.00022477164139484557,
+        0.00013397828233704763
+      ],
+      "scan_match": 0.8160237388724035,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635082.0714948,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.8907849829351536,
+        "trimmed_likelihood": 0.9968362938673418,
+        "matched_endpoints": 261,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 293
+      },
+      "scan_endpoint_count": 293,
+      "particle_pose_offset_s": -0.006925212,
+      "particle_stamp_age_s": 0.36932776312194815,
+      "particle_receive_age_s": 0.3415669499999012,
+      "scan_receive_age_s": 0.010076943000058236,
+      "pose_age_s": 0.07610679912194818,
+      "scan_age_s": 0.07610679912194818,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.043647159747296,
+        -0.23783174327279777,
+        -1.9267595260037094
+      ],
+      "covariance": [
+        0.00024378254447121606,
+        0.00022186172232337154,
+        0.00013714852364013936
+      ],
+      "scan_match": 0.8907849829351536,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635082.5866287,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9152542372881356,
+        "trimmed_likelihood": 0.9964712606172335,
+        "matched_endpoints": 216,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 236
+      },
+      "scan_endpoint_count": 236,
+      "error": "Particle cloud lacks a time-aligned pose"
+    },
+    {
+      "time": 1789635083.0931234,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9398496240601504,
+        "trimmed_likelihood": 0.9948474556162531,
+        "matched_endpoints": 250,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 266
+      },
+      "scan_endpoint_count": 266,
+      "particle_pose_offset_s": -0.007715983000000001,
+      "particle_stamp_age_s": 0.5412914272435302,
+      "particle_receive_age_s": 0.5120700410000154,
+      "scan_receive_age_s": 0.04320770200001789,
+      "pose_age_s": 0.09895326624353018,
+      "scan_age_s": 0.09895326624353018,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.038364984119287,
+        -0.24031881182222933,
+        -1.923406671139927
+      ],
+      "covariance": [
+        0.00015181486075732664,
+        0.00026000791793195227,
+        0.0001334598103130391
+      ],
+      "scan_match": 0.9398496240601504,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635083.6094587,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.8990228013029316,
+        "trimmed_likelihood": 0.9919827314764806,
+        "matched_endpoints": 276,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 307
+      },
+      "scan_endpoint_count": 307,
+      "particle_pose_offset_s": 0.012756773,
+      "particle_stamp_age_s": 0.22887687406616208,
+      "particle_receive_age_s": 0.19676277999997183,
+      "scan_receive_age_s": 0.050585372999989886,
+      "pose_age_s": 0.1153157490661621,
+      "scan_age_s": 0.1153157490661621,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0555393329443508,
+        -0.23997680570937444,
+        -1.9245257922468044
+      ],
+      "covariance": [
+        0.00014520216820379517,
+        0.0002588768293766905,
+        0.00010019859839396133
+      ],
+      "scan_match": 0.8990228013029316,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635084.12204,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9194630872483222,
+        "trimmed_likelihood": 0.9937573564887233,
+        "matched_endpoints": 274,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 298
+      },
+      "scan_endpoint_count": 298,
+      "particle_pose_offset_s": 0.012756773,
+      "particle_stamp_age_s": 0.7423088999755859,
+      "particle_receive_age_s": 0.7101961529999699,
+      "scan_receive_age_s": 0.07391081299999769,
+      "pose_age_s": 0.12948095897558587,
+      "scan_age_s": 0.12948095897558587,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.043131281481104,
+        -0.23863406202217813,
+        -1.9247809369359106
+      ],
+      "covariance": [
+        0.00015519141327402508,
+        0.0002706294494428177,
+        0.0001054702934795256
+      ],
+      "scan_match": 0.9194630872483222,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635084.6412792,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9446254071661238,
+        "trimmed_likelihood": 0.9949705962534956,
+        "matched_endpoints": 290,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 307
+      },
+      "scan_endpoint_count": 307,
+      "particle_pose_offset_s": -0.017436665,
+      "particle_stamp_age_s": 0.48098770406909175,
+      "particle_receive_age_s": 0.45246903899999324,
+      "scan_receive_age_s": 0.043088680999971984,
+      "pose_age_s": 0.10013086506909175,
+      "scan_age_s": 0.10013086506909175,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0545700182909594,
+        -0.23299038647970138,
+        -1.925102323744929
+      ],
+      "covariance": [
+        0.000139787253775836,
+        0.0003028924852451556,
+        0.00010308324686009424
+      ],
+      "scan_match": 0.9446254071661238,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635085.1432767,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9096385542168675,
+        "trimmed_likelihood": 0.9959882301488221,
+        "matched_endpoints": 302,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 332
+      },
+      "scan_endpoint_count": 332,
+      "particle_pose_offset_s": 0.002808862,
+      "particle_stamp_age_s": 0.20285670527661126,
+      "particle_receive_age_s": 0.167579413999988,
+      "scan_receive_age_s": 0.022843411000053493,
+      "pose_age_s": 0.048970723276611325,
+      "scan_age_s": 0.048970723276611325,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.055881688133682,
+        -0.2305088297314714,
+        -1.9264374605617565
+      ],
+      "covariance": [
+        0.00012428510018835937,
+        0.0002048677277321706,
+        0.00010154513357568745
+      ],
+      "scan_match": 0.9096385542168675,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635085.6550508,
+      "candidate_stable": false,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9331306990881459,
+        "trimmed_likelihood": 0.9975139055879993,
+        "matched_endpoints": 307,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 329
+      },
+      "scan_endpoint_count": 329,
+      "particle_pose_offset_s": 0.002808862,
+      "particle_stamp_age_s": 0.7153968072816161,
+      "particle_receive_age_s": 0.6801130809999449,
+      "scan_receive_age_s": 0.05617238399997859,
+      "pose_age_s": 0.11259818528161614,
+      "scan_age_s": 0.11259818528161614,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0471977519413116,
+        -0.23014892841523593,
+        -1.926076126397774
+      ],
+      "covariance": [
+        0.00010412870068954305,
+        0.00022135656979323237,
+        0.0001296536153070286
+      ],
+      "scan_match": 0.9331306990881459,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635086.1747315,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9486166007905138,
+        "trimmed_likelihood": 0.9987579660527024,
+        "matched_endpoints": 240,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 253
+      },
+      "scan_endpoint_count": 253,
+      "particle_pose_offset_s": -0.022800073,
+      "particle_stamp_age_s": 0.4594786456258545,
+      "particle_receive_age_s": 0.4285882090000541,
+      "scan_receive_age_s": 0.02951118500004668,
+      "pose_age_s": 0.08224518262585448,
+      "scan_age_s": 0.08224518262585448,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.056995338085175,
+        -0.22388294204720513,
+        -1.9275768692259827
+      ],
+      "covariance": [
+        9.075259538526836e-05,
+        0.00023263823991585136,
+        0.00011151114573381923
+      ],
+      "scan_match": 0.9486166007905138,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635086.6786878,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9087719298245615,
+        "trimmed_likelihood": 0.9954925020200046,
+        "matched_endpoints": 259,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 285
+      },
+      "scan_endpoint_count": 285,
+      "particle_pose_offset_s": -0.008168707,
+      "particle_stamp_age_s": 0.17720082161865236,
+      "particle_receive_age_s": 0.14000494599997637,
+      "scan_receive_age_s": 0.029612244000077226,
+      "pose_age_s": 0.08550725661865233,
+      "scan_age_s": 0.08550725661865233,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0521700214369836,
+        -0.2219983302473176,
+        -1.926686593764904
+      ],
+      "covariance": [
+        9.631430500256499e-05,
+        0.00023927014851771178,
+        8.702924966327704e-05
+      ],
+      "scan_match": 0.9087719298245615,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635087.1919777,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9506726457399103,
+        "trimmed_likelihood": 0.9982636220712721,
+        "matched_endpoints": 212,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 223
+      },
+      "scan_endpoint_count": 223,
+      "particle_pose_offset_s": -0.008168707,
+      "particle_stamp_age_s": 0.689524439553833,
+      "particle_receive_age_s": 0.6522659529999828,
+      "scan_receive_age_s": 0.03589389699993717,
+      "pose_age_s": 0.097637338553833,
+      "scan_age_s": 0.097637338553833,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.062344220967543,
+        -0.23354029933892634,
+        -1.9253718902242638
+      ],
+      "covariance": [
+        8.113284439303925e-05,
+        0.0002041088593973811,
+        7.045623952050645e-05
+      ],
+      "scan_match": 0.9506726457399103,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635087.7062848,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9533898305084746,
+        "trimmed_likelihood": 0.9988418728686252,
+        "matched_endpoints": 225,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 236
+      },
+      "scan_endpoint_count": 236,
+      "particle_pose_offset_s": -0.009601964000000001,
+      "particle_stamp_age_s": 0.45212138066833496,
+      "particle_receive_age_s": 0.42670930200006296,
+      "scan_receive_age_s": 0.055786936999993486,
+      "pose_age_s": 0.11262280066833497,
+      "scan_age_s": 0.11262280066833497,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.048716633930148,
+        -0.22602969437095197,
+        -1.9277370211736338
+      ],
+      "covariance": [
+        0.00010214637420524753,
+        0.00023843566537087163,
+        9.029541289280847e-05
+      ],
+      "scan_match": 0.9533898305084746,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635088.2227628,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.975609756097561,
+        "trimmed_likelihood": 0.999763093680831,
+        "matched_endpoints": 280,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 287
+      },
+      "scan_endpoint_count": 287,
+      "particle_pose_offset_s": -0.005643657000000001,
+      "particle_stamp_age_s": 0.12397419049768066,
+      "particle_receive_age_s": 0.09382134000009046,
+      "scan_receive_age_s": 0.04114810999999463,
+      "pose_age_s": 0.07972959149768066,
+      "scan_age_s": 0.07972959149768066,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0490323490765183,
+        -0.22735241837452433,
+        -1.92539805523055
+      ],
+      "covariance": [
+        8.409279683796456e-05,
+        0.0002633925418560612,
+        9.957629243661289e-05
+      ],
+      "scan_match": 0.975609756097561,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635088.7345588,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.944078947368421,
+        "trimmed_likelihood": 0.998416102193218,
+        "matched_endpoints": 287,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 304
+      },
+      "scan_endpoint_count": 304,
+      "particle_pose_offset_s": -0.005643657000000001,
+      "particle_stamp_age_s": 0.6340368850472412,
+      "particle_receive_age_s": 0.6038473340000792,
+      "scan_receive_age_s": 0.03604957199991077,
+      "pose_age_s": 0.14116585404724113,
+      "scan_age_s": 0.14116585404724113,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0545159415069407,
+        -0.22897520963806395,
+        -1.9232977207799566
+      ],
+      "covariance": [
+        9.96439897047452e-05,
+        0.00024247487287062247,
+        9.254071476378294e-05
+      ],
+      "scan_match": 0.944078947368421,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635089.249334,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9090909090909091,
+        "trimmed_likelihood": 0.995913114939676,
+        "matched_endpoints": 290,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 319
+      },
+      "scan_endpoint_count": 319,
+      "particle_pose_offset_s": -0.005244367000000001,
+      "particle_stamp_age_s": 0.29982235608337393,
+      "particle_receive_age_s": 0.27823356299995794,
+      "scan_receive_age_s": 0.051601418000018384,
+      "pose_age_s": 0.105186787083374,
+      "scan_age_s": 0.105186787083374,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.065326791755354,
+        -0.2267862445445558,
+        -1.9259273476897758
+      ],
+      "covariance": [
+        0.00012653788424898949,
+        0.0002602051473962752,
+        9.176071822122204e-05
+      ],
+      "scan_match": 0.9090909090909091,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635089.759168,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.8580246913580247,
+        "trimmed_likelihood": 0.9943035907719227,
+        "matched_endpoints": 278,
+        "supported_bearing_bins": 8,
+        "endpoint_count": 324
+      },
+      "scan_endpoint_count": 324,
+      "particle_pose_offset_s": -0.005244367000000001,
+      "particle_stamp_age_s": 0.809717203953247,
+      "particle_receive_age_s": 0.7881267830000525,
+      "scan_receive_age_s": 0.07665241199993034,
+      "pose_age_s": 0.11502889895324708,
+      "scan_age_s": 0.11502889895324708,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.057384896177382,
+        -0.22470001303808101,
+        -1.925806419564763
+      ],
+      "covariance": [
+        0.00010274309386026914,
+        0.00027668677530107155,
+        0.00010411280186477607
+      ],
+      "scan_match": 0.8580246913580247,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635090.2743087,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.8782051282051282,
+        "trimmed_likelihood": 0.997006181684577,
+        "matched_endpoints": 274,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 312
+      },
+      "scan_endpoint_count": 312,
+      "particle_pose_offset_s": -0.007088263,
+      "particle_stamp_age_s": 0.4760011985301513,
+      "particle_receive_age_s": 0.44849748000001455,
+      "scan_receive_age_s": 0.05455134199996792,
+      "pose_age_s": 0.08081874153015137,
+      "scan_age_s": 0.08081874153015137,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.040735648620525,
+        -0.22863677834858373,
+        -1.925340923740995
+      ],
+      "covariance": [
+        0.00010637160567483761,
+        0.0003441577762154646,
+        0.0001089674114472721
+      ],
+      "scan_match": 0.8782051282051282,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635090.7910497,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.8901960784313725,
+        "trimmed_likelihood": 0.997974765351794,
+        "matched_endpoints": 227,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 255
+      },
+      "scan_endpoint_count": 255,
+      "particle_pose_offset_s": -0.007158442,
+      "particle_stamp_age_s": 0.1918481120161133,
+      "particle_receive_age_s": 0.17035865499997271,
+      "scan_receive_age_s": 0.030253615999981776,
+      "pose_age_s": 0.047268954016113196,
+      "scan_age_s": 0.047268954016113196,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0500620741286317,
+        -0.22945364565954615,
+        -1.9270563268920569
+      ],
+      "covariance": [
+        0.00010269772811177802,
+        0.0003432888982830423,
+        0.00010463979074871812
+      ],
+      "scan_match": 0.8901960784313725,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635091.3020308,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.9102040816326531,
+        "trimmed_likelihood": 0.9978985305651615,
+        "matched_endpoints": 223,
+        "supported_bearing_bins": 7,
+        "endpoint_count": 245
+      },
+      "scan_endpoint_count": 245,
+      "particle_pose_offset_s": -0.007158442,
+      "particle_stamp_age_s": 0.7040060290388184,
+      "particle_receive_age_s": 0.6825202720000334,
+      "scan_receive_age_s": 0.005343225999922652,
+      "pose_age_s": 0.15941432703881836,
+      "scan_age_s": 0.15941432703881836,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0539810757923194,
+        -0.23294458715520613,
+        -1.9255167039747059
+      ],
+      "covariance": [
+        9.52243666141328e-05,
+        0.00039365828605535114,
+        0.0001084960713019625
+      ],
+      "scan_match": 0.9102040816326531,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635091.8208203,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.847457627118644,
+        "trimmed_likelihood": 0.9908853171606439,
+        "matched_endpoints": 200,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 236
+      },
+      "scan_endpoint_count": 236,
+      "particle_pose_offset_s": -0.017586525000000002,
+      "particle_stamp_age_s": 0.4588310551844482,
+      "particle_receive_age_s": 0.438015086000064,
+      "scan_receive_age_s": 0.02402662099996178,
+      "pose_age_s": 0.07837726018444824,
+      "scan_age_s": 0.07837726018444824,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0530233062235763,
+        -0.2278496356484439,
+        -1.9286121346813978
+      ],
+      "covariance": [
+        0.00010359036014939704,
+        0.0004354582915810923,
+        0.00010496194789502431
+      ],
+      "scan_match": 0.847457627118644,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635092.3352892,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.8875,
+        "trimmed_likelihood": 0.9972512631080431,
+        "matched_endpoints": 213,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 240
+      },
+      "scan_endpoint_count": 240,
+      "particle_pose_offset_s": -0.005495682,
+      "particle_stamp_age_s": 0.13538562845727536,
+      "particle_receive_age_s": 0.11130941999999777,
+      "scan_receive_age_s": 0.012463914000022669,
+      "pose_age_s": 0.09092777445727537,
+      "scan_age_s": 0.09092777445727537,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.05101786681563,
+        -0.23017422703154738,
+        -1.925713396822138
+      ],
+      "covariance": [
+        9.756337232147416e-05,
+        0.0005035162123692288,
+        0.00010034837827997189
+      ],
+      "scan_match": 0.8875,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    },
+    {
+      "time": 1789635092.845043,
+      "candidate_stable": true,
+      "static_support": {
+        "accepted": true,
+        "match_fraction": 0.8710801393728222,
+        "trimmed_likelihood": 0.9928143637532143,
+        "matched_endpoints": 250,
+        "supported_bearing_bins": 6,
+        "endpoint_count": 287
+      },
+      "scan_endpoint_count": 287,
+      "particle_pose_offset_s": -0.005495682,
+      "particle_stamp_age_s": 0.6458266932918701,
+      "particle_receive_age_s": 0.6217566049999732,
+      "scan_receive_age_s": 0.09784426800001711,
+      "pose_age_s": 0.1511953992918701,
+      "scan_age_s": 0.1511953992918701,
+      "pose_scan_offset_s": 0.0,
+      "pose": [
+        3.0659255469910103,
+        -0.23179079286808577,
+        -1.9294241572281052
+      ],
+      "covariance": [
+        8.992848419886457e-05,
+        0.0004956039236161253,
+        0.00010044981191333227
+      ],
+      "scan_match": 0.8710801393728222,
+      "dominant_particle_mass": 1.0,
+      "particle_count": 1001
+    }
+  ],
+  "latest": {
+    "time": 1789635092.845043,
+    "candidate_stable": true,
+    "static_support": {
+      "accepted": true,
+      "match_fraction": 0.8710801393728222,
+      "trimmed_likelihood": 0.9928143637532143,
+      "matched_endpoints": 250,
+      "supported_bearing_bins": 6,
+      "endpoint_count": 287
+    },
+    "scan_endpoint_count": 287,
+    "particle_pose_offset_s": -0.005495682,
+    "particle_stamp_age_s": 0.6458266932918701,
+    "particle_receive_age_s": 0.6217566049999732,
+    "scan_receive_age_s": 0.09784426800001711,
+    "pose_age_s": 0.1511953992918701,
+    "scan_age_s": 0.1511953992918701,
+    "pose_scan_offset_s": 0.0,
+    "pose": [
+      3.0659255469910103,
+      -0.23179079286808577,
+      -1.9294241572281052
+    ],
+    "covariance": [
+      8.992848419886457e-05,
+      0.0004956039236161253,
+      0.00010044981191333227
+    ],
+    "scan_match": 0.8710801393728222,
+    "dominant_particle_mass": 1.0,
+    "particle_count": 1001
+  },
+  "error": "Interrupted"
+}

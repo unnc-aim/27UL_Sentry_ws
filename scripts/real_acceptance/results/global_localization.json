@@ -1,126 +1,1814 @@
 {
   "motion_authorized": false,
-  "globalization_requested": false,
+  "globalization_requested": true,
   "trace": [
     {
-      "time": 1789549708.661288,
+      "time": 1790316038.4020946,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549708.400831 but the latest data is at time 1789549708.270767, when looking up transform from frame [base_footprint] to frame [map]"
+      "reason": "Waiting for matching pose and scan times"
     },
     {
-      "time": 1789549709.1893153,
+      "time": 1790316038.9251087,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549709.000735 but the latest data is at time 1789549707.870817, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.288999932391369,
+        0.6149586689999796,
+        1.2891433422152034
+      ],
+      "covariance": [
+        25.97782459950394,
+        9.695378719532831,
+        8.826034218296778
+      ],
+      "pose_age_s": 0.850283145904541,
+      "scan_age_s": 0.850283145904541,
+      "pose_scan_offset_s": 0.0
     },
     {
-      "time": 1789549709.6891415,
+      "time": 1790316039.4276826,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549709.550534 but the latest data is at time 1789549709.520660, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.0136884539347453,
+        0.379130224991665,
+        2.700873828923899
+      ],
+      "covariance": [
+        16.1967269915608,
+        5.252922908675244,
+        7.155674172114835
+      ],
+      "pose_age_s": 0.7537524700164795,
+      "scan_age_s": 0.7537524700164795,
+      "pose_scan_offset_s": 0.0
     },
     {
-      "time": 1789549710.2783992,
+      "time": 1790316039.9313183,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549709.898738 but the latest data is at time 1789549709.819087, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -0.9615723562662853,
+        0.36126039913473057,
+        -2.6243561005296523
+      ],
+      "covariance": [
+        10.350034569656435,
+        2.629746639714473,
+        6.031688240110936
+      ],
+      "pose_age_s": 0.6071271896362305,
+      "scan_age_s": 0.6071271896362305,
+      "pose_scan_offset_s": 0.0
     },
     {
-      "time": 1789549710.7970235,
+      "time": 1790316040.4368398,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549710.450902 but the latest data is at time 1789549709.970764, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.0042087653494447,
+        0.3837211626512083,
+        -1.6750647197490232
+      ],
+      "covariance": [
+        6.8264994312181075,
+        1.422546185265807,
+        4.336870812701783
+      ],
+      "pose_age_s": 0.7629964351654053,
+      "scan_age_s": 0.7629964351654053,
+      "pose_scan_offset_s": 0.0
     },
     {
-      "time": 1789549711.5843534,
+      "time": 1790316040.939918,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549711.000691 but the latest data is at time 1789549710.070654, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.3667595733959397,
+        0.5431055047220561,
+        -0.2596626305866622
+      ],
+      "covariance": [
+        4.12318582303115,
+        0.8233016840303483,
+        2.524396360545352
+      ],
+      "pose_age_s": 0.81280517578125,
+      "scan_age_s": 0.81280517578125,
+      "pose_scan_offset_s": 0.0
     },
     {
-      "time": 1789549712.1219537,
+      "time": 1790316041.4895556,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549711.750784 but the latest data is at time 1789549710.120725, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.5396176336884104,
+        0.9085854617006336,
+        0.413790994422541
+      ],
+      "covariance": [
+        2.4808850261944704,
+        0.49057377958734194,
+        1.277935214087618
+      ],
+      "pose_age_s": 1.1653239727020264,
+      "scan_age_s": 1.1653239727020264,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.165 s"
     },
     {
-      "time": 1789549712.625611,
+      "time": 1790316041.9913342,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549712.350775 but the latest data is at time 1789549710.270779, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.5396176336884104,
+        0.9085854617006336,
+        0.413790994422541
+      ],
+      "covariance": [
+        2.4808850261944704,
+        0.49057377958734194,
+        1.277935214087618
+      ],
+      "pose_age_s": 1.6671223640441895,
+      "scan_age_s": 1.6671223640441895,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.667 s"
     },
     {
-      "time": 1789549713.1392937,
+      "time": 1790316042.4932165,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549712.850769 but the latest data is at time 1789549710.270779, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.5396176336884104,
+        0.9085854617006336,
+        0.413790994422541
+      ],
+      "covariance": [
+        2.4808850261944704,
+        0.49057377958734194,
+        1.277935214087618
+      ],
+      "pose_age_s": 2.16902756690979,
+      "scan_age_s": 2.16902756690979,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 2.169 s"
     },
     {
-      "time": 1789549713.7005615,
+      "time": 1790316042.9964967,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549713.400741 but the latest data is at time 1789549710.270779, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.6554889976235871,
+        0.9718163038409422,
+        0.7437612665362514
+      ],
+      "covariance": [
+        0.5248420136909604,
+        0.1344202761629295,
+        0.18619368154564184
+      ],
+      "pose_age_s": 0.27223992347717285,
+      "scan_age_s": 0.27223992347717285,
+      "pose_scan_offset_s": 0.0
     },
     {
-      "time": 1789549714.3875225,
+      "time": 1790316043.498807,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549713.900679 but the latest data is at time 1789549711.270880, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.602104387981641,
+        0.9793327467480594,
+        2.415457137414938
+      ],
+      "covariance": [
+        0.14172298293850227,
+        0.01556521204055561,
+        0.05024899202883554
+      ],
+      "pose_age_s": 0.17467999458312988,
+      "scan_age_s": 0.17467999458312988,
+      "pose_scan_offset_s": 0.0
     },
     {
-      "time": 1789549714.9150867,
+      "time": 1790316044.0010264,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549714.600678 but the latest data is at time 1789549711.420858, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.5866129245213867,
+        0.9871550039972091,
+        -2.8990385482088037
+      ],
+      "covariance": [
+        0.06981662403884048,
+        0.011815529153599291,
+        0.012847564146226625
+      ],
+      "pose_age_s": 0.3269169330596924,
+      "scan_age_s": 0.3269169330596924,
+      "pose_scan_offset_s": 0.0
     },
     {
-      "time": 1789549715.4519377,
+      "time": 1790316044.5030146,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549715.050786 but the latest data is at time 1789549711.420858, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.5709373798772985,
+        0.9970086440759549,
+        -0.966422309284571
+      ],
+      "covariance": [
+        0.026955130031848018,
+        0.009582614352019903,
+        0.00569529049389066
+      ],
+      "pose_age_s": 0.12877941131591797,
+      "scan_age_s": 0.12877941131591797,
+      "pose_scan_offset_s": 0.0
     },
     {
-      "time": 1789549716.0038786,
+      "time": 1790316045.0086675,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549715.500871 but the latest data is at time 1789549711.520739, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.5782407721368974,
+        0.9836792610491534,
+        0.4074934992279989
+      ],
+      "covariance": [
+        0.026403390608890742,
+        0.01002679772350945,
+        0.005269467821175517
+      ],
+      "pose_age_s": 0.131744384765625,
+      "scan_age_s": 0.131744384765625,
+      "pose_scan_offset_s": 0.0
     },
     {
-      "time": 1789549716.5536933,
+      "time": 1790316045.5153177,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549716.200794 but the latest data is at time 1789549711.620686, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.5828860054315161,
+        0.990530607449424,
+        1.5069431863575597
+      ],
+      "covariance": [
+        0.02740893220482743,
+        0.009972798367279045,
+        0.00652072068579832
+      ],
+      "pose_age_s": 0.24145293235778809,
+      "scan_age_s": 0.24145293235778809,
+      "pose_scan_offset_s": 0.0
     },
     {
-      "time": 1789549717.3782442,
+      "time": 1790316046.0329223,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549716.800799 but the latest data is at time 1789549711.970652, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.5828860054315161,
+        0.990530607449424,
+        1.5069431863575597
+      ],
+      "covariance": [
+        0.02740893220482743,
+        0.009972798367279045,
+        0.00652072068579832
+      ],
+      "pose_age_s": 0.7591021060943604,
+      "scan_age_s": 0.7591021060943604,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 0.759 s"
     },
     {
-      "time": 1789549718.2514744,
+      "time": 1790316046.5623503,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549717.550685 but the latest data is at time 1789549711.970652, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.5828860054315161,
+        0.990530607449424,
+        1.5069431863575597
+      ],
+      "covariance": [
+        0.02740893220482743,
+        0.009972798367279045,
+        0.00652072068579832
+      ],
+      "pose_age_s": 1.2885804176330566,
+      "scan_age_s": 1.2885804176330566,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.289 s"
     },
     {
-      "time": 1789549718.972112,
+      "time": 1790316047.0630186,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549718.300603 but the latest data is at time 1789549712.270877, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.5834759718442128,
+        0.9492643536590226,
+        -0.2448190079291394
+      ],
+      "covariance": [
+        0.046978062634603024,
+        0.02223647273326701,
+        0.007950363723070536
+      ],
+      "pose_age_s": 0.13892149925231934,
+      "scan_age_s": 0.13892149925231934,
+      "pose_scan_offset_s": 0.0
     },
     {
-      "time": 1789549719.4905992,
+      "time": 1790316048.4578588,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549719.150844 but the latest data is at time 1789549712.520877, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.5834759718442128,
+        0.9492643536590226,
+        -0.2448190079291394
+      ],
+      "covariance": [
+        0.046978062634603024,
+        0.02223647273326701,
+        0.007950363723070536
+      ],
+      "pose_age_s": 1.533909797668457,
+      "scan_age_s": 1.533909797668457,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.484 s"
     },
     {
-      "time": 1789549720.3031003,
+      "time": 1790316048.9717343,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549719.650676 but the latest data is at time 1789549712.670789, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.6826249032702822,
+        0.9560827748666899,
+        -1.2922468806472744
+      ],
+      "covariance": [
+        0.10542705365607885,
+        0.05226152228870973,
+        0.02062091919268704
+      ],
+      "pose_age_s": 0.14763975143432617,
+      "scan_age_s": 0.14763975143432617,
+      "pose_scan_offset_s": 0.0
     },
     {
-      "time": 1789549720.8157322,
+      "time": 1790316049.4741542,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549720.500687 but the latest data is at time 1789549712.670789, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.6863315421760559,
+        0.992935170102493,
+        -0.5959760866231
+      ],
+      "covariance": [
+        0.0990429378516704,
+        0.03348388123207413,
+        0.011421322264629385
+      ],
+      "pose_age_s": 0.3998281955718994,
+      "scan_age_s": 0.3998281955718994,
+      "pose_scan_offset_s": 0.0
     },
     {
-      "time": 1789549721.3392174,
+      "time": 1790316049.9765346,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549721.000713 but the latest data is at time 1789549712.820702, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.6891966734646915,
+        1.0138074352676725,
+        1.066009784137399
+      ],
+      "covariance": [
+        0.0648437431457265,
+        0.019246753181911158,
+        0.010809958533054413
+      ],
+      "pose_age_s": 0.3024444580078125,
+      "scan_age_s": 0.3024444580078125,
+      "pose_scan_offset_s": 0.0
     },
     {
-      "time": 1789549721.9045465,
+      "time": 1790316050.480725,
       "candidate_stable": false,
-      "error": "Lookup would require extrapolation into the future.  Requested time 1789549721.550789 but the latest data is at time 1789549712.820702, when looking up transform from frame [base_footprint] to frame [map]"
+      "pose": [
+        -1.6835560842596207,
+        1.0084906203417672,
+        2.5965249436749236
+      ],
+      "covariance": [
+        0.05879003318821008,
+        0.02302446461525043,
+        0.014425365128271457
+      ],
+      "pose_age_s": 0.2566041946411133,
+      "scan_age_s": 0.2566041946411133,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316050.983904,
+      "candidate_stable": false,
+      "pose": [
+        -1.6596986072180173,
+        1.0066693741778052,
+        -2.186780184879844
+      ],
+      "covariance": [
+        0.041117620410590305,
+        0.013866570215006702,
+        0.006330670794507599
+      ],
+      "pose_age_s": 0.20970749855041504,
+      "scan_age_s": 0.20970749855041504,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316051.4872546,
+      "candidate_stable": false,
+      "pose": [
+        -1.6470695705857845,
+        1.0118142441093383,
+        -1.0927313629321849
+      ],
+      "covariance": [
+        0.037012762974973246,
+        0.01193934816503095,
+        0.005061389516323659
+      ],
+      "pose_age_s": 0.3131885528564453,
+      "scan_age_s": 0.3131885528564453,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316051.9887424,
+      "candidate_stable": false,
+      "pose": [
+        -1.6470695705857845,
+        1.0118142441093383,
+        -1.0927313629321849
+      ],
+      "covariance": [
+        0.037012762974973246,
+        0.01193934816503095,
+        0.005061389516323659
+      ],
+      "pose_age_s": 0.8146891593933105,
+      "scan_age_s": 0.8146891593933105,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 0.765 s"
+    },
+    {
+      "time": 1790316052.489335,
+      "candidate_stable": false,
+      "pose": [
+        -1.6470695705857845,
+        1.0118142441093383,
+        -1.0927313629321849
+      ],
+      "covariance": [
+        0.037012762974973246,
+        0.01193934816503095,
+        0.005061389516323659
+      ],
+      "pose_age_s": 1.3151640892028809,
+      "scan_age_s": 1.3151640892028809,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.265 s"
+    },
+    {
+      "time": 1790316052.9926012,
+      "candidate_stable": false,
+      "pose": [
+        -1.6470695705857845,
+        1.0118142441093383,
+        -1.0927313629321849
+      ],
+      "covariance": [
+        0.037012762974973246,
+        0.01193934816503095,
+        0.005061389516323659
+      ],
+      "pose_age_s": 1.8185782432556152,
+      "scan_age_s": 1.8185782432556152,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.769 s"
+    },
+    {
+      "time": 1790316053.4978223,
+      "candidate_stable": false,
+      "pose": [
+        -1.6470695705857845,
+        1.0118142441093383,
+        -1.0927313629321849
+      ],
+      "covariance": [
+        0.037012762974973246,
+        0.01193934816503095,
+        0.005061389516323659
+      ],
+      "pose_age_s": 2.3237574100494385,
+      "scan_age_s": 2.3237574100494385,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 2.274 s"
+    },
+    {
+      "time": 1790316053.9998534,
+      "candidate_stable": false,
+      "pose": [
+        -1.6470695705857845,
+        1.0118142441093383,
+        -1.0927313629321849
+      ],
+      "covariance": [
+        0.037012762974973246,
+        0.01193934816503095,
+        0.005061389516323659
+      ],
+      "pose_age_s": 2.8257975578308105,
+      "scan_age_s": 2.8257975578308105,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 2.776 s"
+    },
+    {
+      "time": 1790316055.1772926,
+      "candidate_stable": false,
+      "pose": [
+        -1.6470695705857845,
+        1.0118142441093383,
+        -1.0927313629321849
+      ],
+      "covariance": [
+        0.037012762974973246,
+        0.01193934816503095,
+        0.005061389516323659
+      ],
+      "pose_age_s": 4.003467321395874,
+      "scan_age_s": 4.003467321395874,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 3.954 s"
+    },
+    {
+      "time": 1790316055.690726,
+      "candidate_stable": false,
+      "pose": [
+        -1.5677207699022928,
+        1.007022153895063,
+        -1.6529200132964508
+      ],
+      "covariance": [
+        0.18861049903348626,
+        0.022650019075264094,
+        0.011232681656483784
+      ],
+      "pose_age_s": 0.16647839546203613,
+      "scan_age_s": 0.16647839546203613,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316056.2058358,
+      "candidate_stable": false,
+      "pose": [
+        -1.4585516844908606,
+        0.9995797953084062,
+        -0.13041124985357624
+      ],
+      "covariance": [
+        0.1535438203596442,
+        0.015648732822916234,
+        0.006556298007712704
+      ],
+      "pose_age_s": 0.13160967826843262,
+      "scan_age_s": 0.13160967826843262,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316056.7521067,
+      "candidate_stable": false,
+      "pose": [
+        -1.4585516844908606,
+        0.9995797953084062,
+        -0.13041124985357624
+      ],
+      "covariance": [
+        0.1535438203596442,
+        0.015648732822916234,
+        0.006556298007712704
+      ],
+      "pose_age_s": 0.6778619289398193,
+      "scan_age_s": 0.6778619289398193,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316057.2639077,
+      "candidate_stable": false,
+      "pose": [
+        -1.4585516844908606,
+        0.9995797953084062,
+        -0.13041124985357624
+      ],
+      "covariance": [
+        0.1535438203596442,
+        0.015648732822916234,
+        0.006556298007712704
+      ],
+      "pose_age_s": 1.1896023750305176,
+      "scan_age_s": 1.1896023750305176,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.190 s"
+    },
+    {
+      "time": 1790316057.7657995,
+      "candidate_stable": false,
+      "pose": [
+        -1.4585516844908606,
+        0.9995797953084062,
+        -0.13041124985357624
+      ],
+      "covariance": [
+        0.1535438203596442,
+        0.015648732822916234,
+        0.006556298007712704
+      ],
+      "pose_age_s": 1.6915326118469238,
+      "scan_age_s": 1.6915326118469238,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.692 s"
+    },
+    {
+      "time": 1790316058.2670047,
+      "candidate_stable": false,
+      "pose": [
+        -1.4585516844908606,
+        0.9995797953084062,
+        -0.13041124985357624
+      ],
+      "covariance": [
+        0.1535438203596442,
+        0.015648732822916234,
+        0.006556298007712704
+      ],
+      "pose_age_s": 2.1927340030670166,
+      "scan_age_s": 2.1927340030670166,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF map/base_footprint age 1.893 s"
+    },
+    {
+      "time": 1790316058.767025,
+      "candidate_stable": false,
+      "pose": [
+        -1.6018426558413619,
+        1.0024353562013817,
+        0.5814878816128947
+      ],
+      "covariance": [
+        0.07943425549597194,
+        0.01570767547964813,
+        0.009572186620923438
+      ],
+      "pose_age_s": 0.1429746150970459,
+      "scan_age_s": 0.1429746150970459,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316059.2701988,
+      "candidate_stable": false,
+      "pose": [
+        -1.6212205235227308,
+        1.0127501886661936,
+        0.7179323669339086
+      ],
+      "covariance": [
+        0.069471675028693,
+        0.014591023701464811,
+        0.008064266928050637
+      ],
+      "pose_age_s": 0.5959653854370117,
+      "scan_age_s": 0.5959653854370117,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316059.7725713,
+      "candidate_stable": false,
+      "pose": [
+        -1.6212205235227308,
+        1.0127501886661936,
+        0.7179323669339086
+      ],
+      "covariance": [
+        0.069471675028693,
+        0.014591023701464811,
+        0.008064266928050637
+      ],
+      "pose_age_s": 1.0983586311340332,
+      "scan_age_s": 1.0983586311340332,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.098 s"
+    },
+    {
+      "time": 1790316060.2742422,
+      "candidate_stable": false,
+      "pose": [
+        -1.6316416030185499,
+        0.9614752671131536,
+        -1.7109115690801115
+      ],
+      "covariance": [
+        0.12288703538012546,
+        0.038429024044349225,
+        0.03306334740639046
+      ],
+      "pose_age_s": 0.20183968544006348,
+      "scan_age_s": 0.20183968544006348,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316060.7763698,
+      "candidate_stable": false,
+      "pose": [
+        -1.6207692572610353,
+        0.9570107492845232,
+        -1.5738116174975683
+      ],
+      "covariance": [
+        0.12131957194154941,
+        0.03448194007259131,
+        0.028436978600766178
+      ],
+      "pose_age_s": 0.6526031494140625,
+      "scan_age_s": 0.6526031494140625,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316061.277879,
+      "candidate_stable": false,
+      "pose": [
+        -1.6207692572610353,
+        0.9570107492845232,
+        -1.5738116174975683
+      ],
+      "covariance": [
+        0.12131957194154941,
+        0.03448194007259131,
+        0.028436978600766178
+      ],
+      "pose_age_s": 1.1540582180023193,
+      "scan_age_s": 1.1540582180023193,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.154 s"
+    },
+    {
+      "time": 1790316061.7798092,
+      "candidate_stable": false,
+      "pose": [
+        -1.6207692572610353,
+        0.9570107492845232,
+        -1.5738116174975683
+      ],
+      "covariance": [
+        0.12131957194154941,
+        0.03448194007259131,
+        0.028436978600766178
+      ],
+      "pose_age_s": 1.6559934616088867,
+      "scan_age_s": 1.6559934616088867,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.656 s"
+    },
+    {
+      "time": 1790316062.282167,
+      "candidate_stable": false,
+      "pose": [
+        -1.6207692572610353,
+        0.9570107492845232,
+        -1.5738116174975683
+      ],
+      "covariance": [
+        0.12131957194154941,
+        0.03448194007259131,
+        0.028436978600766178
+      ],
+      "pose_age_s": 2.1584224700927734,
+      "scan_age_s": 2.1584224700927734,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 2.159 s"
+    },
+    {
+      "time": 1790316062.7845097,
+      "candidate_stable": false,
+      "pose": [
+        -1.6207692572610353,
+        0.9570107492845232,
+        -1.5738116174975683
+      ],
+      "covariance": [
+        0.12131957194154941,
+        0.03448194007259131,
+        0.028436978600766178
+      ],
+      "pose_age_s": 2.6607141494750977,
+      "scan_age_s": 2.6607141494750977,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 2.661 s"
+    },
+    {
+      "time": 1790316063.2897596,
+      "candidate_stable": false,
+      "pose": [
+        -1.6026259944072498,
+        0.920827261911923,
+        0.23564546763639696
+      ],
+      "covariance": [
+        0.14808596033974242,
+        0.042695309698804085,
+        0.031889036695850435
+      ],
+      "pose_age_s": 0.21600127220153809,
+      "scan_age_s": 0.21600127220153809,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316063.793131,
+      "candidate_stable": false,
+      "pose": [
+        -1.6898255019631527,
+        1.006284639906765,
+        1.747313890547276
+      ],
+      "covariance": [
+        0.08260721279218197,
+        0.02396007133157374,
+        0.01159895030166594
+      ],
+      "pose_age_s": 0.17095708847045898,
+      "scan_age_s": 0.17095708847045898,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316064.29434,
+      "candidate_stable": false,
+      "pose": [
+        -1.7166053175770881,
+        1.0181957214507205,
+        2.0192447529476096
+      ],
+      "covariance": [
+        0.07566346122918333,
+        0.021916451928844394,
+        0.009167968305925436
+      ],
+      "pose_age_s": 0.5721735954284668,
+      "scan_age_s": 0.5721735954284668,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316064.7981122,
+      "candidate_stable": false,
+      "pose": [
+        -1.786099982647692,
+        1.0474504919617815,
+        -1.9190561479562451
+      ],
+      "covariance": [
+        0.06809417683639873,
+        0.021080689783917084,
+        0.00881011878245416
+      ],
+      "pose_age_s": 0.22395944595336914,
+      "scan_age_s": 0.22395944595336914,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316065.2981663,
+      "candidate_stable": false,
+      "pose": [
+        -1.7942263878522666,
+        1.0693494025030528,
+        -0.5432718528877206
+      ],
+      "covariance": [
+        0.05711256275175591,
+        0.01694989069414765,
+        0.008347924729362001
+      ],
+      "pose_age_s": 0.2240433692932129,
+      "scan_age_s": 0.2240433692932129,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316065.8009174,
+      "candidate_stable": false,
+      "pose": [
+        -1.7762633448163512,
+        1.0736293380332869,
+        1.1017962680031255
+      ],
+      "covariance": [
+        0.05160290474176277,
+        0.013133977303412259,
+        0.00574648489180449
+      ],
+      "pose_age_s": 0.1260366439819336,
+      "scan_age_s": 0.1260366439819336,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316066.3040283,
+      "candidate_stable": false,
+      "pose": [
+        -1.7824195498276971,
+        1.0726314248334812,
+        2.483536653400797
+      ],
+      "covariance": [
+        0.07263019710806029,
+        0.015953628909014084,
+        0.007830802006212728
+      ],
+      "pose_age_s": 0.12992477416992188,
+      "scan_age_s": 0.12992477416992188,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316066.8055403,
+      "candidate_stable": false,
+      "pose": [
+        -1.7824195498276971,
+        1.0726314248334812,
+        2.483536653400797
+      ],
+      "covariance": [
+        0.07263019710806029,
+        0.015953628909014084,
+        0.007830802006212728
+      ],
+      "pose_age_s": 0.6313357353210449,
+      "scan_age_s": 0.6313357353210449,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316067.3070707,
+      "candidate_stable": false,
+      "pose": [
+        -1.7824195498276971,
+        1.0726314248334812,
+        2.483536653400797
+      ],
+      "covariance": [
+        0.07263019710806029,
+        0.015953628909014084,
+        0.007830802006212728
+      ],
+      "pose_age_s": 1.132920265197754,
+      "scan_age_s": 1.132920265197754,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.033 s"
+    },
+    {
+      "time": 1790316067.8101988,
+      "candidate_stable": false,
+      "pose": [
+        -1.7824195498276971,
+        1.0726314248334812,
+        2.483536653400797
+      ],
+      "covariance": [
+        0.07263019710806029,
+        0.015953628909014084,
+        0.007830802006212728
+      ],
+      "pose_age_s": 1.636059284210205,
+      "scan_age_s": 1.636059284210205,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.536 s"
+    },
+    {
+      "time": 1790316068.312946,
+      "candidate_stable": false,
+      "pose": [
+        -1.7824195498276971,
+        1.0726314248334812,
+        2.483536653400797
+      ],
+      "covariance": [
+        0.07263019710806029,
+        0.015953628909014084,
+        0.007830802006212728
+      ],
+      "pose_age_s": 2.138845682144165,
+      "scan_age_s": 2.138845682144165,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 2.039 s"
+    },
+    {
+      "time": 1790316068.815068,
+      "candidate_stable": false,
+      "pose": [
+        -1.7814009232417178,
+        1.0667999341983607,
+        2.9204569187837324
+      ],
+      "covariance": [
+        0.06393878835395128,
+        0.017246883391459633,
+        0.00884320797377206
+      ],
+      "pose_age_s": 0.3429141044616699,
+      "scan_age_s": 0.3429141044616699,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316069.3170784,
+      "candidate_stable": false,
+      "pose": [
+        -1.7618118356075034,
+        1.0596468896786806,
+        -2.259492106943465
+      ],
+      "covariance": [
+        0.062035199545628306,
+        0.014098714103534471,
+        0.006896467326741542
+      ],
+      "pose_age_s": 0.29276371002197266,
+      "scan_age_s": 0.29276371002197266,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316069.8190792,
+      "candidate_stable": false,
+      "pose": [
+        -1.785127320785539,
+        1.073801733449321,
+        -0.4801159639556401
+      ],
+      "covariance": [
+        0.06557323508193136,
+        0.013849705906296306,
+        0.006123581975248183
+      ],
+      "pose_age_s": 0.14476537704467773,
+      "scan_age_s": 0.14476537704467773,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316070.3220823,
+      "candidate_stable": false,
+      "pose": [
+        -1.785127320785539,
+        1.073801733449321,
+        -0.4801159639556401
+      ],
+      "covariance": [
+        0.06557323508193136,
+        0.013849705906296306,
+        0.006123581975248183
+      ],
+      "pose_age_s": 0.6480379104614258,
+      "scan_age_s": 0.6480379104614258,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316070.8221252,
+      "candidate_stable": false,
+      "pose": [
+        -1.785127320785539,
+        1.073801733449321,
+        -0.4801159639556401
+      ],
+      "covariance": [
+        0.06557323508193136,
+        0.013849705906296306,
+        0.006123581975248183
+      ],
+      "pose_age_s": 1.1478347778320312,
+      "scan_age_s": 1.1478347778320312,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.148 s"
+    },
+    {
+      "time": 1790316071.4507146,
+      "candidate_stable": false,
+      "pose": [
+        -1.785127320785539,
+        1.073801733449321,
+        -0.4801159639556401
+      ],
+      "covariance": [
+        0.06557323508193136,
+        0.013849705906296306,
+        0.006123581975248183
+      ],
+      "pose_age_s": 1.7766265869140625,
+      "scan_age_s": 1.7766265869140625,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.777 s"
+    },
+    {
+      "time": 1790316071.9712067,
+      "candidate_stable": false,
+      "pose": [
+        -1.768672964217187,
+        1.0692097192116026,
+        -1.40813574643134
+      ],
+      "covariance": [
+        0.041890272113495275,
+        0.012816522088900717,
+        0.005175406208341489
+      ],
+      "pose_age_s": 0.346881628036499,
+      "scan_age_s": 0.346881628036499,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316072.924558,
+      "candidate_stable": false,
+      "pose": [
+        -1.768672964217187,
+        1.0692097192116026,
+        -1.40813574643134
+      ],
+      "covariance": [
+        0.041890272113495275,
+        0.012816522088900717,
+        0.005175406208341489
+      ],
+      "pose_age_s": 1.3006560802459717,
+      "scan_age_s": 1.3006560802459717,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.101 s"
+    },
+    {
+      "time": 1790316073.427169,
+      "candidate_stable": false,
+      "pose": [
+        -1.7615028670203785,
+        1.0614300315403753,
+        3.1301280992723046
+      ],
+      "covariance": [
+        0.03346253507010566,
+        0.011449072860559406,
+        0.00711156336754504
+      ],
+      "pose_age_s": 0.15285277366638184,
+      "scan_age_s": 0.15285277366638184,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316074.115429,
+      "candidate_stable": false,
+      "pose": [
+        -1.7615028670203785,
+        1.0614300315403753,
+        3.1301280992723046
+      ],
+      "covariance": [
+        0.03346253507010566,
+        0.011449072860559406,
+        0.00711156336754504
+      ],
+      "pose_age_s": 0.8413925170898438,
+      "scan_age_s": 0.8413925170898438,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 0.793 s"
+    },
+    {
+      "time": 1790316074.6401477,
+      "candidate_stable": false,
+      "pose": [
+        -1.7378404276303046,
+        1.0587835629003894,
+        -1.6437122609517552
+      ],
+      "covariance": [
+        0.03362275249305613,
+        0.011366310490218856,
+        0.007415863766406261
+      ],
+      "pose_age_s": 0.8157546520233154,
+      "scan_age_s": 0.8157546520233154,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316075.1411984,
+      "candidate_stable": false,
+      "pose": [
+        -1.7378404276303046,
+        1.0587835629003894,
+        -1.6437122609517552
+      ],
+      "covariance": [
+        0.03362275249305613,
+        0.011366310490218856,
+        0.007415863766406261
+      ],
+      "pose_age_s": 1.3167948722839355,
+      "scan_age_s": 1.3167948722839355,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.067 s"
+    },
+    {
+      "time": 1790316075.6433973,
+      "candidate_stable": false,
+      "pose": [
+        -1.7378404276303046,
+        1.0587835629003894,
+        -1.6437122609517552
+      ],
+      "covariance": [
+        0.03362275249305613,
+        0.011366310490218856,
+        0.007415863766406261
+      ],
+      "pose_age_s": 1.8189845085144043,
+      "scan_age_s": 1.8189845085144043,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.569 s"
+    },
+    {
+      "time": 1790316077.4513867,
+      "candidate_stable": false,
+      "pose": [
+        -1.7378404276303046,
+        1.0587835629003894,
+        -1.6437122609517552
+      ],
+      "covariance": [
+        0.03362275249305613,
+        0.011366310490218856,
+        0.007415863766406261
+      ],
+      "pose_age_s": 3.627037525177002,
+      "scan_age_s": 3.627037525177002,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 3.378 s"
+    },
+    {
+      "time": 1790316077.954359,
+      "candidate_stable": false,
+      "pose": [
+        -1.778247593801277,
+        1.0764850234833372,
+        2.664175244210707
+      ],
+      "covariance": [
+        0.039620331030151945,
+        0.014201974900245329,
+        0.009217628189262169
+      ],
+      "pose_age_s": 0.2798128128051758,
+      "scan_age_s": 0.2798128128051758,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316078.4565332,
+      "candidate_stable": false,
+      "pose": [
+        -1.7690913461211415,
+        1.0721631867887609,
+        -2.943426818780248
+      ],
+      "covariance": [
+        0.0411876406150653,
+        0.014323006789869197,
+        0.006964746405311202
+      ],
+      "pose_age_s": 0.533585786819458,
+      "scan_age_s": 0.533585786819458,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316078.9574049,
+      "candidate_stable": false,
+      "pose": [
+        -1.7690913461211415,
+        1.0721631867887609,
+        -2.943426818780248
+      ],
+      "covariance": [
+        0.0411876406150653,
+        0.014323006789869197,
+        0.006964746405311202
+      ],
+      "pose_age_s": 1.0345604419708252,
+      "scan_age_s": 1.0345604419708252,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 0.985 s"
+    },
+    {
+      "time": 1790316079.4607751,
+      "candidate_stable": false,
+      "pose": [
+        -1.8747272865649174,
+        1.0721790690238573,
+        0.7434789479369339
+      ],
+      "covariance": [
+        0.25381668901510057,
+        0.04658015920036496,
+        0.02071339652076396
+      ],
+      "pose_age_s": 0.18714642524719238,
+      "scan_age_s": 0.18714642524719238,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316081.0916412,
+      "candidate_stable": false,
+      "pose": [
+        -1.8747272865649174,
+        1.0721790690238573,
+        0.7434789479369339
+      ],
+      "covariance": [
+        0.25381668901510057,
+        0.04658015920036496,
+        0.02071339652076396
+      ],
+      "pose_age_s": 1.8184356689453125,
+      "scan_age_s": 1.8184356689453125,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.718 s"
+    },
+    {
+      "time": 1790316081.6202307,
+      "candidate_stable": false,
+      "pose": [
+        -1.8100586502553369,
+        1.0949730087320115,
+        2.7046475986263814
+      ],
+      "covariance": [
+        0.1568653197036718,
+        0.023815220909787937,
+        0.006435843078926806
+      ],
+      "pose_age_s": 1.645765781402588,
+      "scan_age_s": 1.645765781402588,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.596 s"
+    },
+    {
+      "time": 1790316082.1235948,
+      "candidate_stable": false,
+      "pose": [
+        -1.8100586502553369,
+        1.0949730087320115,
+        2.7046475986263814
+      ],
+      "covariance": [
+        0.1568653197036718,
+        0.023815220909787937,
+        0.006435843078926806
+      ],
+      "pose_age_s": 2.149160623550415,
+      "scan_age_s": 2.149160623550415,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 2.099 s"
+    },
+    {
+      "time": 1790316082.6245074,
+      "candidate_stable": false,
+      "pose": [
+        -1.8100586502553369,
+        1.0949730087320115,
+        2.7046475986263814
+      ],
+      "covariance": [
+        0.1568653197036718,
+        0.023815220909787937,
+        0.006435843078926806
+      ],
+      "pose_age_s": 2.650071620941162,
+      "scan_age_s": 2.650071620941162,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 2.600 s"
+    },
+    {
+      "time": 1790316083.1275356,
+      "candidate_stable": false,
+      "pose": [
+        -1.8100586502553369,
+        1.0949730087320115,
+        2.7046475986263814
+      ],
+      "covariance": [
+        0.1568653197036718,
+        0.023815220909787937,
+        0.006435843078926806
+      ],
+      "pose_age_s": 3.153069019317627,
+      "scan_age_s": 3.153069019317627,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 3.103 s"
+    },
+    {
+      "time": 1790316083.6304026,
+      "candidate_stable": false,
+      "pose": [
+        -1.8100586502553369,
+        1.0949730087320115,
+        2.7046475986263814
+      ],
+      "covariance": [
+        0.1568653197036718,
+        0.023815220909787937,
+        0.006435843078926806
+      ],
+      "pose_age_s": 3.6560299396514893,
+      "scan_age_s": 3.6560299396514893,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 3.606 s"
+    },
+    {
+      "time": 1790316084.132798,
+      "candidate_stable": false,
+      "pose": [
+        -1.8999260301737744,
+        1.0611973425064052,
+        0.43956576875151016
+      ],
+      "covariance": [
+        0.3283004632359958,
+        0.07834306379276046,
+        0.04581603076268211
+      ],
+      "pose_age_s": 0.6081783771514893,
+      "scan_age_s": 0.6081783771514893,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316084.6361198,
+      "candidate_stable": false,
+      "pose": [
+        -1.8406114210615774,
+        1.0165474668251824,
+        0.5711520341889638
+      ],
+      "covariance": [
+        0.2795358386819604,
+        0.05820124432426477,
+        0.028361878256242028
+      ],
+      "pose_age_s": 0.6124775409698486,
+      "scan_age_s": 0.6124775409698486,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316085.1391895,
+      "candidate_stable": false,
+      "pose": [
+        -1.8406114210615774,
+        1.0165474668251824,
+        0.5711520341889638
+      ],
+      "covariance": [
+        0.2795358386819604,
+        0.05820124432426477,
+        0.028361878256242028
+      ],
+      "pose_age_s": 1.1155428886413574,
+      "scan_age_s": 1.1155428886413574,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 0.965 s"
+    },
+    {
+      "time": 1790316085.6396017,
+      "candidate_stable": false,
+      "pose": [
+        -1.8406114210615774,
+        1.0165474668251824,
+        0.5711520341889638
+      ],
+      "covariance": [
+        0.2795358386819604,
+        0.05820124432426477,
+        0.028361878256242028
+      ],
+      "pose_age_s": 1.6160261631011963,
+      "scan_age_s": 1.6160261631011963,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.465 s"
+    },
+    {
+      "time": 1790316086.143813,
+      "candidate_stable": false,
+      "pose": [
+        -1.8406114210615774,
+        1.0165474668251824,
+        0.5711520341889638
+      ],
+      "covariance": [
+        0.2795358386819604,
+        0.05820124432426477,
+        0.028361878256242028
+      ],
+      "pose_age_s": 2.120229959487915,
+      "scan_age_s": 2.120229959487915,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.969 s"
+    },
+    {
+      "time": 1790316086.6508234,
+      "candidate_stable": false,
+      "pose": [
+        -1.047085710914128,
+        0.44350537797940787,
+        0.6448856676591583
+      ],
+      "covariance": [
+        0.2593055006801772,
+        0.061500916830399405,
+        0.02608584858802517
+      ],
+      "pose_age_s": 0.22630047798156738,
+      "scan_age_s": 0.22630047798156738,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316087.157771,
+      "candidate_stable": false,
+      "pose": [
+        -1.047085710914128,
+        0.44350537797940787,
+        0.6448856676591583
+      ],
+      "covariance": [
+        0.2593055006801772,
+        0.061500916830399405,
+        0.02608584858802517
+      ],
+      "pose_age_s": 0.7331442832946777,
+      "scan_age_s": 0.7331442832946777,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316089.6516442,
+      "candidate_stable": false,
+      "pose": [
+        -1.047085710914128,
+        0.44350537797940787,
+        0.6448856676591583
+      ],
+      "covariance": [
+        0.2593055006801772,
+        0.061500916830399405,
+        0.02608584858802517
+      ],
+      "pose_age_s": 3.2271111011505127,
+      "scan_age_s": 3.2271111011505127,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 2.627 s"
+    },
+    {
+      "time": 1790316090.160134,
+      "candidate_stable": false,
+      "pose": [
+        0.4687844957849545,
+        -0.6277662318201779,
+        2.6840540191645856
+      ],
+      "covariance": [
+        0.02828948774294074,
+        0.010197994939437904,
+        0.006005522694411632
+      ],
+      "pose_age_s": 0.28548717498779297,
+      "scan_age_s": 0.28548717498779297,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316090.6635115,
+      "candidate_stable": false,
+      "pose": [
+        0.47132560735242945,
+        -0.634973273783299,
+        -2.646458592804458
+      ],
+      "covariance": [
+        0.030870453164091788,
+        0.012094368822195778,
+        0.008442390199090457
+      ],
+      "pose_age_s": 0.4387805461883545,
+      "scan_age_s": 0.4387805461883545,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316091.164808,
+      "candidate_stable": false,
+      "pose": [
+        0.47132560735242945,
+        -0.634973273783299,
+        -2.646458592804458
+      ],
+      "covariance": [
+        0.030870453164091788,
+        0.012094368822195778,
+        0.008442390199090457
+      ],
+      "pose_age_s": 0.9401724338531494,
+      "scan_age_s": 0.9401724338531494,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 0.940 s"
+    },
+    {
+      "time": 1790316091.6687553,
+      "candidate_stable": false,
+      "pose": [
+        0.48930675665083345,
+        -0.6635617104902559,
+        0.6131848577030005
+      ],
+      "covariance": [
+        0.07139984219605017,
+        0.026385375192863103,
+        0.009320855558914223
+      ],
+      "pose_age_s": 0.24445652961730957,
+      "scan_age_s": 0.24445652961730957,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316092.1696827,
+      "candidate_stable": false,
+      "pose": [
+        0.48848903739769484,
+        -0.622356229686421,
+        2.2700732863348065
+      ],
+      "covariance": [
+        0.027448692449031115,
+        0.008536193022327998,
+        0.00446978843765484
+      ],
+      "pose_age_s": 0.14493846893310547,
+      "scan_age_s": 0.14493846893310547,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316092.6744547,
+      "candidate_stable": false,
+      "pose": [
+        0.48530632346379526,
+        -0.6220723265590083,
+        2.408613677366431
+      ],
+      "covariance": [
+        0.02643196968820677,
+        0.008851194761544612,
+        0.004298589433616929
+      ],
+      "pose_age_s": 0.5996694564819336,
+      "scan_age_s": 0.5996694564819336,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316093.8270035,
+      "candidate_stable": false,
+      "pose": [
+        0.48530632346379526,
+        -0.6220723265590083,
+        2.408613677366431
+      ],
+      "covariance": [
+        0.02643196968820677,
+        0.008851194761544612,
+        0.004298589433616929
+      ],
+      "pose_age_s": 1.7524120807647705,
+      "scan_age_s": 1.7524120807647705,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.703 s"
+    },
+    {
+      "time": 1790316094.334789,
+      "candidate_stable": false,
+      "pose": [
+        0.4742278282156765,
+        -0.6060597253456347,
+        1.617651832114613
+      ],
+      "covariance": [
+        0.049030416861691795,
+        0.0210554175693608,
+        0.008431654090198453
+      ],
+      "pose_age_s": 0.26022815704345703,
+      "scan_age_s": 0.26022815704345703,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316094.841647,
+      "candidate_stable": false,
+      "pose": [
+        0.47473209536752503,
+        -0.6081638645513668,
+        3.122808409659619
+      ],
+      "covariance": [
+        0.029610717246098928,
+        0.01256496355659592,
+        0.005722068412972598
+      ],
+      "pose_age_s": 0.21686244010925293,
+      "scan_age_s": 0.21686244010925293,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316095.3875988,
+      "candidate_stable": false,
+      "pose": [
+        0.46566225288740665,
+        -0.6029780425597363,
+        -2.88698380539381
+      ],
+      "covariance": [
+        0.027775273706119874,
+        0.011860998029260938,
+        0.004737416722121546
+      ],
+      "pose_age_s": 0.6626873016357422,
+      "scan_age_s": 0.6626873016357422,
+      "pose_scan_offset_s": 0.0
+    },
+    {
+      "time": 1790316095.892959,
+      "candidate_stable": false,
+      "pose": [
+        0.46566225288740665,
+        -0.6029780425597363,
+        -2.88698380539381
+      ],
+      "covariance": [
+        0.027775273706119874,
+        0.011860998029260938,
+        0.004737416722121546
+      ],
+      "pose_age_s": 1.1680805683135986,
+      "scan_age_s": 1.1680805683135986,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.118 s"
+    },
+    {
+      "time": 1790316096.3941405,
+      "candidate_stable": false,
+      "pose": [
+        0.46566225288740665,
+        -0.6029780425597363,
+        -2.88698380539381
+      ],
+      "covariance": [
+        0.027775273706119874,
+        0.011860998029260938,
+        0.004737416722121546
+      ],
+      "pose_age_s": 1.669182300567627,
+      "scan_age_s": 1.669182300567627,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 1.619 s"
+    },
+    {
+      "time": 1790316097.1734018,
+      "candidate_stable": false,
+      "pose": [
+        0.46566225288740665,
+        -0.6029780425597363,
+        -2.88698380539381
+      ],
+      "covariance": [
+        0.027775273706119874,
+        0.011860998029260938,
+        0.004737416722121546
+      ],
+      "pose_age_s": 2.44836163520813,
+      "scan_age_s": 2.44836163520813,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 2.398 s"
+    },
+    {
+      "time": 1790316097.6980581,
+      "candidate_stable": false,
+      "pose": [
+        0.46566225288740665,
+        -0.6029780425597363,
+        -2.88698380539381
+      ],
+      "covariance": [
+        0.027775273706119874,
+        0.011860998029260938,
+        0.004737416722121546
+      ],
+      "pose_age_s": 2.973224401473999,
+      "scan_age_s": 2.973224401473999,
+      "pose_scan_offset_s": 0.0,
+      "reason": "TF odom/base_footprint age 2.923 s"
+    },
+    {
+      "time": 1790316098.2015948,
+      "candidate_stable": false,
+      "pose": [
+        0.4394414562335557,
+        -0.6366791482703056,
+        -0.5081081425073918
+      ],
+      "covariance": [
+        0.11171440339725197,
+        0.06588550253639369,
+        0.03701757978054693
+      ],
+      "pose_age_s": 0.32897210121154785,
+      "scan_age_s": 0.32897210121154785,
+      "pose_scan_offset_s": 0.0
     }
   ],
   "latest": {
-    "time": 1789549721.9045465,
+    "time": 1790316098.4023004,
     "candidate_stable": false,
-    "error": "Lookup would require extrapolation into the future.  Requested time 1789549721.550789 but the latest data is at time 1789549712.820702, when looking up transform from frame [base_footprint] to frame [map]"
+    "reason": "Probe stopped"
   }
 }

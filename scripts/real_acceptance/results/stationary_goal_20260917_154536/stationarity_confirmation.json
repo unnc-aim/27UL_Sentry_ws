@@ -1,0 +1,6 @@
+{
+  "operator_confirmed_no_chassis_movement_since_stop": true,
+  "reply": "\u6ca1\u6709",
+  "recorded_at": "2026-09-17 15:55:41",
+  "scope": "continuous recovery only, not unknown-start certification"
+}

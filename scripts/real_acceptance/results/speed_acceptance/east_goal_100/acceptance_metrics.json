@@ -1,0 +1,20 @@
+{
+  "status": "aborted",
+  "reason": "Clearance/scan coverage gate",
+  "peak_command_mps": 0.31625647979999477,
+  "last_position": [
+    2.0167460295267623,
+    -0.2518289176363293
+  ],
+  "final_wheel_speeds": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "speed_1_mps_verified": false,
+  "corridor_rejections": {
+    "map": 0,
+    "global_costmap": 74
+  }
+}

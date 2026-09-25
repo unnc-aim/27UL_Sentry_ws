@@ -1,0 +1,6 @@
+{
+  "pose_applied": false,
+  "motion_commanded": false,
+  "ray_occlusion_model": "projected_3d_low_barriers",
+  "error": "Global match rejected: score gap=0.030 < 0.05; no pose applied"
+}

@@ -1,0 +1,6946 @@
+{
+  "radius_m": 0.2,
+  "max_speed_mps": 0.15,
+  "physical_acceptance_passed": false,
+  "hub_input_linear_sign": -1,
+  "waypoints": [
+    {
+      "name": "selected_goal",
+      "target": [
+        3.1076924800872803,
+        -0.19999969005584717
+      ],
+      "status": 6,
+      "position_error_m": 3.798241609208286
+    }
+  ],
+  "trace": [
+    {
+      "time": 341.976225136,
+      "target": "selected_goal",
+      "pose": [
+        -0.9108624662548834,
+        -0.08160570493805099
+      ],
+      "distance": 4.020298619814596,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": null,
+      "gimbal_imu_yaw": -0.9014040280904514,
+      "gimbal_target_yaw": -0.9014040280904514,
+      "chassis_yaw_rad": 0.32262274382840694,
+      "wheel_speeds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nearest_scan_m": 1.2924617528915405
+    },
+    {
+      "time": 342.027010955,
+      "target": "selected_goal",
+      "pose": [
+        -0.9118611203603644,
+        -0.08121422520095838
+      ],
+      "distance": 4.021308385778491,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": null,
+      "gimbal_imu_yaw": -0.9014045259812675,
+      "gimbal_target_yaw": -0.9014040280904514
+    },
+    {
+      "time": 342.077743571,
+      "target": "selected_goal",
+      "pose": [
+        -0.9127075034956846,
+        -0.0796809943704463
+      ],
+      "distance": 4.022199972219847,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.957297260355634,
+      "gimbal_imu_yaw": -0.9011556716978577,
+      "gimbal_target_yaw": -0.9217164824904334
+    },
+    {
+      "time": 342.130954231,
+      "target": "selected_goal",
+      "pose": [
+        -0.9163372459506598,
+        -0.07802970626163477
+      ],
+      "distance": 4.025877781674915,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.956172841635918,
+      "gimbal_imu_yaw": -0.90336917907823,
+      "gimbal_target_yaw": -0.9429270288904494
+    },
+    {
+      "time": 342.182215374,
+      "target": "selected_goal",
+      "pose": [
+        -0.9138347094869285,
+        -0.07882848331757816
+      ],
+      "distance": 4.023352258729907,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.9559914468877313,
+      "gimbal_imu_yaw": -0.9142724813682868,
+      "gimbal_target_yaw": -0.9634927980904426
+    },
+    {
+      "time": 342.233122225,
+      "target": "selected_goal",
+      "pose": [
+        -0.9142018550939692,
+        -0.07779781774439704
+      ],
+      "distance": 4.023750407388541,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.936921514313397,
+      "gimbal_imu_yaw": -0.9303400425561313,
+      "gimbal_target_yaw": -0.9838501484904333
+    },
+    {
+      "time": 342.28612303,
+      "target": "selected_goal",
+      "pose": [
+        -0.9142018550939692,
+        -0.07779781774439704
+      ],
+      "distance": 4.023750407388541,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.936921514313397,
+      "gimbal_imu_yaw": -0.9550905912736672,
+      "gimbal_target_yaw": -1.0050375968904524
+    },
+    {
+      "time": 342.336882405,
+      "target": "selected_goal",
+      "pose": [
+        -0.9142824378007329,
+        -0.08381083117520514
+      ],
+      "distance": 4.023652829339066,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.9109105207176924,
+      "gimbal_imu_yaw": -0.9833350899996152,
+      "gimbal_target_yaw": -1.0252919424904354
+    },
+    {
+      "time": 342.387615316,
+      "target": "selected_goal",
+      "pose": [
+        -0.9154015321888385,
+        -0.08283983435907621
+      ],
+      "distance": 4.024799605371532,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.8855041555331282,
+      "gimbal_imu_yaw": -1.0047237341840067,
+      "gimbal_target_yaw": -1.045571374490442
+    },
+    {
+      "time": 342.440422829,
+      "target": "selected_goal",
+      "pose": [
+        -0.9130973429215532,
+        -0.08465791500749403
+      ],
+      "distance": 4.022443849935349,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.8394591680784997,
+      "gimbal_imu_yaw": -1.0225314550904128,
+      "gimbal_target_yaw": -1.0667822016904442
+    },
+    {
+      "time": 342.493370585,
+      "target": "selected_goal",
+      "pose": [
+        -0.915696268629629,
+        -0.07915927975612287
+      ],
+      "distance": 4.025203029421401,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.7587879279011256,
+      "gimbal_imu_yaw": -1.0427699203093133,
+      "gimbal_target_yaw": -1.0879567352904365
+    },
+    {
+      "time": 342.545858274,
+      "target": "selected_goal",
+      "pose": [
+        -0.919882231862855,
+        -0.07061760261249546
+      ],
+      "distance": 4.029652315633623,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.6926445306363265,
+      "gimbal_imu_yaw": -1.0601396338879334,
+      "gimbal_target_yaw": -1.1089597352904552
+    },
+    {
+      "time": 342.596526435,
+      "target": "selected_goal",
+      "pose": [
+        -0.9165525527329369,
+        -0.07493345503741161
+      ],
+      "distance": 4.026187979630345,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.6926445306363265,
+      "gimbal_imu_yaw": -1.0806097270354782,
+      "gimbal_target_yaw": -1.1291728048904366
+    },
+    {
+      "time": 342.649195564,
+      "target": "selected_goal",
+      "pose": [
+        -0.9214198711887942,
+        -0.07370579980632365
+      ],
+      "distance": 4.031091227685101,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.694416598803382,
+      "gimbal_imu_yaw": -1.106100092044004,
+      "gimbal_target_yaw": -1.1502779484904528
+    },
+    {
+      "time": 342.700475168,
+      "target": "selected_goal",
+      "pose": [
+        -0.9212309963886542,
+        -0.0783956509744179
+      ],
+      "distance": 4.030758231601078,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.6597254378187936,
+      "gimbal_imu_yaw": -1.1240312044669611,
+      "gimbal_target_yaw": -1.1708118020904528
+    },
+    {
+      "time": 342.752383472,
+      "target": "selected_goal",
+      "pose": [
+        -0.9212309963886542,
+        -0.0783956509744179
+      ],
+      "distance": 4.030758231601078,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.556611757319603,
+      "gimbal_imu_yaw": -1.145614368649043,
+      "gimbal_target_yaw": -1.1915519876904461
+    },
+    {
+      "time": 342.803467773,
+      "target": "selected_goal",
+      "pose": [
+        -0.9152591900404939,
+        -0.07693598181224102
+      ],
+      "distance": 4.024833514130804,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.47228816196084,
+      "gimbal_imu_yaw": -1.1704663934717014,
+      "gimbal_target_yaw": -1.212000689690445
+    },
+    {
+      "time": 342.854983019,
+      "target": "selected_goal",
+      "pose": [
+        -0.9181262353077725,
+        -0.07649205233633598
+      ],
+      "distance": 4.027712808257327,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.47228816196084,
+      "gimbal_imu_yaw": -1.1875300952092493,
+      "gimbal_target_yaw": -1.2326008896904348
+    },
+    {
+      "time": 342.907219057,
+      "target": "selected_goal",
+      "pose": [
+        -0.9178954140927608,
+        -0.08046210251900651
+      ],
+      "distance": 4.027362304114571,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.485311036745115,
+      "gimbal_imu_yaw": -1.205920254587908,
+      "gimbal_target_yaw": -1.2533515524904495
+    },
+    {
+      "time": 342.95960139,
+      "target": "selected_goal",
+      "pose": [
+        -0.9201133131284346,
+        -0.07632290328273544
+      ],
+      "distance": 4.029704139939879,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.4503105386640676,
+      "gimbal_imu_yaw": -1.2281199175261515,
+      "gimbal_target_yaw": -1.2743899616904408
+    },
+    {
+      "time": 343.01089967,
+      "target": "selected_goal",
+      "pose": [
+        -0.9175483364935146,
+        -0.08067239252937386
+      ],
+      "distance": 4.02700914270169,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.364683987417429,
+      "gimbal_imu_yaw": -1.2480401440578455,
+      "gimbal_target_yaw": -1.2948179424904547,
+      "chassis_yaw_rad": 0.3196896493316417,
+      "wheel_speeds": [
+        -3,
+        0,
+        0,
+        0
+      ],
+      "nearest_scan_m": 1.2984504699707031
+    },
+    {
+      "time": 343.09136391,
+      "target": "selected_goal",
+      "pose": [
+        -0.9175483364935146,
+        -0.08067239252937386
+      ],
+      "distance": 4.02700914270169,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.364683987417429,
+      "gimbal_imu_yaw": -1.2832329067425563,
+      "gimbal_target_yaw": -1.327109993290447
+    },
+    {
+      "time": 343.142600616,
+      "target": "selected_goal",
+      "pose": [
+        -0.9222326034255669,
+        -0.07575117898201741
+      ],
+      "distance": 4.0318400106192325,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.32710315818324,
+      "gimbal_imu_yaw": -1.2972557398650637,
+      "gimbal_target_yaw": -1.347617641290436
+    },
+    {
+      "time": 343.19414683,
+      "target": "selected_goal",
+      "pose": [
+        -0.9191238324158364,
+        -0.0805868715089776
+      ],
+      "distance": 4.02858648112145,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.3061334516540692,
+      "gimbal_imu_yaw": -1.3171759789959427,
+      "gimbal_target_yaw": -1.368238643290443
+    },
+    {
+      "time": 343.246981233,
+      "target": "selected_goal",
+      "pose": [
+        -0.9191238324158364,
+        -0.0805868715089776
+      ],
+      "distance": 4.02858648112145,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.2936764293582,
+      "gimbal_imu_yaw": -1.3397741172170297,
+      "gimbal_target_yaw": -1.3894123036904382
+    },
+    {
+      "time": 343.298127772,
+      "target": "selected_goal",
+      "pose": [
+        -0.9194511078461711,
+        -0.07535737271501687
+      ],
+      "distance": 4.029072000486664,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.2608365312743173,
+      "gimbal_imu_yaw": -1.3648969698468632,
+      "gimbal_target_yaw": -1.4098278488904505
+    },
+    {
+      "time": 343.35127049,
+      "target": "selected_goal",
+      "pose": [
+        -0.9161919071360095,
+        -0.0785091079795285
+      ],
+      "distance": 4.025718013382531,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.2464554511486123,
+      "gimbal_imu_yaw": -1.3832717401364325,
+      "gimbal_target_yaw": -1.431035568090443
+    },
+    {
+      "time": 343.402469122,
+      "target": "selected_goal",
+      "pose": [
+        -0.9093560300113622,
+        -0.07885005473006593
+      ],
+      "distance": 4.018874962800571,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.188786684772988,
+      "gimbal_imu_yaw": -1.4080649782972567,
+      "gimbal_target_yaw": -1.4515918072904477
+    },
+    {
+      "time": 343.453999257,
+      "target": "selected_goal",
+      "pose": [
+        -0.9115952913374065,
+        -0.07071194581118208
+      ],
+      "distance": 4.021366622223831,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.188786684772988,
+      "gimbal_imu_yaw": -1.4270495009185675,
+      "gimbal_target_yaw": -1.4721344668904528
+    },
+    {
+      "time": 343.504717293,
+      "target": "selected_goal",
+      "pose": [
+        -0.9115952913374065,
+        -0.07071194581118208
+      ],
+      "distance": 4.021366622223831,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.207888515772616,
+      "gimbal_imu_yaw": -1.4496383765767598,
+      "gimbal_target_yaw": -1.4924725996904507
+    },
+    {
+      "time": 343.556999737,
+      "target": "selected_goal",
+      "pose": [
+        -0.913821037397377,
+        -0.06698264519579485
+      ],
+      "distance": 4.023712776222369,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.1712629984273573,
+      "gimbal_imu_yaw": -1.4662715715752894,
+      "gimbal_target_yaw": -1.5132618740904498
+    },
+    {
+      "time": 343.609554429,
+      "target": "selected_goal",
+      "pose": [
+        -0.9124479580390067,
+        -0.07152535166027886
+      ],
+      "distance": 4.022192784773549,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.145759304348475,
+      "gimbal_imu_yaw": -1.4911743466394056,
+      "gimbal_target_yaw": -1.5343958276904466
+    },
+    {
+      "time": 343.66071622,
+      "target": "selected_goal",
+      "pose": [
+        -0.9124479580390067,
+        -0.07152535166027886
+      ],
+      "distance": 4.022192784773549,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.144206595015145,
+      "gimbal_imu_yaw": -1.5130637758566847,
+      "gimbal_target_yaw": -1.554770978890452
+    },
+    {
+      "time": 343.713783838,
+      "target": "selected_goal",
+      "pose": [
+        -0.9165397378253619,
+        -0.07152943614451152
+      ],
+      "distance": 4.026282348497947,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.090257994362909,
+      "gimbal_imu_yaw": -1.5318496886372674,
+      "gimbal_target_yaw": -1.576082660490443
+    },
+    {
+      "time": 343.765785372,
+      "target": "selected_goal",
+      "pose": [
+        -0.9154796633594471,
+        -0.07252456433431408
+      ],
+      "distance": 4.025191176016793,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.086664890949426,
+      "gimbal_imu_yaw": -1.5550175956942596,
+      "gimbal_target_yaw": -1.596810584890455
+    },
+    {
+      "time": 343.816658419,
+      "target": "selected_goal",
+      "pose": [
+        -0.9145075665278102,
+        -0.07594966052593033
+      ],
+      "distance": 4.0241125263611615,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.086664890949426,
+      "gimbal_imu_yaw": -1.5705122767529176,
+      "gimbal_target_yaw": -1.6172620396904456
+    },
+    {
+      "time": 343.867978502,
+      "target": "selected_goal",
+      "pose": [
+        -0.9152262795786378,
+        -0.07276552663856749
+      ],
+      "distance": 4.024930294950766,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.063193617354361,
+      "gimbal_imu_yaw": -1.590693603114375,
+      "gimbal_target_yaw": -1.6377182160904347
+    },
+    {
+      "time": 343.919021626,
+      "target": "selected_goal",
+      "pose": [
+        -0.9116624219367903,
+        -0.0768329923608176
+      ],
+      "distance": 4.021241582378012,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.0406645252723963,
+      "gimbal_imu_yaw": -1.6122452912502734,
+      "gimbal_target_yaw": -1.6581863136904538
+    },
+    {
+      "time": 343.970680607,
+      "target": "selected_goal",
+      "pose": [
+        -0.9095867988147104,
+        -0.07288706319284632
+      ],
+      "distance": 4.019289791070471,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -2.0105043579559996,
+      "gimbal_imu_yaw": -1.6343301089668394,
+      "gimbal_target_yaw": -1.6788185288904522
+    },
+    {
+      "time": 344.023073838,
+      "target": "selected_goal",
+      "pose": [
+        -0.9069337313861313,
+        -0.07501389535831754
+      ],
+      "distance": 4.016571307312436,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.957496304861127,
+      "gimbal_imu_yaw": -1.6566798762482577,
+      "gimbal_target_yaw": -1.6997899344904461
+    },
+    {
+      "time": 344.074576616,
+      "target": "selected_goal",
+      "pose": [
+        -0.9057682830217838,
+        -0.07434248916535932
+      ],
+      "distance": 4.015427378144402,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.957496304861127,
+      "gimbal_imu_yaw": -1.6760205168559958,
+      "gimbal_target_yaw": -1.720355645290443
+    },
+    {
+      "time": 344.12600791,
+      "target": "selected_goal",
+      "pose": [
+        -0.9050265252695642,
+        -0.07528796753506341
+      ],
+      "distance": 4.0146565020791165,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.9397565671884418,
+      "gimbal_imu_yaw": -1.6952466639713695,
+      "gimbal_target_yaw": -1.7409498876904543,
+      "chassis_yaw_rad": 0.3233075067592973,
+      "wheel_speeds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nearest_scan_m": 1.3183411359786987
+    },
+    {
+      "time": 344.178279733,
+      "target": "selected_goal",
+      "pose": [
+        -0.9075564011212488,
+        -0.06675693432704231
+      ],
+      "distance": 4.017459048951284,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.9050233735407318,
+      "gimbal_imu_yaw": -1.715924982530544,
+      "gimbal_target_yaw": -1.7618010096904535
+    },
+    {
+      "time": 344.231344977,
+      "target": "selected_goal",
+      "pose": [
+        -0.9107327234299263,
+        -0.07308578482687879
+      ],
+      "distance": 4.020428864636553,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.9076773213643672,
+      "gimbal_imu_yaw": -1.7368621863303977,
+      "gimbal_target_yaw": -1.7831252280904444
+    },
+    {
+      "time": 344.282364341,
+      "target": "selected_goal",
+      "pose": [
+        -0.9144122328431754,
+        -0.06756153123798357
+      ],
+      "distance": 4.02428455600352,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.8704170304838827,
+      "gimbal_imu_yaw": -1.7586885122774845,
+      "gimbal_target_yaw": -1.8035330096904552
+    },
+    {
+      "time": 344.333476593,
+      "target": "selected_goal",
+      "pose": [
+        -0.9172681728206741,
+        -0.07172668647192894
+      ],
+      "distance": 4.027004124768892,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.8396131477642983,
+      "gimbal_imu_yaw": -1.782986724681932,
+      "gimbal_target_yaw": -1.8239791852904552
+    },
+    {
+      "time": 344.384871952,
+      "target": "selected_goal",
+      "pose": [
+        -0.9172681728206741,
+        -0.07172668647192894
+      ],
+      "distance": 4.027004124768892,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.8396131477642983,
+      "gimbal_imu_yaw": -1.8025501919363769,
+      "gimbal_target_yaw": -1.8445636156904364
+    },
+    {
+      "time": 344.436303974,
+      "target": "selected_goal",
+      "pose": [
+        -0.91734881035693,
+        -0.07745933394592407
+      ],
+      "distance": 4.026906198144717,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.8040519204520384,
+      "gimbal_imu_yaw": -1.8190371074825409,
+      "gimbal_target_yaw": -1.8651419832904375
+    },
+    {
+      "time": 344.48724447,
+      "target": "selected_goal",
+      "pose": [
+        -0.9138878512488793,
+        -0.06383437290801189
+      ],
+      "distance": 4.023884858564398,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.800798768583314,
+      "gimbal_imu_yaw": -1.8374403421473298,
+      "gimbal_target_yaw": -1.8855085780904355
+    },
+    {
+      "time": 344.538273752,
+      "target": "selected_goal",
+      "pose": [
+        -0.9166244577183995,
+        -0.07392472957083285
+      ],
+      "distance": 4.026291309824835,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.8029924748994137,
+      "gimbal_imu_yaw": -1.8623443084476212,
+      "gimbal_target_yaw": -1.9058853992904468
+    },
+    {
+      "time": 344.590718094,
+      "target": "selected_goal",
+      "pose": [
+        -0.9148424386982725,
+        -0.07742080466361034
+      ],
+      "distance": 4.024402161314534,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.7584924833996822,
+      "gimbal_imu_yaw": -1.8825638338986488,
+      "gimbal_target_yaw": -1.9268166380904412
+    },
+    {
+      "time": 344.641982281,
+      "target": "selected_goal",
+      "pose": [
+        -0.911099322214907,
+        -0.07845818943825802
+      ],
+      "distance": 4.020629289877847,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.6958601672288585,
+      "gimbal_imu_yaw": -1.9031318405287587,
+      "gimbal_target_yaw": -1.9472205292904399
+    },
+    {
+      "time": 344.693396343,
+      "target": "selected_goal",
+      "pose": [
+        -0.910919373464456,
+        -0.07506615015422945
+      ],
+      "distance": 4.020553397095836,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.6958601672288585,
+      "gimbal_imu_yaw": -1.9242823350027904,
+      "gimbal_target_yaw": -1.9679300328904454
+    },
+    {
+      "time": 344.744516117,
+      "target": "selected_goal",
+      "pose": [
+        -0.9094587954467716,
+        -0.07038760511617913
+      ],
+      "distance": 4.019241677616223,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.7163964276415051,
+      "gimbal_imu_yaw": -1.945488924521603,
+      "gimbal_target_yaw": -1.988409226090449
+    },
+    {
+      "time": 344.796588496,
+      "target": "selected_goal",
+      "pose": [
+        -0.9094587954467716,
+        -0.07038760511617913
+      ],
+      "distance": 4.019241677616223,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.6794838328922959,
+      "gimbal_imu_yaw": -1.9676925566136525,
+      "gimbal_target_yaw": -2.0092463844904396
+    },
+    {
+      "time": 344.847032653,
+      "target": "selected_goal",
+      "pose": [
+        -0.9077356401658975,
+        -0.0753478104579187
+      ],
+      "distance": 4.01736245315347,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.655282043134134,
+      "gimbal_imu_yaw": -1.9880004831269804,
+      "gimbal_target_yaw": -2.0294294860904536
+    },
+    {
+      "time": 344.897546545,
+      "target": "selected_goal",
+      "pose": [
+        -0.9075263570835211,
+        -0.07149330758442868
+      ],
+      "distance": 4.0172747230812,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.6235772943100688,
+      "gimbal_imu_yaw": -2.0073023676473425,
+      "gimbal_target_yaw": -2.0496280264904505
+    },
+    {
+      "time": 344.950041904,
+      "target": "selected_goal",
+      "pose": [
+        -0.9049112448560106,
+        -0.07683672451623287
+      ],
+      "distance": 4.0144934636276695,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.6103743744289796,
+      "gimbal_imu_yaw": -2.030148839329228,
+      "gimbal_target_yaw": -2.0706097756904462
+    },
+    {
+      "time": 345.003719223,
+      "target": "selected_goal",
+      "pose": [
+        -0.9028994628578312,
+        -0.07353893220833614
+      ],
+      "distance": 4.012585208577085,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.574864588287522,
+      "gimbal_imu_yaw": -2.052707348416675,
+      "gimbal_target_yaw": -2.0919435524904437
+    },
+    {
+      "time": 345.054270727,
+      "target": "selected_goal",
+      "pose": [
+        -0.9028994628578312,
+        -0.07353893220833614
+      ],
+      "distance": 4.012585208577085,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.5664854650191047,
+      "gimbal_imu_yaw": -2.0717958857797143,
+      "gimbal_target_yaw": -2.11231996449044
+    },
+    {
+      "time": 345.107946335,
+      "target": "selected_goal",
+      "pose": [
+        -0.8995141554827187,
+        -0.07170143140028656
+      ],
+      "distance": 4.009259964548356,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.5424575555623656,
+      "gimbal_imu_yaw": -2.0904557679058104,
+      "gimbal_target_yaw": -2.1336285608904526
+    },
+    {
+      "time": 345.159143263,
+      "target": "selected_goal",
+      "pose": [
+        -0.9038040052010419,
+        -0.07575619454602722
+      ],
+      "distance": 4.013420049989418,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.5329504986903049,
+      "gimbal_imu_yaw": -2.109782907742158,
+      "gimbal_target_yaw": -2.1541291580904507,
+      "chassis_yaw_rad": 0.3281106591043993,
+      "wheel_speeds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nearest_scan_m": 1.2952497005462646
+    },
+    {
+      "time": 345.210525029,
+      "target": "selected_goal",
+      "pose": [
+        -0.9062646088768589,
+        -0.07563530033189542
+      ],
+      "distance": 4.015883217111384,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.5101181816667153,
+      "gimbal_imu_yaw": -2.130129776744088,
+      "gimbal_target_yaw": -2.1746809016904542
+    },
+    {
+      "time": 345.263363354,
+      "target": "selected_goal",
+      "pose": [
+        -0.9056924653058395,
+        -0.07551101707263076
+      ],
+      "distance": 4.0153151992850145,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.4767135709036623,
+      "gimbal_imu_yaw": -2.1472099725878255,
+      "gimbal_target_yaw": -2.1958585332904486
+    },
+    {
+      "time": 345.314843431,
+      "target": "selected_goal",
+      "pose": [
+        -0.9107063000739504,
+        -0.07674593704350918
+      ],
+      "distance": 4.020288577208469,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.4767135709036623,
+      "gimbal_imu_yaw": -2.1701093920571752,
+      "gimbal_target_yaw": -2.216464029290456
+    },
+    {
+      "time": 345.365675947,
+      "target": "selected_goal",
+      "pose": [
+        -0.9069767066778031,
+        -0.07297569596064189
+      ],
+      "distance": 4.016678201479042,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.4446506623865558,
+      "gimbal_imu_yaw": -2.1917584116072173,
+      "gimbal_target_yaw": -2.2368231096904547
+    },
+    {
+      "time": 345.417729975,
+      "target": "selected_goal",
+      "pose": [
+        -0.9098856561031339,
+        -0.07529979079139218
+      ],
+      "distance": 4.019512923884162,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.444818569428653,
+      "gimbal_imu_yaw": -2.2143607148290285,
+      "gimbal_target_yaw": -2.2576791464904553
+    },
+    {
+      "time": 345.469271822,
+      "target": "selected_goal",
+      "pose": [
+        -0.9098961146049593,
+        -0.07327138911632661
+      ],
+      "distance": 4.019586816883071,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.4163709779631362,
+      "gimbal_imu_yaw": -2.2354709108292465,
+      "gimbal_target_yaw": -2.278300588090452
+    },
+    {
+      "time": 345.521732531,
+      "target": "selected_goal",
+      "pose": [
+        -0.9103600186771519,
+        -0.0757743056404154
+      ],
+      "distance": 4.019972366691127,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.3868818124107412,
+      "gimbal_imu_yaw": -2.254135622123976,
+      "gimbal_target_yaw": -2.29927308769045
+    },
+    {
+      "time": 345.572745975,
+      "target": "selected_goal",
+      "pose": [
+        -0.9099315823100456,
+        -0.07338215616018208
+      ],
+      "distance": 4.019618776282623,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.3654705992794136,
+      "gimbal_imu_yaw": -2.2746518221251377,
+      "gimbal_target_yaw": -2.319666781290449
+    },
+    {
+      "time": 345.623972291,
+      "target": "selected_goal",
+      "pose": [
+        -0.9125618845998026,
+        -0.07586234672976062
+      ],
+      "distance": 4.022170463418178,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.342361460861858,
+      "gimbal_imu_yaw": -2.2968402144129563,
+      "gimbal_target_yaw": -2.340131606490446
+    },
+    {
+      "time": 345.674919514,
+      "target": "selected_goal",
+      "pose": [
+        -0.9161350696012696,
+        -0.07184182586901923
+      ],
+      "distance": 4.025867929749495,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.3065332140521166,
+      "gimbal_imu_yaw": -2.3186539914300135,
+      "gimbal_target_yaw": -2.360507806090437
+    },
+    {
+      "time": 345.725461189,
+      "target": "selected_goal",
+      "pose": [
+        -0.9155311261397263,
+        -0.07232622217740996
+      ],
+      "distance": 4.025248899149261,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.3065332140521166,
+      "gimbal_imu_yaw": -2.3373742514609703,
+      "gimbal_target_yaw": -2.3807916716904414
+    },
+    {
+      "time": 345.77764634,
+      "target": "selected_goal",
+      "pose": [
+        -0.9190376340386276,
+        -0.07128499572206526
+      ],
+      "distance": 4.028786775760897,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.2729601410599407,
+      "gimbal_imu_yaw": -2.3561411126993375,
+      "gimbal_target_yaw": -2.4016657396904533
+    },
+    {
+      "time": 345.828673884,
+      "target": "selected_goal",
+      "pose": [
+        -0.9270148241091504,
+        -0.07114258484180462
+      ],
+      "distance": 4.036764444960862,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.2570085270122426,
+      "gimbal_imu_yaw": -2.377789404202866,
+      "gimbal_target_yaw": -2.4221016820904437
+    },
+    {
+      "time": 345.881638602,
+      "target": "selected_goal",
+      "pose": [
+        -0.9292933316323138,
+        -0.07061032656651169
+      ],
+      "distance": 4.039058807619603,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.2379980025486443,
+      "gimbal_imu_yaw": -2.3985837271359847,
+      "gimbal_target_yaw": -2.44326450409044
+    },
+    {
+      "time": 345.933186205,
+      "target": "selected_goal",
+      "pose": [
+        -0.9251825437534242,
+        -0.06872903974853425
+      ],
+      "distance": 4.035010897327325,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.2201024544012684,
+      "gimbal_imu_yaw": -2.4202787189663812,
+      "gimbal_target_yaw": -2.463881631290452
+    },
+    {
+      "time": 345.984240787,
+      "target": "selected_goal",
+      "pose": [
+        -0.9259058255025016,
+        -0.07087003942880217
+      ],
+      "distance": 4.035664723131472,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.201570163304444,
+      "gimbal_imu_yaw": -2.4436493964150547,
+      "gimbal_target_yaw": -2.4842503388904347
+    },
+    {
+      "time": 346.034975353,
+      "target": "selected_goal",
+      "pose": [
+        -0.9298043908622174,
+        -0.07018114998785732
+      ],
+      "distance": 4.039583374095943,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.1730486021010273,
+      "gimbal_imu_yaw": -2.4633500396799413,
+      "gimbal_target_yaw": -2.5045995388904445
+    },
+    {
+      "time": 346.085825765,
+      "target": "selected_goal",
+      "pose": [
+        -0.9260972752547026,
+        -0.07068676948635114
+      ],
+      "distance": 4.035861942847915,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.1353283656248037,
+      "gimbal_imu_yaw": -2.4848797650735586,
+      "gimbal_target_yaw": -2.5249204484904353
+    },
+    {
+      "time": 346.136373257,
+      "target": "selected_goal",
+      "pose": [
+        -0.9243984940485479,
+        -0.07043783981668517
+      ],
+      "distance": 4.034172021213895,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.133875152484061,
+      "gimbal_imu_yaw": -2.505280998945378,
+      "gimbal_target_yaw": -2.545169158890441
+    },
+    {
+      "time": 346.188518745,
+      "target": "selected_goal",
+      "pose": [
+        -0.9243984940485479,
+        -0.07043783981668517
+      ],
+      "distance": 4.034172021213895,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.133875152484061,
+      "gimbal_imu_yaw": -2.522573906103278,
+      "gimbal_target_yaw": -2.565960073690441,
+      "chassis_yaw_rad": 0.330941020449025,
+      "wheel_speeds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nearest_scan_m": 1.3062243461608887
+    },
+    {
+      "time": 346.239549532,
+      "target": "selected_goal",
+      "pose": [
+        -0.9246088920249409,
+        -0.06929227575039974
+      ],
+      "distance": 4.0344192622597514,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.1154396036023277,
+      "gimbal_imu_yaw": -2.5450822968266196,
+      "gimbal_target_yaw": -2.5864063032904383
+    },
+    {
+      "time": 346.292354696,
+      "target": "selected_goal",
+      "pose": [
+        -0.9233604135635002,
+        -0.07178919374143784
+      ],
+      "distance": 4.033091291153167,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.0983946142346757,
+      "gimbal_imu_yaw": -2.5645006700940507,
+      "gimbal_target_yaw": -2.607547695690438
+    },
+    {
+      "time": 346.343539198,
+      "target": "selected_goal",
+      "pose": [
+        -0.918290404319483,
+        -0.07277596406131091
+      ],
+      "distance": 4.027992559823334,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.0550365754085056,
+      "gimbal_imu_yaw": -2.584670743804029,
+      "gimbal_target_yaw": -2.628047458490438
+    },
+    {
+      "time": 346.396140344,
+      "target": "selected_goal",
+      "pose": [
+        -0.9138260334557446,
+        -0.0719556749015828
+      ],
+      "distance": 4.023556439841018,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.0162050179158257,
+      "gimbal_imu_yaw": -2.6013714905674803,
+      "gimbal_target_yaw": -2.6490395880904556
+    },
+    {
+      "time": 346.447711816,
+      "target": "selected_goal",
+      "pose": [
+        -0.9238501625012356,
+        -0.07225191264977157
+      ],
+      "distance": 4.0335661112273575,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.0187674891916927,
+      "gimbal_imu_yaw": -2.6243669757424306,
+      "gimbal_target_yaw": -2.6697120504904444
+    },
+    {
+      "time": 346.501424499,
+      "target": "selected_goal",
+      "pose": [
+        -0.9220310606374971,
+        -0.07340466148945085
+      ],
+      "distance": 4.031711561598766,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.0187674891916927,
+      "gimbal_imu_yaw": -2.645385228110211,
+      "gimbal_target_yaw": -2.6911395608904525
+    },
+    {
+      "time": 346.554335705,
+      "target": "selected_goal",
+      "pose": [
+        -0.9220310606374971,
+        -0.07340466148945085
+      ],
+      "distance": 4.031711561598766,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -1.0023881162551636,
+      "gimbal_imu_yaw": -2.6668530144973386,
+      "gimbal_target_yaw": -2.7122590992904416
+    },
+    {
+      "time": 346.605314302,
+      "target": "selected_goal",
+      "pose": [
+        -0.9259372544991328,
+        -0.07406981326601997
+      ],
+      "distance": 4.035595020515309,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.9721875777808519,
+      "gimbal_imu_yaw": -2.6871490492027403,
+      "gimbal_target_yaw": -2.732666995290448
+    },
+    {
+      "time": 346.65864812,
+      "target": "selected_goal",
+      "pose": [
+        -0.9256121293519712,
+        -0.07346476472024874
+      ],
+      "distance": 4.035288980959554,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.927708989914209,
+      "gimbal_imu_yaw": -2.705032642054471,
+      "gimbal_target_yaw": -2.7539702552904384
+    },
+    {
+      "time": 346.709787351,
+      "target": "selected_goal",
+      "pose": [
+        -0.9257821488620864,
+        -0.07125281899630322
+      ],
+      "distance": 4.035528879736317,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.8914198428328891,
+      "gimbal_imu_yaw": -2.72691746644476,
+      "gimbal_target_yaw": -2.774423984490455
+    },
+    {
+      "time": 346.762692392,
+      "target": "selected_goal",
+      "pose": [
+        -0.9208689868921301,
+        -0.07307782340323912
+      ],
+      "distance": 4.030560339886488,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.8895567580093231,
+      "gimbal_imu_yaw": -2.748235031374295,
+      "gimbal_target_yaw": -2.7955978212904493
+    },
+    {
+      "time": 346.813445968,
+      "target": "selected_goal",
+      "pose": [
+        -0.9222205761649246,
+        -0.07341932982920095
+      ],
+      "distance": 4.031900523146262,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.8895567580093231,
+      "gimbal_imu_yaw": -2.768200155278678,
+      "gimbal_target_yaw": -2.815908386490447
+    },
+    {
+      "time": 346.865054232,
+      "target": "selected_goal",
+      "pose": [
+        -0.9207947451535841,
+        -0.07932927991733606
+      ],
+      "distance": 4.030294117283729,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.8712580702981502,
+      "gimbal_imu_yaw": -2.7941913383042687,
+      "gimbal_target_yaw": -2.836612810490443
+    },
+    {
+      "time": 346.915520708,
+      "target": "selected_goal",
+      "pose": [
+        -0.9135653748286009,
+        -0.07666236630790343
+      ],
+      "distance": 4.023148870120516,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.8530629187222286,
+      "gimbal_imu_yaw": -2.8160718789121995,
+      "gimbal_target_yaw": -2.856807864490453
+    },
+    {
+      "time": 346.966642258,
+      "target": "selected_goal",
+      "pose": [
+        -0.9105606467313312,
+        -0.07657161211238639
+      ],
+      "distance": 4.020148340747188,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.8000444848952637,
+      "gimbal_imu_yaw": -2.835960391806833,
+      "gimbal_target_yaw": -2.8772547072904455
+    },
+    {
+      "time": 347.017675539,
+      "target": "selected_goal",
+      "pose": [
+        -0.9087218215295279,
+        -0.07277265714301517
+      ],
+      "distance": 4.018428867124045,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.7642194165420338,
+      "gimbal_imu_yaw": -2.8553493873991185,
+      "gimbal_target_yaw": -2.8976935008904556
+    },
+    {
+      "time": 347.068524927,
+      "target": "selected_goal",
+      "pose": [
+        -0.9107764644795059,
+        -0.07867154604106252
+      ],
+      "distance": 4.020300135186149,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.7642194165420338,
+      "gimbal_imu_yaw": -2.8749808450109717,
+      "gimbal_target_yaw": -2.918010712490446
+    },
+    {
+      "time": 347.12183338,
+      "target": "selected_goal",
+      "pose": [
+        -0.9110475386186009,
+        -0.07170491053740338
+      ],
+      "distance": 4.020787346826469,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.7803358436630742,
+      "gimbal_imu_yaw": -2.893084697903965,
+      "gimbal_target_yaw": -2.939214385690435
+    },
+    {
+      "time": 347.173526194,
+      "target": "selected_goal",
+      "pose": [
+        -0.9133918123839586,
+        -0.07333307036471358
+      ],
+      "distance": 4.023078835879668,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.7428345315970748,
+      "gimbal_imu_yaw": -2.9182792972340024,
+      "gimbal_target_yaw": -2.960014589690446
+    },
+    {
+      "time": 347.224441122,
+      "target": "selected_goal",
+      "pose": [
+        -0.9112949292798879,
+        -0.0732638240401264
+      ],
+      "distance": 4.020985174852871,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.7120093043129653,
+      "gimbal_imu_yaw": -2.938611110976514,
+      "gimbal_target_yaw": -2.980287885690451,
+      "chassis_yaw_rad": 0.3310583691047424,
+      "wheel_speeds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nearest_scan_m": 1.275349736213684
+    },
+    {
+      "time": 347.275731374,
+      "target": "selected_goal",
+      "pose": [
+        -0.9136217405420688,
+        -0.06896969887363791
+      ],
+      "distance": 4.023448386598869,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.6922523769813651,
+      "gimbal_imu_yaw": -2.9569084971430275,
+      "gimbal_target_yaw": -3.0008239908904453
+    },
+    {
+      "time": 347.327187994,
+      "target": "selected_goal",
+      "pose": [
+        -0.9140778782112857,
+        -0.07062533596941883
+      ],
+      "distance": 4.0238507102506,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.6709182112408497,
+      "gimbal_imu_yaw": -2.9775895069698097,
+      "gimbal_target_yaw": -3.0214080756904433
+    },
+    {
+      "time": 347.377837809,
+      "target": "selected_goal",
+      "pose": [
+        -0.9140778782112857,
+        -0.07062533596941883
+      ],
+      "distance": 4.0238507102506,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.6383213866727949,
+      "gimbal_imu_yaw": -2.9958440595096314,
+      "gimbal_target_yaw": -3.0417295396904374
+    },
+    {
+      "time": 347.430468401,
+      "target": "selected_goal",
+      "pose": [
+        -0.9090675224794257,
+        -0.06928869653222115
+      ],
+      "distance": 4.018886199190967,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.619398599330716,
+      "gimbal_imu_yaw": -3.0199001562612455,
+      "gimbal_target_yaw": -3.062752267290444
+    },
+    {
+      "time": 347.481127975,
+      "target": "selected_goal",
+      "pose": [
+        -0.9102476121812507,
+        -0.0700536755156715
+      ],
+      "distance": 4.020040864438286,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.6205784993347744,
+      "gimbal_imu_yaw": -3.038525350809731,
+      "gimbal_target_yaw": -3.0829915280904525
+    },
+    {
+      "time": 347.533074267,
+      "target": "selected_goal",
+      "pose": [
+        -0.9074947173241947,
+        -0.06878891225767952
+      ],
+      "distance": 4.017330518947553,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.576832771878599,
+      "gimbal_imu_yaw": -3.058161885872268,
+      "gimbal_target_yaw": -3.1038373672904536
+    },
+    {
+      "time": 347.584234939,
+      "target": "selected_goal",
+      "pose": [
+        -0.8987704904834263,
+        -0.07434304091071149
+      ],
+      "distance": 4.008433001564157,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.539073409750503,
+      "gimbal_imu_yaw": -3.083771574997416,
+      "gimbal_target_yaw": -3.1243147348904365
+    },
+    {
+      "time": 347.636909741,
+      "target": "selected_goal",
+      "pose": [
+        -0.8987704904834263,
+        -0.07434304091071149
+      ],
+      "distance": 4.008433001564157,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.539073409750503,
+      "gimbal_imu_yaw": -3.100180367176134,
+      "gimbal_target_yaw": 3.137873054689133
+    },
+    {
+      "time": 347.688091976,
+      "target": "selected_goal",
+      "pose": [
+        -0.9064358978677699,
+        -0.07725373077941268
+      ],
+      "distance": 4.016004632121673,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.5531135760045379,
+      "gimbal_imu_yaw": -3.1203907305227543,
+      "gimbal_target_yaw": 3.117321853489146
+    },
+    {
+      "time": 347.739406508,
+      "target": "selected_goal",
+      "pose": [
+        -0.9064358978677699,
+        -0.07725373077941268
+      ],
+      "distance": 4.016004632121673,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.5184963948525403,
+      "gimbal_imu_yaw": -3.1385941112125413,
+      "gimbal_target_yaw": 3.0968745630891346
+    },
+    {
+      "time": 347.790257937,
+      "target": "selected_goal",
+      "pose": [
+        -0.910856371747906,
+        -0.07783907061400086
+      ],
+      "distance": 4.020405214841945,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.47643240112836954,
+      "gimbal_imu_yaw": 3.1249874337267562,
+      "gimbal_target_yaw": 3.076474770289131
+    },
+    {
+      "time": 347.843893364,
+      "target": "selected_goal",
+      "pose": [
+        -0.9148808699374775,
+        -0.07992012708493774
+      ],
+      "distance": 4.024365224202779,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.44452389956123434,
+      "gimbal_imu_yaw": 3.099378050711615,
+      "gimbal_target_yaw": 3.055112637889145
+    },
+    {
+      "time": 347.896865613,
+      "target": "selected_goal",
+      "pose": [
+        -0.9174553217109042,
+        -0.07742700500735784
+      ],
+      "distance": 4.027013644059423,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.3985569627202095,
+      "gimbal_imu_yaw": 3.076565521917935,
+      "gimbal_target_yaw": 3.0338348530891364
+    },
+    {
+      "time": 347.948221493,
+      "target": "selected_goal",
+      "pose": [
+        -0.9174553217109042,
+        -0.07742700500735784
+      ],
+      "distance": 4.027013644059423,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.3985569627202095,
+      "gimbal_imu_yaw": 3.059553102299654,
+      "gimbal_target_yaw": 3.0133606362891423
+    },
+    {
+      "time": 348.001969145,
+      "target": "selected_goal",
+      "pose": [
+        -0.9183338260345921,
+        -0.08032549862509736
+      ],
+      "distance": 4.027804579380675,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.37641158655169765,
+      "gimbal_imu_yaw": 3.0387213441765213,
+      "gimbal_target_yaw": 2.9918583870891307
+    },
+    {
+      "time": 348.053490109,
+      "target": "selected_goal",
+      "pose": [
+        -0.9128511731696575,
+        -0.0791792388526848
+      ],
+      "distance": 4.022358617673662,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.37138425414998866,
+      "gimbal_imu_yaw": 3.0140777896681197,
+      "gimbal_target_yaw": 2.971280787489148
+    },
+    {
+      "time": 348.105532379,
+      "target": "selected_goal",
+      "pose": [
+        -0.9128511731696575,
+        -0.0791792388526848
+      ],
+      "distance": 4.022358617673662,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.332457481132203,
+      "gimbal_imu_yaw": 2.994657203513389,
+      "gimbal_target_yaw": 2.9504354730891444
+    },
+    {
+      "time": 348.157655278,
+      "target": "selected_goal",
+      "pose": [
+        -0.9158437535276344,
+        -0.07952592072190692
+      ],
+      "distance": 4.0253394580220965,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.31625022207102804,
+      "gimbal_imu_yaw": 2.9757676273146605,
+      "gimbal_target_yaw": 2.929524207089137
+    },
+    {
+      "time": 348.209864508,
+      "target": "selected_goal",
+      "pose": [
+        -0.9182112505764275,
+        -0.08029013663338813
+      ],
+      "distance": 4.027683108904245,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.2937587124855359,
+      "gimbal_imu_yaw": 2.9492472897442923,
+      "gimbal_target_yaw": 2.908716277489132
+    },
+    {
+      "time": 348.261332005,
+      "target": "selected_goal",
+      "pose": [
+        -0.9124827254307497,
+        -0.08104608957640255
+      ],
+      "distance": 4.0219346889437375,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.2736261097132747,
+      "gimbal_imu_yaw": 2.9295386313004683,
+      "gimbal_target_yaw": 2.8881166638891482,
+      "chassis_yaw_rad": 0.3295049462981079,
+      "wheel_speeds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nearest_scan_m": 1.2996580600738525
+    },
+    {
+      "time": 348.312836732,
+      "target": "selected_goal",
+      "pose": [
+        -0.9108339277227077,
+        -0.08393619007098976
+      ],
+      "distance": 4.020202137491967,
+      "command": [
+        0.14545283063386402,
+        -0.03665343177106971
+      ],
+      "hub_command": [
+        -0.14545283063386402,
+        0.03665343177106971
+      ],
+      "heading_error_rad": -0.24685572253714624,
+      "gimbal_imu_yaw": 2.908839504847268,
+      "gimbal_target_yaw": 2.86765070668914
+    },
+    {
+      "time": 348.364735923,
+      "target": "selected_goal",
+      "pose": [
+        -0.9071635623232678,
+        -0.08372920556367457
+      ],
+      "distance": 4.016539289842007,
+      "command": [
+        0.1462520464494126,
+        -0.03332174829385245
+      ],
+      "hub_command": [
+        -0.1462520464494126,
+        0.03332174829385245
+      ],
+      "heading_error_rad": -0.22401387874971337,
+      "gimbal_imu_yaw": 2.891928131687063,
+      "gimbal_target_yaw": 2.8469002870891456
+    },
+    {
+      "time": 348.41842826,
+      "target": "selected_goal",
+      "pose": [
+        -0.9041481886613605,
+        -0.08224884147089082
+      ],
+      "distance": 4.013568339242278,
+      "command": [
+        0.14712031748743135,
+        -0.02925084925942151
+      ],
+      "hub_command": [
+        -0.14712031748743135,
+        0.02925084925942151
+      ],
+      "heading_error_rad": -0.19626322271056384,
+      "gimbal_imu_yaw": 2.8701527860070386,
+      "gimbal_target_yaw": 2.8253651486891367
+    },
+    {
+      "time": 348.469437006,
+      "target": "selected_goal",
+      "pose": [
+        -0.9091165213535606,
+        -0.08149812551235351
+      ],
+      "distance": 4.018556603415637,
+      "command": [
+        0.14745029759353337,
+        -0.027539239996384093
+      ],
+      "hub_command": [
+        -0.14745029759353337,
+        0.027539239996384093
+      ],
+      "heading_error_rad": -0.18464230797399495,
+      "gimbal_imu_yaw": 2.8493137181444776,
+      "gimbal_target_yaw": 2.804976867489152
+    },
+    {
+      "time": 348.521848657,
+      "target": "selected_goal",
+      "pose": [
+        -0.9105234974036003,
+        -0.08468892976897828
+      ],
+      "distance": 4.0198701736748825,
+      "command": [
+        0.14789348123384088,
+        -0.025050313541661533
+      ],
+      "hub_command": [
+        -0.14789348123384088,
+        0.025050313541661533
+      ],
+      "heading_error_rad": -0.16778827063768378,
+      "gimbal_imu_yaw": 2.8284460637996753,
+      "gimbal_target_yaw": 2.783918121489135
+    },
+    {
+      "time": 348.573435962,
+      "target": "selected_goal",
+      "pose": [
+        -0.9074623758623576,
+        -0.08473370247774599
+      ],
+      "distance": 4.016809027716941,
+      "command": [
+        0.14833533234117913,
+        -0.022285178465337275
+      ],
+      "hub_command": [
+        -0.14833533234117913,
+        0.022285178465337275
+      ],
+      "heading_error_rad": -0.14911989914139642,
+      "gimbal_imu_yaw": 2.808580386268159,
+      "gimbal_target_yaw": 2.763384850289138
+    },
+    {
+      "time": 348.624567531,
+      "target": "selected_goal",
+      "pose": [
+        -0.9112194457488314,
+        -0.08619590529102115
+      ],
+      "distance": 4.020522897466762,
+      "command": [
+        0.14898876496959068,
+        -0.017388154382684578
+      ],
+      "hub_command": [
+        -0.14898876496959068,
+        0.017388154382684578
+      ],
+      "heading_error_rad": -0.11618223017197288,
+      "gimbal_imu_yaw": 2.788681378425637,
+      "gimbal_target_yaw": 2.742790756289149
+    },
+    {
+      "time": 348.677699023,
+      "target": "selected_goal",
+      "pose": [
+        -0.9090952395831802,
+        -0.0876739444037664
+      ],
+      "distance": 4.018357955437982,
+      "command": [
+        0.14960305418837927,
+        -0.010905327941371055
+      ],
+      "hub_command": [
+        -0.14960305418837927,
+        0.010905327941371055
+      ],
+      "heading_error_rad": -0.07276638496632522,
+      "gimbal_imu_yaw": 2.765126948015253,
+      "gimbal_target_yaw": 2.7215798014891317
+    },
+    {
+      "time": 348.730609608,
+      "target": "selected_goal",
+      "pose": [
+        -0.9135389105161362,
+        -0.08923761544838726
+      ],
+      "distance": 4.022756534261753,
+      "command": [
+        0.14978862543479557,
+        -0.007960382550764354
+      ],
+      "hub_command": [
+        -0.14978862543479557,
+        0.007960382550764354
+      ],
+      "heading_error_rad": -0.05309415880376063,
+      "gimbal_imu_yaw": 2.744991914988964,
+      "gimbal_target_yaw": 2.7005469634891353
+    },
+    {
+      "time": 348.783654637,
+      "target": "selected_goal",
+      "pose": [
+        -0.9165699816851796,
+        -0.09034793297054625
+      ],
+      "distance": 4.025756061792968,
+      "command": [
+        0.14995087500726398,
+        -0.0038386305573596207
+      ],
+      "hub_command": [
+        -0.14995087500726398,
+        0.0038386305573596207
+      ],
+      "heading_error_rad": -0.025593664418023163,
+      "gimbal_imu_yaw": 2.7255415087110135,
+      "gimbal_target_yaw": 2.6999478442929905
+    },
+    {
+      "time": 348.834712349,
+      "target": "selected_goal",
+      "pose": [
+        -0.9123650119571627,
+        -0.08876380967153585
+      ],
+      "distance": 4.021596158296794,
+      "command": [
+        0.14999976204955298,
+        -0.00026717985979740936
+      ],
+      "hub_command": [
+        -0.14999976204955298,
+        0.00026717985979740936
+      ],
+      "heading_error_rad": -0.001781200007176913,
+      "gimbal_imu_yaw": 2.703666780887253,
+      "gimbal_target_yaw": 2.7018855808800764
+    },
+    {
+      "time": 348.885624504,
+      "target": "selected_goal",
+      "pose": [
+        -0.912657586963796,
+        -0.09533251748687128
+      ],
+      "distance": 4.021712306798086,
+      "command": [
+        0.14995870253226212,
+        0.003519592993589855
+      ],
+      "hub_command": [
+        -0.14995870253226212,
+        -0.003519592993589855
+      ],
+      "heading_error_rad": 0.023466106865220087,
+      "gimbal_imu_yaw": 2.6952899325430253,
+      "gimbal_target_yaw": 2.7187560394082455
+    },
+    {
+      "time": 348.937734,
+      "target": "selected_goal",
+      "pose": [
+        -0.912657586963796,
+        -0.09533251748687128
+      ],
+      "distance": 4.021712306798086,
+      "command": [
+        0.14998868077073443,
+        0.001842726418846391
+      ],
+      "hub_command": [
+        -0.14998868077073443,
+        -0.001842726418846391
+      ],
+      "heading_error_rad": 0.012285151812641525,
+      "gimbal_imu_yaw": 2.695642299182045,
+      "gimbal_target_yaw": 2.7079274509946862
+    },
+    {
+      "time": 348.991120423,
+      "target": "selected_goal",
+      "pose": [
+        -0.9049717211204658,
+        -0.09249124168839475
+      ],
+      "distance": 4.014104141414941,
+      "command": [
+        0.14989319003181825,
+        0.005659645049402185
+      ],
+      "hub_command": [
+        -0.14989319003181825,
+        -0.005659645049402185
+      ],
+      "heading_error_rad": 0.03773992519956612,
+      "gimbal_imu_yaw": 2.706701254253997,
+      "gimbal_target_yaw": 2.729192317794702
+    },
+    {
+      "time": 349.043262717,
+      "target": "selected_goal",
+      "pose": [
+        -0.9016767822648302,
+        -0.09371825960861123
+      ],
+      "distance": 4.010777683236983,
+      "command": [
+        0.14999909362689517,
+        0.0005214509659891851
+      ],
+      "hub_command": [
+        -0.14999909362689517,
+        -0.0005214509659891851
+      ],
+      "heading_error_rad": 0.0034763467751912107,
+      "gimbal_imu_yaw": 2.712418025182867,
+      "gimbal_target_yaw": 2.715894371958058
+    },
+    {
+      "time": 349.096389775,
+      "target": "selected_goal",
+      "pose": [
+        -0.8954015543413325,
+        -0.09209655557207054
+      ],
+      "distance": 4.004548031290095,
+      "command": [
+        0.14996763073544694,
+        -0.003116044222508635
+      ],
+      "hub_command": [
+        -0.14996763073544694,
+        0.003116044222508635
+      ],
+      "heading_error_rad": -0.02077512256142039,
+      "gimbal_imu_yaw": 2.718799011721719,
+      "gimbal_target_yaw": 2.6980238891602983
+    },
+    {
+      "time": 349.148393834,
+      "target": "selected_goal",
+      "pose": [
+        -0.896144289036396,
+        -0.09480958277464166
+      ],
+      "distance": 4.0052183251923426,
+      "command": [
+        0.14984415409419968,
+        -0.006835896707363039
+      ],
+      "hub_command": [
+        -0.14984415409419968,
+        0.006835896707363039
+      ],
+      "heading_error_rad": -0.04558843418920443,
+      "gimbal_imu_yaw": 2.7179631678031386,
+      "gimbal_target_yaw": 2.6773509307603023
+    },
+    {
+      "time": 349.201470413,
+      "target": "selected_goal",
+      "pose": [
+        -0.8898836111052559,
+        -0.09373116329538408
+      ],
+      "distance": 3.9989883226453706,
+      "command": [
+        0.1498542580462721,
+        -0.006610699312576495
+      ],
+      "hub_command": [
+        -0.1498542580462721,
+        0.006610699312576495
+      ],
+      "heading_error_rad": -0.04408560772579827,
+      "gimbal_imu_yaw": 2.7028364063673003,
+      "gimbal_target_yaw": 2.658750798641502
+    },
+    {
+      "time": 349.253301061,
+      "target": "selected_goal",
+      "pose": [
+        -0.8898836111052559,
+        -0.09373116329538408
+      ],
+      "distance": 3.9989883226453706,
+      "command": [
+        0.14988843210387426,
+        -0.005784282275466296
+      ],
+      "hub_command": [
+        -0.14988843210387426,
+        0.005784282275466296
+      ],
+      "heading_error_rad": -0.038571445277379615,
+      "gimbal_imu_yaw": 2.6867999700845147,
+      "gimbal_target_yaw": 2.648228524807135
+    },
+    {
+      "time": 349.306168972,
+      "target": "selected_goal",
+      "pose": [
+        -0.8837142939971352,
+        -0.09279310336793496
+      ],
+      "distance": 3.992846264062296,
+      "command": [
+        0.14999885685928052,
+        -0.0005856115684269855
+      ],
+      "hub_command": [
+        -0.14999885685928052,
+        0.0005856115684269855
+      ],
+      "heading_error_rad": -0.003904087040453538,
+      "gimbal_imu_yaw": 2.6587236883846668,
+      "gimbal_target_yaw": 2.6548196013442134,
+      "chassis_yaw_rad": 0.32622887942418166,
+      "wheel_speeds": [
+        119,
+        -120,
+        127,
+        133
+      ],
+      "nearest_scan_m": 1.3033463954925537
+    },
+    {
+      "time": 349.358271612,
+      "target": "selected_goal",
+      "pose": [
+        -0.8773318514153846,
+        -0.09518960143244241
+      ],
+      "distance": 3.986402397820058,
+      "command": [
+        0.1498966130787045,
+        -0.00556824815657061
+      ],
+      "hub_command": [
+        -0.1498966130787045,
+        0.00556824815657061
+      ],
+      "heading_error_rad": -0.0371301853815228,
+      "gimbal_imu_yaw": 2.6476879864977496,
+      "gimbal_target_yaw": 2.6340134561442095
+    },
+    {
+      "time": 349.410160443,
+      "target": "selected_goal",
+      "pose": [
+        -0.869062295002407,
+        -0.10284415780911656
+      ],
+      "distance": 3.977941394571415,
+      "command": [
+        0.14998075125216323,
+        0.0024029677144593157
+      ],
+      "hub_command": [
+        -0.14998075125216323,
+        -0.0024029677144593157
+      ],
+      "heading_error_rad": 0.016020470044453953,
+      "gimbal_imu_yaw": 2.6452170802824866,
+      "gimbal_target_yaw": 2.6548546917442146
+    },
+    {
+      "time": 349.462676138,
+      "target": "selected_goal",
+      "pose": [
+        -0.8641514954300834,
+        -0.10217340838022994
+      ],
+      "distance": 3.9730485206249435,
+      "command": [
+        0.14998075125216323,
+        0.0024029677144593157
+      ],
+      "hub_command": [
+        -0.14998075125216323,
+        -0.0024029677144593157
+      ],
+      "heading_error_rad": 0.016020470044453953,
+      "gimbal_imu_yaw": 2.6462122566511628,
+      "gimbal_target_yaw": 2.662232726695617
+    },
+    {
+      "time": 349.514673589,
+      "target": "selected_goal",
+      "pose": [
+        -0.8611993621866408,
+        -0.10518742403512453
+      ],
+      "distance": 3.970024158800103,
+      "command": [
+        0.14997864491752194,
+        -0.002531021276850572
+      ],
+      "hub_command": [
+        -0.14997864491752194,
+        0.002531021276850572
+      ],
+      "heading_error_rad": -0.01687427596783785,
+      "gimbal_imu_yaw": 2.651811978512852,
+      "gimbal_target_yaw": 2.6413880230956117
+    },
+    {
+      "time": 349.566394742,
+      "target": "selected_goal",
+      "pose": [
+        -0.8517806847550088,
+        -0.10390416451113932
+      ],
+      "distance": 3.9606391016016502,
+      "command": [
+        0.14999884384702164,
+        -0.0005889351040744628
+      ],
+      "hub_command": [
+        -0.14999884384702164,
+        0.0005889351040744628
+      ],
+      "heading_error_rad": -0.003926244114587884,
+      "gimbal_imu_yaw": 2.6574174275505946,
+      "gimbal_target_yaw": 2.6534911834360067
+    },
+    {
+      "time": 349.618767631,
+      "target": "selected_goal",
+      "pose": [
+        -0.8411054725906989,
+        -0.10884892019466802
+      ],
+      "distance": 3.9498498368824206,
+      "command": [
+        0.14999031774689653,
+        -0.0017042834814128779
+      ],
+      "hub_command": [
+        -0.14999031774689653,
+        0.0017042834814128779
+      ],
+      "heading_error_rad": -0.011362134346161285,
+      "gimbal_imu_yaw": 2.6539442976064964,
+      "gimbal_target_yaw": 2.642582163260335
+    },
+    {
+      "time": 349.669867047,
+      "target": "selected_goal",
+      "pose": [
+        -0.8401899394345634,
+        -0.10752343279289174
+      ],
+      "distance": 3.94896536532381,
+      "command": [
+        0.1498808740896582,
+        -0.0059769207891711374
+      ],
+      "hub_command": [
+        -0.1498808740896582,
+        0.0059769207891711374
+      ],
+      "heading_error_rad": -0.03985669018542838,
+      "gimbal_imu_yaw": 2.6499911904632003,
+      "gimbal_target_yaw": 2.622023782460332
+    },
+    {
+      "time": 349.721914421,
+      "target": "selected_goal",
+      "pose": [
+        -0.8388716029632948,
+        -0.10794603450447843
+      ],
+      "distance": 3.9476375133901533,
+      "command": [
+        0.14994325205390072,
+        -0.004125671278760908
+      ],
+      "hub_command": [
+        -0.14994325205390072,
+        0.004125671278760908
+      ],
+      "heading_error_rad": -0.0275079442110947,
+      "gimbal_imu_yaw": 2.6442248146067606,
+      "gimbal_target_yaw": 2.616716870395666
+    },
+    {
+      "time": 349.773901842,
+      "target": "selected_goal",
+      "pose": [
+        -0.8345118852002636,
+        -0.1050396015685248
+      ],
+      "distance": 3.943347901986038,
+      "command": [
+        0.14994325205390072,
+        -0.004125671278760908
+      ],
+      "hub_command": [
+        -0.14994325205390072,
+        0.004125671278760908
+      ],
+      "heading_error_rad": -0.0275079442110947,
+      "gimbal_imu_yaw": 2.632886926808962,
+      "gimbal_target_yaw": 2.6053789825978675
+    },
+    {
+      "time": 349.826125167,
+      "target": "selected_goal",
+      "pose": [
+        -0.8296574298520142,
+        -0.10608660843091212
+      ],
+      "distance": 3.9384697510834408,
+      "command": [
+        0.14981686352580606,
+        -0.007409952988379647
+      ],
+      "hub_command": [
+        -0.14981686352580606,
+        0.007409952988379647
+      ],
+      "heading_error_rad": -0.04941980060011616,
+      "gimbal_imu_yaw": 2.620281257647195,
+      "gimbal_target_yaw": 2.584533262997875
+    },
+    {
+      "time": 349.877791744,
+      "target": "selected_goal",
+      "pose": [
+        -0.8287924379833764,
+        -0.1087194641189679
+      ],
+      "distance": 3.937543090538164,
+      "command": [
+        0.1499971422342097,
+        0.000925916610855799
+      ],
+      "hub_command": [
+        -0.1499971422342097,
+        -0.000925916610855799
+      ],
+      "heading_error_rad": 0.0061728166067865145,
+      "gimbal_imu_yaw": 2.6049551032711786,
+      "gimbal_target_yaw": 2.605288517397876
+    },
+    {
+      "time": 349.931013809,
+      "target": "selected_goal",
+      "pose": [
+        -0.8244050059967046,
+        -0.1107022222760454
+      ],
+      "distance": 3.933111322835889,
+      "command": [
+        0.14985246054337856,
+        0.006651320853422204
+      ],
+      "hub_command": [
+        -0.14985246054337856,
+        -0.006651320853422204
+      ],
+      "heading_error_rad": 0.04435668300090801,
+      "gimbal_imu_yaw": 2.5924526712960394,
+      "gimbal_target_yaw": 2.626537918197878
+    },
+    {
+      "time": 349.983490387,
+      "target": "selected_goal",
+      "pose": [
+        -0.8269914870191102,
+        -0.11408081796434319
+      ],
+      "distance": 3.935621929706353,
+      "command": [
+        0.14968081983811563,
+        0.009780192870775473
+      ],
+      "hub_command": [
+        -0.14968081983811563,
+        -0.009780192870775473
+      ],
+      "heading_error_rad": 0.06524757177475361,
+      "gimbal_imu_yaw": 2.5939133622269455,
+      "gimbal_target_yaw": 2.6475691013978895
+    },
+    {
+      "time": 350.0367409,
+      "target": "selected_goal",
+      "pose": [
+        -0.8289222705633745,
+        -0.11745044399209126
+      ],
+      "distance": 3.9374801679584386,
+      "command": [
+        0.14951813968433367,
+        0.012013571714360773
+      ],
+      "hub_command": [
+        -0.14951813968433367,
+        -0.012013571714360773
+      ],
+      "heading_error_rad": 0.08017634938724848,
+      "gimbal_imu_yaw": 2.6163649404526756,
+      "gimbal_target_yaw": 2.6688845921978874
+    },
+    {
+      "time": 350.088868523,
+      "target": "selected_goal",
+      "pose": [
+        -0.8242742139550107,
+        -0.11397672097793471
+      ],
+      "distance": 3.9329075801837554,
+      "command": [
+        0.14965283661101436,
+        0.010199435978378414
+      ],
+      "hub_command": [
+        -0.14965283661101436,
+        -0.010199435978378414
+      ],
+      "heading_error_rad": 0.06804874581205343,
+      "gimbal_imu_yaw": 2.641110439334359,
+      "gimbal_target_yaw": 2.6897040481978913
+    },
+    {
+      "time": 350.13958165,
+      "target": "selected_goal",
+      "pose": [
+        -0.8199070592818511,
+        -0.11788172714506895
+      ],
+      "distance": 3.928457903743558,
+      "command": [
+        0.14999931968173147,
+        0.0004517687657715091
+      ],
+      "hub_command": [
+        -0.14999931968173147,
+        -0.0004517687657715091
+      ],
+      "heading_error_rad": 0.003011796325100462,
+      "gimbal_imu_yaw": 2.6700008007221148,
+      "gimbal_target_yaw": 2.673012597047215
+    },
+    {
+      "time": 350.191580681,
+      "target": "selected_goal",
+      "pose": [
+        -0.814949352886059,
+        -0.11757344602485062
+      ],
+      "distance": 3.9235077463282133,
+      "command": [
+        0.14981652686676344,
+        -0.007416756540452434
+      ],
+      "hub_command": [
+        -0.14981652686676344,
+        0.007416756540452434
+      ],
+      "heading_error_rad": -0.049465213109467686,
+      "gimbal_imu_yaw": 2.685977610075914,
+      "gimbal_target_yaw": 2.652224367447217
+    },
+    {
+      "time": 350.243613984,
+      "target": "selected_goal",
+      "pose": [
+        -0.8102435238192901,
+        -0.12100004220957311
+      ],
+      "distance": 3.9187323811491925,
+      "command": [
+        0.14933683812950035,
+        -0.01408931430139191
+      ],
+      "hub_command": [
+        -0.14933683812950035,
+        0.01408931430139191
+      ],
+      "heading_error_rad": -0.09406742942749428,
+      "gimbal_imu_yaw": 2.685450599181445,
+      "gimbal_target_yaw": 2.631406144247227
+    },
+    {
+      "time": 350.296515342,
+      "target": "selected_goal",
+      "pose": [
+        -0.8063185768536885,
+        -0.1188888218042139
+      ],
+      "distance": 3.9148514054564947,
+      "command": [
+        0.1495072578598674,
+        -0.012148244614886219
+      ],
+      "hub_command": [
+        -0.1495072578598674,
+        0.012148244614886219
+      ],
+      "heading_error_rad": -0.0810770948926536,
+      "gimbal_imu_yaw": 2.664377800358328,
+      "gimbal_target_yaw": 2.610292643447212
+    },
+    {
+      "time": 350.347896479,
+      "target": "selected_goal",
+      "pose": [
+        -0.8011382126198392,
+        -0.11852363350438211
+      ],
+      "distance": 3.9096797480152254,
+      "command": [
+        0.1495072578598674,
+        -0.012148244614886219
+      ],
+      "hub_command": [
+        -0.1495072578598674,
+        0.012148244614886219
+      ],
+      "heading_error_rad": -0.0810770948926536,
+      "gimbal_imu_yaw": 2.630764709587839,
+      "gimbal_target_yaw": 2.5897049550472153,
+      "chassis_yaw_rad": 0.3295950986857515,
+      "wheel_speeds": [
+        105,
+        -105,
+        109,
+        109
+      ],
+      "nearest_scan_m": 1.3464477062225342
+    },
+    {
+      "time": 350.401691728,
+      "target": "selected_goal",
+      "pose": [
+        -0.7931992979569837,
+        -0.11848363761810478
+      ],
+      "distance": 3.901743396331744,
+      "command": [
+        0.1499905503653858,
+        -0.0016836867549086829
+      ],
+      "hub_command": [
+        -0.1499905503653858,
+        0.0016836867549086829
+      ],
+      "heading_error_rad": -0.01122481407902932,
+      "gimbal_imu_yaw": 2.607566975512642,
+      "gimbal_target_yaw": 2.5963421614336126
+    },
+    {
+      "time": 350.453652053,
+      "target": "selected_goal",
+      "pose": [
+        -0.7866683721196145,
+        -0.1227571320314354
+      ],
+      "distance": 3.89512680922865,
+      "command": [
+        0.14933508328568834,
+        0.01410790204305814
+      ],
+      "hub_command": [
+        -0.14933508328568834,
+        -0.01410790204305814
+      ],
+      "heading_error_rad": 0.09419189872178992,
+      "gimbal_imu_yaw": 2.587595457005496,
+      "gimbal_target_yaw": 2.6173120290336143
+    },
+    {
+      "time": 350.505061456,
+      "target": "selected_goal",
+      "pose": [
+        -0.7854033829558993,
+        -0.12728361487980838
+      ],
+      "distance": 3.8937749070064296,
+      "command": [
+        0.1484182553816615,
+        0.021726055082870174
+      ],
+      "hub_command": [
+        -0.1484182553816615,
+        -0.021726055082870174
+      ],
+      "heading_error_rad": 0.1453516365560153,
+      "gimbal_imu_yaw": 2.5882445803159015,
+      "gimbal_target_yaw": 2.6379128434336097
+    },
+    {
+      "time": 350.555963499,
+      "target": "selected_goal",
+      "pose": [
+        -0.7854033829558993,
+        -0.12728361487980838
+      ],
+      "distance": 3.8937749070064296,
+      "command": [
+        0.14806237440132566,
+        0.024031922241919496
+      ],
+      "hub_command": [
+        -0.14806237440132566,
+        -0.024031922241919496
+      ],
+      "heading_error_rad": 0.16090624914083682,
+      "gimbal_imu_yaw": 2.600902578801147,
+      "gimbal_target_yaw": 2.6581826670336155
+    },
+    {
+      "time": 350.609988261,
+      "target": "selected_goal",
+      "pose": [
+        -0.7770487972469526,
+        -0.1357219026123936
+      ],
+      "distance": 3.8852730181781348,
+      "command": [
+        0.1487048046764434,
+        0.019669292466705995
+      ],
+      "hub_command": [
+        -0.1487048046764434,
+        -0.019669292466705995
+      ],
+      "heading_error_rad": 0.13150734076184598,
+      "gimbal_imu_yaw": 2.6322438459796484,
+      "gimbal_target_yaw": 2.679743677433616
+    },
+    {
+      "time": 350.661220728,
+      "target": "selected_goal",
+      "pose": [
+        -0.772069284729677,
+        -0.13639654665974868
+      ],
+      "distance": 3.8802830710639467,
+      "command": [
+        0.1487048046764434,
+        0.019669292466705995
+      ],
+      "hub_command": [
+        -0.1487048046764434,
+        -0.019669292466705995
+      ],
+      "heading_error_rad": 0.13150734076184598,
+      "gimbal_imu_yaw": 2.6532971156264993,
+      "gimbal_target_yaw": 2.700227371433611
+    },
+    {
+      "time": 350.713146167,
+      "target": "selected_goal",
+      "pose": [
+        -0.7641994709081669,
+        -0.13636044477810982
+      ],
+      "distance": 3.8724149098105243,
+      "command": [
+        0.14973415058271972,
+        0.008926597855365636
+      ],
+      "hub_command": [
+        -0.14973415058271972,
+        -0.008926597855365636
+      ],
+      "heading_error_rad": 0.059545834806214025,
+      "gimbal_imu_yaw": 2.679815839496143,
+      "gimbal_target_yaw": 2.7209946150336046
+    },
+    {
+      "time": 350.766801069,
+      "target": "selected_goal",
+      "pose": [
+        -0.7584342151783252,
+        -0.13391414455364287
+      ],
+      "distance": 3.8666914698705503,
+      "command": [
+        0.14979273232772577,
+        0.007882724262226047
+      ],
+      "hub_command": [
+        -0.14979273232772577,
+        -0.007882724262226047
+      ],
+      "heading_error_rad": 0.05257571341464257,
+      "gimbal_imu_yaw": 2.6991591714151975,
+      "gimbal_target_yaw": 2.7424419066336023
+    },
+    {
+      "time": 350.818492856,
+      "target": "selected_goal",
+      "pose": [
+        -0.7566188778983545,
+        -0.13264382399134067
+      ],
+      "distance": 3.864898327789501,
+      "command": [
+        0.1499883697439314,
+        0.0018678708621617903
+      ],
+      "hub_command": [
+        -0.1499883697439314,
+        -0.0018678708621617903
+      ],
+      "heading_error_rad": 0.012452794258711125,
+      "gimbal_imu_yaw": 2.714927226462111,
+      "gimbal_target_yaw": 2.727380020720822
+    },
+    {
+      "time": 350.869696315,
+      "target": "selected_goal",
+      "pose": [
+        -0.7551509513295529,
+        -0.1323686121626403
+      ],
+      "distance": 3.8634354321428965,
+      "command": [
+        0.14998392624565882,
+        0.0021958752097452636
+      ],
+      "hub_command": [
+        -0.14998392624565882,
+        -0.0021958752097452636
+      ],
+      "heading_error_rad": 0.014639690990474465,
+      "gimbal_imu_yaw": 2.7294315966174323,
+      "gimbal_target_yaw": 2.7440712876079068
+    },
+    {
+      "time": 350.922173921,
+      "target": "selected_goal",
+      "pose": [
+        -0.7504464960193628,
+        -0.1278641691765181
+      ],
+      "distance": 3.858813275130807,
+      "command": [
+        0.149829657153168,
+        -0.007146596208274531
+      ],
+      "hub_command": [
+        -0.149829657153168,
+        0.007146596208274531
+      ],
+      "heading_error_rad": -0.047662018052210056,
+      "gimbal_imu_yaw": 2.736010726821647,
+      "gimbal_target_yaw": 2.72312231040792
+    },
+    {
+      "time": 350.973366708,
+      "target": "selected_goal",
+      "pose": [
+        -0.7429165148952367,
+        -0.1278217045915368
+      ],
+      "distance": 3.851285407993798,
+      "command": [
+        0.149829657153168,
+        -0.007146596208274531
+      ],
+      "hub_command": [
+        -0.149829657153168,
+        0.007146596208274531
+      ],
+      "heading_error_rad": -0.047662018052210056,
+      "gimbal_imu_yaw": 2.735536168175525,
+      "gimbal_target_yaw": 2.7026139808079086
+    },
+    {
+      "time": 351.02472121,
+      "target": "selected_goal",
+      "pose": [
+        -0.7455400146413826,
+        -0.12866299007767182
+      ],
+      "distance": 3.8538927830437433,
+      "command": [
+        0.149418155252208,
+        -0.01319904848945816
+      ],
+      "hub_command": [
+        -0.149418155252208,
+        0.01319904848945816
+      ],
+      "heading_error_rad": -0.08810760819265846,
+      "gimbal_imu_yaw": 2.729254452958863,
+      "gimbal_target_yaw": 2.682119161607901
+    },
+    {
+      "time": 351.07568327,
+      "target": "selected_goal",
+      "pose": [
+        -0.7437714085678775,
+        -0.1319010233410531
+      ],
+      "distance": 3.852065876127126,
+      "command": [
+        0.14983551528173225,
+        -0.007022703201600898
+      ],
+      "hub_command": [
+        -0.14983551528173225,
+        0.007022703201600898
+      ],
+      "heading_error_rad": -0.04683514185162994,
+      "gimbal_imu_yaw": 2.7115896108340616,
+      "gimbal_target_yaw": 2.664754468982432
+    },
+    {
+      "time": 351.126483176,
+      "target": "selected_goal",
+      "pose": [
+        -0.7466717093713464,
+        -0.12976962718581225
+      ],
+      "distance": 3.8550039645520195,
+      "command": [
+        0.14983551528173225,
+        -0.007022703201600898
+      ],
+      "hub_command": [
+        -0.14983551528173225,
+        0.007022703201600898
+      ],
+      "heading_error_rad": -0.04683514185162994,
+      "gimbal_imu_yaw": 2.684621927889691,
+      "gimbal_target_yaw": 2.644378041382419
+    },
+    {
+      "time": 351.177212372,
+      "target": "selected_goal",
+      "pose": [
+        -0.749529369612816,
+        -0.12943442814790657
+      ],
+      "distance": 3.8578672675445906,
+      "command": [
+        0.1498012760861758,
+        0.00771865810574133
+      ],
+      "hub_command": [
+        -0.1498012760861758,
+        -0.00771865810574133
+      ],
+      "heading_error_rad": 0.05148045693102768,
+      "gimbal_imu_yaw": 2.6622104173081045,
+      "gimbal_target_yaw": 2.6647000121824194
+    },
+    {
+      "time": 351.228194007,
+      "target": "selected_goal",
+      "pose": [
+        -0.749577620010426,
+        -0.1322147030301336
+      ],
+      "distance": 3.8578656572739605,
+      "command": [
+        0.14938910543000916,
+        0.013523874401280542
+      ],
+      "hub_command": [
+        -0.14938910543000916,
+        -0.013523874401280542
+      ],
+      "heading_error_rad": 0.0902817573959171,
+      "gimbal_imu_yaw": 2.649003371131431,
+      "gimbal_target_yaw": 2.6850971421824115
+    },
+    {
+      "time": 351.27893593,
+      "target": "selected_goal",
+      "pose": [
+        -0.749577620010426,
+        -0.1322147030301336
+      ],
+      "distance": 3.8578656572739605,
+      "command": [
+        0.14938910543000916,
+        0.013523874401280542
+      ],
+      "hub_command": [
+        -0.14938910543000916,
+        -0.013523874401280542
+      ],
+      "heading_error_rad": 0.0902817573959171,
+      "gimbal_imu_yaw": 2.6544655290821972,
+      "gimbal_target_yaw": 2.705335118582406
+    },
+    {
+      "time": 351.33017421,
+      "target": "selected_goal",
+      "pose": [
+        -0.7552731831300704,
+        -0.1351050716318447
+      ],
+      "distance": 3.8635107126416335,
+      "command": [
+        0.14969085796868203,
+        0.009625333272145037
+      ],
+      "hub_command": [
+        -0.14969085796868203,
+        -0.009625333272145037
+      ],
+      "heading_error_rad": 0.06421300774416487,
+      "gimbal_imu_yaw": 2.6754945645513906,
+      "gimbal_target_yaw": 2.7258811941824153
+    },
+    {
+      "time": 351.380891532,
+      "target": "selected_goal",
+      "pose": [
+        -0.7605544946444283,
+        -0.1411738030936169
+      ],
+      "distance": 3.868694242570471,
+      "command": [
+        0.1497112728487844,
+        0.009302407322667731
+      ],
+      "hub_command": [
+        -0.1497112728487844,
+        -0.009302407322667731
+      ],
+      "heading_error_rad": 0.062055869961781605,
+      "gimbal_imu_yaw": 2.70236399293473,
+      "gimbal_target_yaw": 2.7461483305824177,
+      "chassis_yaw_rad": 0.3262789284149505,
+      "wheel_speeds": [
+        21,
+        -28,
+        25,
+        24
+      ],
+      "nearest_scan_m": 1.366359829902649
+    },
+    {
+      "time": 351.432500292,
+      "target": "selected_goal",
+      "pose": [
+        -0.7508126379651847,
+        -0.1411950631322872
+      ],
+      "distance": 3.8589531909812904,
+      "command": [
+        0.1499382125555205,
+        0.004304929227705066
+      ],
+      "hub_command": [
+        -0.1499382125555205,
+        -0.004304929227705066
+      ],
+      "heading_error_rad": 0.028703469435214873,
+      "gimbal_imu_yaw": 2.7277633905646543,
+      "gimbal_target_yaw": 2.756466859999869
+    },
+    {
+      "time": 351.483390351,
+      "target": "selected_goal",
+      "pose": [
+        -0.7491700131138229,
+        -0.14241881665582506
+      ],
+      "distance": 3.8572922949191883,
+      "command": [
+        0.14992356184889824,
+        -0.004788068769303534
+      ],
+      "hub_command": [
+        -0.14992356184889824,
+        0.004788068769303534
+      ],
+      "heading_error_rad": -0.03192588165820425,
+      "gimbal_imu_yaw": 2.7469267558139046,
+      "gimbal_target_yaw": 2.7361675675998693
+    },
+    {
+      "time": 351.536231035,
+      "target": "selected_goal",
+      "pose": [
+        -0.7536327678497773,
+        -0.14140252052724264
+      ],
+      "distance": 3.861769840194123,
+      "command": [
+        0.14976382321012738,
+        -0.008414110617629903
+      ],
+      "hub_command": [
+        -0.14976382321012738,
+        0.008414110617629903
+      ],
+      "heading_error_rad": -0.056123529599600666,
+      "gimbal_imu_yaw": 2.7550943757767823,
+      "gimbal_target_yaw": 2.714978001199875
+    },
+    {
+      "time": 351.589715721,
+      "target": "selected_goal",
+      "pose": [
+        -0.7536327678497773,
+        -0.14140252052724264
+      ],
+      "distance": 3.861769840194123,
+      "command": [
+        0.14967580545378495,
+        -0.009856635417865295
+      ],
+      "hub_command": [
+        -0.14967580545378495,
+        0.009856635417865295
+      ],
+      "heading_error_rad": -0.06575828400872379,
+      "gimbal_imu_yaw": 2.7447044572535884,
+      "gimbal_target_yaw": 2.6936005799998664
+    },
+    {
+      "time": 351.641574571,
+      "target": "selected_goal",
+      "pose": [
+        -0.7463587126847224,
+        -0.1366779554279926
+      ],
+      "distance": 3.854571343039791,
+      "command": [
+        0.14985727750816683,
+        -0.006541894056026472
+      ],
+      "hub_command": [
+        -0.14985727750816683,
+        0.006541894056026472
+      ],
+      "heading_error_rad": -0.04362646453523679,
+      "gimbal_imu_yaw": 2.721666962673031,
+      "gimbal_target_yaw": 2.6780404981377943
+    },
+    {
+      "time": 351.693529343,
+      "target": "selected_goal",
+      "pose": [
+        -0.7452573052403908,
+        -0.13597313387411505
+      ],
+      "distance": 3.853481730611038,
+      "command": [
+        0.1499769162500201,
+        -0.0026314619766293597
+      ],
+      "hub_command": [
+        -0.1499769162500201,
+        0.0026314619766293597
+      ],
+      "heading_error_rad": -0.01754397981085937,
+      "gimbal_imu_yaw": 2.6968331630750018,
+      "gimbal_target_yaw": 2.6792891832641423
+    },
+    {
+      "time": 351.745684077,
+      "target": "selected_goal",
+      "pose": [
+        -0.7325397996507871,
+        -0.1287583646491414
+      ],
+      "distance": 3.840893032718815,
+      "command": [
+        0.1498604308398859,
+        0.006469255635988976
+      ],
+      "hub_command": [
+        -0.1498604308398859,
+        -0.006469255635988976
+      ],
+      "heading_error_rad": 0.043141752310419106,
+      "gimbal_imu_yaw": 2.6748381835100634,
+      "gimbal_target_yaw": 2.7001244336641426
+    },
+    {
+      "time": 351.798172507,
+      "target": "selected_goal",
+      "pose": [
+        -0.7276295268584136,
+        -0.13269109583967972
+      ],
+      "distance": 3.8359125829217358,
+      "command": [
+        0.1494450179753931,
+        0.012891338267783669
+      ],
+      "hub_command": [
+        -0.1494450179753931,
+        -0.012891338267783669
+      ],
+      "heading_error_rad": 0.08604840424578987,
+      "gimbal_imu_yaw": 2.671179783126751,
+      "gimbal_target_yaw": 2.721062466864156
+    },
+    {
+      "time": 351.851127094,
+      "target": "selected_goal",
+      "pose": [
+        -0.7257552185126168,
+        -0.14171423742226202
+      ],
+      "distance": 3.8338907720342723,
+      "command": [
+        0.14975671046220507,
+        0.008539769993347835
+      ],
+      "hub_command": [
+        -0.14975671046220507,
+        -0.008539769993347835
+      ],
+      "heading_error_rad": 0.05696259974150271,
+      "gimbal_imu_yaw": 2.689306925495858,
+      "gimbal_target_yaw": 2.742343153264152
+    },
+    {
+      "time": 351.903515719,
+      "target": "selected_goal",
+      "pose": [
+        -0.717399352707947,
+        -0.14133524472009243
+      ],
+      "distance": 3.825541667066678,
+      "command": [
+        0.14975671046220507,
+        0.008539769993347835
+      ],
+      "hub_command": [
+        -0.14975671046220507,
+        -0.008539769993347835
+      ],
+      "heading_error_rad": 0.05696259974150271,
+      "gimbal_imu_yaw": 2.71427703294653,
+      "gimbal_target_yaw": 2.763271173264149
+    },
+    {
+      "time": 351.957699118,
+      "target": "selected_goal",
+      "pose": [
+        -0.7123979856341283,
+        -0.1460110223992489
+      ],
+      "distance": 3.8204719528522837,
+      "command": [
+        0.14993294809605992,
+        0.0044845373478428615
+      ],
+      "hub_command": [
+        -0.14993294809605992,
+        -0.0044845373478428615
+      ],
+      "heading_error_rad": 0.029901371215898698,
+      "gimbal_imu_yaw": 2.7408111550852126,
+      "gimbal_target_yaw": 2.770712526301111
+    },
+    {
+      "time": 352.011095921,
+      "target": "selected_goal",
+      "pose": [
+        -0.7123979856341283,
+        -0.1460110223992489
+      ],
+      "distance": 3.8204719528522837,
+      "command": [
+        0.14996335487304044,
+        -0.0033154479670980163
+      ],
+      "hub_command": [
+        -0.14996335487304044,
+        0.0033154479670980163
+      ],
+      "heading_error_rad": -0.022104786549326908,
+      "gimbal_imu_yaw": 2.7651358690920547,
+      "gimbal_target_yaw": 2.749410990301124
+    }
+  ],
+  "scope": "Stationary saved-map localization and one continuously replanned goal; no gimbal scan",
+  "status": "aborted",
+  "face_motion": true,
+  "alignment_only": false,
+  "saved_map_sha256": "b13cacfaa3d307dacab9db5e2eea9de1628182711edbeb28b424ddde73791957",
+  "landmarks": "/home/soyo/sentry_ws/scripts/real_acceptance/maps/manual_test/selected_goal.json",
+  "course": "saved_landmarks",
+  "plans": [
+    {
+      "time": 343.011104162,
+      "frame": "map",
+      "points": [
+        [
+          -0.9049998856335879,
+          -0.0649999146908522
+        ],
+        [
+          -0.860278525417192,
+          -0.08736059479905019
+        ],
+        [
+          -0.8155571652007959,
+          -0.10972127490724817
+        ],
+        [
+          -0.7708358049844,
+          -0.13208195501544617
+        ],
+        [
+          -0.7049998826533557,
+          -0.16499991618096832
+        ],
+        [
+          -0.6550043257603034,
+          -0.165666523606209
+        ],
+        [
+          -0.6050087688672512,
+          -0.1663331310314497
+        ],
+        [
+          -0.5550132119741991,
+          -0.16699973845669042
+        ],
+        [
+          -0.5050176550811468,
+          -0.1676663458819311
+        ],
+        [
+          -0.4550220981880946,
+          -0.1683329533071718
+        ],
+        [
+          -0.4050265412950424,
+          -0.16899956073241248
+        ],
+        [
+          -0.35503098440199016,
+          -0.1696661681576532
+        ],
+        [
+          -0.305035427508938,
+          -0.1703327755828939
+        ],
+        [
+          -0.25503987061588573,
+          -0.17099938300813458
+        ],
+        [
+          -0.20504431372283355,
+          -0.17166599043337527
+        ],
+        [
+          -0.15504875682978136,
+          -0.172332597858616
+        ],
+        [
+          -0.10505319993672912,
+          -0.17299920528385668
+        ],
+        [
+          -0.055057643043676885,
+          -0.17366581270909737
+        ],
+        [
+          -0.005062086150624645,
+          -0.17433242013433806
+        ],
+        [
+          0.044933470742427484,
+          -0.17499902755957877
+        ],
+        [
+          0.09492902763547972,
+          -0.17566563498481946
+        ],
+        [
+          0.14492458452853196,
+          -0.17633224241006015
+        ],
+        [
+          0.1949201414215842,
+          -0.17699884983530084
+        ],
+        [
+          0.24491569831463633,
+          -0.17766545726054156
+        ],
+        [
+          0.29491125520768857,
+          -0.17833206468578225
+        ],
+        [
+          0.3449068121007408,
+          -0.17899867211102294
+        ],
+        [
+          0.39490236899379294,
+          -0.17966527953626363
+        ],
+        [
+          0.4448979258868453,
+          -0.18033188696150432
+        ],
+        [
+          0.4948934827798974,
+          -0.18099849438674503
+        ],
+        [
+          0.5448890396729495,
+          -0.18166510181198572
+        ],
+        [
+          0.5948845965660019,
+          -0.1823317092372264
+        ],
+        [
+          0.644880153459054,
+          -0.18299831666246713
+        ],
+        [
+          0.6948757103521064,
+          -0.18366492408770782
+        ],
+        [
+          0.7448712672451585,
+          -0.1843315315129485
+        ],
+        [
+          0.7948668241382106,
+          -0.1849981389381892
+        ],
+        [
+          0.844862381031263,
+          -0.1856647463634299
+        ],
+        [
+          0.8948579379243151,
+          -0.1863313537886706
+        ],
+        [
+          0.9448534948173672,
+          -0.1869979612139113
+        ],
+        [
+          0.9948490517104196,
+          -0.18766456863915199
+        ],
+        [
+          1.0448446086034717,
+          -0.18833117606439267
+        ],
+        [
+          1.094840165496524,
+          -0.1889977834896334
+        ],
+        [
+          1.1448357223895762,
+          -0.18966439091487408
+        ],
+        [
+          1.1948312792826283,
+          -0.19033099834011477
+        ],
+        [
+          1.2448268361756807,
+          -0.19099760576535546
+        ],
+        [
+          1.2948223930687328,
+          -0.19166421319059618
+        ],
+        [
+          1.3448179499617852,
+          -0.19233082061583687
+        ],
+        [
+          1.3948135068548373,
+          -0.19299742804107756
+        ],
+        [
+          1.4448090637478894,
+          -0.19366403546631825
+        ],
+        [
+          1.4948046206409416,
+          -0.19433064289155896
+        ],
+        [
+          1.5448001775339941,
+          -0.19499725031679965
+        ],
+        [
+          1.5947957344270463,
+          -0.19566385774204034
+        ],
+        [
+          1.6447912913200984,
+          -0.19633046516728103
+        ],
+        [
+          1.6947868482131505,
+          -0.19699707259252175
+        ],
+        [
+          1.7447824051062026,
+          -0.19766368001776244
+        ],
+        [
+          1.7947779619992548,
+          -0.19833028744300313
+        ],
+        [
+          1.8447735188923073,
+          -0.19899689486824382
+        ],
+        [
+          1.8947690757853595,
+          -0.1996635022934845
+        ],
+        [
+          1.9447646326784116,
+          -0.20033010971872522
+        ],
+        [
+          1.9947601895714637,
+          -0.20099671714396591
+        ],
+        [
+          2.044755746464516,
+          -0.2016633245692066
+        ],
+        [
+          2.0947513033575684,
+          -0.20232993199444732
+        ],
+        [
+          2.1447468602506206,
+          -0.202996539419688
+        ],
+        [
+          2.1947424171436727,
+          -0.2036631468449287
+        ],
+        [
+          2.244737974036725,
+          -0.2043297542701694
+        ],
+        [
+          2.294733530929777,
+          -0.20499636169541008
+        ],
+        [
+          2.3447290878228295,
+          -0.2056629691206508
+        ],
+        [
+          2.3947246447158816,
+          -0.20632957654589149
+        ],
+        [
+          2.4447202016089338,
+          -0.20699618397113217
+        ],
+        [
+          2.494715758501986,
+          -0.2076627913963729
+        ],
+        [
+          2.544711315395038,
+          -0.20832939882161355
+        ],
+        [
+          2.59470687228809,
+          -0.20899600624685427
+        ],
+        [
+          2.6447024291811427,
+          -0.20966261367209496
+        ],
+        [
+          2.694697986074195,
+          -0.21032922109733565
+        ],
+        [
+          2.744693542967247,
+          -0.21099582852257637
+        ],
+        [
+          2.794689099860299,
+          -0.21166243594781706
+        ],
+        [
+          2.8446846567533512,
+          -0.21232904337305775
+        ],
+        [
+          2.894680213646404,
+          -0.21299565079829844
+        ],
+        [
+          2.944675770539456,
+          -0.21366225822353913
+        ],
+        [
+          2.994671327432508,
+          -0.21432886564877984
+        ],
+        [
+          3.045000173225999,
+          -0.21499991692602638
+        ],
+        [
+          3.095000173971057,
+          -0.21499991692602638
+        ]
+      ]
+    },
+    {
+      "time": 344.1261948,
+      "frame": "map",
+      "points": [
+        [
+          -0.9049998856335879,
+          -0.0649999146908522
+        ],
+        [
+          -0.860278525417192,
+          -0.08736059479905019
+        ],
+        [
+          -0.8155571652007959,
+          -0.10972127490724817
+        ],
+        [
+          -0.7708358049844,
+          -0.13208195501544617
+        ],
+        [
+          -0.7049998826533557,
+          -0.16499991618096832
+        ],
+        [
+          -0.6550043257603034,
+          -0.165666523606209
+        ],
+        [
+          -0.6050087688672512,
+          -0.1663331310314497
+        ],
+        [
+          -0.5550132119741991,
+          -0.16699973845669042
+        ],
+        [
+          -0.5050176550811468,
+          -0.1676663458819311
+        ],
+        [
+          -0.4550220981880946,
+          -0.1683329533071718
+        ],
+        [
+          -0.4050265412950424,
+          -0.16899956073241248
+        ],
+        [
+          -0.35503098440199016,
+          -0.1696661681576532
+        ],
+        [
+          -0.305035427508938,
+          -0.1703327755828939
+        ],
+        [
+          -0.25503987061588573,
+          -0.17099938300813458
+        ],
+        [
+          -0.20504431372283355,
+          -0.17166599043337527
+        ],
+        [
+          -0.15504875682978136,
+          -0.172332597858616
+        ],
+        [
+          -0.10505319993672912,
+          -0.17299920528385668
+        ],
+        [
+          -0.055057643043676885,
+          -0.17366581270909737
+        ],
+        [
+          -0.005062086150624645,
+          -0.17433242013433806
+        ],
+        [
+          0.044933470742427484,
+          -0.17499902755957877
+        ],
+        [
+          0.09492902763547972,
+          -0.17566563498481946
+        ],
+        [
+          0.14492458452853196,
+          -0.17633224241006015
+        ],
+        [
+          0.1949201414215842,
+          -0.17699884983530084
+        ],
+        [
+          0.24491569831463633,
+          -0.17766545726054156
+        ],
+        [
+          0.29491125520768857,
+          -0.17833206468578225
+        ],
+        [
+          0.3449068121007408,
+          -0.17899867211102294
+        ],
+        [
+          0.39490236899379294,
+          -0.17966527953626363
+        ],
+        [
+          0.4448979258868453,
+          -0.18033188696150432
+        ],
+        [
+          0.4948934827798974,
+          -0.18099849438674503
+        ],
+        [
+          0.5448890396729495,
+          -0.18166510181198572
+        ],
+        [
+          0.5948845965660019,
+          -0.1823317092372264
+        ],
+        [
+          0.644880153459054,
+          -0.18299831666246713
+        ],
+        [
+          0.6948757103521064,
+          -0.18366492408770782
+        ],
+        [
+          0.7448712672451585,
+          -0.1843315315129485
+        ],
+        [
+          0.7948668241382106,
+          -0.1849981389381892
+        ],
+        [
+          0.844862381031263,
+          -0.1856647463634299
+        ],
+        [
+          0.8948579379243151,
+          -0.1863313537886706
+        ],
+        [
+          0.9448534948173672,
+          -0.1869979612139113
+        ],
+        [
+          0.9948490517104196,
+          -0.18766456863915199
+        ],
+        [
+          1.0448446086034717,
+          -0.18833117606439267
+        ],
+        [
+          1.094840165496524,
+          -0.1889977834896334
+        ],
+        [
+          1.1448357223895762,
+          -0.18966439091487408
+        ],
+        [
+          1.1948312792826283,
+          -0.19033099834011477
+        ],
+        [
+          1.2448268361756807,
+          -0.19099760576535546
+        ],
+        [
+          1.2948223930687328,
+          -0.19166421319059618
+        ],
+        [
+          1.3448179499617852,
+          -0.19233082061583687
+        ],
+        [
+          1.3948135068548373,
+          -0.19299742804107756
+        ],
+        [
+          1.4448090637478894,
+          -0.19366403546631825
+        ],
+        [
+          1.4948046206409416,
+          -0.19433064289155896
+        ],
+        [
+          1.5448001775339941,
+          -0.19499725031679965
+        ],
+        [
+          1.5947957344270463,
+          -0.19566385774204034
+        ],
+        [
+          1.6447912913200984,
+          -0.19633046516728103
+        ],
+        [
+          1.6947868482131505,
+          -0.19699707259252175
+        ],
+        [
+          1.7447824051062026,
+          -0.19766368001776244
+        ],
+        [
+          1.7947779619992548,
+          -0.19833028744300313
+        ],
+        [
+          1.8447735188923073,
+          -0.19899689486824382
+        ],
+        [
+          1.8947690757853595,
+          -0.1996635022934845
+        ],
+        [
+          1.9447646326784116,
+          -0.20033010971872522
+        ],
+        [
+          1.9947601895714637,
+          -0.20099671714396591
+        ],
+        [
+          2.044755746464516,
+          -0.2016633245692066
+        ],
+        [
+          2.0947513033575684,
+          -0.20232993199444732
+        ],
+        [
+          2.1447468602506206,
+          -0.202996539419688
+        ],
+        [
+          2.1947424171436727,
+          -0.2036631468449287
+        ],
+        [
+          2.244737974036725,
+          -0.2043297542701694
+        ],
+        [
+          2.294733530929777,
+          -0.20499636169541008
+        ],
+        [
+          2.3447290878228295,
+          -0.2056629691206508
+        ],
+        [
+          2.3947246447158816,
+          -0.20632957654589149
+        ],
+        [
+          2.4447202016089338,
+          -0.20699618397113217
+        ],
+        [
+          2.494715758501986,
+          -0.2076627913963729
+        ],
+        [
+          2.544711315395038,
+          -0.20832939882161355
+        ],
+        [
+          2.59470687228809,
+          -0.20899600624685427
+        ],
+        [
+          2.6447024291811427,
+          -0.20966261367209496
+        ],
+        [
+          2.694697986074195,
+          -0.21032922109733565
+        ],
+        [
+          2.744693542967247,
+          -0.21099582852257637
+        ],
+        [
+          2.794689099860299,
+          -0.21166243594781706
+        ],
+        [
+          2.8446846567533512,
+          -0.21232904337305775
+        ],
+        [
+          2.894680213646404,
+          -0.21299565079829844
+        ],
+        [
+          2.944675770539456,
+          -0.21366225822353913
+        ],
+        [
+          2.994671327432508,
+          -0.21432886564877984
+        ],
+        [
+          3.045000173225999,
+          -0.21499991692602638
+        ],
+        [
+          3.095000173971057,
+          -0.21499991692602638
+        ]
+      ]
+    },
+    {
+      "time": 345.159398029,
+      "frame": "map",
+      "points": [
+        [
+          -0.9049998856335879,
+          -0.0649999146908522
+        ],
+        [
+          -0.860278525417192,
+          -0.08736059479905019
+        ],
+        [
+          -0.8155571652007959,
+          -0.10972127490724817
+        ],
+        [
+          -0.7708358049844,
+          -0.13208195501544617
+        ],
+        [
+          -0.7049998826533557,
+          -0.16499991618096832
+        ],
+        [
+          -0.6550043257603034,
+          -0.165666523606209
+        ],
+        [
+          -0.6050087688672512,
+          -0.1663331310314497
+        ],
+        [
+          -0.5550132119741991,
+          -0.16699973845669042
+        ],
+        [
+          -0.5050176550811468,
+          -0.1676663458819311
+        ],
+        [
+          -0.4550220981880946,
+          -0.1683329533071718
+        ],
+        [
+          -0.4050265412950424,
+          -0.16899956073241248
+        ],
+        [
+          -0.35503098440199016,
+          -0.1696661681576532
+        ],
+        [
+          -0.305035427508938,
+          -0.1703327755828939
+        ],
+        [
+          -0.25503987061588573,
+          -0.17099938300813458
+        ],
+        [
+          -0.20504431372283355,
+          -0.17166599043337527
+        ],
+        [
+          -0.15504875682978136,
+          -0.172332597858616
+        ],
+        [
+          -0.10505319993672912,
+          -0.17299920528385668
+        ],
+        [
+          -0.055057643043676885,
+          -0.17366581270909737
+        ],
+        [
+          -0.005062086150624645,
+          -0.17433242013433806
+        ],
+        [
+          0.044933470742427484,
+          -0.17499902755957877
+        ],
+        [
+          0.09492902763547972,
+          -0.17566563498481946
+        ],
+        [
+          0.14492458452853196,
+          -0.17633224241006015
+        ],
+        [
+          0.1949201414215842,
+          -0.17699884983530084
+        ],
+        [
+          0.24491569831463633,
+          -0.17766545726054156
+        ],
+        [
+          0.29491125520768857,
+          -0.17833206468578225
+        ],
+        [
+          0.3449068121007408,
+          -0.17899867211102294
+        ],
+        [
+          0.39490236899379294,
+          -0.17966527953626363
+        ],
+        [
+          0.4448979258868453,
+          -0.18033188696150432
+        ],
+        [
+          0.4948934827798974,
+          -0.18099849438674503
+        ],
+        [
+          0.5448890396729495,
+          -0.18166510181198572
+        ],
+        [
+          0.5948845965660019,
+          -0.1823317092372264
+        ],
+        [
+          0.644880153459054,
+          -0.18299831666246713
+        ],
+        [
+          0.6948757103521064,
+          -0.18366492408770782
+        ],
+        [
+          0.7448712672451585,
+          -0.1843315315129485
+        ],
+        [
+          0.7948668241382106,
+          -0.1849981389381892
+        ],
+        [
+          0.844862381031263,
+          -0.1856647463634299
+        ],
+        [
+          0.8948579379243151,
+          -0.1863313537886706
+        ],
+        [
+          0.9448534948173672,
+          -0.1869979612139113
+        ],
+        [
+          0.9948490517104196,
+          -0.18766456863915199
+        ],
+        [
+          1.0448446086034717,
+          -0.18833117606439267
+        ],
+        [
+          1.094840165496524,
+          -0.1889977834896334
+        ],
+        [
+          1.1448357223895762,
+          -0.18966439091487408
+        ],
+        [
+          1.1948312792826283,
+          -0.19033099834011477
+        ],
+        [
+          1.2448268361756807,
+          -0.19099760576535546
+        ],
+        [
+          1.2948223930687328,
+          -0.19166421319059618
+        ],
+        [
+          1.3448179499617852,
+          -0.19233082061583687
+        ],
+        [
+          1.3948135068548373,
+          -0.19299742804107756
+        ],
+        [
+          1.4448090637478894,
+          -0.19366403546631825
+        ],
+        [
+          1.4948046206409416,
+          -0.19433064289155896
+        ],
+        [
+          1.5448001775339941,
+          -0.19499725031679965
+        ],
+        [
+          1.5947957344270463,
+          -0.19566385774204034
+        ],
+        [
+          1.6447912913200984,
+          -0.19633046516728103
+        ],
+        [
+          1.6947868482131505,
+          -0.19699707259252175
+        ],
+        [
+          1.7447824051062026,
+          -0.19766368001776244
+        ],
+        [
+          1.7947779619992548,
+          -0.19833028744300313
+        ],
+        [
+          1.8447735188923073,
+          -0.19899689486824382
+        ],
+        [
+          1.8947690757853595,
+          -0.1996635022934845
+        ],
+        [
+          1.9447646326784116,
+          -0.20033010971872522
+        ],
+        [
+          1.9947601895714637,
+          -0.20099671714396591
+        ],
+        [
+          2.044755746464516,
+          -0.2016633245692066
+        ],
+        [
+          2.0947513033575684,
+          -0.20232993199444732
+        ],
+        [
+          2.1447468602506206,
+          -0.202996539419688
+        ],
+        [
+          2.1947424171436727,
+          -0.2036631468449287
+        ],
+        [
+          2.244737974036725,
+          -0.2043297542701694
+        ],
+        [
+          2.294733530929777,
+          -0.20499636169541008
+        ],
+        [
+          2.3447290878228295,
+          -0.2056629691206508
+        ],
+        [
+          2.3947246447158816,
+          -0.20632957654589149
+        ],
+        [
+          2.4447202016089338,
+          -0.20699618397113217
+        ],
+        [
+          2.494715758501986,
+          -0.2076627913963729
+        ],
+        [
+          2.544711315395038,
+          -0.20832939882161355
+        ],
+        [
+          2.59470687228809,
+          -0.20899600624685427
+        ],
+        [
+          2.6447024291811427,
+          -0.20966261367209496
+        ],
+        [
+          2.694697986074195,
+          -0.21032922109733565
+        ],
+        [
+          2.744693542967247,
+          -0.21099582852257637
+        ],
+        [
+          2.794689099860299,
+          -0.21166243594781706
+        ],
+        [
+          2.8446846567533512,
+          -0.21232904337305775
+        ],
+        [
+          2.894680213646404,
+          -0.21299565079829844
+        ],
+        [
+          2.944675770539456,
+          -0.21366225822353913
+        ],
+        [
+          2.994671327432508,
+          -0.21432886564877984
+        ],
+        [
+          3.045000173225999,
+          -0.21499991692602638
+        ],
+        [
+          3.095000173971057,
+          -0.21499991692602638
+        ]
+      ]
+    },
+    {
+      "time": 346.188768024,
+      "frame": "map",
+      "points": [
+        [
+          -0.9049998856335879,
+          -0.0649999146908522
+        ],
+        [
+          -0.860278525417192,
+          -0.08736059479905019
+        ],
+        [
+          -0.8155571652007959,
+          -0.10972127490724817
+        ],
+        [
+          -0.7708358049844,
+          -0.13208195501544617
+        ],
+        [
+          -0.7049998826533557,
+          -0.16499991618096832
+        ],
+        [
+          -0.6550043257603034,
+          -0.165666523606209
+        ],
+        [
+          -0.6050087688672512,
+          -0.1663331310314497
+        ],
+        [
+          -0.5550132119741991,
+          -0.16699973845669042
+        ],
+        [
+          -0.5050176550811468,
+          -0.1676663458819311
+        ],
+        [
+          -0.4550220981880946,
+          -0.1683329533071718
+        ],
+        [
+          -0.4050265412950424,
+          -0.16899956073241248
+        ],
+        [
+          -0.35503098440199016,
+          -0.1696661681576532
+        ],
+        [
+          -0.305035427508938,
+          -0.1703327755828939
+        ],
+        [
+          -0.25503987061588573,
+          -0.17099938300813458
+        ],
+        [
+          -0.20504431372283355,
+          -0.17166599043337527
+        ],
+        [
+          -0.15504875682978136,
+          -0.172332597858616
+        ],
+        [
+          -0.10505319993672912,
+          -0.17299920528385668
+        ],
+        [
+          -0.055057643043676885,
+          -0.17366581270909737
+        ],
+        [
+          -0.005062086150624645,
+          -0.17433242013433806
+        ],
+        [
+          0.044933470742427484,
+          -0.17499902755957877
+        ],
+        [
+          0.09492902763547972,
+          -0.17566563498481946
+        ],
+        [
+          0.14492458452853196,
+          -0.17633224241006015
+        ],
+        [
+          0.1949201414215842,
+          -0.17699884983530084
+        ],
+        [
+          0.24491569831463633,
+          -0.17766545726054156
+        ],
+        [
+          0.29491125520768857,
+          -0.17833206468578225
+        ],
+        [
+          0.3449068121007408,
+          -0.17899867211102294
+        ],
+        [
+          0.39490236899379294,
+          -0.17966527953626363
+        ],
+        [
+          0.4448979258868453,
+          -0.18033188696150432
+        ],
+        [
+          0.4948934827798974,
+          -0.18099849438674503
+        ],
+        [
+          0.5448890396729495,
+          -0.18166510181198572
+        ],
+        [
+          0.5948845965660019,
+          -0.1823317092372264
+        ],
+        [
+          0.644880153459054,
+          -0.18299831666246713
+        ],
+        [
+          0.6948757103521064,
+          -0.18366492408770782
+        ],
+        [
+          0.7448712672451585,
+          -0.1843315315129485
+        ],
+        [
+          0.7948668241382106,
+          -0.1849981389381892
+        ],
+        [
+          0.844862381031263,
+          -0.1856647463634299
+        ],
+        [
+          0.8948579379243151,
+          -0.1863313537886706
+        ],
+        [
+          0.9448534948173672,
+          -0.1869979612139113
+        ],
+        [
+          0.9948490517104196,
+          -0.18766456863915199
+        ],
+        [
+          1.0448446086034717,
+          -0.18833117606439267
+        ],
+        [
+          1.094840165496524,
+          -0.1889977834896334
+        ],
+        [
+          1.1448357223895762,
+          -0.18966439091487408
+        ],
+        [
+          1.1948312792826283,
+          -0.19033099834011477
+        ],
+        [
+          1.2448268361756807,
+          -0.19099760576535546
+        ],
+        [
+          1.2948223930687328,
+          -0.19166421319059618
+        ],
+        [
+          1.3448179499617852,
+          -0.19233082061583687
+        ],
+        [
+          1.3948135068548373,
+          -0.19299742804107756
+        ],
+        [
+          1.4448090637478894,
+          -0.19366403546631825
+        ],
+        [
+          1.4948046206409416,
+          -0.19433064289155896
+        ],
+        [
+          1.5448001775339941,
+          -0.19499725031679965
+        ],
+        [
+          1.5947957344270463,
+          -0.19566385774204034
+        ],
+        [
+          1.6447912913200984,
+          -0.19633046516728103
+        ],
+        [
+          1.6947868482131505,
+          -0.19699707259252175
+        ],
+        [
+          1.7447824051062026,
+          -0.19766368001776244
+        ],
+        [
+          1.7947779619992548,
+          -0.19833028744300313
+        ],
+        [
+          1.8447735188923073,
+          -0.19899689486824382
+        ],
+        [
+          1.8947690757853595,
+          -0.1996635022934845
+        ],
+        [
+          1.9447646326784116,
+          -0.20033010971872522
+        ],
+        [
+          1.9947601895714637,
+          -0.20099671714396591
+        ],
+        [
+          2.044755746464516,
+          -0.2016633245692066
+        ],
+        [
+          2.0947513033575684,
+          -0.20232993199444732
+        ],
+        [
+          2.1447468602506206,
+          -0.202996539419688
+        ],
+        [
+          2.1947424171436727,
+          -0.2036631468449287
+        ],
+        [
+          2.244737974036725,
+          -0.2043297542701694
+        ],
+        [
+          2.294733530929777,
+          -0.20499636169541008
+        ],
+        [
+          2.3447290878228295,
+          -0.2056629691206508
+        ],
+        [
+          2.3947246447158816,
+          -0.20632957654589149
+        ],
+        [
+          2.4447202016089338,
+          -0.20699618397113217
+        ],
+        [
+          2.494715758501986,
+          -0.2076627913963729
+        ],
+        [
+          2.544711315395038,
+          -0.20832939882161355
+        ],
+        [
+          2.59470687228809,
+          -0.20899600624685427
+        ],
+        [
+          2.6447024291811427,
+          -0.20966261367209496
+        ],
+        [
+          2.694697986074195,
+          -0.21032922109733565
+        ],
+        [
+          2.744693542967247,
+          -0.21099582852257637
+        ],
+        [
+          2.794689099860299,
+          -0.21166243594781706
+        ],
+        [
+          2.8446846567533512,
+          -0.21232904337305775
+        ],
+        [
+          2.894680213646404,
+          -0.21299565079829844
+        ],
+        [
+          2.944675770539456,
+          -0.21366225822353913
+        ],
+        [
+          2.994671327432508,
+          -0.21432886564877984
+        ],
+        [
+          3.045000173225999,
+          -0.21499991692602638
+        ],
+        [
+          3.095000173971057,
+          -0.21499991692602638
+        ]
+      ]
+    },
+    {
+      "time": 347.224660138,
+      "frame": "map",
+      "points": [
+        [
+          -0.9049998856335879,
+          -0.0649999146908522
+        ],
+        [
+          -0.860278525417192,
+          -0.08736059479905019
+        ],
+        [
+          -0.8155571652007959,
+          -0.10972127490724817
+        ],
+        [
+          -0.7708358049844,
+          -0.13208195501544617
+        ],
+        [
+          -0.7049998826533557,
+          -0.16499991618096832
+        ],
+        [
+          -0.6550043257603034,
+          -0.165666523606209
+        ],
+        [
+          -0.6050087688672512,
+          -0.1663331310314497
+        ],
+        [
+          -0.5550132119741991,
+          -0.16699973845669042
+        ],
+        [
+          -0.5050176550811468,
+          -0.1676663458819311
+        ],
+        [
+          -0.4550220981880946,
+          -0.1683329533071718
+        ],
+        [
+          -0.4050265412950424,
+          -0.16899956073241248
+        ],
+        [
+          -0.35503098440199016,
+          -0.1696661681576532
+        ],
+        [
+          -0.305035427508938,
+          -0.1703327755828939
+        ],
+        [
+          -0.25503987061588573,
+          -0.17099938300813458
+        ],
+        [
+          -0.20504431372283355,
+          -0.17166599043337527
+        ],
+        [
+          -0.15504875682978136,
+          -0.172332597858616
+        ],
+        [
+          -0.10505319993672912,
+          -0.17299920528385668
+        ],
+        [
+          -0.055057643043676885,
+          -0.17366581270909737
+        ],
+        [
+          -0.005062086150624645,
+          -0.17433242013433806
+        ],
+        [
+          0.044933470742427484,
+          -0.17499902755957877
+        ],
+        [
+          0.09492902763547972,
+          -0.17566563498481946
+        ],
+        [
+          0.14492458452853196,
+          -0.17633224241006015
+        ],
+        [
+          0.1949201414215842,
+          -0.17699884983530084
+        ],
+        [
+          0.24491569831463633,
+          -0.17766545726054156
+        ],
+        [
+          0.29491125520768857,
+          -0.17833206468578225
+        ],
+        [
+          0.3449068121007408,
+          -0.17899867211102294
+        ],
+        [
+          0.39490236899379294,
+          -0.17966527953626363
+        ],
+        [
+          0.4448979258868453,
+          -0.18033188696150432
+        ],
+        [
+          0.4948934827798974,
+          -0.18099849438674503
+        ],
+        [
+          0.5448890396729495,
+          -0.18166510181198572
+        ],
+        [
+          0.5948845965660019,
+          -0.1823317092372264
+        ],
+        [
+          0.644880153459054,
+          -0.18299831666246713
+        ],
+        [
+          0.6948757103521064,
+          -0.18366492408770782
+        ],
+        [
+          0.7448712672451585,
+          -0.1843315315129485
+        ],
+        [
+          0.7948668241382106,
+          -0.1849981389381892
+        ],
+        [
+          0.844862381031263,
+          -0.1856647463634299
+        ],
+        [
+          0.8948579379243151,
+          -0.1863313537886706
+        ],
+        [
+          0.9448534948173672,
+          -0.1869979612139113
+        ],
+        [
+          0.9948490517104196,
+          -0.18766456863915199
+        ],
+        [
+          1.0448446086034717,
+          -0.18833117606439267
+        ],
+        [
+          1.094840165496524,
+          -0.1889977834896334
+        ],
+        [
+          1.1448357223895762,
+          -0.18966439091487408
+        ],
+        [
+          1.1948312792826283,
+          -0.19033099834011477
+        ],
+        [
+          1.2448268361756807,
+          -0.19099760576535546
+        ],
+        [
+          1.2948223930687328,
+          -0.19166421319059618
+        ],
+        [
+          1.3448179499617852,
+          -0.19233082061583687
+        ],
+        [
+          1.3948135068548373,
+          -0.19299742804107756
+        ],
+        [
+          1.4448090637478894,
+          -0.19366403546631825
+        ],
+        [
+          1.4948046206409416,
+          -0.19433064289155896
+        ],
+        [
+          1.5448001775339941,
+          -0.19499725031679965
+        ],
+        [
+          1.5947957344270463,
+          -0.19566385774204034
+        ],
+        [
+          1.6447912913200984,
+          -0.19633046516728103
+        ],
+        [
+          1.6947868482131505,
+          -0.19699707259252175
+        ],
+        [
+          1.7447824051062026,
+          -0.19766368001776244
+        ],
+        [
+          1.7947779619992548,
+          -0.19833028744300313
+        ],
+        [
+          1.8447735188923073,
+          -0.19899689486824382
+        ],
+        [
+          1.8947690757853595,
+          -0.1996635022934845
+        ],
+        [
+          1.9447646326784116,
+          -0.20033010971872522
+        ],
+        [
+          1.9947601895714637,
+          -0.20099671714396591
+        ],
+        [
+          2.044755746464516,
+          -0.2016633245692066
+        ],
+        [
+          2.0947513033575684,
+          -0.20232993199444732
+        ],
+        [
+          2.1447468602506206,
+          -0.202996539419688
+        ],
+        [
+          2.1947424171436727,
+          -0.2036631468449287
+        ],
+        [
+          2.244737974036725,
+          -0.2043297542701694
+        ],
+        [
+          2.294733530929777,
+          -0.20499636169541008
+        ],
+        [
+          2.3447290878228295,
+          -0.2056629691206508
+        ],
+        [
+          2.3947246447158816,
+          -0.20632957654589149
+        ],
+        [
+          2.4447202016089338,
+          -0.20699618397113217
+        ],
+        [
+          2.494715758501986,
+          -0.2076627913963729
+        ],
+        [
+          2.544711315395038,
+          -0.20832939882161355
+        ],
+        [
+          2.59470687228809,
+          -0.20899600624685427
+        ],
+        [
+          2.6447024291811427,
+          -0.20966261367209496
+        ],
+        [
+          2.694697986074195,
+          -0.21032922109733565
+        ],
+        [
+          2.744693542967247,
+          -0.21099582852257637
+        ],
+        [
+          2.794689099860299,
+          -0.21166243594781706
+        ],
+        [
+          2.8446846567533512,
+          -0.21232904337305775
+        ],
+        [
+          2.894680213646404,
+          -0.21299565079829844
+        ],
+        [
+          2.944675770539456,
+          -0.21366225822353913
+        ],
+        [
+          2.994671327432508,
+          -0.21432886564877984
+        ],
+        [
+          3.045000173225999,
+          -0.21499991692602638
+        ],
+        [
+          3.095000173971057,
+          -0.21499991692602638
+        ]
+      ]
+    },
+    {
+      "time": 348.261522505,
+      "frame": "map",
+      "points": [
+        [
+          -0.9049998856335879,
+          -0.0649999146908522
+        ],
+        [
+          -0.860278525417192,
+          -0.08736059479905019
+        ],
+        [
+          -0.8155571652007959,
+          -0.10972127490724817
+        ],
+        [
+          -0.7708358049844,
+          -0.13208195501544617
+        ],
+        [
+          -0.7049998826533557,
+          -0.16499991618096832
+        ],
+        [
+          -0.6550043257603034,
+          -0.165666523606209
+        ],
+        [
+          -0.6050087688672512,
+          -0.1663331310314497
+        ],
+        [
+          -0.5550132119741991,
+          -0.16699973845669042
+        ],
+        [
+          -0.5050176550811468,
+          -0.1676663458819311
+        ],
+        [
+          -0.4550220981880946,
+          -0.1683329533071718
+        ],
+        [
+          -0.4050265412950424,
+          -0.16899956073241248
+        ],
+        [
+          -0.35503098440199016,
+          -0.1696661681576532
+        ],
+        [
+          -0.305035427508938,
+          -0.1703327755828939
+        ],
+        [
+          -0.25503987061588573,
+          -0.17099938300813458
+        ],
+        [
+          -0.20504431372283355,
+          -0.17166599043337527
+        ],
+        [
+          -0.15504875682978136,
+          -0.172332597858616
+        ],
+        [
+          -0.10505319993672912,
+          -0.17299920528385668
+        ],
+        [
+          -0.055057643043676885,
+          -0.17366581270909737
+        ],
+        [
+          -0.005062086150624645,
+          -0.17433242013433806
+        ],
+        [
+          0.044933470742427484,
+          -0.17499902755957877
+        ],
+        [
+          0.09492902763547972,
+          -0.17566563498481946
+        ],
+        [
+          0.14492458452853196,
+          -0.17633224241006015
+        ],
+        [
+          0.1949201414215842,
+          -0.17699884983530084
+        ],
+        [
+          0.24491569831463633,
+          -0.17766545726054156
+        ],
+        [
+          0.29491125520768857,
+          -0.17833206468578225
+        ],
+        [
+          0.3449068121007408,
+          -0.17899867211102294
+        ],
+        [
+          0.39490236899379294,
+          -0.17966527953626363
+        ],
+        [
+          0.4448979258868453,
+          -0.18033188696150432
+        ],
+        [
+          0.4948934827798974,
+          -0.18099849438674503
+        ],
+        [
+          0.5448890396729495,
+          -0.18166510181198572
+        ],
+        [
+          0.5948845965660019,
+          -0.1823317092372264
+        ],
+        [
+          0.644880153459054,
+          -0.18299831666246713
+        ],
+        [
+          0.6948757103521064,
+          -0.18366492408770782
+        ],
+        [
+          0.7448712672451585,
+          -0.1843315315129485
+        ],
+        [
+          0.7948668241382106,
+          -0.1849981389381892
+        ],
+        [
+          0.844862381031263,
+          -0.1856647463634299
+        ],
+        [
+          0.8948579379243151,
+          -0.1863313537886706
+        ],
+        [
+          0.9448534948173672,
+          -0.1869979612139113
+        ],
+        [
+          0.9948490517104196,
+          -0.18766456863915199
+        ],
+        [
+          1.0448446086034717,
+          -0.18833117606439267
+        ],
+        [
+          1.094840165496524,
+          -0.1889977834896334
+        ],
+        [
+          1.1448357223895762,
+          -0.18966439091487408
+        ],
+        [
+          1.1948312792826283,
+          -0.19033099834011477
+        ],
+        [
+          1.2448268361756807,
+          -0.19099760576535546
+        ],
+        [
+          1.2948223930687328,
+          -0.19166421319059618
+        ],
+        [
+          1.3448179499617852,
+          -0.19233082061583687
+        ],
+        [
+          1.3948135068548373,
+          -0.19299742804107756
+        ],
+        [
+          1.4448090637478894,
+          -0.19366403546631825
+        ],
+        [
+          1.4948046206409416,
+          -0.19433064289155896
+        ],
+        [
+          1.5448001775339941,
+          -0.19499725031679965
+        ],
+        [
+          1.5947957344270463,
+          -0.19566385774204034
+        ],
+        [
+          1.6447912913200984,
+          -0.19633046516728103
+        ],
+        [
+          1.6947868482131505,
+          -0.19699707259252175
+        ],
+        [
+          1.7447824051062026,
+          -0.19766368001776244
+        ],
+        [
+          1.7947779619992548,
+          -0.19833028744300313
+        ],
+        [
+          1.8447735188923073,
+          -0.19899689486824382
+        ],
+        [
+          1.8947690757853595,
+          -0.1996635022934845
+        ],
+        [
+          1.9447646326784116,
+          -0.20033010971872522
+        ],
+        [
+          1.9947601895714637,
+          -0.20099671714396591
+        ],
+        [
+          2.044755746464516,
+          -0.2016633245692066
+        ],
+        [
+          2.0947513033575684,
+          -0.20232993199444732
+        ],
+        [
+          2.1447468602506206,
+          -0.202996539419688
+        ],
+        [
+          2.1947424171436727,
+          -0.2036631468449287
+        ],
+        [
+          2.244737974036725,
+          -0.2043297542701694
+        ],
+        [
+          2.294733530929777,
+          -0.20499636169541008
+        ],
+        [
+          2.3447290878228295,
+          -0.2056629691206508
+        ],
+        [
+          2.3947246447158816,
+          -0.20632957654589149
+        ],
+        [
+          2.4447202016089338,
+          -0.20699618397113217
+        ],
+        [
+          2.494715758501986,
+          -0.2076627913963729
+        ],
+        [
+          2.544711315395038,
+          -0.20832939882161355
+        ],
+        [
+          2.59470687228809,
+          -0.20899600624685427
+        ],
+        [
+          2.6447024291811427,
+          -0.20966261367209496
+        ],
+        [
+          2.694697986074195,
+          -0.21032922109733565
+        ],
+        [
+          2.744693542967247,
+          -0.21099582852257637
+        ],
+        [
+          2.794689099860299,
+          -0.21166243594781706
+        ],
+        [
+          2.8446846567533512,
+          -0.21232904337305775
+        ],
+        [
+          2.894680213646404,
+          -0.21299565079829844
+        ],
+        [
+          2.944675770539456,
+          -0.21366225822353913
+        ],
+        [
+          2.994671327432508,
+          -0.21432886564877984
+        ],
+        [
+          3.045000173225999,
+          -0.21499991692602638
+        ],
+        [
+          3.095000173971057,
+          -0.21499991692602638
+        ]
+      ]
+    },
+    {
+      "time": 349.306413376,
+      "frame": "map",
+      "points": [
+        [
+          -0.9049998856335879,
+          -0.11499991543591026
+        ],
+        [
+          -0.8559708511184524,
+          -0.12480572233893737
+        ],
+        [
+          -0.8069418166033169,
+          -0.13461152924196448
+        ],
+        [
+          -0.7579127820881812,
+          -0.14441733614499158
+        ],
+        [
+          -0.7088837475730457,
+          -0.1542231430480187
+        ],
+        [
+          -0.6598547130579102,
+          -0.1640289499510458
+        ],
+        [
+          -0.6108256785427746,
+          -0.1738347568540729
+        ],
+        [
+          -0.5617966440276391,
+          -0.18364056375710003
+        ],
+        [
+          -0.5127676095125036,
+          -0.19344637066012715
+        ],
+        [
+          -0.463738574997368,
+          -0.20325217756315422
+        ],
+        [
+          -0.4049998781830073,
+          -0.21499991692602638
+        ],
+        [
+          -0.35499987743794925,
+          -0.21499991692602638
+        ],
+        [
+          -0.3049998766928912,
+          -0.21499991692602638
+        ],
+        [
+          -0.25499987594783313,
+          -0.21499991692602638
+        ],
+        [
+          -0.20499987520277507,
+          -0.21499991692602638
+        ],
+        [
+          -0.154999874457717,
+          -0.21499991692602638
+        ],
+        [
+          -0.10499987371265895,
+          -0.21499991692602638
+        ],
+        [
+          -0.054999872967600894,
+          -0.21499991692602638
+        ],
+        [
+          -0.004999872222542834,
+          -0.21499991692602638
+        ],
+        [
+          0.045000128522515226,
+          -0.21499991692602638
+        ],
+        [
+          0.09500012926757329,
+          -0.21499991692602638
+        ],
+        [
+          0.14500013001263135,
+          -0.21499991692602638
+        ],
+        [
+          0.1950001307576894,
+          -0.21499991692602638
+        ],
+        [
+          0.24500013150274746,
+          -0.21499991692602638
+        ],
+        [
+          0.2950001322478055,
+          -0.21499991692602638
+        ],
+        [
+          0.3450001329928636,
+          -0.21499991692602638
+        ],
+        [
+          0.39500013373792164,
+          -0.21499991692602638
+        ],
+        [
+          0.4450001344829797,
+          -0.21499991692602638
+        ],
+        [
+          0.49500013522803776,
+          -0.21499991692602638
+        ],
+        [
+          0.5450001359730958,
+          -0.21499991692602638
+        ],
+        [
+          0.5950001367181539,
+          -0.21499991692602638
+        ],
+        [
+          0.6450001374632119,
+          -0.21499991692602638
+        ],
+        [
+          0.69500013820827,
+          -0.21499991692602638
+        ],
+        [
+          0.7450001389533281,
+          -0.21499991692602638
+        ],
+        [
+          0.7950001396983861,
+          -0.21499991692602638
+        ],
+        [
+          0.8450001404434442,
+          -0.21499991692602638
+        ],
+        [
+          0.8950001411885022,
+          -0.21499991692602638
+        ],
+        [
+          0.9450001419335603,
+          -0.21499991692602638
+        ],
+        [
+          0.9950001426786184,
+          -0.21499991692602638
+        ],
+        [
+          1.0450001434236764,
+          -0.21499991692602638
+        ],
+        [
+          1.0950001441687345,
+          -0.21499991692602638
+        ],
+        [
+          1.1450001449137925,
+          -0.21499991692602638
+        ],
+        [
+          1.1950001456588506,
+          -0.21499991692602638
+        ],
+        [
+          1.2450001464039087,
+          -0.21499991692602638
+        ],
+        [
+          1.2950001471489667,
+          -0.21499991692602638
+        ],
+        [
+          1.3450001478940248,
+          -0.21499991692602638
+        ],
+        [
+          1.3950001486390828,
+          -0.21499991692602638
+        ],
+        [
+          1.445000149384141,
+          -0.21499991692602638
+        ],
+        [
+          1.495000150129199,
+          -0.21499991692602638
+        ],
+        [
+          1.545000150874257,
+          -0.21499991692602638
+        ],
+        [
+          1.595000151619315,
+          -0.21499991692602638
+        ],
+        [
+          1.6450001523643731,
+          -0.21499991692602638
+        ],
+        [
+          1.6950001531094312,
+          -0.21499991692602638
+        ],
+        [
+          1.7450001538544893,
+          -0.21499991692602638
+        ],
+        [
+          1.7950001545995473,
+          -0.21499991692602638
+        ],
+        [
+          1.8450001553446054,
+          -0.21499991692602638
+        ],
+        [
+          1.8950001560896634,
+          -0.21499991692602638
+        ],
+        [
+          1.9450001568347215,
+          -0.21499991692602638
+        ],
+        [
+          1.9950001575797796,
+          -0.21499991692602638
+        ],
+        [
+          2.0450001583248376,
+          -0.21499991692602638
+        ],
+        [
+          2.0950001590698957,
+          -0.21499991692602638
+        ],
+        [
+          2.1450001598149537,
+          -0.21499991692602638
+        ],
+        [
+          2.195000160560012,
+          -0.21499991692602638
+        ],
+        [
+          2.24500016130507,
+          -0.21499991692602638
+        ],
+        [
+          2.295000162050128,
+          -0.21499991692602638
+        ],
+        [
+          2.345000162795186,
+          -0.21499991692602638
+        ],
+        [
+          2.395000163540244,
+          -0.21499991692602638
+        ],
+        [
+          2.445000164285302,
+          -0.21499991692602638
+        ],
+        [
+          2.49500016503036,
+          -0.21499991692602638
+        ],
+        [
+          2.545000165775418,
+          -0.21499991692602638
+        ],
+        [
+          2.5950001665204763,
+          -0.21499991692602638
+        ],
+        [
+          2.6450001672655343,
+          -0.21499991692602638
+        ],
+        [
+          2.6950001680105924,
+          -0.21499991692602638
+        ],
+        [
+          2.7450001687556504,
+          -0.21499991692602638
+        ],
+        [
+          2.7950001695007085,
+          -0.21499991692602638
+        ],
+        [
+          2.8450001702457666,
+          -0.21499991692602638
+        ],
+        [
+          2.8950001709908246,
+          -0.21499991692602638
+        ],
+        [
+          2.9450001717358827,
+          -0.21499991692602638
+        ],
+        [
+          2.9950001724809407,
+          -0.21499991692602638
+        ],
+        [
+          3.045000173225999,
+          -0.21499991692602638
+        ],
+        [
+          3.095000173971057,
+          -0.21499991692602638
+        ]
+      ]
+    },
+    {
+      "time": 350.348133756,
+      "frame": "map",
+      "points": [
+        [
+          -0.8049998841434718,
+          -0.11499991543591026
+        ],
+        [
+          -0.7559708496283363,
+          -0.12480572233893737
+        ],
+        [
+          -0.7069418151132008,
+          -0.13461152924196448
+        ],
+        [
+          -0.6579127805980651,
+          -0.14441733614499158
+        ],
+        [
+          -0.6088837460829296,
+          -0.1542231430480187
+        ],
+        [
+          -0.5598547115677941,
+          -0.1640289499510458
+        ],
+        [
+          -0.5108256770526585,
+          -0.1738347568540729
+        ],
+        [
+          -0.46179664253752295,
+          -0.18364056375710003
+        ],
+        [
+          -0.41276760802238743,
+          -0.19344637066012715
+        ],
+        [
+          -0.36373857350725186,
+          -0.20325217756315422
+        ],
+        [
+          -0.3049998766928912,
+          -0.21499991692602638
+        ],
+        [
+          -0.25499987594783313,
+          -0.21499991692602638
+        ],
+        [
+          -0.20499987520277507,
+          -0.21499991692602638
+        ],
+        [
+          -0.154999874457717,
+          -0.21499991692602638
+        ],
+        [
+          -0.10499987371265895,
+          -0.21499991692602638
+        ],
+        [
+          -0.054999872967600894,
+          -0.21499991692602638
+        ],
+        [
+          -0.004999872222542834,
+          -0.21499991692602638
+        ],
+        [
+          0.045000128522515226,
+          -0.21499991692602638
+        ],
+        [
+          0.09500012926757329,
+          -0.21499991692602638
+        ],
+        [
+          0.14500013001263135,
+          -0.21499991692602638
+        ],
+        [
+          0.1950001307576894,
+          -0.21499991692602638
+        ],
+        [
+          0.24500013150274746,
+          -0.21499991692602638
+        ],
+        [
+          0.2950001322478055,
+          -0.21499991692602638
+        ],
+        [
+          0.3450001329928636,
+          -0.21499991692602638
+        ],
+        [
+          0.39500013373792164,
+          -0.21499991692602638
+        ],
+        [
+          0.4450001344829797,
+          -0.21499991692602638
+        ],
+        [
+          0.49500013522803776,
+          -0.21499991692602638
+        ],
+        [
+          0.5450001359730958,
+          -0.21499991692602638
+        ],
+        [
+          0.5950001367181539,
+          -0.21499991692602638
+        ],
+        [
+          0.6450001374632119,
+          -0.21499991692602638
+        ],
+        [
+          0.69500013820827,
+          -0.21499991692602638
+        ],
+        [
+          0.7450001389533281,
+          -0.21499991692602638
+        ],
+        [
+          0.7950001396983861,
+          -0.21499991692602638
+        ],
+        [
+          0.8450001404434442,
+          -0.21499991692602638
+        ],
+        [
+          0.8950001411885022,
+          -0.21499991692602638
+        ],
+        [
+          0.9450001419335603,
+          -0.21499991692602638
+        ],
+        [
+          0.9950001426786184,
+          -0.21499991692602638
+        ],
+        [
+          1.0450001434236764,
+          -0.21499991692602638
+        ],
+        [
+          1.0950001441687345,
+          -0.21499991692602638
+        ],
+        [
+          1.1450001449137925,
+          -0.21499991692602638
+        ],
+        [
+          1.1950001456588506,
+          -0.21499991692602638
+        ],
+        [
+          1.2450001464039087,
+          -0.21499991692602638
+        ],
+        [
+          1.2950001471489667,
+          -0.21499991692602638
+        ],
+        [
+          1.3450001478940248,
+          -0.21499991692602638
+        ],
+        [
+          1.3950001486390828,
+          -0.21499991692602638
+        ],
+        [
+          1.445000149384141,
+          -0.21499991692602638
+        ],
+        [
+          1.495000150129199,
+          -0.21499991692602638
+        ],
+        [
+          1.545000150874257,
+          -0.21499991692602638
+        ],
+        [
+          1.595000151619315,
+          -0.21499991692602638
+        ],
+        [
+          1.6450001523643731,
+          -0.21499991692602638
+        ],
+        [
+          1.6950001531094312,
+          -0.21499991692602638
+        ],
+        [
+          1.7450001538544893,
+          -0.21499991692602638
+        ],
+        [
+          1.7950001545995473,
+          -0.21499991692602638
+        ],
+        [
+          1.8450001553446054,
+          -0.21499991692602638
+        ],
+        [
+          1.8950001560896634,
+          -0.21499991692602638
+        ],
+        [
+          1.9450001568347215,
+          -0.21499991692602638
+        ],
+        [
+          1.9950001575797796,
+          -0.21499991692602638
+        ],
+        [
+          2.0450001583248376,
+          -0.21499991692602638
+        ],
+        [
+          2.0950001590698957,
+          -0.21499991692602638
+        ],
+        [
+          2.1450001598149537,
+          -0.21499991692602638
+        ],
+        [
+          2.195000160560012,
+          -0.21499991692602638
+        ],
+        [
+          2.24500016130507,
+          -0.21499991692602638
+        ],
+        [
+          2.295000162050128,
+          -0.21499991692602638
+        ],
+        [
+          2.345000162795186,
+          -0.21499991692602638
+        ],
+        [
+          2.395000163540244,
+          -0.21499991692602638
+        ],
+        [
+          2.445000164285302,
+          -0.21499991692602638
+        ],
+        [
+          2.49500016503036,
+          -0.21499991692602638
+        ],
+        [
+          2.545000165775418,
+          -0.21499991692602638
+        ],
+        [
+          2.5950001665204763,
+          -0.21499991692602638
+        ],
+        [
+          2.6450001672655343,
+          -0.21499991692602638
+        ],
+        [
+          2.6950001680105924,
+          -0.21499991692602638
+        ],
+        [
+          2.7450001687556504,
+          -0.21499991692602638
+        ],
+        [
+          2.7950001695007085,
+          -0.21499991692602638
+        ],
+        [
+          2.8450001702457666,
+          -0.21499991692602638
+        ],
+        [
+          2.8950001709908246,
+          -0.21499991692602638
+        ],
+        [
+          2.9450001717358827,
+          -0.21499991692602638
+        ],
+        [
+          2.9950001724809407,
+          -0.21499991692602638
+        ],
+        [
+          3.045000173225999,
+          -0.21499991692602638
+        ],
+        [
+          3.095000173971057,
+          -0.21499991692602638
+        ]
+      ]
+    },
+    {
+      "time": 351.381069107,
+      "frame": "map",
+      "points": [
+        [
+          -0.7549998833984137,
+          -0.11499991543591026
+        ],
+        [
+          -0.7059708488832782,
+          -0.12480572233893737
+        ],
+        [
+          -0.6569418143681427,
+          -0.13461152924196448
+        ],
+        [
+          -0.6079127798530071,
+          -0.14441733614499158
+        ],
+        [
+          -0.5588837453378716,
+          -0.1542231430480187
+        ],
+        [
+          -0.509854710822736,
+          -0.1640289499510458
+        ],
+        [
+          -0.46082567630760046,
+          -0.1738347568540729
+        ],
+        [
+          -0.4117966417924649,
+          -0.18364056375710003
+        ],
+        [
+          -0.3627676072773294,
+          -0.19344637066012715
+        ],
+        [
+          -0.3137385727621938,
+          -0.20325217756315422
+        ],
+        [
+          -0.25499987594783313,
+          -0.21499991692602638
+        ],
+        [
+          -0.20499987520277507,
+          -0.21499991692602638
+        ],
+        [
+          -0.154999874457717,
+          -0.21499991692602638
+        ],
+        [
+          -0.10499987371265895,
+          -0.21499991692602638
+        ],
+        [
+          -0.054999872967600894,
+          -0.21499991692602638
+        ],
+        [
+          -0.004999872222542834,
+          -0.21499991692602638
+        ],
+        [
+          0.045000128522515226,
+          -0.21499991692602638
+        ],
+        [
+          0.09500012926757329,
+          -0.21499991692602638
+        ],
+        [
+          0.14500013001263135,
+          -0.21499991692602638
+        ],
+        [
+          0.1950001307576894,
+          -0.21499991692602638
+        ],
+        [
+          0.24500013150274746,
+          -0.21499991692602638
+        ],
+        [
+          0.2950001322478055,
+          -0.21499991692602638
+        ],
+        [
+          0.3450001329928636,
+          -0.21499991692602638
+        ],
+        [
+          0.39500013373792164,
+          -0.21499991692602638
+        ],
+        [
+          0.4450001344829797,
+          -0.21499991692602638
+        ],
+        [
+          0.49500013522803776,
+          -0.21499991692602638
+        ],
+        [
+          0.5450001359730958,
+          -0.21499991692602638
+        ],
+        [
+          0.5950001367181539,
+          -0.21499991692602638
+        ],
+        [
+          0.6450001374632119,
+          -0.21499991692602638
+        ],
+        [
+          0.69500013820827,
+          -0.21499991692602638
+        ],
+        [
+          0.7450001389533281,
+          -0.21499991692602638
+        ],
+        [
+          0.7950001396983861,
+          -0.21499991692602638
+        ],
+        [
+          0.8450001404434442,
+          -0.21499991692602638
+        ],
+        [
+          0.8950001411885022,
+          -0.21499991692602638
+        ],
+        [
+          0.9450001419335603,
+          -0.21499991692602638
+        ],
+        [
+          0.9950001426786184,
+          -0.21499991692602638
+        ],
+        [
+          1.0450001434236764,
+          -0.21499991692602638
+        ],
+        [
+          1.0950001441687345,
+          -0.21499991692602638
+        ],
+        [
+          1.1450001449137925,
+          -0.21499991692602638
+        ],
+        [
+          1.1950001456588506,
+          -0.21499991692602638
+        ],
+        [
+          1.2450001464039087,
+          -0.21499991692602638
+        ],
+        [
+          1.2950001471489667,
+          -0.21499991692602638
+        ],
+        [
+          1.3450001478940248,
+          -0.21499991692602638
+        ],
+        [
+          1.3950001486390828,
+          -0.21499991692602638
+        ],
+        [
+          1.445000149384141,
+          -0.21499991692602638
+        ],
+        [
+          1.495000150129199,
+          -0.21499991692602638
+        ],
+        [
+          1.545000150874257,
+          -0.21499991692602638
+        ],
+        [
+          1.595000151619315,
+          -0.21499991692602638
+        ],
+        [
+          1.6450001523643731,
+          -0.21499991692602638
+        ],
+        [
+          1.6950001531094312,
+          -0.21499991692602638
+        ],
+        [
+          1.7450001538544893,
+          -0.21499991692602638
+        ],
+        [
+          1.7950001545995473,
+          -0.21499991692602638
+        ],
+        [
+          1.8450001553446054,
+          -0.21499991692602638
+        ],
+        [
+          1.8950001560896634,
+          -0.21499991692602638
+        ],
+        [
+          1.9450001568347215,
+          -0.21499991692602638
+        ],
+        [
+          1.9950001575797796,
+          -0.21499991692602638
+        ],
+        [
+          2.0450001583248376,
+          -0.21499991692602638
+        ],
+        [
+          2.0950001590698957,
+          -0.21499991692602638
+        ],
+        [
+          2.1450001598149537,
+          -0.21499991692602638
+        ],
+        [
+          2.195000160560012,
+          -0.21499991692602638
+        ],
+        [
+          2.24500016130507,
+          -0.21499991692602638
+        ],
+        [
+          2.295000162050128,
+          -0.21499991692602638
+        ],
+        [
+          2.345000162795186,
+          -0.21499991692602638
+        ],
+        [
+          2.395000163540244,
+          -0.21499991692602638
+        ],
+        [
+          2.445000164285302,
+          -0.21499991692602638
+        ],
+        [
+          2.49500016503036,
+          -0.21499991692602638
+        ],
+        [
+          2.545000165775418,
+          -0.21499991692602638
+        ],
+        [
+          2.5950001665204763,
+          -0.21499991692602638
+        ],
+        [
+          2.6450001672655343,
+          -0.21499991692602638
+        ],
+        [
+          2.6950001680105924,
+          -0.21499991692602638
+        ],
+        [
+          2.7450001687556504,
+          -0.21499991692602638
+        ],
+        [
+          2.7950001695007085,
+          -0.21499991692602638
+        ],
+        [
+          2.8450001702457666,
+          -0.21499991692602638
+        ],
+        [
+          2.8950001709908246,
+          -0.21499991692602638
+        ],
+        [
+          2.9450001717358827,
+          -0.21499991692602638
+        ],
+        [
+          2.9950001724809407,
+          -0.21499991692602638
+        ],
+        [
+          3.045000173225999,
+          -0.21499991692602638
+        ],
+        [
+          3.095000173971057,
+          -0.21499991692602638
+        ]
+      ]
+    }
+  ],
+  "abort_reason": "Goal did not meet measured tolerance",
+  "final_wheel_speeds": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "final_wheel_feedback_age_s": 0.0114578640000218
+}

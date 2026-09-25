@@ -1,0 +1,23 @@
+{
+  "status": "aborted",
+  "peak_command_mps": 0.9628008402000203,
+  "waypoints": [
+    {
+      "name": "selected_goal",
+      "target": [
+        -1.938461422920227,
+        -0.7692306041717529
+      ],
+      "status": 6,
+      "position_error_m": 0.12784695145879232
+    }
+  ],
+  "localization_pauses": 2,
+  "final_wheel_speeds": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "independent_physical_measurement": false
+}

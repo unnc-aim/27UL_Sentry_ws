@@ -1,0 +1,18 @@
+{
+  "requested_max_speed_mps": 1.0,
+  "peak_command_speed_mps": 0.4108423896003388,
+  "status": "stopped_on_ambiguous_rc_guard",
+  "abort_reason": "RC manual takeover",
+  "final_wheel_speeds": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "speed_1_mps_verified": false,
+  "braking_at_1_mps_verified": false,
+  "competition_acceptance_passed": false,
+  "note": "Legacy RC manual takeover error combined raw offline and channel displacement. Operator reports no takeover; trigger-time raw data was not recorded. Historical cause unresolved.",
+  "operator_reports_manual_takeover": false,
+  "rc_cause_confirmed": false
+}

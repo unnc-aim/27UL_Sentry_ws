@@ -1,0 +1,1043 @@
+{
+  "radius_m": 0.2,
+  "max_speed_mps": 0.15,
+  "physical_acceptance_passed": false,
+  "hub_input_linear_sign": -1,
+  "waypoints": [],
+  "trace": [
+    {
+      "time": 2942.958941058,
+      "target": "selected_goal",
+      "pose": [
+        -1.7681826991990026,
+        -0.14098966459133447
+      ],
+      "distance": 4.876232249092054,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": null,
+      "gimbal_imu_yaw": -2.6685905838592046,
+      "gimbal_target_yaw": -2.6687633348993045
+    },
+    {
+      "time": 2943.009606005,
+      "target": "selected_goal",
+      "pose": [
+        -1.7681826991990026,
+        -0.14098966459133447
+      ],
+      "distance": 4.876232249092054,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": null,
+      "gimbal_imu_yaw": -2.6667668503781234,
+      "gimbal_target_yaw": -2.6687633348993045
+    },
+    {
+      "time": 2943.061996835,
+      "target": "selected_goal",
+      "pose": [
+        -1.7686863758310416,
+        -0.14030192209089148
+      ],
+      "distance": 4.876744259231488,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": null,
+      "gimbal_imu_yaw": -2.6638080810871285,
+      "gimbal_target_yaw": -2.6687633348993045
+    },
+    {
+      "time": 2943.115876576,
+      "target": "selected_goal",
+      "pose": [
+        -1.7667764911926938,
+        -0.1378836276444953
+      ],
+      "distance": 4.874864732193165,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.9846572799232551,
+      "gimbal_imu_yaw": -2.668763299383567,
+      "gimbal_target_yaw": -2.6902254996992636
+    },
+    {
+      "time": 2943.168367438,
+      "target": "selected_goal",
+      "pose": [
+        -1.7661545406065624,
+        -0.14142281537168444
+      ],
+      "distance": 4.874199014338049,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.9836025794695772,
+      "gimbal_imu_yaw": -2.670415343531836,
+      "gimbal_target_yaw": -2.7114407388992188
+    },
+    {
+      "time": 2943.22052433,
+      "target": "selected_goal",
+      "pose": [
+        -1.768757336862518,
+        -0.14063362803408355
+      ],
+      "distance": 4.876811165767001,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.9836025794695772,
+      "gimbal_imu_yaw": -2.6806894936590187,
+      "gimbal_target_yaw": -2.732141713299316
+    },
+    {
+      "time": 2943.27297468,
+      "target": "selected_goal",
+      "pose": [
+        -1.766014519863592,
+        -0.13839597887350702
+      ],
+      "distance": 4.874096320201477,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.9731828921208211,
+      "gimbal_imu_yaw": -2.7013496951489504,
+      "gimbal_target_yaw": -2.7531990460993625
+    },
+    {
+      "time": 2943.326598431,
+      "target": "selected_goal",
+      "pose": [
+        -1.766014519863592,
+        -0.13839597887350702
+      ],
+      "distance": 4.874096320201477,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.9623787627120789,
+      "gimbal_imu_yaw": -2.7250138968986763,
+      "gimbal_target_yaw": -2.77456536289923
+    },
+    {
+      "time": 2943.3779683,
+      "target": "selected_goal",
+      "pose": [
+        -1.7568196060339034,
+        -0.1401513513675336
+      ],
+      "distance": 4.8648802307624,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.9392308482516835,
+      "gimbal_imu_yaw": -2.7496901256825876,
+      "gimbal_target_yaw": -2.7952017648993577
+    },
+    {
+      "time": 2943.429901578,
+      "target": "selected_goal",
+      "pose": [
+        -1.754484200088564,
+        -0.14320118354800446
+      ],
+      "distance": 4.862508420515827,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.9142604029732873,
+      "gimbal_imu_yaw": -2.7733399503268945,
+      "gimbal_target_yaw": -2.8160216916993166
+    },
+    {
+      "time": 2943.480888389,
+      "target": "selected_goal",
+      "pose": [
+        -1.7504130868116792,
+        -0.14299226313621916
+      ],
+      "distance": 4.858440032135691,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.8903702532515505,
+      "gimbal_imu_yaw": -2.7943481587088566,
+      "gimbal_target_yaw": -2.836455324899217
+    },
+    {
+      "time": 2943.531888259,
+      "target": "selected_goal",
+      "pose": [
+        -1.7515492840514126,
+        -0.14820780646303613
+      ],
+      "distance": 4.859517766358696,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.8672823611500293,
+      "gimbal_imu_yaw": -2.8098327034606387,
+      "gimbal_target_yaw": -2.856825433699342
+    },
+    {
+      "time": 2943.582769143,
+      "target": "selected_goal",
+      "pose": [
+        -1.7496079459226868,
+        -0.14769061571466335
+      ],
+      "distance": 4.857582080395043,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.8132825435390935,
+      "gimbal_imu_yaw": -2.8279682275534634,
+      "gimbal_target_yaw": -2.8771291436993494
+    },
+    {
+      "time": 2943.634587935,
+      "target": "selected_goal",
+      "pose": [
+        -1.7551431021825046,
+        -0.1487972089508287
+      ],
+      "distance": 4.863105139132859,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.7430138634958345,
+      "gimbal_imu_yaw": -2.84756614248239,
+      "gimbal_target_yaw": -2.8978229372993525
+    },
+    {
+      "time": 2943.688676516,
+      "target": "selected_goal",
+      "pose": [
+        -1.7544712250152512,
+        -0.1445129253922054
+      ],
+      "distance": 4.862480300861816,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.7031353983194117,
+      "gimbal_imu_yaw": -2.8719432227918937,
+      "gimbal_target_yaw": -2.9193757028992335
+    },
+    {
+      "time": 2943.741752186,
+      "target": "selected_goal",
+      "pose": [
+        -1.7608992546077116,
+        -0.14209858981148837
+      ],
+      "distance": 4.86893602510342,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.6471466640974072,
+      "gimbal_imu_yaw": -2.891491467952971,
+      "gimbal_target_yaw": -2.9406865164992637
+    },
+    {
+      "time": 2943.793286706,
+      "target": "selected_goal",
+      "pose": [
+        -1.7649827599292789,
+        -0.13900342280678912
+      ],
+      "distance": 4.873057001440548,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.6471466640974072,
+      "gimbal_imu_yaw": -2.913394116568122,
+      "gimbal_target_yaw": -2.9612385952992923
+    },
+    {
+      "time": 2943.845978061,
+      "target": "selected_goal",
+      "pose": [
+        -1.7667245207765625,
+        -0.14187988457836603
+      ],
+      "distance": 4.874763482477811,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.6130721131706467,
+      "gimbal_imu_yaw": -2.934056595917026,
+      "gimbal_target_yaw": -2.9824419764993224
+    },
+    {
+      "time": 2943.897028455,
+      "target": "selected_goal",
+      "pose": [
+        -1.7671195763475138,
+        -0.14158495082503023
+      ],
+      "distance": 4.875162034981138,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.6130721131706467,
+      "gimbal_imu_yaw": -2.9533371874791023,
+      "gimbal_target_yaw": -3.002891918499191
+    },
+    {
+      "time": 2943.948421969,
+      "target": "selected_goal",
+      "pose": [
+        -1.7758028240427244,
+        -0.14120771424650297
+      ],
+      "distance": 4.883849187053115,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.6122064327198709,
+      "gimbal_imu_yaw": -2.9791644784772338,
+      "gimbal_target_yaw": -3.023385197699318
+    },
+    {
+      "time": 2944.001475129,
+      "target": "selected_goal",
+      "pose": [
+        -1.7751429102565148,
+        -0.14065750481827
+      ],
+      "distance": 4.883195976421857,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.6011171187401443,
+      "gimbal_imu_yaw": -2.9963957852872873,
+      "gimbal_target_yaw": -3.0446380368992694
+    },
+    {
+      "time": 2944.05303478,
+      "target": "selected_goal",
+      "pose": [
+        -1.7782767864526126,
+        -0.14152026872469045
+      ],
+      "distance": 4.886319219646993,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.5737705314116284,
+      "gimbal_imu_yaw": -3.02079171389354,
+      "gimbal_target_yaw": -3.0652999108992307
+    },
+    {
+      "time": 2944.105901893,
+      "target": "selected_goal",
+      "pose": [
+        -1.777366759122386,
+        -0.14159531214743787
+      ],
+      "distance": 4.885408359794153,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.5454034284147034,
+      "gimbal_imu_yaw": -3.0389785962513534,
+      "gimbal_target_yaw": -3.0863142584992973
+    },
+    {
+      "time": 2944.158593842,
+      "target": "selected_goal",
+      "pose": [
+        -1.777366759122386,
+        -0.14159531214743787
+      ],
+      "distance": 4.885408359794153,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.49202822034965976,
+      "gimbal_imu_yaw": -3.0631644076499995,
+      "gimbal_target_yaw": -3.1075228244992474
+    },
+    {
+      "time": 2944.209405675,
+      "target": "selected_goal",
+      "pose": [
+        -1.7787052903174472,
+        -0.14265994783499986
+      ],
+      "distance": 4.886734187231207,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.49202822034965976,
+      "gimbal_imu_yaw": -3.083919099435792,
+      "gimbal_target_yaw": -3.127793955299276
+    },
+    {
+      "time": 2944.260969219,
+      "target": "selected_goal",
+      "pose": [
+        -1.7787052903174472,
+        -0.14265994783499986
+      ],
+      "distance": 4.886734187231207,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.45173944380724607,
+      "gimbal_imu_yaw": -3.1036904441875737,
+      "gimbal_target_yaw": 3.134835651880379
+    },
+    {
+      "time": 2944.314670756,
+      "target": "selected_goal",
+      "pose": [
+        -1.776529893264162,
+        -0.14544572722987592
+      ],
+      "distance": 4.884527032088861,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.45173944380724607,
+      "gimbal_imu_yaw": -3.1210499766741218,
+      "gimbal_target_yaw": 3.1132977982803216
+    },
+    {
+      "time": 2944.369156433,
+      "target": "selected_goal",
+      "pose": [
+        -1.773057908900433,
+        -0.1429105343892849
+      ],
+      "distance": 4.881084257754463,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.4257356432265969,
+      "gimbal_imu_yaw": 3.137987311109871,
+      "gimbal_target_yaw": 3.091526659080258
+    },
+    {
+      "time": 2944.421614481,
+      "target": "selected_goal",
+      "pose": [
+        -1.77189664668547,
+        -0.14568462634359655
+      ],
+      "distance": 4.8798914098845385,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.4257356432265969,
+      "gimbal_imu_yaw": 3.1174345882135843,
+      "gimbal_target_yaw": 3.07054120508022
+    },
+    {
+      "time": 2944.473714063,
+      "target": "selected_goal",
+      "pose": [
+        -1.7594225950708442,
+        -0.1420030140444387
+      ],
+      "distance": 4.867460607879621,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.3668418080308513,
+      "gimbal_imu_yaw": 3.094271116169316,
+      "gimbal_target_yaw": 3.049696817880279
+    },
+    {
+      "time": 2944.524681432,
+      "target": "selected_goal",
+      "pose": [
+        -1.7563505479115484,
+        -0.1439205303926164
+      ],
+      "distance": 4.864366294839704,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.3380373722925121,
+      "gimbal_imu_yaw": 3.076907605987882,
+      "gimbal_target_yaw": 3.029326812680331
+    },
+    {
+      "time": 2944.578355592,
+      "target": "selected_goal",
+      "pose": [
+        -1.7559018264800044,
+        -0.1438879451421562
+      ],
+      "distance": 4.8639179790361355,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.30744950243982383,
+      "gimbal_imu_yaw": 3.053354111445304,
+      "gimbal_target_yaw": 3.0078496178803404
+    },
+    {
+      "time": 2944.629508062,
+      "target": "selected_goal",
+      "pose": [
+        -1.7484526194766392,
+        -0.14314306082987815
+      ],
+      "distance": 4.856477932031155,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.3158517998948945,
+      "gimbal_imu_yaw": 3.030765399230742,
+      "gimbal_target_yaw": 2.9873739610802956
+    },
+    {
+      "time": 2944.680633057,
+      "target": "selected_goal",
+      "pose": [
+        -1.7514217437805766,
+        -0.1435547233568501
+      ],
+      "distance": 4.859442053863856,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.3158517998948945,
+      "gimbal_imu_yaw": 3.0119593515750855,
+      "gimbal_target_yaw": 2.966936477080374
+    },
+    {
+      "time": 2944.731693769,
+      "target": "selected_goal",
+      "pose": [
+        -1.7513431537834279,
+        -0.14251392552097392
+      ],
+      "distance": 4.859375670222408,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.26933691893487144,
+      "gimbal_imu_yaw": 2.990181021490444,
+      "gimbal_target_yaw": 2.9465494746802805
+    },
+    {
+      "time": 2944.78515501,
+      "target": "selected_goal",
+      "pose": [
+        -1.7521272852391918,
+        -0.1474688916100524
+      ],
+      "distance": 4.860103665174561,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.26933691893487144,
+      "gimbal_imu_yaw": 2.9697234866088538,
+      "gimbal_target_yaw": 2.925056337480267
+    },
+    {
+      "time": 2944.838449996,
+      "target": "selected_goal",
+      "pose": [
+        -1.7506145092977732,
+        -0.1445164424463219
+      ],
+      "distance": 4.858623796289744,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.22493679673330924,
+      "gimbal_imu_yaw": 2.946065434632776,
+      "gimbal_target_yaw": 2.9038050798803243
+    },
+    {
+      "time": 2944.890986999,
+      "target": "selected_goal",
+      "pose": [
+        -1.751138932775546,
+        -0.14661715980944376
+      ],
+      "distance": 4.859124652975892,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.20112040992629793,
+      "gimbal_imu_yaw": 2.9288613616884778,
+      "gimbal_target_yaw": 2.882721213480393
+    },
+    {
+      "time": 2944.945455643,
+      "target": "selected_goal",
+      "pose": [
+        -1.7505516496867066,
+        -0.14554631051904152
+      ],
+      "distance": 4.858549289142427,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.18397423762570173,
+      "gimbal_imu_yaw": 2.90776309697705,
+      "gimbal_target_yaw": 2.8610027762803227
+    },
+    {
+      "time": 2944.997429097,
+      "target": "selected_goal",
+      "pose": [
+        -1.7555979574884457,
+        -0.14545457461135597
+      ],
+      "distance": 4.863596308271725,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.18397423762570173,
+      "gimbal_imu_yaw": 2.8896683029775705,
+      "gimbal_target_yaw": 2.8402372186803704
+    },
+    {
+      "time": 2945.048281471,
+      "target": "selected_goal",
+      "pose": [
+        -1.7555979574884457,
+        -0.14545457461135597
+      ],
+      "distance": 4.863596308271725,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.14636795516198964,
+      "gimbal_imu_yaw": 2.8648546028389696,
+      "gimbal_target_yaw": 2.8197792694802346
+    },
+    {
+      "time": 2945.099932123,
+      "target": "selected_goal",
+      "pose": [
+        -1.7597563795134714,
+        -0.14311642668837252
+      ],
+      "distance": 4.86778123034304,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.14636795516198964,
+      "gimbal_imu_yaw": 2.8455692231474656,
+      "gimbal_target_yaw": 2.7991379014802376
+    },
+    {
+      "time": 2945.151425207,
+      "target": "selected_goal",
+      "pose": [
+        -1.764114416264043,
+        -0.14215334191570397
+      ],
+      "distance": 4.872150309188897,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.09893034194310922,
+      "gimbal_imu_yaw": 2.8223324427495493,
+      "gimbal_target_yaw": 2.778623050680319
+    },
+    {
+      "time": 2945.204377264,
+      "target": "selected_goal",
+      "pose": [
+        -1.7566918873952264,
+        -0.14038643165641085
+      ],
+      "distance": 4.864749635406245,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.09893034194310922,
+      "gimbal_imu_yaw": 2.8038358540581525,
+      "gimbal_target_yaw": 2.7574807534802246
+    },
+    {
+      "time": 2945.258966524,
+      "target": "selected_goal",
+      "pose": [
+        -1.7535884197313512,
+        -0.13852245911193883
+      ],
+      "distance": 4.861669614120849,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.0794816422657198,
+      "gimbal_imu_yaw": 2.7785113028307853,
+      "gimbal_target_yaw": 2.7356831586803607
+    },
+    {
+      "time": 2945.312386185,
+      "target": "selected_goal",
+      "pose": [
+        -1.754263765679906,
+        -0.1422845626355496
+      ],
+      "distance": 4.862298794982441,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.07057252330614681,
+      "gimbal_imu_yaw": 2.7568031397627815,
+      "gimbal_target_yaw": 2.714240312280374
+    },
+    {
+      "time": 2945.364804741,
+      "target": "selected_goal",
+      "pose": [
+        -1.7673888956301143,
+        -0.1488313212680957
+      ],
+      "distance": 4.875349897374649,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": -0.05255937174954552,
+      "gimbal_imu_yaw": 2.739139127240515,
+      "gimbal_target_yaw": 2.6932649174803673
+    },
+    {
+      "time": 2945.417428973,
+      "target": "selected_goal",
+      "pose": [
+        -1.767892160098071,
+        -0.14682248598513625
+      ],
+      "distance": 4.8758746290941595,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": 0.0013608163672671235,
+      "gimbal_imu_yaw": 2.7162424582662625,
+      "gimbal_target_yaw": 2.7143195138804304
+    },
+    {
+      "time": 2945.468806545,
+      "target": "selected_goal",
+      "pose": [
+        -1.767892160098071,
+        -0.14682248598513625
+      ],
+      "distance": 4.8758746290941595,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": 0.039140474007711056,
+      "gimbal_imu_yaw": 2.698008123881647,
+      "gimbal_target_yaw": 2.734767340680476
+    },
+    {
+      "time": 2945.520665341,
+      "target": "selected_goal",
+      "pose": [
+        -1.768434095920521,
+        -0.14575279833166266
+      ],
+      "distance": 4.876428314915671,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": 0.039140474007711056,
+      "gimbal_imu_yaw": 2.6980083430444313,
+      "gimbal_target_yaw": 2.7371488170521423
+    },
+    {
+      "time": 2945.574895898,
+      "target": "selected_goal",
+      "pose": [
+        -1.7636999993178164,
+        -0.1500605581591673
+      ],
+      "distance": 4.87164844845142,
+      "command": [
+        0.0,
+        0.0
+      ],
+      "hub_command": [
+        -0.0,
+        -0.0
+      ],
+      "heading_error_rad": 0.07652649709022462,
+      "gimbal_imu_yaw": 2.721124636998688,
+      "gimbal_target_yaw": 2.758829675452174
+    }
+  ],
+  "scope": "Stationary saved-map localization and one continuously replanned goal; no gimbal scan",
+  "face_motion": true,
+  "alignment_only": true,
+  "saved_map_sha256": "b13cacfaa3d307dacab9db5e2eea9de1628182711edbeb28b424ddde73791957",
+  "landmarks": "/home/soyo/sentry_ws/scripts/real_acceptance/maps/manual_test/selected_goal.json",
+  "course": "saved_landmarks",
+  "heading_alignment_passed": true,
+  "local_navigation_passed": false,
+  "final_wheel_speeds": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

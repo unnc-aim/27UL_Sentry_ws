@@ -1,0 +1,17 @@
+{
+  "unknown_start_localization_passed": true,
+  "prior_used": false,
+  "startup_scan_commanded": false,
+  "initial_chassis_map_yaw_deg": 165.51226261452564,
+  "initial_gimbal_joint_deg": [
+    -89.56191348134584
+  ],
+  "nav2_succeeded": true,
+  "estimated_goal_error_m": 0.028449096061393744,
+  "zero_final_wheel_speeds": true,
+  "max_command_speed_mps": 0.15000000000000002,
+  "max_heading_error_while_translating_deg": 13.324035206319605,
+  "localization_pause_count": 0,
+  "operator_confirmed_initial_pose": true,
+  "operator_confirmed_final_arrival": null
+}

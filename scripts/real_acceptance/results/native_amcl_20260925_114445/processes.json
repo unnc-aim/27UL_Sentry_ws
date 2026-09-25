@@ -1,0 +1,54 @@
+{
+  "yaw_feedback": {
+    "pid": 33522,
+    "command": [
+      "/usr/bin/python3",
+      "/home/soyo/sentry_ws/scripts/real_acceptance/yaw_feedback.py"
+    ]
+  },
+  "navigation": {
+    "pid": 33523,
+    "command": [
+      "ros2",
+      "launch",
+      "pb2025_nav_bringup",
+      "rm_navigation_reality_launch.py",
+      "slam:=False",
+      "use_robot_state_pub:=True",
+      "use_rviz:=False",
+      "map:=/home/soyo/sentry_ws/src/pb2025_sentry_nav/pb2025_nav_bringup/map/reality/field_20260925.yaml",
+      "log_dir:=/home/soyo/sentry_ws/scripts/real_acceptance/results/native_amcl_20260925_114445/ros"
+    ]
+  },
+  "localization": {
+    "pid": 33524,
+    "command": [
+      "/usr/bin/python3",
+      "/home/soyo/sentry_ws/scripts/real_acceptance/localization_probe.py",
+      "--globalize",
+      "--seconds",
+      "60",
+      "--output",
+      "/home/soyo/sentry_ws/scripts/real_acceptance/results/native_amcl_20260925_114445/localization.json"
+    ]
+  },
+  "rviz": {
+    "pid": 33525,
+    "command": [
+      "rviz2",
+      "-d",
+      "/home/soyo/sentry_ws/src/pb2025_sentry_nav/pb2025_nav_bringup/rviz/nav2_default_view.rviz"
+    ]
+  },
+  "localization_extended": {
+    "pid": 35500,
+    "command": [
+      "/usr/bin/python3",
+      "scripts/real_acceptance/localization_probe.py",
+      "--seconds",
+      "60",
+      "--output",
+      "/home/soyo/sentry_ws/scripts/real_acceptance/results/native_amcl_20260925_114445/localization_extended.json"
+    ]
+  }
+}

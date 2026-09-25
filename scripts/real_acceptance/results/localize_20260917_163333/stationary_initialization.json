@@ -1,0 +1,5 @@
+{
+  "pose_applied": false,
+  "motion_commanded": false,
+  "error": "Insufficient stationary scans"
+}

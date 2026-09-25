@@ -1,0 +1,6 @@
+{
+  "status": "result_unknown_after_host_restart",
+  "navigation_report_empty": true,
+  "passed": false,
+  "note": "No complete result recovered. Do not infer arrival or stop state from missing report."
+}

@@ -1,0 +1,6 @@
+{
+  "pose_applied": false,
+  "motion_commanded": false,
+  "ray_occlusion_model": "projected_3d_low_barriers",
+  "error": "Global match rejected: endpoint score=0.894 < 0.90, worst frame match=0.846 < 0.90; no pose applied"
+}

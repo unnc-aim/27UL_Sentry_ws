@@ -1,0 +1,17 @@
+{
+  "bag": "/home/soyo/rosbag2_2026_09_25-12_05_09/rosbag2_2026_09_25-12_05_09_0.db3",
+  "recovery_started_s": 169.597,
+  "requested_map_direction_degrees": -25.312459270278392,
+  "map_to_odom_yaw_degrees": -133.06049356440298,
+  "recorded_map_displacement_direction_degrees": -157.9140320545906,
+  "direction_error_degrees": -132.6015727843122,
+  "chassis_window_s": [
+    107.55,
+    112.1
+  ],
+  "chassis_window_samples": 218,
+  "pure_spin_samples": 126,
+  "cmd_vel_recorded_frames": 3,
+  "cmd_vel_recording_start_s": 200.60103622600002,
+  "physical_retest": "pending"
+}
