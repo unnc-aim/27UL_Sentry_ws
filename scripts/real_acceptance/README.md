@@ -244,7 +244,14 @@ bash scripts/real_acceptance/run_map_test.sh localize
 AMCL 参数直接读取生产 `config/reality/nav2_params.yaml`，定位 TF 由 AMCL 发布。
 雷达标定候选通过 `SENTRY_ACCEPTANCE_LIDAR_CALIBRATION` 显式选用。
 
-`localization_probe.py --globalize` 等待地图、扫描、局部 TF 和 AMCL active，
+定位初始化程序已迁入 `pb2025_nav_bringup/scripts/amcl_initializer.py`，
+随导航包安装。调用方式：
+
+```bash
+ros2 run pb2025_nav_bringup amcl_initializer.py --globalize
+```
+
+程序等待地图、扫描、局部 TF 和 AMCL active，
 调用原生 `reinitialize_global_localization`。收到响应后清理旧位姿，等待新扫描
 对应的 `amcl_pose`。静止更新使用原生 `request_nomotion_update`。
 
