@@ -17,3 +17,4 @@ src/_*
 /scripts/coordinate_sim/*.py
 /scripts/real_acceptance/*.py
 /scripts/real_acceptance/*.sh
+.DS_Store
