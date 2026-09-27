@@ -12,11 +12,6 @@ src/_*
 *.log
 
 # Local test, diagnostic, and alternate startup scripts.
-/scripts/*.py
-/scripts/*.sh
-/scripts/coordinate_sim/*.py
-/scripts/real_acceptance/*.py
-/scripts/real_acceptance/*.sh
 /scripts/coordinate_sim/results/
 /scripts/real_acceptance/results/
 /scripts/real_acceptance/maps/
