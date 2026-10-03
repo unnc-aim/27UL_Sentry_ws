@@ -10,3 +10,9 @@ __pycache__/
 src/_*
 
 *.log
+
+# Local test, diagnostic, and alternate startup scripts.
+/scripts/coordinate_sim/results/
+/scripts/real_acceptance/results/
+/scripts/real_acceptance/maps/
+.DS_Store

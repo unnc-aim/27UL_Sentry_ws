@@ -7,9 +7,6 @@
 [submodule "src/sp_vision_25_rosy"]
 	path = src/sp_vision_25_rosy
 	url = https://github.com/unnc-aim/sp_vision_25_rosy
-[submodule "scripts/ros2_systemd_manager"]
-	path = scripts/ros2_systemd_manager
-	url = https://github.com/hnrobert/ros2_systemd_manager.git
 [submodule "src/sentry_controller"]
 	path = src/sentry_controller
 	url = git@github.com:unnc-aim/26UL_Sentry_controller_py.git
@@ -21,7 +18,7 @@
 	url = git@github.com:unnc-aim/pb2025_sentry_behavior.git
 [submodule "src/BehaviorTree.ROS2"]
 	path = src/BehaviorTree.ROS2
-	url = https://github.com/SMBU-PolarBear-Robotics-Team/BehaviorTree.ROS2.git
+	url = https://github.com/unnc-aim/BehaviorTree.ROS2.git
 	branch = humble
 [submodule "src/pb_rm_interfaces"]
 	path = src/pb_rm_interfaces
@@ -59,3 +56,6 @@
 [submodule "src/chassis_controllers"]
 	path = src/chassis_controllers
 	url = https://github.com/unnc-aim/27UL_Sentry_chassis_controllers.git
+[submodule "src/behavior"]
+	path = src/behavior
+	url = git@github.com:unnc-aim/27UL_Sentry_behavior.git
